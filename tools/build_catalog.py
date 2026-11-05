@@ -1,5 +1,5 @@
 """Build reviewed, structurally compatible catalog records; never publish releases."""
-import hashlib,json,pathlib,urllib.parse,datetime
+import re,hashlib,json,pathlib,urllib.parse,datetime
 import inspect_archives
 ROOT=pathlib.Path(".")
 PROVIDERS={"microsoft","google","vocalizer-folder"}
@@ -14,14 +14,16 @@ def make(report,overrides,previous):
    problems.append({"assetId":archive["assetId"],"reason":archive.get("importerError",archive.get("error","not compatible"))});continue
   override=overrides.get(archive["sha256"],{})
   for m in archive["importer"]["models"]:
-   provider=m["engine"]
+   hint=dict(override);hint.update(override.get("models",{}).get(m["code"],{}));provider=m["engine"]
    if provider not in PROVIDERS:problems.append({"assetId":archive["assetId"],"reason":"unknown provider"});continue
-   if override.get("provider",provider)!=provider:problems.append({"assetId":archive["assetId"],"reason":"provider contradicts validated package"});continue
-   locale=m.get("locale",override.get("locale"));quality=override.get("quality",m.get("quality","unspecified"))
+   if hint.get("provider",provider)!=provider:problems.append({"assetId":archive["assetId"],"reason":"provider contradicts validated package"});continue
+   if m.get("quality") not in (None,"unspecified") and hint.get("quality",m["quality"])!=m["quality"]:problems.append({"assetId":archive["assetId"],"reason":"quality contradicts validated package"});continue
+   if m.get("locale") and hint.get("locale",m["locale"])!=m["locale"]:problems.append({"assetId":archive["assetId"],"reason":"locale contradicts validated package"});continue
+   locale=m.get("locale") or hint.get("locale");quality=hint.get("quality",m.get("quality","unspecified"))
    if not locale or not quality:problems.append({"assetId":archive["assetId"],"reason":"owner metadata required"});continue
    model=provider+":"+(m["code"].rsplit("/",1)[0] if provider=="vocalizer-folder" else m["code"])
    identity=provider+"-"+hashlib.sha256((model+"/"+quality).encode()).hexdigest()[:24]
-   e={"id":identity,"modelId":model,"provider":provider,"code":m["code"],"contentId":m["contentId"],"name":override.get("name",m["name"]),"locale":locale,"gender":override.get("gender",""),"quality":quality,"variant":quality,"sizeBytes":archive["size"],"unpackedBytes":archive["importer"]["unpackedBytes"],"filename":archive["name"],"sha256":archive["sha256"],"downloadUrl":"https://github.com/"+inspect_archives.REPO+"/releases/download/"+urllib.parse.quote(archive["tag"],safe="")+"/"+urllib.parse.quote(archive["name"],safe=""),"packageVersion":1,"minAppCode":4169,"minSdk":26 if provider in {"microsoft","google"} else 21,"verificationStatus":"verified","verificationScope":"SmartVoice ZIP import and resource structure; native synthesis not tested","published":not archive["draft"],"releaseTag":archive["tag"],"sampleUrl":override.get("sampleUrl",""),"previousContents":[]}
+   e={"id":identity,"modelId":model,"provider":provider,"code":m["code"],"contentId":m["contentId"],"name":hint.get("name",m["name"]),"locale":locale,"gender":hint.get("gender",""),"quality":quality,"variant":quality,"sizeBytes":archive["size"],"unpackedBytes":max(archive["importer"]["unpackedBytes"],sum(f["size"] for f in archive["files"])),"filename":archive["name"],"sha256":archive["sha256"],"downloadUrl":"https://github.com/"+inspect_archives.REPO+"/releases/download/"+urllib.parse.quote(archive["tag"],safe="")+"/"+urllib.parse.quote(archive["name"],safe=""),"packageVersion":1,"minAppCode":4169,"minSdk":26 if provider in {"microsoft","google"} else 21,"verificationStatus":"verified","verificationScope":"SmartVoice ZIP import and resource structure; native synthesis not tested","published":not archive["draft"],"releaseTag":archive["tag"],"sampleUrl":hint.get("sampleUrl",""),"previousContents":[]}
    # A draft update must not hide an existing published model.
    before=selected.get(identity)
    if before and (before["published"] or not e["published"]):continue

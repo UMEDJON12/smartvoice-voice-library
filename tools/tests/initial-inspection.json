@@ -1,0 +1,601 @@
+{
+  "schemaVersion": 1,
+  "archives": [
+    {
+      "assetId": 712496720,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": true,
+      "name": "Microsoft_._._._Farid.2.zip",
+      "size": 22776295,
+      "sha256": "8041a76d3269fd68fb9bc1a52dbe00698a1902e2df6e02023e3d52f278663853",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 1020,
+          "sha256": "c9bacb44f2a99931a38ac1e8242e9fdf24b9b925fb18fcc93e3e181279ca7e58"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/1065.INI",
+          "size": 740,
+          "sha256": "12e9c0613cbbedc283c718afdd77e2eab418b2e2ab8435f8473732e817f21925"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/FaIRDiacModel.Bin",
+          "size": 4905342,
+          "sha256": "c475fc120cc858e69ae92acc750917f847584ec28f48d6827fe042c8f23ddc96"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/MSTTSLocEnUS.dat",
+          "size": 23277464,
+          "sha256": "fc3657590a78e826e55ec8114249c6ef6ff78c7bfc68ab5d799d19dd28014314"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/MSTTSLocFaIR.dat",
+          "size": 198336,
+          "sha256": "a0494529dbae103de9b760921d9cb6423580b7bcfe1b3ecc8f17b364bc26d084"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/MSTTSLocFaIR.ini",
+          "size": 1626,
+          "sha256": "27dcd221b671d1f2372e3c64c969e9a97414f47a046ebe0b490c0cbca41133ce"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/Tokens.xml",
+          "size": 1238,
+          "sha256": "0a8648add3d83b86afd807c5b339d4efe6a41992fa99d2e18db1a8f41af57199"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "8b48902e5b0954fdb05a8b8b064250eaa2ff02fbd0c758cf59d7c42abb55163c"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/am_v5_encoder.bin",
+          "size": 2172437,
+          "sha256": "1a7ad92a0a92d7dc8bd56e564b400b98b55ecdd30a9deeb649e2413eba766cac"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "0060682114e5493dd6e6d16bf923a3af6097c93f8af5a3afabfe4add97faf40d"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/phones.txt",
+          "size": 1203,
+          "sha256": "6467138696087b5b7d91f82d34906f7e1f19726eff1985ba88f3bcc33acc8197"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/punc.txt",
+          "size": 220,
+          "sha256": "57c667fe20aa8d7381f31fd4576b0f9088b705f0ec8bbba5e582b4c404e6ac45"
+        },
+        {
+          "path": "microsoft/fa-IR-FaridNeural/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "microsoft",
+          "code": "fa-IR-FaridNeural",
+          "locale": "fa-IR",
+          "name": "Farid",
+          "folder": "microsoft/fa-IR-FaridNeural",
+          "id": "36cbc0a256938fdb",
+          "options": {
+            "speaker": "fa-IR-FaridNeural",
+            "gender": "female"
+          },
+          "paramVoice": "Microsoft Server Speech Text to Speech Voice (fa-IR, FaridNeural)"
+        }
+      ],
+      "tokens": [
+        {
+          "path": "microsoft/fa-IR-FaridNeural/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocFaIR.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1065"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "fa-IR-FaridNeural",
+            "engine": "microsoft",
+            "bytes": 33759764,
+            "speaker": "fa-IR-FaridNeural",
+            "contentId": "36cbc0a256938fdb",
+            "name": "Farid",
+            "locale": "fa-IR",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 33761895
+      }
+    },
+    {
+      "assetId": 712496037,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": true,
+      "name": "Microsoft_._._._Hamed.zip",
+      "size": 21606481,
+      "sha256": "c67a037e6d53c8f4508cd83f02c2bb5a5874c4904ddbb389d5dbf6d852ff7123",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 1020,
+          "sha256": "1e0cb89bf06ec1b84ef722ed5adb4ef548afaa5b48bbfa8e512aea0e7e1d1616"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/1025.INI",
+          "size": 832,
+          "sha256": "c7c42a0d8a311273b4ac381670cbfe0354debc39e5233e1eea41bdda560098dc"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/ArSADiacList.Bin",
+          "size": 1189564,
+          "sha256": "7f9940d5b1cf8eb7b439dae69be00405d45cb1c2cb90575aebd2b510bc382a2d"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/ArSADiacModel.Bin",
+          "size": 12537270,
+          "sha256": "8f9000e5bbb77bbc80e3030356cb99d6c0f383d72b1f0546fdb1011ea3ec50ee"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/MSTTSLocArSA.dat",
+          "size": 4572720,
+          "sha256": "c7340bf94f250926f9c49662813e2d514696f83223bd2ebbcc40444c9b6df2b4"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/MSTTSLocArSA.ini",
+          "size": 612,
+          "sha256": "950f86a20aac58632ee4cdff9c3d37124c2f46845230ad9679ca13cf43ae361c"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/TTSArSAAutoCorrectionList.Bin",
+          "size": 1636272,
+          "sha256": "f1f2f4f21f618b64518825a0adb5d40e978edfc0baf75ccc9cd6b06c4ecef6a8"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/Tokens.xml",
+          "size": 1127,
+          "sha256": "f32ea74c4409af700a9cace587430afc19733340235bc47f4f11af2319361d8b"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "1659087509a05454960c61650c134b9bbf5d3e93b0fc0627c559a66fde068380"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/am_v5_encoder.bin",
+          "size": 2142741,
+          "sha256": "a4cf6e91cbaf80a7c9a62813d90775c55990aa3ca50c7a89466b45386c805a68"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/device_vocoder_v6_streaming.bin",
+          "size": 2454757,
+          "sha256": "4374b9f7fd6abfa66ae399302e28a2262db05631dc0f2391d9ddbaf53c362208"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/phones.txt",
+          "size": 450,
+          "sha256": "5715bc49aabe9dd0e4ad3d3c187caf38554a5e5d12cb60bf2590c9361889a119"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "microsoft/ar-SA-HamedNeural/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "microsoft",
+          "code": "ar-SA-HamedNeural",
+          "locale": "ar-SA",
+          "name": "Hamed",
+          "folder": "microsoft/ar-SA-HamedNeural",
+          "id": "82f26b39a0fee113",
+          "options": {
+            "speaker": "ar-SA-HamedNeural",
+            "gender": "female"
+          },
+          "paramVoice": "Microsoft Server Speech Text to Speech Voice (ar-SA, HamedNeural)"
+        }
+      ],
+      "tokens": [
+        {
+          "path": "microsoft/ar-SA-HamedNeural/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocArSA.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1025"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ar-SA-HamedNeural",
+            "engine": "microsoft",
+            "bytes": 35070249,
+            "speaker": "ar-SA-HamedNeural",
+            "contentId": "82f26b39a0fee113",
+            "name": "Hamed",
+            "locale": "ar-SA",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 35072380
+      }
+    },
+    {
+      "assetId": 712495585,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": true,
+      "name": "Microsoft_._._._Madina.zip",
+      "size": 4754451,
+      "sha256": "c47be80536a4c592b06b4602817f2c722bb1cc783180d8c86343c35fff72c06e",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 1025,
+          "sha256": "8c357f6e7281dded0a9f3db48f5e9c9693d0fc2ffec0ff2bae5c26fe09041c75"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/1091.INI",
+          "size": 666,
+          "sha256": "c5dc9379ccfc8e49ddf2ec2c053cd6422ae435c41b2a6026920004709cd0ddca"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/MSTTSLocUzLatnUZ.dat",
+          "size": 624488,
+          "sha256": "b2633f26606cbcff386575d380e53f57bb8239c7cd8cbc01998b8f18280938bf"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/MSTTSLocUzLatnUZ.ini",
+          "size": 606,
+          "sha256": "640eab2ef0d76e5474f9e94cd49adb48a26f272c8ca86b13599053938bac7116"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/Tokens.xml",
+          "size": 1248,
+          "sha256": "ddb88bc075d14465bb34cda709f5e539f64f138d822dbdb7415e1292122b5f4f"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "dfa868eb764c5ee819515912338fcb9880a98d3839370e81ffb03425b20536de"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/am_v5_encoder.bin",
+          "size": 2115093,
+          "sha256": "3a57d6ec7230a5493be2c62e5d69f092873bf9e88396b335816be7a9ae00c400"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "a9cbe4dfd404549152c83b611d4d20839d022dad3359dfb133642c7d8bc2d5f8"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/phones.txt",
+          "size": 424,
+          "sha256": "c699277a401a2bede6fc562e335f83e67cd078a439e58d1cc4ae8ed85ac4e82e"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "microsoft",
+          "code": "uz-UZ-MadinaNeural",
+          "locale": "uz-UZ",
+          "name": "Madina",
+          "folder": "microsoft/uz-UZ-MadinaNeural",
+          "id": "4df25957b86b597a",
+          "options": {
+            "speaker": "uz-UZ-MadinaNeural",
+            "gender": "female"
+          },
+          "paramVoice": "Microsoft Server Speech Text to Speech Voice (uz-UZ, MadinaNeural)"
+        }
+      ],
+      "tokens": [
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocUzLatnUZ.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1091"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "uz-UZ-MadinaNeural",
+            "engine": "microsoft",
+            "bytes": 5943878,
+            "speaker": "uz-UZ-MadinaNeural",
+            "contentId": "4df25957b86b597a",
+            "name": "Madina",
+            "locale": "uz-UZ",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 5946019
+      }
+    },
+    {
+      "assetId": 712495901,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": true,
+      "name": "Microsoft_._._._Sardor.zip",
+      "size": 4759219,
+      "sha256": "33f14d6dca57062e21197125b28729862ea5a2c11d206aa57bd82a0c8a07ddf0",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 1020,
+          "sha256": "a6089d1e360ddd91d8556c97b98519cfe0ef97509efcd305e7edb64456f2970a"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/1091.INI",
+          "size": 637,
+          "sha256": "953d4403d461305cb7ad493302a3fd51074b4f6ca2dbd2eb4d7d68998caca14e"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/MSTTSLocUzLatnUZ.dat",
+          "size": 624488,
+          "sha256": "b2633f26606cbcff386575d380e53f57bb8239c7cd8cbc01998b8f18280938bf"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/MSTTSLocUzLatnUZ.ini",
+          "size": 606,
+          "sha256": "640eab2ef0d76e5474f9e94cd49adb48a26f272c8ca86b13599053938bac7116"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/Tokens.xml",
+          "size": 1246,
+          "sha256": "47a0fc35b73e0581404785d597f0d966da9bd665dba8d324778589d3279d5873"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/am_v5_decoder.bin",
+          "size": 746390,
+          "sha256": "18ab6b0f3cc4c9dcf4fd45202303b26af1aa65802bc66ba6eedb732cc2dbce4a"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/am_v5_encoder.bin",
+          "size": 2115093,
+          "sha256": "36b971697bb463fb274fed251ebb23b72f7e17fcc6d059a986561d57ad21afd5"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "c5acfa889ea0d33e9d716f1956c339ec5132536a4c860371be323375a61b19e6"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/phones.txt",
+          "size": 424,
+          "sha256": "c699277a401a2bede6fc562e335f83e67cd078a439e58d1cc4ae8ed85ac4e82e"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "microsoft",
+          "code": "uz-UZ-SardorNeural",
+          "locale": "uz-UZ",
+          "name": "Sardor",
+          "folder": "Sardor-uz-UZjcqbas4p.iyu",
+          "id": "5df4101236ea4317",
+          "options": {
+            "speaker": "uz-UZ-SardorNeural",
+            "gender": "female"
+          },
+          "paramVoice": "Microsoft Server Speech Text to Speech Voice (uz-UZ, SardorNeural)"
+        }
+      ],
+      "tokens": [
+        {
+          "path": "Sardor-uz-UZjcqbas4p.iyu/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocUzLatnUZ.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1091"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "uz-UZ-SardorNeural",
+            "engine": "microsoft",
+            "bytes": 5943846,
+            "speaker": "uz-UZ-SardorNeural",
+            "contentId": "5df4101236ea4317",
+            "name": "Sardor",
+            "locale": "uz-UZ",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 5945978
+      }
+    },
+    {
+      "assetId": 712516765,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": true,
+      "name": "_._._._._.zip",
+      "size": 160239457,
+      "sha256": "2beb8d05d7bfbfe5eb8e2547f47c08444b3b15558be37b901e6cdeb9c4d6561b",
+      "files": [
+        {
+          "path": "ve_pipeline_trt_yelda_22_embedded-high_2-0-2.hdr",
+          "size": 3595,
+          "sha256": "48f8c5c9a9edea7783ed4a7f4d8d181cbb83b326944b56928ff7a1287e606f77"
+        },
+        {
+          "path": "trt_yelda_embedded-high_2-0-2.dat",
+          "size": 176521880,
+          "sha256": "d6f474b586a36b16dd67a57f3afae18fcc7b01a9a31b8c97fb7726374d988fb2"
+        }
+      ],
+      "voices": [],
+      "tokens": [],
+      "headers": [
+        {
+          "path": "ve_pipeline_trt_yelda_22_embedded-high_2-0-2.hdr",
+          "metadata": {
+            "language": "Turkish",
+            "langcode": "TRT",
+            "voice": "Yelda",
+            "datapackagename": "trt/yelda/embedded-high/2-0-2",
+            "voiceoperatingpoint": "embedded-high"
+          }
+        }
+      ],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "trt/yelda/embedded-high",
+            "engine": "vocalizer-folder",
+            "bytes": 176525475,
+            "nativeLang": "TRT",
+            "contentId": "b3480ff23478ec6f90fafc25a6ab6cb35a2fddefcae2ea74626c5e7d4dcacd09",
+            "name": "Yelda",
+            "locale": "tr-TR",
+            "quality": "embedded-high"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 176525475
+      }
+    },
+    {
+      "assetId": 712520393,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": true,
+      "name": "_._._._._._.zip",
+      "size": 32463854,
+      "sha256": "301937daec5bf57f70df1a09a825dde8825f2935d83fed43111add195c0a970b",
+      "files": [
+        {
+          "path": "ve_pipeline_mnc_tingting-ml_22_embedded-high_2-0-0.hdr",
+          "size": 3591,
+          "sha256": "3b7510e7b02148a5f1c708054708ed5fb283297f65291d0eca3716d06f95fd3a"
+        },
+        {
+          "path": "mnc_tingting-ml_embedded-high_2-0-0.dat",
+          "size": 39544711,
+          "sha256": "c0d542f8e4d7504490f2a9fd0002c7fe3484adb8da725e5d788a9845855f1374"
+        }
+      ],
+      "voices": [],
+      "tokens": [],
+      "headers": [
+        {
+          "path": "ve_pipeline_mnc_tingting-ml_22_embedded-high_2-0-0.hdr",
+          "metadata": {
+            "language": "Chinese Mandarin",
+            "langcode": "MNC",
+            "voice": "Tingting-Ml",
+            "datapackagename": "mnc/tingting-ml/embedded-high/2-0-0",
+            "voiceoperatingpoint": "embedded-high"
+          }
+        }
+      ],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "mnc/tingting-ml/embedded-high",
+            "engine": "vocalizer-folder",
+            "bytes": 39548302,
+            "nativeLang": "MNC",
+            "contentId": "f0f6877ac23e9cf9f712225d13f6a16996cf49766de0036d1af4cdc889183e13",
+            "name": "Tingting-Ml",
+            "locale": "zh-CN",
+            "quality": "embedded-high"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 39548302
+      }
+    }
+  ]
+}

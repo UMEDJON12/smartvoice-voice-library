@@ -52,10 +52,14 @@ def inspect(path):
     except ET.ParseError:report["headers"].append({"path":p,"xml":False})
  return report
 def main():
- releases=json.load(get("/releases?per_page=100"));out=[]
+ releases=[];out=[]
+ for page in range(1,101):
+  batch=json.load(get("/releases?per_page=100&page="+str(page)));releases.extend(batch)
+  if len(batch)<100:break
+ else:raise ValueError("Release pagination budget exceeded")
  with tempfile.TemporaryDirectory() as temp:
   for r in releases:
-   for a in r["assets"]:
+   for a in sorted(r["assets"],key=lambda a:a["updated_at"],reverse=True):
     if not a["name"].lower().endswith((".zip",".zvoice")):continue
     row={"assetId":a["id"],"releaseId":r["id"],"tag":r["tag_name"],"draft":r["draft"],"name":a["name"],"size":a["size"]}
     try:

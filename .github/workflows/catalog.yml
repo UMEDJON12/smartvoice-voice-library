@@ -21,6 +21,8 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
+      - name: Check catalog rules
+        run: python3 tools/test_catalog.py
       - name: Inspect archives with the existing SmartVoice importer
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
