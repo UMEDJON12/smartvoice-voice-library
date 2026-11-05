@@ -101,6 +101,20 @@
     },
     {
       "provider": "microsoft",
+      "code": "en-US-MichelleNeural",
+      "locale": "en-US",
+      "quality": "unspecified",
+      "archiveSha256": "cdcaa0b8aaa381d86d46ae69b6a1d5dce31f429669144386d2ed3f495efd3ad0",
+      "file": "microsoft-acdfce438d92f1d2cae283b8.mp3",
+      "sha256": "c79631e8b18d8f6a4585218ebb63057bdd848636776e1b59d0bbabd4ce3bc886",
+      "platform": "linux-x64",
+      "sdkVersion": "1.45.0",
+      "sampleText": "Hello. This is a sample of the selected voice.",
+      "durationSeconds": 2.975,
+      "androidTested": false
+    },
+    {
+      "provider": "microsoft",
       "code": "en-US-SaraNeural",
       "locale": "en-US",
       "quality": "unspecified",

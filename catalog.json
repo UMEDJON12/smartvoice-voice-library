@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T18:41:36.278065+00:00",
+  "generatedAt": "2026-11-05T18:43:05.720445+00:00",
   "voices": [
     {
       "id": "microsoft-7556932907ddb0e28daaefbf",
@@ -288,6 +288,40 @@
       "previousContents": [],
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-4a02b08b832d1bb62c50a665.mp3",
       "sampleSha256": "db21d05f62e197ea3c5a31021398e6a117a2a164abd11022cf6e04285b4e8513",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
+      }
+    },
+    {
+      "id": "microsoft-b4edd4052ee6bc97e8a05f40",
+      "modelId": "microsoft:en-US-MichelleNeural",
+      "provider": "microsoft",
+      "code": "en-US-MichelleNeural",
+      "contentId": "bb38ad684342c98e",
+      "name": "Michelle",
+      "locale": "en-US",
+      "synthesisLocale": "en-US",
+      "gender": "",
+      "quality": "unspecified",
+      "variant": "unspecified",
+      "sizeBytes": 29393865,
+      "unpackedBytes": 47080966,
+      "filename": "Michelle-en-US.zip",
+      "sha256": "cdcaa0b8aaa381d86d46ae69b6a1d5dce31f429669144386d2ed3f495efd3ad0",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/Michelle-en-US.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 26,
+      "verificationStatus": "verified",
+      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-acdfce438d92f1d2cae283b8.mp3",
+      "sampleSha256": "c79631e8b18d8f6a4585218ebb63057bdd848636776e1b59d0bbabd4ce3bc886",
       "sampleSource": {
         "platform": "linux-x64",
         "sdkVersion": "1.45.0",

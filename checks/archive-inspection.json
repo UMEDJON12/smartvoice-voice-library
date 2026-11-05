@@ -2,6 +2,142 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 714414011,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Michelle-en-US.zip",
+      "size": 29393865,
+      "sha256": "cdcaa0b8aaa381d86d46ae69b6a1d5dce31f429669144386d2ed3f495efd3ad0",
+      "files": [
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "a4591810a3ee5b630fa2ef33c044b9d248572c9159902d9b66cbb676a30c94cd"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/am_v5_encoder.bin",
+          "size": 2167311,
+          "sha256": "c5089f7280a3f8ec564db8503a450422b5a7740fb0e49c93beeac5557433427d"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "2a6d4822455c3aa34336af5d0a4d6d88885bc92b0a4a15bfaad10173fca97d0f"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/phones.txt",
+          "size": 594,
+          "sha256": "1d55cf11d2e1c07143599e0d3f73b4e59013af95fc164a11961e0638ea91e8e5"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/Tokens.xml",
+          "size": 1252,
+          "sha256": "7627431a0169b6ee4bf017d355ffe97b181655e2ed50e80ba260f19400c78213"
+        },
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Michelle-en-USywwtaeur.rqg/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-MichelleNeural",
+            "engine": "microsoft",
+            "bytes": 47079844,
+            "speaker": "en-US-MichelleNeural",
+            "contentId": "bb38ad684342c98e",
+            "name": "Michelle",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47080966
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-MichelleNeural",
+          "status": "available",
+          "file": "microsoft-acdfce438d92f1d2cae283b8.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 714413131,
       "releaseId": 434895762,
       "tag": "voices-001",
