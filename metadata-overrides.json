@@ -1,0 +1,26 @@
+{
+  "8041a76d3269fd68fb9bc1a52dbe00698a1902e2df6e02023e3d52f278663853": {
+    "name": "Farid",
+    "provider": "microsoft"
+  },
+  "c67a037e6d53c8f4508cd83f02c2bb5a5874c4904ddbb389d5dbf6d852ff7123": {
+    "name": "Hamed",
+    "provider": "microsoft"
+  },
+  "c47be80536a4c592b06b4602817f2c722bb1cc783180d8c86343c35fff72c06e": {
+    "name": "Madina",
+    "provider": "microsoft"
+  },
+  "33f14d6dca57062e21197125b28729862ea5a2c11d206aa57bd82a0c8a07ddf0": {
+    "name": "Sardor",
+    "provider": "microsoft"
+  },
+  "2beb8d05d7bfbfe5eb8e2547f47c08444b3b15558be37b901e6cdeb9c4d6561b": {
+    "name": "Yelda",
+    "provider": "vocalizer-folder"
+  },
+  "301937daec5bf57f70df1a09a825dde8825f2935d83fed43111add195c0a970b": {
+    "name": "Tingting",
+    "provider": "vocalizer-folder"
+  }
+}

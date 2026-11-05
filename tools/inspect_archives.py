@@ -1,4 +1,4 @@
-import os,json,urllib.request,urllib.parse,tempfile,pathlib,zipfile,hashlib,stat,xml.etree.ElementTree as ET
+import subprocess,os,json,urllib.request,urllib.parse,tempfile,pathlib,zipfile,hashlib,stat,xml.etree.ElementTree as ET
 REPO="UMEDJON12/smartvoice-voice-library"
 TOKEN=os.environ["GH_TOKEN"]
 class Redirect(urllib.request.HTTPRedirectHandler):
@@ -67,7 +67,11 @@ def main():
        h.update(b);target.write(b)
      if count!=a["size"] or a.get("digest")!="sha256:"+h.hexdigest():raise ValueError("Asset digest mismatch")
      row["sha256"]=h.hexdigest();row.update(inspect(p));row["zipVerified"]=True
-    except Exception as e:row["error"]=str(e)[:300]
+     try:
+      done=subprocess.run(["java","-jar","tools/import-validator.jar",str(p),str(pathlib.Path(temp)/("import-"+str(a["id"])))],capture_output=True,text=True,timeout=180,check=True)
+      row["importer"]=json.loads(done.stdout)
+     except Exception as failure:row["importerError"]=str(failure)[:300]
+    except Exception as e:row["error"]=str(e)[:300];row["errorType"]=type(e).__name__
     out.append(row);print("Inspected",a["id"],"ok" if row.get("zipVerified") else row.get("error"))
  pathlib.Path("checks").mkdir(exist_ok=True);pathlib.Path("checks/archive-inspection.json").write_text(json.dumps({"schemaVersion":1,"archives":out},ensure_ascii=False,indent=2)+"\n")
 if __name__=="__main__":main()
