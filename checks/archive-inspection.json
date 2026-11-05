@@ -2,6 +2,247 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713187940,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "XiaoMin-yue-CN.zip",
+      "size": 31187426,
+      "sha256": "9bb173f1d8bdf68ffb80164b7cba542e6f5f4e0f7f3e6fef1fd0212d4af574ca",
+      "files": [
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/3332.INI",
+          "size": 710,
+          "sha256": "7f072f1c4652f72eab580d5bcbd83256d9f14ff25403d08a5a2e7a5b102babfa"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "df6eae3d468548e7cc58d89e7d0dbdc0bd8b8f5443a359f2bb3f4d88228b59a9"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/am_v5_encoder.bin",
+          "size": 2229782,
+          "sha256": "4f85f61a8599cfa093788d31f768e7e281f842a2904e4ee57a3c82514686219a"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "d8b10a4b9c273713611040d7c2f838386d71133e436346bae44729050d36fb11"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/MSTTSLocYueCN.dat",
+          "size": 26300880,
+          "sha256": "f1087de1f7cfbeeafcbbb11406da0f77b0b29ef3567c4f42eda11b98a5154463"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/MSTTSLocYueCN.ini",
+          "size": 772,
+          "sha256": "b668af75afd8d4e495ec33c0cdca1c9edfb3a94777de8a2b9b7c1c7d38968797"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/phones.txt",
+          "size": 2962,
+          "sha256": "961f33998df59a6f732b79d21851fa918b1b930b2eed3612908dd1952bd1e0f3"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/punc.txt",
+          "size": 567,
+          "sha256": "340298e6ee6ba2675ba1c12e5f0986f029d5264c55f052f8b3abcbc4821e2743"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/Tokens.xml",
+          "size": 1246,
+          "sha256": "4dd34d7a01201c447fa29cf6d28697e189653e7db3d3a6419a3dd355323debd6"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/YueCN.address.dat",
+          "size": 8640,
+          "sha256": "ba63d80669c7019ec473f86149639152ca2b1feec40b9e47f754e98a3d9aa3de"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/YueCN.message.dat",
+          "size": 7856,
+          "sha256": "925d185de9e98b139d5975b5d2b2b8e9a99acb48b5163fa401b10e6905cb5b55"
+        },
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/YueCN.name.dat",
+          "size": 8360,
+          "sha256": "af5ebdf1a3de6a015c245eaf610df60a885d52154ee596712747c27478c4fa50"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "XiaoMin-yue-CNgb52qcc0.ssh/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocYueCN.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]3332"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "yue-CN-XiaoMinNeural",
+            "engine": "microsoft",
+            "bytes": 41549965,
+            "speaker": "yue-CN-XiaoMinNeural",
+            "contentId": "42e8d89bc608687a",
+            "name": "XiaoMin",
+            "locale": "yue-CN",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 41551087
+      }
+    },
+    {
+      "assetId": 713184858,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Xiaoni-zh-CN-shaanxi.zip",
+      "size": 61393488,
+      "sha256": "2cd798a76192ac2071a71d669efe85e25cbadac1125482addb3b294de10b971b",
+      "files": [
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/2052.BR0",
+          "size": 5236588,
+          "sha256": "750915260716157a7c3d141371350af5cbdcacf4194dd961c22c42735048ee79"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/2052.BR2",
+          "size": 3372304,
+          "sha256": "964a5daa1b44a4d81158bb31f9a305681cd2040b6d8352119dbe02617a2edfa8"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/2052.BR3",
+          "size": 1002448,
+          "sha256": "93935a57048a3cfd842de7fd8abbe2d26ebe0f5e4e6d9c176e745917590e53ff"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/2052.INI",
+          "size": 954,
+          "sha256": "3c1f41e8878a1a08300ecf1fae4101926696412b46b1afca0f74c731f985d5e6"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/am_v5_decoder.bin",
+          "size": 746390,
+          "sha256": "442a76a4c96f58be73a1867c93e252b4b7bcb6a6643b1cd5610b09c1772e23ee"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/am_v5_encoder.bin",
+          "size": 2270742,
+          "sha256": "286730d21c9c5a8137a8e82fb60237e7ed6b3787a232e24f6ae204a7e4e3523a"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "f10c37917d9ca62bc56dec142e058cc16cae0ae82b2906d7ba044bdd4f94ab90"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/MSTTSLocEnUS.dat",
+          "size": 23285328,
+          "sha256": "09eddb767e7678c0ea6bd0c021ea710834bc6701d2b7ba558d2834550156a60a"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/MSTTSLocZhCN.dat",
+          "size": 48484224,
+          "sha256": "c23dd553d3f7f14b4df42bf73373222083b86d2647099f47d111338f8504bc59"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/MSTTSLocZhCN.ini",
+          "size": 2900,
+          "sha256": "6d0c9cfad6d8736bc014e992bb01a9224df227fadb69d1c8ac710e569d49c800"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/phones.txt",
+          "size": 1428,
+          "sha256": "6e6f3558efab70e0964dd8d7718c802cbdad8b4b8433bfd779f9c031fdda2fe8"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/punc.txt",
+          "size": 236,
+          "sha256": "2511bbd3b368c63cacd9d1b6ce88c5c26f1d9a072b0cd2d0a2c65dec7c24fcbb"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/Tokens.xml",
+          "size": 1149,
+          "sha256": "013dce9878bd28cf98a25543aa0105b1d23eb5277394e4e2b9d316058cf6862d"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/ZhCN.address.dat",
+          "size": 57224,
+          "sha256": "a6065fff3f175defb053a570a15c8f1a66f984473b4063b91e73ff7ec8f85bf3"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/ZhCN.erhua.dat",
+          "size": 69504,
+          "sha256": "129a1c3bdcee3f0df8faa8fe9c54a9b302cd836ffaf4fb6974bf6dc95917a203"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/ZhCN.message.dat",
+          "size": 51600,
+          "sha256": "0cacd1ad46c9ddd4c26e31d6af78eec548e4a55de541f7d321ffc0e95c3053db"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/ZhCN.mixlingual.dat",
+          "size": 11848,
+          "sha256": "42f06f44d9d3f36f1594dd4df25592ad9ffe52ae533a1269bfddbde34c69f39e"
+        },
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/ZhCN.name.dat",
+          "size": 35264,
+          "sha256": "81ccbfa320f40a2a2c00f6bc480632828a91039f684cfb5d3b4a29e5c9a0f83b"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Xiaoni-zh-CN-shaanxizmqheydu.kos/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocZhCN.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2052"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpuyx5nkp7/713184858', '/tmp/tmpuyx5nkp7/import-713184858']' returned non-zero exit status 1."
+    },
+    {
       "assetId": 713181652,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -124,7 +365,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713181652', '/tmp/tmpr2vug82f/import-713181652']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpuyx5nkp7/713181652', '/tmp/tmpuyx5nkp7/import-713181652']' returned non-zero exit status 1."
     },
     {
       "assetId": 713179104,
@@ -249,7 +490,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713179104', '/tmp/tmpr2vug82f/import-713179104']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpuyx5nkp7/713179104', '/tmp/tmpuyx5nkp7/import-713179104']' returned non-zero exit status 1."
     },
     {
       "assetId": 713177643,
@@ -490,7 +731,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713175580', '/tmp/tmpr2vug82f/import-713175580']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpuyx5nkp7/713175580', '/tmp/tmpuyx5nkp7/import-713175580']' returned non-zero exit status 1."
     },
     {
       "assetId": 713173912,
@@ -615,7 +856,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713173912', '/tmp/tmpr2vug82f/import-713173912']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpuyx5nkp7/713173912', '/tmp/tmpuyx5nkp7/import-713173912']' returned non-zero exit status 1."
     },
     {
       "assetId": 713170799,
@@ -740,7 +981,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713170799', '/tmp/tmpr2vug82f/import-713170799']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpuyx5nkp7/713170799', '/tmp/tmpuyx5nkp7/import-713170799']' returned non-zero exit status 1."
     },
     {
       "assetId": 713006098,
