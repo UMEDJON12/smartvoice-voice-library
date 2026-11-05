@@ -1,6 +1,6 @@
 """Commit generated files to latest main, retrying races without force-push or JSON merges."""
-import pathlib,subprocess,tempfile,sys
-FILES=['catalog.json','checks/archive-inspection.json','checks/needs-review.json']
+import pathlib,subprocess,tempfile,sys,json,urllib.parse
+FILES=['catalog.json','checks/archive-inspection.json','checks/needs-review.json','samples']
 def git(root,*args,check=True):
  return subprocess.run(['git','-C',str(root),*args],check=check,text=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 def publish(root,attempts=3):
@@ -14,6 +14,13 @@ def publish(root,attempts=3):
    try:
     subprocess.run([sys.executable,'tools/build_catalog.py'],cwd=work,check=True)
     git(work,'add','--',*FILES)
+    catalog=json.loads((work/'catalog.json').read_text())
+    for voice in catalog.get('voices',[]):
+     url=voice.get('sampleUrlV2')
+     if url:
+      filename=pathlib.PurePosixPath(urllib.parse.urlsplit(url).path).name
+      git(work,'ls-files','--error-unmatch','--','samples/'+filename)
+
     if git(work,'diff','--cached','--quiet',check=False).returncode==0:
      print('Catalog already current on main');return
     git(work,'-c','user.name=github-actions[bot]','-c','user.email=41898282+github-actions[bot]@users.noreply.github.com','commit','-m','Update verified SmartVoice voice catalog')

@@ -6,7 +6,7 @@ on:
   workflow_call:
   push:
     branches: [main]
-    paths: ['metadata-overrides.json', 'tools/**', '.github/workflows/catalog.yml', '.github/workflows/catalog-release.yml']
+    paths: ['metadata-overrides.json', 'tools/**', 'samples/**', '.github/workflows/catalog.yml', '.github/workflows/catalog-release.yml']
 permissions:
   contents: write
 concurrency:
@@ -28,7 +28,9 @@ jobs:
         run: |
           python3 tools/test_catalog.py
           python3 tools/test_publish_catalog.py
+          python3 tools/test_validator_diagnostics.py
       - name: Validate archives and save verified catalog to main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SMARTVOICE_SAMPLES: '1'
         run: python3 tools/publish_catalog.py

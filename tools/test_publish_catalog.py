@@ -9,12 +9,13 @@ class PublishTests(unittest.TestCase):
   cmd('git','init','--bare',self.remote);cmd('git','clone',self.remote,self.repo)
   cmd('git','checkout','-b','main',cwd=self.repo);cmd('git','config','user.name','Test',cwd=self.repo);cmd('git','config','user.email','test@example.invalid',cwd=self.repo)
   (self.repo/'tools').mkdir();(self.repo/'checks').mkdir();(self.repo/'owner.txt').write_text('old')
-  (self.repo/'catalog.json').write_text('{"voices":["last-good"]}')
+  (self.repo/'catalog.json').write_text('{"voices":[{"owner":"last-good"}]}')
   (self.repo/'tools/build_catalog.py').write_text('''import pathlib,json,os,subprocess
 p=pathlib.Path('.')
 if (p/'fail').exists():raise RuntimeError('validation failed')
-(p/'catalog.json').write_text(json.dumps({'voices':[ (p/'owner.txt').read_text() ]}))
+(p/'catalog.json').write_text(json.dumps({'voices':[ {'owner':(p/'owner.txt').read_text()} ]}))
 (p/'checks').mkdir(exist_ok=True)
+(p/'samples').mkdir(exist_ok=True);(p/'samples/index.json').write_text('{}')
 for name in ['archive-inspection.json','needs-review.json']:(p/'checks'/name).write_text('{}')
 race=os.environ.get('SV_TEST_RACE')
 if race and not pathlib.Path(race).exists():
@@ -29,16 +30,16 @@ if race and not pathlib.Path(race).exists():
  def tearDown(self):self.temp.cleanup()
  def remote_file(self,name):return cmd('git','--git-dir',self.remote,'show','main:'+name)
  def test_detached_push(self):
-  publish(self.repo);self.assertEqual(['old'],json.loads(self.remote_file('catalog.json'))['voices']);self.assertEqual('HEAD',cmd('git','symbolic-ref','-q','--short','HEAD',cwd=self.repo) if False else cmd('git','rev-parse','--abbrev-ref','HEAD',cwd=self.repo))
+  publish(self.repo);self.assertEqual([{'owner':'old'}],json.loads(self.remote_file('catalog.json'))['voices']);self.assertEqual('HEAD',cmd('git','symbolic-ref','-q','--short','HEAD',cwd=self.repo) if False else cmd('git','rev-parse','--abbrev-ref','HEAD',cwd=self.repo))
  def test_race_regenerates_not_force_push(self):
   old=dict(os.environ);os.environ.update(SV_TEST_RACE=str(self.dir/'once'),SV_TEST_REMOTE=str(self.remote))
   try:publish(self.repo)
   finally:os.environ.clear();os.environ.update(old)
-  self.assertEqual('new-owner-value',self.remote_file('owner.txt'));self.assertEqual(['new-owner-value'],json.loads(self.remote_file('catalog.json'))['voices'])
+  self.assertEqual('new-owner-value',self.remote_file('owner.txt'));self.assertEqual([{'owner':'new-owner-value'}],json.loads(self.remote_file('catalog.json'))['voices'])
   self.assertIn('Concurrent owner edit',cmd('git','--git-dir',self.remote,'log','main','--format=%s'))
  def test_validation_failure_keeps_good_catalog(self):
   cmd('git','checkout','main',cwd=self.repo);(self.repo/'fail').touch();cmd('git','add','fail',cwd=self.repo);cmd('git','commit','-m','Bad input',cwd=self.repo);cmd('git','push','origin','main',cwd=self.repo)
   before=cmd('git','--git-dir',self.remote,'rev-parse','main')
   with self.assertRaises(subprocess.CalledProcessError):publish(self.repo)
-  self.assertEqual(before,cmd('git','--git-dir',self.remote,'rev-parse','main'));self.assertEqual(['last-good'],json.loads(self.remote_file('catalog.json'))['voices'])
+  self.assertEqual(before,cmd('git','--git-dir',self.remote,'rev-parse','main'));self.assertEqual([{'owner':'last-good'}],json.loads(self.remote_file('catalog.json'))['voices'])
 if __name__=='__main__':unittest.main()

@@ -1,4 +1,5 @@
-import subprocess,os,json,urllib.request,urllib.parse,tempfile,pathlib,zipfile,hashlib,stat,xml.etree.ElementTree as ET
+from validator_diagnostics import diagnostic
+import subprocess,os,json,urllib.request,urllib.error,urllib.parse,tempfile,pathlib,zipfile,hashlib,stat,xml.etree.ElementTree as ET
 REPO="UMEDJON12/smartvoice-voice-library"
 TOKEN=os.environ["GH_TOKEN"]
 class Redirect(urllib.request.HTTPRedirectHandler):
@@ -34,8 +35,8 @@ def inspect(path):
    if leaf in ("smartvoice-pack.json","multivoice.json"):
     j=json.loads(small.decode("utf-8-sig"))
     for v in j.get("voices",[]):
-     safe={k:v[k] for k in ("engine","code","locale","name","folder","id","type","options") if k in v}
-     safe["paramVoice"]=str(v.get("param","")).split("\n")[0][:160];report["voices"].append(safe)
+     safe={k:v[k] for k in ("engine","code","locale","name","folder","id","type") if k in v}
+     report["voices"].append(safe)
    elif leaf=="config.yaml":
     # Only known public metadata keys; license param intentionally omitted.
     report["yaml"]=[line.strip() for line in small.decode("utf-8-sig").splitlines() if line.strip().split(":")[0].strip("- ") in {"code","locale","name","engine","folder","microsoft","google","type"}]
@@ -72,10 +73,26 @@ def main():
      if count!=a["size"] or a.get("digest")!="sha256:"+h.hexdigest():raise ValueError("Asset digest mismatch")
      row["sha256"]=h.hexdigest();row.update(inspect(p));row["zipVerified"]=True
      try:
-      done=subprocess.run(["java","-jar","tools/import-validator.jar",str(p),str(pathlib.Path(temp)/("import-"+str(a["id"])))],capture_output=True,text=True,timeout=180,check=True)
-      row["importer"]=json.loads(done.stdout)
-     except Exception as failure:row["importerError"]=str(failure)[:300]
-    except Exception as e:row["error"]=str(e)[:300];row["errorType"]=type(e).__name__
+      done=subprocess.run(["java","-jar","tools/import-validator.jar",str(p),str(pathlib.Path(temp)/("import-"+str(a["id"])))] + (["--keep-stage"] if os.environ.get("SMARTVOICE_SAMPLES")=="1" else []),capture_output=True,text=True,timeout=180)
+      if done.returncode==0:
+       row["importer"]=json.loads(done.stdout)
+       row["detectedFormat"]=row["importer"].get("format","Unknown ZIP")
+       if os.environ.get("SMARTVOICE_SAMPLES")=="1":
+        from generate_samples import create
+        row["sampleGeneration"]=create(row,pathlib.Path(temp)/("import-"+str(a["id"])))
+      else:
+       row["importerDiagnostic"]=diagnostic(done.stderr,done.returncode)
+       row["importerError"]=row["importerDiagnostic"]["reason"]
+     except subprocess.TimeoutExpired:
+      row["importerDiagnostic"]=diagnostic('{"code":"validator-timeout","stage":"validator-execution"}',-1)
+      row["importerError"]=row["importerDiagnostic"]["reason"]
+     except Exception:
+      row["importerDiagnostic"]=diagnostic('',-1)
+      row["importerError"]=row["importerDiagnostic"]["reason"]
+    except Exception as e:
+     row["errorType"]=type(e).__name__
+     row["error"]="Ошибка сети GitHub" if isinstance(e,(urllib.error.URLError,TimeoutError,ConnectionError)) else "Архив повреждён или не прошёл проверку безопасности"
+     row["importerDiagnostic"]={"format":"Invalid ZIP","stage":"archive-security","errorClass":type(e).__name__,"reason":row["error"],"missingResources":[]}
     out.append(row);print("Inspected",a["id"],"ok" if row.get("zipVerified") else row.get("error"))
  pathlib.Path("checks").mkdir(exist_ok=True);pathlib.Path("checks/archive-inspection.json").write_text(json.dumps({"schemaVersion":1,"archives":out},ensure_ascii=False,indent=2)+"\n")
 if __name__=="__main__":main()

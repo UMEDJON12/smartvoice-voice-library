@@ -30,4 +30,11 @@ class CatalogTests(unittest.TestCase):
  def test_transient_failure_keeps_catalog(self):
   r=copy.deepcopy(self.report);r['archives'][0]['errorType']='URLError'
   with self.assertRaises(RuntimeError):make(r,self.overrides,{"voices":[]})
+ def test_extended_locale_old_client_and_runtime_minimum(self):
+  r=copy.deepcopy(self.report);a=r['archives'][0];m=a['importer']['models'][0];m.update(locale='zh-CN-liaoning',code='zh-CN-liaoning-XiaobeiNeural',minAppCode=4171)
+  c,p=make(r,{}, {'voices':[]});v=next(v for v in c['voices'] if v['code']==m['code'])
+  self.assertEqual('zh-CN',v['locale']);self.assertEqual('zh-CN-liaoning',v['synthesisLocale']);self.assertEqual(4171,v['minAppCode'])
+ def test_failed_actual_synthesis_not_published(self):
+  r=copy.deepcopy(self.report);a=r['archives'][0];code=a['importer']['models'][0]['code'];a['sampleGeneration']=[{'code':code,'status':'failed'}]
+  c,p=make(r,{}, {'voices':[]});self.assertEqual(5,len(c['voices']));self.assertEqual('native-synthesis',p[0]['stage'])
 if __name__=="__main__":unittest.main()
