@@ -2,6 +2,162 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713823539,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Ryan-en-GB.zip",
+      "size": 38773125,
+      "sha256": "d698c909002c7117d06a7503edfe04d4f3d6899732f8c7371ca79f08826b3539",
+      "files": [
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/2057.INI",
+          "size": 832,
+          "sha256": "3599ee82915fafbb2f7bcc514579c223a67bcc594f5726a31dd1904b65b107ef"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "af21b550d3fc87a5f0722468909d6703e9bb245ddcaa0946addd4e2eced810dd"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/am_v5_encoder.bin",
+          "size": 2162453,
+          "sha256": "dddc240571c57662896431d43ff8f93c4609811a71e1814142229255e8193ad4"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/device_vocoder_v6_streaming.bin",
+          "size": 2407036,
+          "sha256": "63af076afdc4d5a7e23a4b4df8ed64d571cb6479235e6465cf7ff118f14f456b"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.address.dat",
+          "size": 139184,
+          "sha256": "0d2e932b25f20f8e9cd4fbf23f935578d72358e64d365d0376ffa81ef70208c6"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.alphanumeric.dat",
+          "size": 488,
+          "sha256": "5773925c9cab2784d05a277a729b0c8d5862a5f53788c4949aa40ceebdd4f93f"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.alphanumeric_spell.dat",
+          "size": 424,
+          "sha256": "dce18497f5f04b28d711357b89bee569d7e669c9032e77a7ef3c94c15ecfe5b4"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.cityname.dat",
+          "size": 2248,
+          "sha256": "eb362817268d52df2ccc338268724f5f5e2fcbbdaffcf808ed9b426ac48231c9"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.companyname.dat",
+          "size": 4208,
+          "sha256": "a18b780c2e3b9ab47374da8096374afd111b9e1ad12d8c23f48163203e6d5ed7"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.computer.dat",
+          "size": 4928,
+          "sha256": "96f79f8c7f246bf2caae59be2e7156817d0108806e79dbd55d33df2851dce9bf"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.media.dat",
+          "size": 11056,
+          "sha256": "7f4ead153456f0f7ce506d60264044cd57605b6af4e861fd6a9ddcdd4300af23"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.message.dat",
+          "size": 19336,
+          "sha256": "1dcd8ed733877bfae8a42cd02b9ef2df90b48365f1cb7dbeb8ed3bc88de01da2"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/EnGB.name.dat",
+          "size": 28056,
+          "sha256": "e7f1053574147e7bec619ad48813f4a7041068223bd00c714257e55b77adccfe"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/MSTTSLocEnGB.dat",
+          "size": 35444024,
+          "sha256": "24df5b54a74f982e0141f03770f20fd4c1b583e1c6a731dc1cda5e9691a05c79"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/MSTTSLocEnGB.ini",
+          "size": 4162,
+          "sha256": "03d42a68ee44f3cedce8090fb1394531b33e29f306ef89d0ddf4985bf18bd534"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/MSTTSLocEnUS.dat",
+          "size": 23285312,
+          "sha256": "f4ca3b16a041174c5b7b6cce52b8948c1dd2d29886e7efb94e5fce8d2fdca05e"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/phones.txt",
+          "size": 787,
+          "sha256": "f16c3e47624eb2acd74139306f4508d4c9fb42c3baa96fe910de4f2b17d390ce"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/Tokens.xml",
+          "size": 1227,
+          "sha256": "ac355d92fa01fe92c5fce8a5cebe0d84371e8542ccc690f940db17992386af4d"
+        },
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Ryan-en-GBsfzrhjbk.eug/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnGB.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2057"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-GB-RyanNeural",
+            "engine": "microsoft",
+            "bytes": 64257669,
+            "speaker": "en-GB-RyanNeural",
+            "contentId": "c85b92ae4f4e6a5d",
+            "name": "Ryan",
+            "minAppCode": 4169,
+            "locale": "en-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 64258771
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-GB-RyanNeural",
+          "status": "available",
+          "file": "microsoft-889b2cb7ca06871ab0648311.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 713822356,
       "releaseId": 434895762,
       "tag": "voices-001",

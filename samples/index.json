@@ -31,6 +31,20 @@
     },
     {
       "provider": "microsoft",
+      "code": "en-GB-RyanNeural",
+      "locale": "en-GB",
+      "quality": "unspecified",
+      "archiveSha256": "d698c909002c7117d06a7503edfe04d4f3d6899732f8c7371ca79f08826b3539",
+      "file": "microsoft-889b2cb7ca06871ab0648311.mp3",
+      "sha256": "87d0759859b40213ff6e9fab555bbd5894c68bc721b5df7f970e37a7402ca398",
+      "platform": "linux-x64",
+      "sdkVersion": "1.45.0",
+      "sampleText": "Hello. This is a sample of the selected voice.",
+      "durationSeconds": 2.9044583333333334,
+      "androidTested": false
+    },
+    {
+      "provider": "microsoft",
       "code": "fa-IR-DilaraNeural",
       "locale": "fa-IR",
       "quality": "unspecified",
