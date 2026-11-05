@@ -45,6 +45,20 @@
     },
     {
       "provider": "microsoft",
+      "code": "en-GB-SoniaNeural",
+      "locale": "en-GB",
+      "quality": "unspecified",
+      "archiveSha256": "c587d70b3146d110faf8507321ccfb31e5d081d6abd3e0aee3edd4567fd27b86",
+      "file": "microsoft-60abb08ea91fbf9318883ed0.mp3",
+      "sha256": "1db391394f702a1f98ac91ba2049c3ea3855602a0a180e0f5ed11ee30c8162ee",
+      "platform": "linux-x64",
+      "sdkVersion": "1.45.0",
+      "sampleText": "Hello. This is a sample of the selected voice.",
+      "durationSeconds": 3.20125,
+      "androidTested": false
+    },
+    {
+      "provider": "microsoft",
       "code": "fa-IR-DilaraNeural",
       "locale": "fa-IR",
       "quality": "unspecified",

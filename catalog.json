@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T15:20:13.169268+00:00",
+  "generatedAt": "2026-11-05T15:23:46.057388+00:00",
   "voices": [
     {
       "id": "microsoft-7556932907ddb0e28daaefbf",
@@ -98,6 +98,40 @@
       "previousContents": [],
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-889b2cb7ca06871ab0648311.mp3",
       "sampleSha256": "87d0759859b40213ff6e9fab555bbd5894c68bc721b5df7f970e37a7402ca398",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
+      }
+    },
+    {
+      "id": "microsoft-71940b3a71cd9008d9bf8818",
+      "modelId": "microsoft:en-GB-SoniaNeural",
+      "provider": "microsoft",
+      "code": "en-GB-SoniaNeural",
+      "contentId": "e349d5cd75470e9f",
+      "name": "Sonia",
+      "locale": "en-GB",
+      "synthesisLocale": "en-GB",
+      "gender": "",
+      "quality": "unspecified",
+      "variant": "unspecified",
+      "sizeBytes": 38798296,
+      "unpackedBytes": 64258239,
+      "filename": "Sonia-en-GB.zip",
+      "sha256": "c587d70b3146d110faf8507321ccfb31e5d081d6abd3e0aee3edd4567fd27b86",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/Sonia-en-GB.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 26,
+      "verificationStatus": "verified",
+      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-60abb08ea91fbf9318883ed0.mp3",
+      "sampleSha256": "1db391394f702a1f98ac91ba2049c3ea3855602a0a180e0f5ed11ee30c8162ee",
       "sampleSource": {
         "platform": "linux-x64",
         "sdkVersion": "1.45.0",

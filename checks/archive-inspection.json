@@ -2,6 +2,162 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713831552,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Sonia-en-GB.zip",
+      "size": 38798296,
+      "sha256": "c587d70b3146d110faf8507321ccfb31e5d081d6abd3e0aee3edd4567fd27b86",
+      "files": [
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/2057.INI",
+          "size": 833,
+          "sha256": "f2e6aa038c1f181276e243033462023e52a25e1faa6fa5ba73e3379f7a55bdaa"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "88cb7abdc6f661373868f8b813a01d35b7ca572bd4db4e1718a4569386248826"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/am_v5_encoder.bin",
+          "size": 2162338,
+          "sha256": "f78a42badc177ceefc2b62d7f85ae9491c2f909282120b1a7aad7eee58ce5196"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/device_vocoder_v6_streaming.bin",
+          "size": 2407036,
+          "sha256": "e0bf680f2fda8d0067d9f903e2420ca7feeb68314178697140e4635eda36dd9f"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.address.dat",
+          "size": 139184,
+          "sha256": "0d2e932b25f20f8e9cd4fbf23f935578d72358e64d365d0376ffa81ef70208c6"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.alphanumeric.dat",
+          "size": 488,
+          "sha256": "5773925c9cab2784d05a277a729b0c8d5862a5f53788c4949aa40ceebdd4f93f"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.alphanumeric_spell.dat",
+          "size": 424,
+          "sha256": "dce18497f5f04b28d711357b89bee569d7e669c9032e77a7ef3c94c15ecfe5b4"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.cityname.dat",
+          "size": 2248,
+          "sha256": "eb362817268d52df2ccc338268724f5f5e2fcbbdaffcf808ed9b426ac48231c9"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.companyname.dat",
+          "size": 4208,
+          "sha256": "a18b780c2e3b9ab47374da8096374afd111b9e1ad12d8c23f48163203e6d5ed7"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.computer.dat",
+          "size": 4928,
+          "sha256": "96f79f8c7f246bf2caae59be2e7156817d0108806e79dbd55d33df2851dce9bf"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.media.dat",
+          "size": 11056,
+          "sha256": "7f4ead153456f0f7ce506d60264044cd57605b6af4e861fd6a9ddcdd4300af23"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.message.dat",
+          "size": 19336,
+          "sha256": "1dcd8ed733877bfae8a42cd02b9ef2df90b48365f1cb7dbeb8ed3bc88de01da2"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/EnGB.name.dat",
+          "size": 28056,
+          "sha256": "e7f1053574147e7bec619ad48813f4a7041068223bd00c714257e55b77adccfe"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/MSTTSLocEnGB.dat",
+          "size": 35444024,
+          "sha256": "24df5b54a74f982e0141f03770f20fd4c1b583e1c6a731dc1cda5e9691a05c79"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/MSTTSLocEnGB.ini",
+          "size": 4162,
+          "sha256": "03d42a68ee44f3cedce8090fb1394531b33e29f306ef89d0ddf4985bf18bd534"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/MSTTSLocEnUS.dat",
+          "size": 23285312,
+          "sha256": "f4ca3b16a041174c5b7b6cce52b8948c1dd2d29886e7efb94e5fce8d2fdca05e"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/phones.txt",
+          "size": 670,
+          "sha256": "472beb84146721cf2609966fc48833a105c4dfe0789ce94580a1e484358619fa"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/punc.txt",
+          "size": 158,
+          "sha256": "a62842c242d90dec2342090f0696bcd8d2af41d8fd3e552a9d47abf2dd414f27"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/Tokens.xml",
+          "size": 1233,
+          "sha256": "9f1b3c73aa35e0569cd0357b67364b80f896fdd258d1dfe4376c633e333a113f"
+        },
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Sonia-en-GBdoboxovj.dl1/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnGB.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2057"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-GB-SoniaNeural",
+            "engine": "microsoft",
+            "bytes": 64257132,
+            "speaker": "en-GB-SoniaNeural",
+            "contentId": "e349d5cd75470e9f",
+            "name": "Sonia",
+            "minAppCode": 4169,
+            "locale": "en-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 64258239
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-GB-SoniaNeural",
+          "status": "available",
+          "file": "microsoft-60abb08ea91fbf9318883ed0.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 713823539,
       "releaseId": 434895762,
       "tag": "voices-001",
