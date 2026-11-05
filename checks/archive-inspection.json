@@ -2,6 +2,1286 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 714603093,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._rub_._Seanet.zip",
+      "size": 27347925,
+      "sha256": "b54de3199cb50a55aba9ca4d1d450e162ffd511719d9e6c2a18d96e1862f2b50",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 242,
+          "sha256": "de540435ff1f78e7e71f9963933c4cec9aa27d95101a9f10b0617d226f347497"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/backend_pipeline.pb",
+          "size": 2193,
+          "sha256": "ec8a78b6815c81dddebe37ca269a6a7094cb358bc88af1a7473eda32a10e3399"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/backend_pipeline.textproto",
+          "size": 6413,
+          "sha256": "9aa298b2fec9f4eb4e01be28e5ab584c167c69e8bcd6103b1e5d3c9800a80b2d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_model.params.pb",
+          "size": 4617,
+          "sha256": "51d87894192147afbb25265d3ac9decb9d5ca7e38bd05e5973573fb5f0301d42"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_valerian_model.tflite",
+          "size": 1659888,
+          "sha256": "7f3b43533c5432b03cb92a29b31fd5672c3a041bbbe4dbcfdb0de4124bd1d704"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "9b7c9156ddad5b08315d0253479c8ba09df416631c9991511e90d7ee6a651a8f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/lettuce_node_generator_params_embedded_ru_runtime.pb",
+          "size": 1504,
+          "sha256": "fe0581b4bad1b6ed7bb89f135613ce79db2cce3e3ba78b68d91cb4bd459c9c73"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/package_options.textproto",
+          "size": 1516,
+          "sha256": "db8143523325f7241dbb7556bb7da17e072654c0629a18f4ba9074e29216ffc1"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/pipeline.pb",
+          "size": 11194,
+          "sha256": "92cdcf8c245127c1773e6beed3020ac8ec06d28304481b26a9f07fd094c7d4c9"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_phonology.pb",
+          "size": 5016,
+          "sha256": "86a1576b82ba8293474d85402173ab10314c4a664d964ae2221592de6a7ac707"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc.pipeline.pb",
+          "size": 10443,
+          "sha256": "e7fe96854f962f0e7437c672686320750b88fdb848b9e97280a7f465d34761ca"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc_backend.pipeline.pb",
+          "size": 2010,
+          "sha256": "53c8ade7de3273c644cfe2e3ae534064777b29e8366e1379ed6bb5b01f101b22"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/sb_model.bin",
+          "size": 53008,
+          "sha256": "8015fe3a29558dfd0f5878834c534568e7d0aabc1bd79aad666a86d0ce67ff12"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/backend_pipeline.pb",
+          "size": 2389,
+          "sha256": "5fb7d95ca6dcd75dab80c845b223d91367acfeee573d0970a23664047053f429"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/backend_pipeline.textproto",
+          "size": 6946,
+          "sha256": "1e6b8f945c47dcadd241beb4406d7493f9d90f57b1c26f4fbdaffd182cc11254"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_model.params.pb",
+          "size": 4617,
+          "sha256": "51d87894192147afbb25265d3ac9decb9d5ca7e38bd05e5973573fb5f0301d42"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_valerian_model.tflite",
+          "size": 1659888,
+          "sha256": "7f3b43533c5432b03cb92a29b31fd5672c3a041bbbe4dbcfdb0de4124bd1d704"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "9b7c9156ddad5b08315d0253479c8ba09df416631c9991511e90d7ee6a651a8f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/converter_ru_ru_android.far",
+          "size": 1136,
+          "sha256": "bc40447a66139ab497b1f8770296c7218e5148ccf6663eaf69ee8a227ab1f538"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/disambiguation_rules_ru_ru.pb",
+          "size": 720307,
+          "sha256": "52c9c96da88066adb8df92af8e7688110c5df5c83d0ad9481f33787b0900df93"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/feats_android.far",
+          "size": 2359,
+          "sha256": "66009b0bcce7c18d981199934e7249aa418173af622caad88e806c5c0af04f69"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/g2p_m3_syls0_stress0_ru-RU.fst",
+          "size": 355816,
+          "sha256": "f6d8f2d2141e43d4c083a68e6776c7666c9210059ae076921bdd977f2a1eec1d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ipa_to_tts_to-ru_ru.far",
+          "size": 80670,
+          "sha256": "71a511300711b09e785ffc70868bdd183e54b1529c4805f52c57fa7a1fdf108b"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_classify_embedded_ru_generated_android.far",
+          "size": 3803273,
+          "sha256": "cf30c6fa36bc4571dedde18d768f4daab887a6ac2538a463f7c2eb1291ef8242"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_model.fb",
+          "size": 1902528,
+          "sha256": "6dcffcf7b1ef4c60b6ad17fb49d9ca78d672e4b90e81033e5e82c5b8c34b4b8d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_node_generator_params_embedded_ru_runtime.pb",
+          "size": 1504,
+          "sha256": "fe0581b4bad1b6ed7bb89f135613ce79db2cce3e3ba78b68d91cb4bd459c9c73"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/model_farm32.pb",
+          "size": 400016,
+          "sha256": "844bb54c83ad4695bdb603244c78a772a7394853ba9653d09fbc445a5aeef83e"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/morphology_lexicon.binarypb",
+          "size": 217146,
+          "sha256": "15cd8ac3b64d09cc125c206b8514650240219a8af9f0f90653421c2e8113bef2"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/morphosyntactic_mapping.pb",
+          "size": 377,
+          "sha256": "8b0f3fc162bea9c1913c062c90a4d76ee917890fd46338ad64d371495a7325c8"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/package_options.textproto",
+          "size": 1438,
+          "sha256": "1ee720044dfba17d1fa2fe7fba52df302dfd49df659c4c00c629c4817a28069d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/pipeline.pb",
+          "size": 10815,
+          "sha256": "9e529b6cad297c26261945db22f9ce86ad97a022d737a46108a4b0094e7bd0d6"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/punctuation.pb",
+          "size": 452,
+          "sha256": "53aa4c98937b771c7a775efd4d00389298ce9735432524d832f2a08889d623ed"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/regexp_rewrite.pb",
+          "size": 47725,
+          "sha256": "4314ba480a84e0eda4989ed054c4bcd377dab30b987c7f18c5f049792e0ef880"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_morphology",
+          "size": 4688376,
+          "sha256": "4933a13fa6ac3c25db6416029be0ca51a313a6d71d3ae137fe0f7a6951db4df8"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru.hlex.bin",
+          "size": 8563056,
+          "sha256": "1aa7ae94551ca6a36b20d7f3248a3a4fc80ff675ff98274d6ba962c71dcd9223"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_phonology.pb",
+          "size": 5016,
+          "sha256": "86a1576b82ba8293474d85402173ab10314c4a664d964ae2221592de6a7ac707"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 10628,
+          "sha256": "3bf03e8d006ae9055742f0d24db0893dc7e1fce9646c67b4f981f3ad38c964f3"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2195,
+          "sha256": "3aaa37adcaf30b2134d5e74b4ad3697f579ea69d448a7c2c3279b692aeaf6651"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_verbalize_spec.pb",
+          "size": 3831,
+          "sha256": "8d18c8721a31ab137b844d41d697ab8d97ed432cb7600ec8562046b0ef3ce70d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/sb_model.bin",
+          "size": 52840,
+          "sha256": "749afd6aa6528d450444fed368ded561639be3dc659989925e818f288dcc5636"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/textnorm_params_embedded_ru_ru.pb",
+          "size": 249,
+          "sha256": "814d569c770e3187956bf340a79e8156222a47fd53ff12d380eab63061b94603"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/transliterate_android.far",
+          "size": 3043304,
+          "sha256": "c1a992b5cce4b8e82c5e9c1dc2cbe65c8ec1c639bdf0e0c5dd9dc0e46d749fea"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/variant_overrides_ru_ru.pb",
+          "size": 86,
+          "sha256": "319902de561a2c097f990d38c00b3631eed11a6a410b400cf7e0c025d66d7435"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/variant_selection_model_ru_ru_embedded.bin",
+          "size": 18360,
+          "sha256": "2bf8f2cc7229040b5b39703a3547d07f90239fed16c630f896c023f50002295d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/verbalize_android.far",
+          "size": 12607416,
+          "sha256": "5db4badce6e4c269e81ec25ddb1a45a2b6d5dfe15dd3bdf973cfd88218558610"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/xsampa_to_tts_to-ru_ru.far",
+          "size": 6502,
+          "sha256": "41a729795a7b9cc0758ef9ec1c903db6e6bb392c4b064b03e0413d0e6c974599"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "ru-ru-x-multi-seanet-r57__rub",
+          "locale": "ru-RU",
+          "name": "rub — Seanet",
+          "folder": "google/ru-ru/ru-ru-x-multi-seanet-r57",
+          "id": "477732641b07ff1b"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ru-ru-x-multi-seanet-r57__rub",
+            "engine": "google",
+            "bytes": 42778298,
+            "speaker": "rub",
+            "contentId": "477732641b07ff1b",
+            "name": "rub — Seanet",
+            "minAppCode": 4169,
+            "locale": "ru-RU",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 42778875
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714601828,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._ruc_._Seanet.zip",
+      "size": 27347925,
+      "sha256": "ecac6f75ec6a6a9f297cc9bd0038f782d624f17b4ef1b13f0c6f39cc39d10769",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 244,
+          "sha256": "7ce10d97986f39eeea77ea486b26a9e92eb08f21c0baf0adaad8f5002029c01f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/backend_pipeline.pb",
+          "size": 2193,
+          "sha256": "ec8a78b6815c81dddebe37ca269a6a7094cb358bc88af1a7473eda32a10e3399"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/backend_pipeline.textproto",
+          "size": 6413,
+          "sha256": "9aa298b2fec9f4eb4e01be28e5ab584c167c69e8bcd6103b1e5d3c9800a80b2d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_model.params.pb",
+          "size": 4617,
+          "sha256": "51d87894192147afbb25265d3ac9decb9d5ca7e38bd05e5973573fb5f0301d42"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_valerian_model.tflite",
+          "size": 1659888,
+          "sha256": "7f3b43533c5432b03cb92a29b31fd5672c3a041bbbe4dbcfdb0de4124bd1d704"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "9b7c9156ddad5b08315d0253479c8ba09df416631c9991511e90d7ee6a651a8f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/lettuce_node_generator_params_embedded_ru_runtime.pb",
+          "size": 1504,
+          "sha256": "fe0581b4bad1b6ed7bb89f135613ce79db2cce3e3ba78b68d91cb4bd459c9c73"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/package_options.textproto",
+          "size": 1516,
+          "sha256": "db8143523325f7241dbb7556bb7da17e072654c0629a18f4ba9074e29216ffc1"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/pipeline.pb",
+          "size": 11194,
+          "sha256": "92cdcf8c245127c1773e6beed3020ac8ec06d28304481b26a9f07fd094c7d4c9"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_phonology.pb",
+          "size": 5016,
+          "sha256": "86a1576b82ba8293474d85402173ab10314c4a664d964ae2221592de6a7ac707"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc.pipeline.pb",
+          "size": 10443,
+          "sha256": "e7fe96854f962f0e7437c672686320750b88fdb848b9e97280a7f465d34761ca"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc_backend.pipeline.pb",
+          "size": 2010,
+          "sha256": "53c8ade7de3273c644cfe2e3ae534064777b29e8366e1379ed6bb5b01f101b22"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/sb_model.bin",
+          "size": 53008,
+          "sha256": "8015fe3a29558dfd0f5878834c534568e7d0aabc1bd79aad666a86d0ce67ff12"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/backend_pipeline.pb",
+          "size": 2389,
+          "sha256": "5fb7d95ca6dcd75dab80c845b223d91367acfeee573d0970a23664047053f429"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/backend_pipeline.textproto",
+          "size": 6946,
+          "sha256": "1e6b8f945c47dcadd241beb4406d7493f9d90f57b1c26f4fbdaffd182cc11254"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_model.params.pb",
+          "size": 4617,
+          "sha256": "51d87894192147afbb25265d3ac9decb9d5ca7e38bd05e5973573fb5f0301d42"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_valerian_model.tflite",
+          "size": 1659888,
+          "sha256": "7f3b43533c5432b03cb92a29b31fd5672c3a041bbbe4dbcfdb0de4124bd1d704"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "9b7c9156ddad5b08315d0253479c8ba09df416631c9991511e90d7ee6a651a8f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/converter_ru_ru_android.far",
+          "size": 1136,
+          "sha256": "bc40447a66139ab497b1f8770296c7218e5148ccf6663eaf69ee8a227ab1f538"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/disambiguation_rules_ru_ru.pb",
+          "size": 720307,
+          "sha256": "52c9c96da88066adb8df92af8e7688110c5df5c83d0ad9481f33787b0900df93"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/feats_android.far",
+          "size": 2359,
+          "sha256": "66009b0bcce7c18d981199934e7249aa418173af622caad88e806c5c0af04f69"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/g2p_m3_syls0_stress0_ru-RU.fst",
+          "size": 355816,
+          "sha256": "f6d8f2d2141e43d4c083a68e6776c7666c9210059ae076921bdd977f2a1eec1d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ipa_to_tts_to-ru_ru.far",
+          "size": 80670,
+          "sha256": "71a511300711b09e785ffc70868bdd183e54b1529c4805f52c57fa7a1fdf108b"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_classify_embedded_ru_generated_android.far",
+          "size": 3803273,
+          "sha256": "cf30c6fa36bc4571dedde18d768f4daab887a6ac2538a463f7c2eb1291ef8242"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_model.fb",
+          "size": 1902528,
+          "sha256": "6dcffcf7b1ef4c60b6ad17fb49d9ca78d672e4b90e81033e5e82c5b8c34b4b8d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_node_generator_params_embedded_ru_runtime.pb",
+          "size": 1504,
+          "sha256": "fe0581b4bad1b6ed7bb89f135613ce79db2cce3e3ba78b68d91cb4bd459c9c73"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/model_farm32.pb",
+          "size": 400016,
+          "sha256": "844bb54c83ad4695bdb603244c78a772a7394853ba9653d09fbc445a5aeef83e"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/morphology_lexicon.binarypb",
+          "size": 217146,
+          "sha256": "15cd8ac3b64d09cc125c206b8514650240219a8af9f0f90653421c2e8113bef2"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/morphosyntactic_mapping.pb",
+          "size": 377,
+          "sha256": "8b0f3fc162bea9c1913c062c90a4d76ee917890fd46338ad64d371495a7325c8"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/package_options.textproto",
+          "size": 1438,
+          "sha256": "1ee720044dfba17d1fa2fe7fba52df302dfd49df659c4c00c629c4817a28069d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/pipeline.pb",
+          "size": 10815,
+          "sha256": "9e529b6cad297c26261945db22f9ce86ad97a022d737a46108a4b0094e7bd0d6"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/punctuation.pb",
+          "size": 452,
+          "sha256": "53aa4c98937b771c7a775efd4d00389298ce9735432524d832f2a08889d623ed"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/regexp_rewrite.pb",
+          "size": 47725,
+          "sha256": "4314ba480a84e0eda4989ed054c4bcd377dab30b987c7f18c5f049792e0ef880"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_morphology",
+          "size": 4688376,
+          "sha256": "4933a13fa6ac3c25db6416029be0ca51a313a6d71d3ae137fe0f7a6951db4df8"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru.hlex.bin",
+          "size": 8563056,
+          "sha256": "1aa7ae94551ca6a36b20d7f3248a3a4fc80ff675ff98274d6ba962c71dcd9223"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_phonology.pb",
+          "size": 5016,
+          "sha256": "86a1576b82ba8293474d85402173ab10314c4a664d964ae2221592de6a7ac707"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 10628,
+          "sha256": "3bf03e8d006ae9055742f0d24db0893dc7e1fce9646c67b4f981f3ad38c964f3"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2195,
+          "sha256": "3aaa37adcaf30b2134d5e74b4ad3697f579ea69d448a7c2c3279b692aeaf6651"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_verbalize_spec.pb",
+          "size": 3831,
+          "sha256": "8d18c8721a31ab137b844d41d697ab8d97ed432cb7600ec8562046b0ef3ce70d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/sb_model.bin",
+          "size": 52840,
+          "sha256": "749afd6aa6528d450444fed368ded561639be3dc659989925e818f288dcc5636"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/textnorm_params_embedded_ru_ru.pb",
+          "size": 249,
+          "sha256": "814d569c770e3187956bf340a79e8156222a47fd53ff12d380eab63061b94603"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/transliterate_android.far",
+          "size": 3043304,
+          "sha256": "c1a992b5cce4b8e82c5e9c1dc2cbe65c8ec1c639bdf0e0c5dd9dc0e46d749fea"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/variant_overrides_ru_ru.pb",
+          "size": 86,
+          "sha256": "319902de561a2c097f990d38c00b3631eed11a6a410b400cf7e0c025d66d7435"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/variant_selection_model_ru_ru_embedded.bin",
+          "size": 18360,
+          "sha256": "2bf8f2cc7229040b5b39703a3547d07f90239fed16c630f896c023f50002295d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/verbalize_android.far",
+          "size": 12607416,
+          "sha256": "5db4badce6e4c269e81ec25ddb1a45a2b6d5dfe15dd3bdf973cfd88218558610"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/xsampa_to_tts_to-ru_ru.far",
+          "size": 6502,
+          "sha256": "41a729795a7b9cc0758ef9ec1c903db6e6bb392c4b064b03e0413d0e6c974599"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "ru-ru-x-multi-seanet-r57__ruc",
+          "locale": "ru-RU",
+          "name": "ruc — Seanet",
+          "folder": "google/ru-ru/ru-ru-x-multi-seanet-r57",
+          "id": "c386c53b6fe61997"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ru-ru-x-multi-seanet-r57__ruc",
+            "engine": "google",
+            "bytes": 42778298,
+            "speaker": "ruc",
+            "contentId": "c386c53b6fe61997",
+            "name": "ruc — Seanet",
+            "minAppCode": 4169,
+            "locale": "ru-RU",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 42778879
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714599969,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._rud_._Seanet.zip",
+      "size": 27347924,
+      "sha256": "564b855fb6433a052c6a0532ca19faa1030d2fe74fa09dc363b31c72c499ce66",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 242,
+          "sha256": "537eb33cc3c99b7dbf16e06ab69d3b66035886d3db0cea4fc80aa7f0fba7a37b"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/backend_pipeline.pb",
+          "size": 2193,
+          "sha256": "ec8a78b6815c81dddebe37ca269a6a7094cb358bc88af1a7473eda32a10e3399"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/backend_pipeline.textproto",
+          "size": 6413,
+          "sha256": "9aa298b2fec9f4eb4e01be28e5ab584c167c69e8bcd6103b1e5d3c9800a80b2d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_model.params.pb",
+          "size": 4617,
+          "sha256": "51d87894192147afbb25265d3ac9decb9d5ca7e38bd05e5973573fb5f0301d42"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_valerian_model.tflite",
+          "size": 1659888,
+          "sha256": "7f3b43533c5432b03cb92a29b31fd5672c3a041bbbe4dbcfdb0de4124bd1d704"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "9b7c9156ddad5b08315d0253479c8ba09df416631c9991511e90d7ee6a651a8f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/lettuce_node_generator_params_embedded_ru_runtime.pb",
+          "size": 1504,
+          "sha256": "fe0581b4bad1b6ed7bb89f135613ce79db2cce3e3ba78b68d91cb4bd459c9c73"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/package_options.textproto",
+          "size": 1516,
+          "sha256": "db8143523325f7241dbb7556bb7da17e072654c0629a18f4ba9074e29216ffc1"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/pipeline.pb",
+          "size": 11194,
+          "sha256": "92cdcf8c245127c1773e6beed3020ac8ec06d28304481b26a9f07fd094c7d4c9"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_phonology.pb",
+          "size": 5016,
+          "sha256": "86a1576b82ba8293474d85402173ab10314c4a664d964ae2221592de6a7ac707"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc.pipeline.pb",
+          "size": 10443,
+          "sha256": "e7fe96854f962f0e7437c672686320750b88fdb848b9e97280a7f465d34761ca"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc_backend.pipeline.pb",
+          "size": 2010,
+          "sha256": "53c8ade7de3273c644cfe2e3ae534064777b29e8366e1379ed6bb5b01f101b22"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/sb_model.bin",
+          "size": 53008,
+          "sha256": "8015fe3a29558dfd0f5878834c534568e7d0aabc1bd79aad666a86d0ce67ff12"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/backend_pipeline.pb",
+          "size": 2389,
+          "sha256": "5fb7d95ca6dcd75dab80c845b223d91367acfeee573d0970a23664047053f429"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/backend_pipeline.textproto",
+          "size": 6946,
+          "sha256": "1e6b8f945c47dcadd241beb4406d7493f9d90f57b1c26f4fbdaffd182cc11254"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_model.params.pb",
+          "size": 4617,
+          "sha256": "51d87894192147afbb25265d3ac9decb9d5ca7e38bd05e5973573fb5f0301d42"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_valerian_model.tflite",
+          "size": 1659888,
+          "sha256": "7f3b43533c5432b03cb92a29b31fd5672c3a041bbbe4dbcfdb0de4124bd1d704"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "9b7c9156ddad5b08315d0253479c8ba09df416631c9991511e90d7ee6a651a8f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/converter_ru_ru_android.far",
+          "size": 1136,
+          "sha256": "bc40447a66139ab497b1f8770296c7218e5148ccf6663eaf69ee8a227ab1f538"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/disambiguation_rules_ru_ru.pb",
+          "size": 720307,
+          "sha256": "52c9c96da88066adb8df92af8e7688110c5df5c83d0ad9481f33787b0900df93"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/feats_android.far",
+          "size": 2359,
+          "sha256": "66009b0bcce7c18d981199934e7249aa418173af622caad88e806c5c0af04f69"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/g2p_m3_syls0_stress0_ru-RU.fst",
+          "size": 355816,
+          "sha256": "f6d8f2d2141e43d4c083a68e6776c7666c9210059ae076921bdd977f2a1eec1d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ipa_to_tts_to-ru_ru.far",
+          "size": 80670,
+          "sha256": "71a511300711b09e785ffc70868bdd183e54b1529c4805f52c57fa7a1fdf108b"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_classify_embedded_ru_generated_android.far",
+          "size": 3803273,
+          "sha256": "cf30c6fa36bc4571dedde18d768f4daab887a6ac2538a463f7c2eb1291ef8242"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_model.fb",
+          "size": 1902528,
+          "sha256": "6dcffcf7b1ef4c60b6ad17fb49d9ca78d672e4b90e81033e5e82c5b8c34b4b8d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_node_generator_params_embedded_ru_runtime.pb",
+          "size": 1504,
+          "sha256": "fe0581b4bad1b6ed7bb89f135613ce79db2cce3e3ba78b68d91cb4bd459c9c73"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/model_farm32.pb",
+          "size": 400016,
+          "sha256": "844bb54c83ad4695bdb603244c78a772a7394853ba9653d09fbc445a5aeef83e"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/morphology_lexicon.binarypb",
+          "size": 217146,
+          "sha256": "15cd8ac3b64d09cc125c206b8514650240219a8af9f0f90653421c2e8113bef2"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/morphosyntactic_mapping.pb",
+          "size": 377,
+          "sha256": "8b0f3fc162bea9c1913c062c90a4d76ee917890fd46338ad64d371495a7325c8"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/package_options.textproto",
+          "size": 1438,
+          "sha256": "1ee720044dfba17d1fa2fe7fba52df302dfd49df659c4c00c629c4817a28069d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/pipeline.pb",
+          "size": 10815,
+          "sha256": "9e529b6cad297c26261945db22f9ce86ad97a022d737a46108a4b0094e7bd0d6"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/punctuation.pb",
+          "size": 452,
+          "sha256": "53aa4c98937b771c7a775efd4d00389298ce9735432524d832f2a08889d623ed"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/regexp_rewrite.pb",
+          "size": 47725,
+          "sha256": "4314ba480a84e0eda4989ed054c4bcd377dab30b987c7f18c5f049792e0ef880"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_morphology",
+          "size": 4688376,
+          "sha256": "4933a13fa6ac3c25db6416029be0ca51a313a6d71d3ae137fe0f7a6951db4df8"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru.hlex.bin",
+          "size": 8563056,
+          "sha256": "1aa7ae94551ca6a36b20d7f3248a3a4fc80ff675ff98274d6ba962c71dcd9223"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_phonology.pb",
+          "size": 5016,
+          "sha256": "86a1576b82ba8293474d85402173ab10314c4a664d964ae2221592de6a7ac707"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 10628,
+          "sha256": "3bf03e8d006ae9055742f0d24db0893dc7e1fce9646c67b4f981f3ad38c964f3"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2195,
+          "sha256": "3aaa37adcaf30b2134d5e74b4ad3697f579ea69d448a7c2c3279b692aeaf6651"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_verbalize_spec.pb",
+          "size": 3831,
+          "sha256": "8d18c8721a31ab137b844d41d697ab8d97ed432cb7600ec8562046b0ef3ce70d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/sb_model.bin",
+          "size": 52840,
+          "sha256": "749afd6aa6528d450444fed368ded561639be3dc659989925e818f288dcc5636"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/textnorm_params_embedded_ru_ru.pb",
+          "size": 249,
+          "sha256": "814d569c770e3187956bf340a79e8156222a47fd53ff12d380eab63061b94603"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/transliterate_android.far",
+          "size": 3043304,
+          "sha256": "c1a992b5cce4b8e82c5e9c1dc2cbe65c8ec1c639bdf0e0c5dd9dc0e46d749fea"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/variant_overrides_ru_ru.pb",
+          "size": 86,
+          "sha256": "319902de561a2c097f990d38c00b3631eed11a6a410b400cf7e0c025d66d7435"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/variant_selection_model_ru_ru_embedded.bin",
+          "size": 18360,
+          "sha256": "2bf8f2cc7229040b5b39703a3547d07f90239fed16c630f896c023f50002295d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/verbalize_android.far",
+          "size": 12607416,
+          "sha256": "5db4badce6e4c269e81ec25ddb1a45a2b6d5dfe15dd3bdf973cfd88218558610"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/xsampa_to_tts_to-ru_ru.far",
+          "size": 6502,
+          "sha256": "41a729795a7b9cc0758ef9ec1c903db6e6bb392c4b064b03e0413d0e6c974599"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "ru-ru-x-multi-seanet-r57__rud",
+          "locale": "ru-RU",
+          "name": "rud — Seanet",
+          "folder": "google/ru-ru/ru-ru-x-multi-seanet-r57",
+          "id": "3c0b2099c300b922"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ru-ru-x-multi-seanet-r57__rud",
+            "engine": "google",
+            "bytes": 42778298,
+            "speaker": "rud",
+            "contentId": "3c0b2099c300b922",
+            "name": "rud — Seanet",
+            "minAppCode": 4169,
+            "locale": "ru-RU",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 42778875
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714598138,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._rue_._Seanet.zip",
+      "size": 27347924,
+      "sha256": "62d0fd47c8c16e522206628816e7b8d7ce847a15d34a4f0bbf1ca0e1e344a524",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 244,
+          "sha256": "e9f36206746c0fc3f119504c247b2f5029e7d2e7523d951a4dec877424a19e7f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/backend_pipeline.pb",
+          "size": 2193,
+          "sha256": "ec8a78b6815c81dddebe37ca269a6a7094cb358bc88af1a7473eda32a10e3399"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/backend_pipeline.textproto",
+          "size": 6413,
+          "sha256": "9aa298b2fec9f4eb4e01be28e5ab584c167c69e8bcd6103b1e5d3c9800a80b2d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_model.params.pb",
+          "size": 4617,
+          "sha256": "51d87894192147afbb25265d3ac9decb9d5ca7e38bd05e5973573fb5f0301d42"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/burdock_valerian_model.tflite",
+          "size": 1659888,
+          "sha256": "7f3b43533c5432b03cb92a29b31fd5672c3a041bbbe4dbcfdb0de4124bd1d704"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "9b7c9156ddad5b08315d0253479c8ba09df416631c9991511e90d7ee6a651a8f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/lettuce_node_generator_params_embedded_ru_runtime.pb",
+          "size": 1504,
+          "sha256": "fe0581b4bad1b6ed7bb89f135613ce79db2cce3e3ba78b68d91cb4bd459c9c73"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/package_options.textproto",
+          "size": 1516,
+          "sha256": "db8143523325f7241dbb7556bb7da17e072654c0629a18f4ba9074e29216ffc1"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/pipeline.pb",
+          "size": 11194,
+          "sha256": "92cdcf8c245127c1773e6beed3020ac8ec06d28304481b26a9f07fd094c7d4c9"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_phonology.pb",
+          "size": 5016,
+          "sha256": "86a1576b82ba8293474d85402173ab10314c4a664d964ae2221592de6a7ac707"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc.pipeline.pb",
+          "size": 10443,
+          "sha256": "e7fe96854f962f0e7437c672686320750b88fdb848b9e97280a7f465d34761ca"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc_backend.pipeline.pb",
+          "size": 2010,
+          "sha256": "53c8ade7de3273c644cfe2e3ae534064777b29e8366e1379ed6bb5b01f101b22"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/ru_ru_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/sb_model.bin",
+          "size": 53008,
+          "sha256": "8015fe3a29558dfd0f5878834c534568e7d0aabc1bd79aad666a86d0ce67ff12"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-seanet-r57/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/backend_pipeline.pb",
+          "size": 2389,
+          "sha256": "5fb7d95ca6dcd75dab80c845b223d91367acfeee573d0970a23664047053f429"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/backend_pipeline.textproto",
+          "size": 6946,
+          "sha256": "1e6b8f945c47dcadd241beb4406d7493f9d90f57b1c26f4fbdaffd182cc11254"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_model.params.pb",
+          "size": 4617,
+          "sha256": "51d87894192147afbb25265d3ac9decb9d5ca7e38bd05e5973573fb5f0301d42"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/burdock_valerian_model.tflite",
+          "size": 1659888,
+          "sha256": "7f3b43533c5432b03cb92a29b31fd5672c3a041bbbe4dbcfdb0de4124bd1d704"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "9b7c9156ddad5b08315d0253479c8ba09df416631c9991511e90d7ee6a651a8f"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/converter_ru_ru_android.far",
+          "size": 1136,
+          "sha256": "bc40447a66139ab497b1f8770296c7218e5148ccf6663eaf69ee8a227ab1f538"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/disambiguation_rules_ru_ru.pb",
+          "size": 720307,
+          "sha256": "52c9c96da88066adb8df92af8e7688110c5df5c83d0ad9481f33787b0900df93"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/feats_android.far",
+          "size": 2359,
+          "sha256": "66009b0bcce7c18d981199934e7249aa418173af622caad88e806c5c0af04f69"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/g2p_m3_syls0_stress0_ru-RU.fst",
+          "size": 355816,
+          "sha256": "f6d8f2d2141e43d4c083a68e6776c7666c9210059ae076921bdd977f2a1eec1d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ipa_to_tts_to-ru_ru.far",
+          "size": 80670,
+          "sha256": "71a511300711b09e785ffc70868bdd183e54b1529c4805f52c57fa7a1fdf108b"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_classify_embedded_ru_generated_android.far",
+          "size": 3803273,
+          "sha256": "cf30c6fa36bc4571dedde18d768f4daab887a6ac2538a463f7c2eb1291ef8242"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_model.fb",
+          "size": 1902528,
+          "sha256": "6dcffcf7b1ef4c60b6ad17fb49d9ca78d672e4b90e81033e5e82c5b8c34b4b8d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lettuce_node_generator_params_embedded_ru_runtime.pb",
+          "size": 1504,
+          "sha256": "fe0581b4bad1b6ed7bb89f135613ce79db2cce3e3ba78b68d91cb4bd459c9c73"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/model_farm32.pb",
+          "size": 400016,
+          "sha256": "844bb54c83ad4695bdb603244c78a772a7394853ba9653d09fbc445a5aeef83e"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/morphology_lexicon.binarypb",
+          "size": 217146,
+          "sha256": "15cd8ac3b64d09cc125c206b8514650240219a8af9f0f90653421c2e8113bef2"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/morphosyntactic_mapping.pb",
+          "size": 377,
+          "sha256": "8b0f3fc162bea9c1913c062c90a4d76ee917890fd46338ad64d371495a7325c8"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/package_options.textproto",
+          "size": 1438,
+          "sha256": "1ee720044dfba17d1fa2fe7fba52df302dfd49df659c4c00c629c4817a28069d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/pipeline.pb",
+          "size": 10815,
+          "sha256": "9e529b6cad297c26261945db22f9ce86ad97a022d737a46108a4b0094e7bd0d6"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/punctuation.pb",
+          "size": 452,
+          "sha256": "53aa4c98937b771c7a775efd4d00389298ce9735432524d832f2a08889d623ed"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/regexp_rewrite.pb",
+          "size": 47725,
+          "sha256": "4314ba480a84e0eda4989ed054c4bcd377dab30b987c7f18c5f049792e0ef880"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_morphology",
+          "size": 4688376,
+          "sha256": "4933a13fa6ac3c25db6416029be0ca51a313a6d71d3ae137fe0f7a6951db4df8"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru.hlex.bin",
+          "size": 8563056,
+          "sha256": "1aa7ae94551ca6a36b20d7f3248a3a4fc80ff675ff98274d6ba962c71dcd9223"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_phonology.pb",
+          "size": 5016,
+          "sha256": "86a1576b82ba8293474d85402173ab10314c4a664d964ae2221592de6a7ac707"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 10628,
+          "sha256": "3bf03e8d006ae9055742f0d24db0893dc7e1fce9646c67b4f981f3ad38c964f3"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2195,
+          "sha256": "3aaa37adcaf30b2134d5e74b4ad3697f579ea69d448a7c2c3279b692aeaf6651"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_ru_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/ru_verbalize_spec.pb",
+          "size": 3831,
+          "sha256": "8d18c8721a31ab137b844d41d697ab8d97ed432cb7600ec8562046b0ef3ce70d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/sb_model.bin",
+          "size": 52840,
+          "sha256": "749afd6aa6528d450444fed368ded561639be3dc659989925e818f288dcc5636"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/textnorm_params_embedded_ru_ru.pb",
+          "size": 249,
+          "sha256": "814d569c770e3187956bf340a79e8156222a47fd53ff12d380eab63061b94603"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/transliterate_android.far",
+          "size": 3043304,
+          "sha256": "c1a992b5cce4b8e82c5e9c1dc2cbe65c8ec1c639bdf0e0c5dd9dc0e46d749fea"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/variant_overrides_ru_ru.pb",
+          "size": 86,
+          "sha256": "319902de561a2c097f990d38c00b3631eed11a6a410b400cf7e0c025d66d7435"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/variant_selection_model_ru_ru_embedded.bin",
+          "size": 18360,
+          "sha256": "2bf8f2cc7229040b5b39703a3547d07f90239fed16c630f896c023f50002295d"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/verbalize_android.far",
+          "size": 12607416,
+          "sha256": "5db4badce6e4c269e81ec25ddb1a45a2b6d5dfe15dd3bdf973cfd88218558610"
+        },
+        {
+          "path": "google/ru-ru/ru-ru-x-multi-r57/xsampa_to_tts_to-ru_ru.far",
+          "size": 6502,
+          "sha256": "41a729795a7b9cc0758ef9ec1c903db6e6bb392c4b064b03e0413d0e6c974599"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "ru-ru-x-multi-seanet-r57__rue",
+          "locale": "ru-RU",
+          "name": "rue — Seanet",
+          "folder": "google/ru-ru/ru-ru-x-multi-seanet-r57",
+          "id": "8190d0dff9ff7d97"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ru-ru-x-multi-seanet-r57__rue",
+            "engine": "google",
+            "bytes": 42778298,
+            "speaker": "rue",
+            "contentId": "8190d0dff9ff7d97",
+            "name": "rue — Seanet",
+            "minAppCode": 4169,
+            "locale": "ru-RU",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 42778879
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
       "assetId": 714596023,
       "releaseId": 434895762,
       "tag": "voices-001",
