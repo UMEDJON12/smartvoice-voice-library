@@ -2,6 +2,137 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713565945,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Nanami-ja-JP.zip",
+      "size": 49098557,
+      "sha256": "f348c1d2acfdfa7a787fc3e26a12761e50c3060cad481e07ed4b83c6387ab867",
+      "files": [
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/1041.INI",
+          "size": 834,
+          "sha256": "56569bf089b5bad13f2eade0ed96c78684f662ecbb5f22449a880ea6d067d568"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "ffed84d2f29e4cd15b8ca557fb5325293e367a598c47e4c18fc89e681b3cae15"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/am_v5_encoder.bin",
+          "size": 2202390,
+          "sha256": "94cd9ae27761e039359469ea1cbf40e6b661f240882a5e6f9eea4ca6e004bc9b"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/device_vocoder_v6_streaming.bin",
+          "size": 2407036,
+          "sha256": "726db2bb2ef246469cfa3e568528a23ae18a7c18c9c338806f10806d3e65fe02"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/JaJP.address.dat",
+          "size": 5512,
+          "sha256": "c845ff049a48fbbb9ad4b974a71e02b9df65d6dbef69be56d8104ae10cf2e1df"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/JaJP.companyname.dat",
+          "size": 8544,
+          "sha256": "2a9a1c8564ebdc6682b3b51abdc64e60ba9bf7498206dc0317d90a1d2b12a8fe"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/JaJP.message.dat",
+          "size": 5944,
+          "sha256": "3c299ac0ccc6abcd3ae2ff8ff7594aa337fd9077853711a7e09fede9dcbd04b0"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/JaJP.name.dat",
+          "size": 87048,
+          "sha256": "4d9ef05d93bf8ae676947c99eb5220a4d9fd550999199db88ad41e7bd796d281"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/MSTTSLocEnUS.dat",
+          "size": 23277464,
+          "sha256": "fc3657590a78e826e55ec8114249c6ef6ff78c7bfc68ab5d799d19dd28014314"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/MSTTSLocJaJP.dat",
+          "size": 38638408,
+          "sha256": "49ee7ba6a332fd2e187d62d6c01f882ca5543aef32299078907d391935b0621c"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/MSTTSLocJaJP.ini",
+          "size": 4376,
+          "sha256": "4dddcec00c3a31e53db486906e0967e294523a27ca47735333951deca8e01bab"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/phones.txt",
+          "size": 1370,
+          "sha256": "91c6b098926c4d5bc799a3f4978e9aa4d01c76047b86caccad9e1fc3aa3a4fb7"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/Tokens.xml",
+          "size": 1219,
+          "sha256": "bc496a39e3eb865d9b030b7d366cce533b23f7314e6e136be6719066cc82dc39"
+        },
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Nanami-ja-JPipi1dy0m.pht/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocJaJP.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1041"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ja-JP-NanamiNeural",
+            "engine": "microsoft",
+            "bytes": 67382053,
+            "speaker": "ja-JP-NanamiNeural",
+            "contentId": "2f67f58ff84d13a2",
+            "name": "Nanami",
+            "minAppCode": 4169,
+            "locale": "ja-JP",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 67383165
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "ja-JP-NanamiNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ]
+    },
+    {
       "assetId": 713505835,
       "releaseId": 434895762,
       "tag": "voices-001",
