@@ -2,6 +2,2571 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 714618159,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._arb_._Seanet.zip",
+      "size": 20884022,
+      "sha256": "2740d516306e2823b88361e5d8822b4507f521677081e721b0883b6fe1202679",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 239,
+          "sha256": "0548871eff486d18d4aa7a7cac461b2dfd3ee7449ca41800808e9e7cc538a63b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_phonology.pb",
+          "size": 2688,
+          "sha256": "d15cd0e2a2f663883e55e901f1457757872bdb276b2ea562d11fb4138551758a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc.pipeline.pb",
+          "size": 12966,
+          "sha256": "b8e8c8b920c1fe25017d816f6ebc45b9573d781d1a3326fe9e12ef86f5658229"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc_backend.pipeline.pb",
+          "size": 1962,
+          "sha256": "198b57705dfd81c18fce56f646ac9d6f98538d72e390e24e63a512ebac834d25"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/backend_pipeline.pb",
+          "size": 2147,
+          "sha256": "b269cd5497d3755cbb6dc649242ebb72ddcc0fe19f4b34b664800a5a34d419ac"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/backend_pipeline.textproto",
+          "size": 6217,
+          "sha256": "374710d884993364bf1ae421e6eada2efad8ebd8daa3a992989e5db03d42424b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_model.params.pb",
+          "size": 5137,
+          "sha256": "b009c92aaab210942323bc3247a85631d73cc45f89c537ad63eaec2cabf86c8a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_valerian_model.tflite",
+          "size": 1675008,
+          "sha256": "bb03f58a6b94c5233c5abc9e00e46cbbbd7363d56e3b5a3299c883272a97d428"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "effe40a8fe118d89da833d9dbc000f22a3c7984c28506d15db69bee52c2bf8e9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/lettuce_node_generator_params_embedded_xa_runtime.pb",
+          "size": 1115,
+          "sha256": "cc43d31aef9229273c1c3f02d9fe1956b193d80ead6157f137bbd8e3a7dbf610"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/package_options.textproto",
+          "size": 1518,
+          "sha256": "5650f210705f0a616d5408c70e912c236c8c1bed0a7571daa6ef74ad6850a0f1"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/pipeline.pb",
+          "size": 13995,
+          "sha256": "78b3386a8b15f3a7923671e0352dada4ed9e25c637f2465cca2d5152d7ae9863"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/affixes_en_us_android.far",
+          "size": 36782,
+          "sha256": "337bad8a56ecb662d988eaab09879d8aa39eb2c8750cd5d28501a771d6f7bc43"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/affixes_params_en_us.pb",
+          "size": 420,
+          "sha256": "c8db906f5bfd7046cebf43bee1ae4f4e2b247538e5403c7b45d58638c4a42975"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_verbalize_spec.pb",
+          "size": 3478,
+          "sha256": "7434ed95b6e93a1ba8ee2573399ce6ec3678b2d7944402000ba97cb5722ba5ec"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa.hlex.bin",
+          "size": 950496,
+          "sha256": "80a0f3259881988d065cc3b24d934139bda6f30780028ace90fd0dddbf51901b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_phonology.pb",
+          "size": 2688,
+          "sha256": "d15cd0e2a2f663883e55e901f1457757872bdb276b2ea562d11fb4138551758a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 13140,
+          "sha256": "4aeb1a30e0dce4e83feda0076fbea1dc6d1634bec71bedbc4fa429baca455fac"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2136,
+          "sha256": "e9529606b2d315e8725c9930587ef6e5b5510f1ead20d584a2287eb28ea8373a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/backend_pipeline.pb",
+          "size": 2332,
+          "sha256": "54978fdd60824602c5ffd303df6a5d48b6403aa3d88130b88a957ab7c5ba58b0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/backend_pipeline.textproto",
+          "size": 6741,
+          "sha256": "7f34ae8270a8c1051796a8ad00df661826ea7cb56dc0b53f4c262afbb428111d"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_model.params.pb",
+          "size": 5137,
+          "sha256": "b009c92aaab210942323bc3247a85631d73cc45f89c537ad63eaec2cabf86c8a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_valerian_model.tflite",
+          "size": 1675008,
+          "sha256": "bb03f58a6b94c5233c5abc9e00e46cbbbd7363d56e3b5a3299c883272a97d428"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "effe40a8fe118d89da833d9dbc000f22a3c7984c28506d15db69bee52c2bf8e9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/converter_ar_xa_android.far",
+          "size": 1184,
+          "sha256": "33439d50396366edbf3858f7a3eba3ebbb749a381335f112e9a0749c4195a7a7"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/default_normalizations.pb",
+          "size": 4091,
+          "sha256": "9142007222b1ae870b7e7e323b6b74d66a18b0e313c14e1515677d619f6f6aff"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/diacritics_encoding.pb",
+          "size": 262,
+          "sha256": "66d7d4517e9cc090e41d63b5a919fcdb6c152a3d38efef68c6bd8cafed4f5619"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/disambiguation_rules_ar_xa.pb",
+          "size": 6548,
+          "sha256": "8b82c9f135c0d08a74f0a2550747447e3c242e7cefea5318dbf6cce7b9471f6b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/disambiguation_rules_en_us.pb",
+          "size": 317746,
+          "sha256": "290b83574ce4f827e691c82deac28c0d2d48af5995cde1e129b2a6c1cdc87920"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us.hlex.bin",
+          "size": 5118800,
+          "sha256": "7c4e7736e7fe5e2fc28ed6bd36274d17a78328ee99c10c9554954c0124277be4"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us_phonology.pb",
+          "size": 2214,
+          "sha256": "2b0334e589a3dc6394f8e767f40e822355377947625f6661c779cd174c81e593"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us_pronounce.far",
+          "size": 5040,
+          "sha256": "c1054a1c11b2bf80d03c19808bc678e7ebe9041198f4a2ae76473316e7b30802"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/g2p_m3_syls0_stress0_en-US.fst",
+          "size": 700928,
+          "sha256": "1d1c5d69954c5f211ed8b80885295628550b3ea73340fa670bb1787f7929186e"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/g2p_m3_syls0_stress1_ar-XA.fst",
+          "size": 313824,
+          "sha256": "bcd1b3023b7c80d870d894b66b448dac05bfc97218926b6f382e1878f2ae298d"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/graphones_en_us.pb",
+          "size": 4635,
+          "sha256": "d44822edab7f9fb9592017c1f5f7f8c93f83e61c00ada64550f2165c9b8af0ad"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/homographs_model_en_us_embedded.bin",
+          "size": 398840,
+          "sha256": "1ef4c1ff642a7883a1461191df7e9b9172a566b8f0fcb83733fc43d9981228de"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ipa_to_tts_to-ar_xa.far",
+          "size": 73966,
+          "sha256": "684b88befe8ef9f1eb0e85c6e67e62fceca19305794e3e09120d968459f0a3c9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_classify_embedded_xa_generated_android.far",
+          "size": 2790841,
+          "sha256": "70525096c33a9297d7ee8b5d741a61adda0c97a1081f5afc3b42af30264785b1"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_model.fb",
+          "size": 215104,
+          "sha256": "05cfb2653a133625225530579d5650217cf2c8a45c5af185aca1caf7a1a82e1f"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_node_generator_params_embedded_xa_runtime.pb",
+          "size": 1115,
+          "sha256": "cc43d31aef9229273c1c3f02d9fe1956b193d80ead6157f137bbd8e3a7dbf610"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/morphosyntactic_mapping.pb",
+          "size": 282,
+          "sha256": "3e4c0deb1d3d60e1328a2696edb9ad012adc3bbbab762a34e9fd2ff3d99104d0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/normalization_overrides.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/package_options.textproto",
+          "size": 1441,
+          "sha256": "0d7202fd0045044306c40b3eee097c7029e050c42e8ce80ee2d443845d863a75"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/pipeline.pb",
+          "size": 13329,
+          "sha256": "54687df3e0f5f21af5333a46db15831061024df3155a574f976b6535d831a1c6"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/regexp_rewrite.pb",
+          "size": 66836,
+          "sha256": "b9d9d12fb28e82864cb329c91068da55d0a2c86e5e373fb46db935bd1bc387ee"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/sb_model.bin",
+          "size": 323408,
+          "sha256": "f35147e62f0dbf9fdecf672c35eddf80708300992f3ccbb031cfd88ffe69f991"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tensorflow_lite_vocalizer_files_archive.ear",
+          "size": 3819372,
+          "sha256": "424007bf9c74d2fc0dd3f0f61ceff8fe45e7e85128b2e729c15c0db40840e08e"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tensorflow_lite_vocalizer_options.pb",
+          "size": 161,
+          "sha256": "ae5e8df95f4cc04d97a29edf951f2b0c5bd63dcd89b7fdf344e48609d99f3587"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/textnorm_params_embedded_ar_xa.pb",
+          "size": 165,
+          "sha256": "08ea66ecf15e4517e9f9dbfd05e7ae0120f670aefef912482980601dcb5be557"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/textnorm_params_embedded_en_us.pb",
+          "size": 321,
+          "sha256": "ce6305a816a6dd695f5f2a380890f83011243cf8ff10960fa77f0a3287d96883"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tflite_model.tflite",
+          "size": 3818600,
+          "sha256": "ec0980aaa031c6ab9e6bd70a84513ef2f56d94f889f401e248ddbf71fe90f7dd"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tts_en_us-to-ar_xa.far",
+          "size": 3848,
+          "sha256": "c16e69a0c012c56f264c654b077f568c586b49da05990bcfdd5640c5174a90a0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_overrides_ar_xa.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_overrides_en_us.pb",
+          "size": 1525,
+          "sha256": "1c404c2deb79dbf2a653c1e319e5259f7968427882e7e5f9f884ac261058c227"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_selection_model_en_us_embedded.bin",
+          "size": 221608,
+          "sha256": "857425864181b804ed31c9314ae13a0bf29ce6a658f215c803ef8da4439f99c3"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/verbalize_android.far",
+          "size": 2625816,
+          "sha256": "445f9f78cb16cdcd8bb76761d3f8c74b8d36e979a5a8a4328581c1eebea14c8c"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/xa_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/xsampa_to_tts_to-ar_xa.far",
+          "size": 6628,
+          "sha256": "eb87bb68f2e108941a67dd0898c05916be6792b37290e0540a5d83d0f889accd"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "ar-xa-x-multi-seanet-r47__arb",
+          "locale": "ar",
+          "name": "arb — Seanet",
+          "folder": "google/ar-xa/ar-xa-x-multi-seanet-r47",
+          "id": "559e3a00ab928623"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ar-xa-x-multi-seanet-r47__arb",
+            "engine": "google",
+            "bytes": 28078076,
+            "speaker": "arb",
+            "contentId": "559e3a00ab928623",
+            "name": "arb — Seanet",
+            "minAppCode": 4169,
+            "locale": "ar",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 28078647
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714617673,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._ard_._Seanet.zip",
+      "size": 20884021,
+      "sha256": "8270c2747a614fa720e712b73d5d5c69b7fec171abd6650bc8f416f5499e01be",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 239,
+          "sha256": "70d6126a2fe9550d60b5d9cf4beb18c375e1088a40d3c6463204003d29d07ca2"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_phonology.pb",
+          "size": 2688,
+          "sha256": "d15cd0e2a2f663883e55e901f1457757872bdb276b2ea562d11fb4138551758a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc.pipeline.pb",
+          "size": 12966,
+          "sha256": "b8e8c8b920c1fe25017d816f6ebc45b9573d781d1a3326fe9e12ef86f5658229"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc_backend.pipeline.pb",
+          "size": 1962,
+          "sha256": "198b57705dfd81c18fce56f646ac9d6f98538d72e390e24e63a512ebac834d25"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/backend_pipeline.pb",
+          "size": 2147,
+          "sha256": "b269cd5497d3755cbb6dc649242ebb72ddcc0fe19f4b34b664800a5a34d419ac"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/backend_pipeline.textproto",
+          "size": 6217,
+          "sha256": "374710d884993364bf1ae421e6eada2efad8ebd8daa3a992989e5db03d42424b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_model.params.pb",
+          "size": 5137,
+          "sha256": "b009c92aaab210942323bc3247a85631d73cc45f89c537ad63eaec2cabf86c8a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_valerian_model.tflite",
+          "size": 1675008,
+          "sha256": "bb03f58a6b94c5233c5abc9e00e46cbbbd7363d56e3b5a3299c883272a97d428"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "effe40a8fe118d89da833d9dbc000f22a3c7984c28506d15db69bee52c2bf8e9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/lettuce_node_generator_params_embedded_xa_runtime.pb",
+          "size": 1115,
+          "sha256": "cc43d31aef9229273c1c3f02d9fe1956b193d80ead6157f137bbd8e3a7dbf610"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/package_options.textproto",
+          "size": 1518,
+          "sha256": "5650f210705f0a616d5408c70e912c236c8c1bed0a7571daa6ef74ad6850a0f1"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/pipeline.pb",
+          "size": 13995,
+          "sha256": "78b3386a8b15f3a7923671e0352dada4ed9e25c637f2465cca2d5152d7ae9863"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/affixes_en_us_android.far",
+          "size": 36782,
+          "sha256": "337bad8a56ecb662d988eaab09879d8aa39eb2c8750cd5d28501a771d6f7bc43"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/affixes_params_en_us.pb",
+          "size": 420,
+          "sha256": "c8db906f5bfd7046cebf43bee1ae4f4e2b247538e5403c7b45d58638c4a42975"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_verbalize_spec.pb",
+          "size": 3478,
+          "sha256": "7434ed95b6e93a1ba8ee2573399ce6ec3678b2d7944402000ba97cb5722ba5ec"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa.hlex.bin",
+          "size": 950496,
+          "sha256": "80a0f3259881988d065cc3b24d934139bda6f30780028ace90fd0dddbf51901b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_phonology.pb",
+          "size": 2688,
+          "sha256": "d15cd0e2a2f663883e55e901f1457757872bdb276b2ea562d11fb4138551758a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 13140,
+          "sha256": "4aeb1a30e0dce4e83feda0076fbea1dc6d1634bec71bedbc4fa429baca455fac"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2136,
+          "sha256": "e9529606b2d315e8725c9930587ef6e5b5510f1ead20d584a2287eb28ea8373a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/backend_pipeline.pb",
+          "size": 2332,
+          "sha256": "54978fdd60824602c5ffd303df6a5d48b6403aa3d88130b88a957ab7c5ba58b0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/backend_pipeline.textproto",
+          "size": 6741,
+          "sha256": "7f34ae8270a8c1051796a8ad00df661826ea7cb56dc0b53f4c262afbb428111d"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_model.params.pb",
+          "size": 5137,
+          "sha256": "b009c92aaab210942323bc3247a85631d73cc45f89c537ad63eaec2cabf86c8a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_valerian_model.tflite",
+          "size": 1675008,
+          "sha256": "bb03f58a6b94c5233c5abc9e00e46cbbbd7363d56e3b5a3299c883272a97d428"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "effe40a8fe118d89da833d9dbc000f22a3c7984c28506d15db69bee52c2bf8e9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/converter_ar_xa_android.far",
+          "size": 1184,
+          "sha256": "33439d50396366edbf3858f7a3eba3ebbb749a381335f112e9a0749c4195a7a7"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/default_normalizations.pb",
+          "size": 4091,
+          "sha256": "9142007222b1ae870b7e7e323b6b74d66a18b0e313c14e1515677d619f6f6aff"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/diacritics_encoding.pb",
+          "size": 262,
+          "sha256": "66d7d4517e9cc090e41d63b5a919fcdb6c152a3d38efef68c6bd8cafed4f5619"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/disambiguation_rules_ar_xa.pb",
+          "size": 6548,
+          "sha256": "8b82c9f135c0d08a74f0a2550747447e3c242e7cefea5318dbf6cce7b9471f6b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/disambiguation_rules_en_us.pb",
+          "size": 317746,
+          "sha256": "290b83574ce4f827e691c82deac28c0d2d48af5995cde1e129b2a6c1cdc87920"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us.hlex.bin",
+          "size": 5118800,
+          "sha256": "7c4e7736e7fe5e2fc28ed6bd36274d17a78328ee99c10c9554954c0124277be4"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us_phonology.pb",
+          "size": 2214,
+          "sha256": "2b0334e589a3dc6394f8e767f40e822355377947625f6661c779cd174c81e593"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us_pronounce.far",
+          "size": 5040,
+          "sha256": "c1054a1c11b2bf80d03c19808bc678e7ebe9041198f4a2ae76473316e7b30802"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/g2p_m3_syls0_stress0_en-US.fst",
+          "size": 700928,
+          "sha256": "1d1c5d69954c5f211ed8b80885295628550b3ea73340fa670bb1787f7929186e"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/g2p_m3_syls0_stress1_ar-XA.fst",
+          "size": 313824,
+          "sha256": "bcd1b3023b7c80d870d894b66b448dac05bfc97218926b6f382e1878f2ae298d"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/graphones_en_us.pb",
+          "size": 4635,
+          "sha256": "d44822edab7f9fb9592017c1f5f7f8c93f83e61c00ada64550f2165c9b8af0ad"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/homographs_model_en_us_embedded.bin",
+          "size": 398840,
+          "sha256": "1ef4c1ff642a7883a1461191df7e9b9172a566b8f0fcb83733fc43d9981228de"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ipa_to_tts_to-ar_xa.far",
+          "size": 73966,
+          "sha256": "684b88befe8ef9f1eb0e85c6e67e62fceca19305794e3e09120d968459f0a3c9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_classify_embedded_xa_generated_android.far",
+          "size": 2790841,
+          "sha256": "70525096c33a9297d7ee8b5d741a61adda0c97a1081f5afc3b42af30264785b1"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_model.fb",
+          "size": 215104,
+          "sha256": "05cfb2653a133625225530579d5650217cf2c8a45c5af185aca1caf7a1a82e1f"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_node_generator_params_embedded_xa_runtime.pb",
+          "size": 1115,
+          "sha256": "cc43d31aef9229273c1c3f02d9fe1956b193d80ead6157f137bbd8e3a7dbf610"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/morphosyntactic_mapping.pb",
+          "size": 282,
+          "sha256": "3e4c0deb1d3d60e1328a2696edb9ad012adc3bbbab762a34e9fd2ff3d99104d0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/normalization_overrides.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/package_options.textproto",
+          "size": 1441,
+          "sha256": "0d7202fd0045044306c40b3eee097c7029e050c42e8ce80ee2d443845d863a75"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/pipeline.pb",
+          "size": 13329,
+          "sha256": "54687df3e0f5f21af5333a46db15831061024df3155a574f976b6535d831a1c6"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/regexp_rewrite.pb",
+          "size": 66836,
+          "sha256": "b9d9d12fb28e82864cb329c91068da55d0a2c86e5e373fb46db935bd1bc387ee"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/sb_model.bin",
+          "size": 323408,
+          "sha256": "f35147e62f0dbf9fdecf672c35eddf80708300992f3ccbb031cfd88ffe69f991"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tensorflow_lite_vocalizer_files_archive.ear",
+          "size": 3819372,
+          "sha256": "424007bf9c74d2fc0dd3f0f61ceff8fe45e7e85128b2e729c15c0db40840e08e"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tensorflow_lite_vocalizer_options.pb",
+          "size": 161,
+          "sha256": "ae5e8df95f4cc04d97a29edf951f2b0c5bd63dcd89b7fdf344e48609d99f3587"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/textnorm_params_embedded_ar_xa.pb",
+          "size": 165,
+          "sha256": "08ea66ecf15e4517e9f9dbfd05e7ae0120f670aefef912482980601dcb5be557"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/textnorm_params_embedded_en_us.pb",
+          "size": 321,
+          "sha256": "ce6305a816a6dd695f5f2a380890f83011243cf8ff10960fa77f0a3287d96883"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tflite_model.tflite",
+          "size": 3818600,
+          "sha256": "ec0980aaa031c6ab9e6bd70a84513ef2f56d94f889f401e248ddbf71fe90f7dd"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tts_en_us-to-ar_xa.far",
+          "size": 3848,
+          "sha256": "c16e69a0c012c56f264c654b077f568c586b49da05990bcfdd5640c5174a90a0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_overrides_ar_xa.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_overrides_en_us.pb",
+          "size": 1525,
+          "sha256": "1c404c2deb79dbf2a653c1e319e5259f7968427882e7e5f9f884ac261058c227"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_selection_model_en_us_embedded.bin",
+          "size": 221608,
+          "sha256": "857425864181b804ed31c9314ae13a0bf29ce6a658f215c803ef8da4439f99c3"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/verbalize_android.far",
+          "size": 2625816,
+          "sha256": "445f9f78cb16cdcd8bb76761d3f8c74b8d36e979a5a8a4328581c1eebea14c8c"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/xa_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/xsampa_to_tts_to-ar_xa.far",
+          "size": 6628,
+          "sha256": "eb87bb68f2e108941a67dd0898c05916be6792b37290e0540a5d83d0f889accd"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "ar-xa-x-multi-seanet-r47__ard",
+          "locale": "ar",
+          "name": "ard — Seanet",
+          "folder": "google/ar-xa/ar-xa-x-multi-seanet-r47",
+          "id": "bd37f96b9d55052d"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ar-xa-x-multi-seanet-r47__ard",
+            "engine": "google",
+            "bytes": 28078076,
+            "speaker": "ard",
+            "contentId": "bd37f96b9d55052d",
+            "name": "ard — Seanet",
+            "minAppCode": 4169,
+            "locale": "ar",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 28078647
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714617051,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._are_._Seanet.zip",
+      "size": 20884019,
+      "sha256": "3a8d5c4e2c3b5aa35e81f1511f1ce8b9399156806fcd3c7f38267a0646fbb8f9",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 239,
+          "sha256": "bb89a344edbfe72c22d58d93ba282a4a9e126fc4f0b2d655a2b77f51402eaee5"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_phonology.pb",
+          "size": 2688,
+          "sha256": "d15cd0e2a2f663883e55e901f1457757872bdb276b2ea562d11fb4138551758a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc.pipeline.pb",
+          "size": 12966,
+          "sha256": "b8e8c8b920c1fe25017d816f6ebc45b9573d781d1a3326fe9e12ef86f5658229"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc_backend.pipeline.pb",
+          "size": 1962,
+          "sha256": "198b57705dfd81c18fce56f646ac9d6f98538d72e390e24e63a512ebac834d25"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/backend_pipeline.pb",
+          "size": 2147,
+          "sha256": "b269cd5497d3755cbb6dc649242ebb72ddcc0fe19f4b34b664800a5a34d419ac"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/backend_pipeline.textproto",
+          "size": 6217,
+          "sha256": "374710d884993364bf1ae421e6eada2efad8ebd8daa3a992989e5db03d42424b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_model.params.pb",
+          "size": 5137,
+          "sha256": "b009c92aaab210942323bc3247a85631d73cc45f89c537ad63eaec2cabf86c8a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_valerian_model.tflite",
+          "size": 1675008,
+          "sha256": "bb03f58a6b94c5233c5abc9e00e46cbbbd7363d56e3b5a3299c883272a97d428"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "effe40a8fe118d89da833d9dbc000f22a3c7984c28506d15db69bee52c2bf8e9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/lettuce_node_generator_params_embedded_xa_runtime.pb",
+          "size": 1115,
+          "sha256": "cc43d31aef9229273c1c3f02d9fe1956b193d80ead6157f137bbd8e3a7dbf610"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/package_options.textproto",
+          "size": 1518,
+          "sha256": "5650f210705f0a616d5408c70e912c236c8c1bed0a7571daa6ef74ad6850a0f1"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/pipeline.pb",
+          "size": 13995,
+          "sha256": "78b3386a8b15f3a7923671e0352dada4ed9e25c637f2465cca2d5152d7ae9863"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/affixes_en_us_android.far",
+          "size": 36782,
+          "sha256": "337bad8a56ecb662d988eaab09879d8aa39eb2c8750cd5d28501a771d6f7bc43"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/affixes_params_en_us.pb",
+          "size": 420,
+          "sha256": "c8db906f5bfd7046cebf43bee1ae4f4e2b247538e5403c7b45d58638c4a42975"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_verbalize_spec.pb",
+          "size": 3478,
+          "sha256": "7434ed95b6e93a1ba8ee2573399ce6ec3678b2d7944402000ba97cb5722ba5ec"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa.hlex.bin",
+          "size": 950496,
+          "sha256": "80a0f3259881988d065cc3b24d934139bda6f30780028ace90fd0dddbf51901b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_phonology.pb",
+          "size": 2688,
+          "sha256": "d15cd0e2a2f663883e55e901f1457757872bdb276b2ea562d11fb4138551758a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 13140,
+          "sha256": "4aeb1a30e0dce4e83feda0076fbea1dc6d1634bec71bedbc4fa429baca455fac"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2136,
+          "sha256": "e9529606b2d315e8725c9930587ef6e5b5510f1ead20d584a2287eb28ea8373a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/backend_pipeline.pb",
+          "size": 2332,
+          "sha256": "54978fdd60824602c5ffd303df6a5d48b6403aa3d88130b88a957ab7c5ba58b0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/backend_pipeline.textproto",
+          "size": 6741,
+          "sha256": "7f34ae8270a8c1051796a8ad00df661826ea7cb56dc0b53f4c262afbb428111d"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_model.params.pb",
+          "size": 5137,
+          "sha256": "b009c92aaab210942323bc3247a85631d73cc45f89c537ad63eaec2cabf86c8a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_valerian_model.tflite",
+          "size": 1675008,
+          "sha256": "bb03f58a6b94c5233c5abc9e00e46cbbbd7363d56e3b5a3299c883272a97d428"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "effe40a8fe118d89da833d9dbc000f22a3c7984c28506d15db69bee52c2bf8e9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/converter_ar_xa_android.far",
+          "size": 1184,
+          "sha256": "33439d50396366edbf3858f7a3eba3ebbb749a381335f112e9a0749c4195a7a7"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/default_normalizations.pb",
+          "size": 4091,
+          "sha256": "9142007222b1ae870b7e7e323b6b74d66a18b0e313c14e1515677d619f6f6aff"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/diacritics_encoding.pb",
+          "size": 262,
+          "sha256": "66d7d4517e9cc090e41d63b5a919fcdb6c152a3d38efef68c6bd8cafed4f5619"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/disambiguation_rules_ar_xa.pb",
+          "size": 6548,
+          "sha256": "8b82c9f135c0d08a74f0a2550747447e3c242e7cefea5318dbf6cce7b9471f6b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/disambiguation_rules_en_us.pb",
+          "size": 317746,
+          "sha256": "290b83574ce4f827e691c82deac28c0d2d48af5995cde1e129b2a6c1cdc87920"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us.hlex.bin",
+          "size": 5118800,
+          "sha256": "7c4e7736e7fe5e2fc28ed6bd36274d17a78328ee99c10c9554954c0124277be4"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us_phonology.pb",
+          "size": 2214,
+          "sha256": "2b0334e589a3dc6394f8e767f40e822355377947625f6661c779cd174c81e593"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us_pronounce.far",
+          "size": 5040,
+          "sha256": "c1054a1c11b2bf80d03c19808bc678e7ebe9041198f4a2ae76473316e7b30802"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/g2p_m3_syls0_stress0_en-US.fst",
+          "size": 700928,
+          "sha256": "1d1c5d69954c5f211ed8b80885295628550b3ea73340fa670bb1787f7929186e"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/g2p_m3_syls0_stress1_ar-XA.fst",
+          "size": 313824,
+          "sha256": "bcd1b3023b7c80d870d894b66b448dac05bfc97218926b6f382e1878f2ae298d"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/graphones_en_us.pb",
+          "size": 4635,
+          "sha256": "d44822edab7f9fb9592017c1f5f7f8c93f83e61c00ada64550f2165c9b8af0ad"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/homographs_model_en_us_embedded.bin",
+          "size": 398840,
+          "sha256": "1ef4c1ff642a7883a1461191df7e9b9172a566b8f0fcb83733fc43d9981228de"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ipa_to_tts_to-ar_xa.far",
+          "size": 73966,
+          "sha256": "684b88befe8ef9f1eb0e85c6e67e62fceca19305794e3e09120d968459f0a3c9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_classify_embedded_xa_generated_android.far",
+          "size": 2790841,
+          "sha256": "70525096c33a9297d7ee8b5d741a61adda0c97a1081f5afc3b42af30264785b1"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_model.fb",
+          "size": 215104,
+          "sha256": "05cfb2653a133625225530579d5650217cf2c8a45c5af185aca1caf7a1a82e1f"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_node_generator_params_embedded_xa_runtime.pb",
+          "size": 1115,
+          "sha256": "cc43d31aef9229273c1c3f02d9fe1956b193d80ead6157f137bbd8e3a7dbf610"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/morphosyntactic_mapping.pb",
+          "size": 282,
+          "sha256": "3e4c0deb1d3d60e1328a2696edb9ad012adc3bbbab762a34e9fd2ff3d99104d0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/normalization_overrides.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/package_options.textproto",
+          "size": 1441,
+          "sha256": "0d7202fd0045044306c40b3eee097c7029e050c42e8ce80ee2d443845d863a75"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/pipeline.pb",
+          "size": 13329,
+          "sha256": "54687df3e0f5f21af5333a46db15831061024df3155a574f976b6535d831a1c6"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/regexp_rewrite.pb",
+          "size": 66836,
+          "sha256": "b9d9d12fb28e82864cb329c91068da55d0a2c86e5e373fb46db935bd1bc387ee"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/sb_model.bin",
+          "size": 323408,
+          "sha256": "f35147e62f0dbf9fdecf672c35eddf80708300992f3ccbb031cfd88ffe69f991"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tensorflow_lite_vocalizer_files_archive.ear",
+          "size": 3819372,
+          "sha256": "424007bf9c74d2fc0dd3f0f61ceff8fe45e7e85128b2e729c15c0db40840e08e"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tensorflow_lite_vocalizer_options.pb",
+          "size": 161,
+          "sha256": "ae5e8df95f4cc04d97a29edf951f2b0c5bd63dcd89b7fdf344e48609d99f3587"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/textnorm_params_embedded_ar_xa.pb",
+          "size": 165,
+          "sha256": "08ea66ecf15e4517e9f9dbfd05e7ae0120f670aefef912482980601dcb5be557"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/textnorm_params_embedded_en_us.pb",
+          "size": 321,
+          "sha256": "ce6305a816a6dd695f5f2a380890f83011243cf8ff10960fa77f0a3287d96883"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tflite_model.tflite",
+          "size": 3818600,
+          "sha256": "ec0980aaa031c6ab9e6bd70a84513ef2f56d94f889f401e248ddbf71fe90f7dd"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tts_en_us-to-ar_xa.far",
+          "size": 3848,
+          "sha256": "c16e69a0c012c56f264c654b077f568c586b49da05990bcfdd5640c5174a90a0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_overrides_ar_xa.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_overrides_en_us.pb",
+          "size": 1525,
+          "sha256": "1c404c2deb79dbf2a653c1e319e5259f7968427882e7e5f9f884ac261058c227"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_selection_model_en_us_embedded.bin",
+          "size": 221608,
+          "sha256": "857425864181b804ed31c9314ae13a0bf29ce6a658f215c803ef8da4439f99c3"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/verbalize_android.far",
+          "size": 2625816,
+          "sha256": "445f9f78cb16cdcd8bb76761d3f8c74b8d36e979a5a8a4328581c1eebea14c8c"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/xa_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/xsampa_to_tts_to-ar_xa.far",
+          "size": 6628,
+          "sha256": "eb87bb68f2e108941a67dd0898c05916be6792b37290e0540a5d83d0f889accd"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "ar-xa-x-multi-seanet-r47__are",
+          "locale": "ar",
+          "name": "are — Seanet",
+          "folder": "google/ar-xa/ar-xa-x-multi-seanet-r47",
+          "id": "e1c1e64ec51442a4"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ar-xa-x-multi-seanet-r47__are",
+            "engine": "google",
+            "bytes": 28078076,
+            "speaker": "are",
+            "contentId": "e1c1e64ec51442a4",
+            "name": "are — Seanet",
+            "minAppCode": 4169,
+            "locale": "ar",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 28078647
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714616602,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._arz_._Seanet.zip",
+      "size": 20884024,
+      "sha256": "a64c9959fc21a3a78cca4bc2ba07a1151fe2d68a7b9270c0b25934af1e20aa97",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 241,
+          "sha256": "483613a24b97df4ddfbff110ce0d386a7eee60804c53cf14db8013b602f2b366"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_phonology.pb",
+          "size": 2688,
+          "sha256": "d15cd0e2a2f663883e55e901f1457757872bdb276b2ea562d11fb4138551758a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc.pipeline.pb",
+          "size": 12966,
+          "sha256": "b8e8c8b920c1fe25017d816f6ebc45b9573d781d1a3326fe9e12ef86f5658229"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc_backend.pipeline.pb",
+          "size": 1962,
+          "sha256": "198b57705dfd81c18fce56f646ac9d6f98538d72e390e24e63a512ebac834d25"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/ar_xa_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/backend_pipeline.pb",
+          "size": 2147,
+          "sha256": "b269cd5497d3755cbb6dc649242ebb72ddcc0fe19f4b34b664800a5a34d419ac"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/backend_pipeline.textproto",
+          "size": 6217,
+          "sha256": "374710d884993364bf1ae421e6eada2efad8ebd8daa3a992989e5db03d42424b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_model.params.pb",
+          "size": 5137,
+          "sha256": "b009c92aaab210942323bc3247a85631d73cc45f89c537ad63eaec2cabf86c8a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/burdock_valerian_model.tflite",
+          "size": 1675008,
+          "sha256": "bb03f58a6b94c5233c5abc9e00e46cbbbd7363d56e3b5a3299c883272a97d428"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "effe40a8fe118d89da833d9dbc000f22a3c7984c28506d15db69bee52c2bf8e9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/lettuce_node_generator_params_embedded_xa_runtime.pb",
+          "size": 1115,
+          "sha256": "cc43d31aef9229273c1c3f02d9fe1956b193d80ead6157f137bbd8e3a7dbf610"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/package_options.textproto",
+          "size": 1518,
+          "sha256": "5650f210705f0a616d5408c70e912c236c8c1bed0a7571daa6ef74ad6850a0f1"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/pipeline.pb",
+          "size": 13995,
+          "sha256": "78b3386a8b15f3a7923671e0352dada4ed9e25c637f2465cca2d5152d7ae9863"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-seanet-r47/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/affixes_en_us_android.far",
+          "size": 36782,
+          "sha256": "337bad8a56ecb662d988eaab09879d8aa39eb2c8750cd5d28501a771d6f7bc43"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/affixes_params_en_us.pb",
+          "size": 420,
+          "sha256": "c8db906f5bfd7046cebf43bee1ae4f4e2b247538e5403c7b45d58638c4a42975"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_verbalize_spec.pb",
+          "size": 3478,
+          "sha256": "7434ed95b6e93a1ba8ee2573399ce6ec3678b2d7944402000ba97cb5722ba5ec"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa.hlex.bin",
+          "size": 950496,
+          "sha256": "80a0f3259881988d065cc3b24d934139bda6f30780028ace90fd0dddbf51901b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_phonology.pb",
+          "size": 2688,
+          "sha256": "d15cd0e2a2f663883e55e901f1457757872bdb276b2ea562d11fb4138551758a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 13140,
+          "sha256": "4aeb1a30e0dce4e83feda0076fbea1dc6d1634bec71bedbc4fa429baca455fac"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2136,
+          "sha256": "e9529606b2d315e8725c9930587ef6e5b5510f1ead20d584a2287eb28ea8373a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ar_xa_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/backend_pipeline.pb",
+          "size": 2332,
+          "sha256": "54978fdd60824602c5ffd303df6a5d48b6403aa3d88130b88a957ab7c5ba58b0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/backend_pipeline.textproto",
+          "size": 6741,
+          "sha256": "7f34ae8270a8c1051796a8ad00df661826ea7cb56dc0b53f4c262afbb428111d"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_model.params.pb",
+          "size": 5137,
+          "sha256": "b009c92aaab210942323bc3247a85631d73cc45f89c537ad63eaec2cabf86c8a"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/burdock_valerian_model.tflite",
+          "size": 1675008,
+          "sha256": "bb03f58a6b94c5233c5abc9e00e46cbbbd7363d56e3b5a3299c883272a97d428"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "effe40a8fe118d89da833d9dbc000f22a3c7984c28506d15db69bee52c2bf8e9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/converter_ar_xa_android.far",
+          "size": 1184,
+          "sha256": "33439d50396366edbf3858f7a3eba3ebbb749a381335f112e9a0749c4195a7a7"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/default_normalizations.pb",
+          "size": 4091,
+          "sha256": "9142007222b1ae870b7e7e323b6b74d66a18b0e313c14e1515677d619f6f6aff"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/diacritics_encoding.pb",
+          "size": 262,
+          "sha256": "66d7d4517e9cc090e41d63b5a919fcdb6c152a3d38efef68c6bd8cafed4f5619"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/disambiguation_rules_ar_xa.pb",
+          "size": 6548,
+          "sha256": "8b82c9f135c0d08a74f0a2550747447e3c242e7cefea5318dbf6cce7b9471f6b"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/disambiguation_rules_en_us.pb",
+          "size": 317746,
+          "sha256": "290b83574ce4f827e691c82deac28c0d2d48af5995cde1e129b2a6c1cdc87920"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us.hlex.bin",
+          "size": 5118800,
+          "sha256": "7c4e7736e7fe5e2fc28ed6bd36274d17a78328ee99c10c9554954c0124277be4"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us_phonology.pb",
+          "size": 2214,
+          "sha256": "2b0334e589a3dc6394f8e767f40e822355377947625f6661c779cd174c81e593"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/en_us_pronounce.far",
+          "size": 5040,
+          "sha256": "c1054a1c11b2bf80d03c19808bc678e7ebe9041198f4a2ae76473316e7b30802"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/g2p_m3_syls0_stress0_en-US.fst",
+          "size": 700928,
+          "sha256": "1d1c5d69954c5f211ed8b80885295628550b3ea73340fa670bb1787f7929186e"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/g2p_m3_syls0_stress1_ar-XA.fst",
+          "size": 313824,
+          "sha256": "bcd1b3023b7c80d870d894b66b448dac05bfc97218926b6f382e1878f2ae298d"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/graphones_en_us.pb",
+          "size": 4635,
+          "sha256": "d44822edab7f9fb9592017c1f5f7f8c93f83e61c00ada64550f2165c9b8af0ad"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/homographs_model_en_us_embedded.bin",
+          "size": 398840,
+          "sha256": "1ef4c1ff642a7883a1461191df7e9b9172a566b8f0fcb83733fc43d9981228de"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/ipa_to_tts_to-ar_xa.far",
+          "size": 73966,
+          "sha256": "684b88befe8ef9f1eb0e85c6e67e62fceca19305794e3e09120d968459f0a3c9"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_classify_embedded_xa_generated_android.far",
+          "size": 2790841,
+          "sha256": "70525096c33a9297d7ee8b5d741a61adda0c97a1081f5afc3b42af30264785b1"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_model.fb",
+          "size": 215104,
+          "sha256": "05cfb2653a133625225530579d5650217cf2c8a45c5af185aca1caf7a1a82e1f"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lettuce_node_generator_params_embedded_xa_runtime.pb",
+          "size": 1115,
+          "sha256": "cc43d31aef9229273c1c3f02d9fe1956b193d80ead6157f137bbd8e3a7dbf610"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/morphosyntactic_mapping.pb",
+          "size": 282,
+          "sha256": "3e4c0deb1d3d60e1328a2696edb9ad012adc3bbbab762a34e9fd2ff3d99104d0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/normalization_overrides.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/package_options.textproto",
+          "size": 1441,
+          "sha256": "0d7202fd0045044306c40b3eee097c7029e050c42e8ce80ee2d443845d863a75"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/pipeline.pb",
+          "size": 13329,
+          "sha256": "54687df3e0f5f21af5333a46db15831061024df3155a574f976b6535d831a1c6"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/regexp_rewrite.pb",
+          "size": 66836,
+          "sha256": "b9d9d12fb28e82864cb329c91068da55d0a2c86e5e373fb46db935bd1bc387ee"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/sb_model.bin",
+          "size": 323408,
+          "sha256": "f35147e62f0dbf9fdecf672c35eddf80708300992f3ccbb031cfd88ffe69f991"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tensorflow_lite_vocalizer_files_archive.ear",
+          "size": 3819372,
+          "sha256": "424007bf9c74d2fc0dd3f0f61ceff8fe45e7e85128b2e729c15c0db40840e08e"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tensorflow_lite_vocalizer_options.pb",
+          "size": 161,
+          "sha256": "ae5e8df95f4cc04d97a29edf951f2b0c5bd63dcd89b7fdf344e48609d99f3587"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/textnorm_params_embedded_ar_xa.pb",
+          "size": 165,
+          "sha256": "08ea66ecf15e4517e9f9dbfd05e7ae0120f670aefef912482980601dcb5be557"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/textnorm_params_embedded_en_us.pb",
+          "size": 321,
+          "sha256": "ce6305a816a6dd695f5f2a380890f83011243cf8ff10960fa77f0a3287d96883"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tflite_model.tflite",
+          "size": 3818600,
+          "sha256": "ec0980aaa031c6ab9e6bd70a84513ef2f56d94f889f401e248ddbf71fe90f7dd"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/tts_en_us-to-ar_xa.far",
+          "size": 3848,
+          "sha256": "c16e69a0c012c56f264c654b077f568c586b49da05990bcfdd5640c5174a90a0"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_overrides_ar_xa.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_overrides_en_us.pb",
+          "size": 1525,
+          "sha256": "1c404c2deb79dbf2a653c1e319e5259f7968427882e7e5f9f884ac261058c227"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/variant_selection_model_en_us_embedded.bin",
+          "size": 221608,
+          "sha256": "857425864181b804ed31c9314ae13a0bf29ce6a658f215c803ef8da4439f99c3"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/verbalize_android.far",
+          "size": 2625816,
+          "sha256": "445f9f78cb16cdcd8bb76761d3f8c74b8d36e979a5a8a4328581c1eebea14c8c"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/xa_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/ar-xa/ar-xa-x-multi-r47/xsampa_to_tts_to-ar_xa.far",
+          "size": 6628,
+          "sha256": "eb87bb68f2e108941a67dd0898c05916be6792b37290e0540a5d83d0f889accd"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "ar-xa-x-multi-seanet-r47__arz",
+          "locale": "ar",
+          "name": "arz — Seanet",
+          "folder": "google/ar-xa/ar-xa-x-multi-seanet-r47",
+          "id": "095b52e0650002c2"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ar-xa-x-multi-seanet-r47__arz",
+            "engine": "google",
+            "bytes": 28078076,
+            "speaker": "arz",
+            "contentId": "095b52e0650002c2",
+            "name": "arz — Seanet",
+            "minAppCode": 4169,
+            "locale": "ar",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 28078651
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714615807,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._gba_._Locomel.zip",
+      "size": 20782374,
+      "sha256": "de5ddfd2e7267d334e1026c6db869b1deb9500c860d6b3610aa9e204fcc08cf0",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 247,
+          "sha256": "53f36c196bf95a55b82bb3b4bb71e6c9d62669344b7586c37107e50255ef6dde"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/backend_pipeline.pb",
+          "size": 2296,
+          "sha256": "e13294515007b7742ae96538663f9e4995207bc058b26ed68b5fb7e78bf3b792"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/backend_pipeline.textproto",
+          "size": 6902,
+          "sha256": "97b8b0233bcee8d58724936b2187c2d01f4551f6ab4e6909601413c6161cb75e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/en_gb_phonology.pb",
+          "size": 2055,
+          "sha256": "7e088167e7178615f4011ad0b33b1f606ba885ca68314bb0ed8b7f7e8a7371df"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/en_gb_x_embedded_locomel.pipeline.pb",
+          "size": 12339,
+          "sha256": "f0471292aeba844333e8872dd00b76cffd1470bb1bd80cf7c7673652eff0b88f"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/en_gb_x_embedded_locomel_backend.pipeline.pb",
+          "size": 2208,
+          "sha256": "6d00f1022eb594d432ec529528aac17b3eefe82ab532d833d74d66917896d038"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/engine_config_en_gb_x_embedded_locomel.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/homographs_model_en_gb_embedded.bin",
+          "size": 353416,
+          "sha256": "82953d597a499ce81b9e2434490ed3ff22b0838481d96aec1754613fce05b845"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/lettuce_classify_embedded_gb_generated_android.far",
+          "size": 4563193,
+          "sha256": "e4f90e95db07a73f6395e288181b905daa382ed7fba4f8622d0815420490ab48"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/lettuce_node_generator_params_embedded_gb_runtime.pb",
+          "size": 2651,
+          "sha256": "51dc71190ea962d35807a9f9294976dc498dcc25803e413b3eaf715f31b87f5a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/locovoc_acoustic.tflite",
+          "size": 2081056,
+          "sha256": "f5818e216acc312d788457da4f1855e5ac36468c6280bea3940a6390e4ca1f0f"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/locovoc_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/locovoc_model_options.pb",
+          "size": 82,
+          "sha256": "8cd74edaee223e14495a4b23ca87abda1849bbe7c2329df24676a46f2a93c24f"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/locovoc_prosody.tflite",
+          "size": 2675628,
+          "sha256": "fa0a3d620378f83fc33dd0521d73c6cb0e57405e105ea982619a641050285454"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/package_options.textproto",
+          "size": 1400,
+          "sha256": "7bdcd8a62fbd6852e23a1d5cefdbf542f9bb1fdb9879cd91f1b0d4fbea628b57"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/pipeline.pb",
+          "size": 13037,
+          "sha256": "02fc9c4e7ac4f30489d52dd605d1b6e1db52aae9a85530dca355babac39f685f"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/specification_feature_set.pb",
+          "size": 4926,
+          "sha256": "190d31a2017e6587e2711df9e18b3328c6d3692ac3cbc06efee96fd55b129d61"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/textnorm_params_embedded_en_gb.pb",
+          "size": 313,
+          "sha256": "6b5540a883ec2683f233da7a2899d1cdf2e8a3b6c01036dbcbe031d9e79643b8"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/affixes_en_gb_android.far",
+          "size": 39454,
+          "sha256": "ae7e266b19b9c55e622f9d4599a5da23f6badf1ee87d3824f23f991b9ad093b7"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/affixes_params_en_gb.pb",
+          "size": 402,
+          "sha256": "b19827cdd616c58a7df35fd1fe19ac5b77c35246cda424ac1e2f5cb66f8d0f7b"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/backend_pipeline.pb",
+          "size": 2448,
+          "sha256": "a3f77c051d458ab5110fa1bb6aa6d5940681780600f3dec43ec54bfb2e73e3a0"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/backend_pipeline.textproto",
+          "size": 7149,
+          "sha256": "cf82485f40f5215499a8c88ffe597a21a73fcf755b9b2b0c196ee3cb145fd140"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_model.params.pb",
+          "size": 7821,
+          "sha256": "935c753cfe087999861dc638ee050681907da9a193d286b99f01c028b6fd689a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_valerian_model.tflite",
+          "size": 1783760,
+          "sha256": "a331b8317bdd5af5183c29bac571373c0fb226f32dc37bf0b0dc8934807a673c"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "dd3deb15d15a634aa609f635529f41869f4172cbcc39b8f8409bfbc22dbc8371"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/converter_en_gb_android.far",
+          "size": 1264,
+          "sha256": "33b836faa3338e5107220d709ba3d28112a6d07ed047b896fa6529b9535cef71"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/disambiguation_rules_en_gb.pb",
+          "size": 145156,
+          "sha256": "695c8336087b220bd266395e26ff937a0b710474654245448c6c0db02b2b8a4d"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb.hlex.bin",
+          "size": 3011104,
+          "sha256": "ec2de947e484f7e6d897b54346cbc92865ffeeeb2147a61d7238f93df33fd182"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_phonology.pb",
+          "size": 2055,
+          "sha256": "7e088167e7178615f4011ad0b33b1f606ba885ca68314bb0ed8b7f7e8a7371df"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_pronounce.far",
+          "size": 5040,
+          "sha256": "c1054a1c11b2bf80d03c19808bc678e7ebe9041198f4a2ae76473316e7b30802"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 12479,
+          "sha256": "665a99a7d3a186c49dc99ae3efe9331101f5fc85da4d1ea4aae1b1c45bd5382a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2252,
+          "sha256": "ed8c4b1720de751dd7fb9ae4bd1350d740f29dcd97800f31c239e0dc37a1d50b"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_morphology",
+          "size": 2753822,
+          "sha256": "b9712a287d2d4ffa193b28296d2963922a339ad0fba2be2c5325085e3b6d95ae"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_verbalize_spec.pb",
+          "size": 3984,
+          "sha256": "fc8935090701b1bf3cd79af790bc972671483dd1c581836fd5b959c93ab459c5"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/feats_android.far",
+          "size": 950,
+          "sha256": "f73548e3c9bd6dd7c5438292601fa2a153ec7cb0d6dd412abe2eccd4cdc5dc7a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/g2p_m3_syls0_stress0_en-GB.fst",
+          "size": 546368,
+          "sha256": "6bd8ff4e4061334850beffbef34f869e2df9eb4f400e9241f644b0508a45b14c"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/gb_verbalization_capabilities.pb",
+          "size": 5134,
+          "sha256": "475c7b4733a2eae268125afb97b3fbe30edcda89a0ba5752ba4b83b64f0fe4af"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/homographs_model_en_gb_embedded.bin",
+          "size": 352984,
+          "sha256": "790f68634d707cefb3cb7a617d2b2f78a87744cc96db550aa3b021f0c49053f5"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/ipa_to_tts_to-en_gb.far",
+          "size": 94820,
+          "sha256": "f4ff19a87db439b4b56eb0468542352ec08d01d3e43476ee9f2254e4f2dfabdb"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_classify_embedded_gb_generated_android.far",
+          "size": 4610361,
+          "sha256": "d3f0b44b2833f762a665cac19b97fa6a54da77f2869d1067f1dad7d72f3bb1e3"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_model.fb",
+          "size": 1126200,
+          "sha256": "07060d849e8f76efe574a3024aa043264f39bee239698c7a1486b992014020a2"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_node_generator_params_embedded_gb_runtime.pb",
+          "size": 2651,
+          "sha256": "51dc71190ea962d35807a9f9294976dc498dcc25803e413b3eaf715f31b87f5a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lucid_collection_android.far",
+          "size": 307960,
+          "sha256": "5b881c75a92f183dfd86995a90534706c4d4183f59a5992ab539ee52f3e06fd6"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/mapping_grammar_en.far",
+          "size": 863,
+          "sha256": "1888047cabec7bf85d8f02d27da3cf0648d654b4210a7747ca17eeb1a9df4337"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/model_farm32.pb",
+          "size": 400016,
+          "sha256": "844bb54c83ad4695bdb603244c78a772a7394853ba9653d09fbc445a5aeef83e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/morphosyntactic_mapping.pb",
+          "size": 6,
+          "sha256": "72b524d73b1b9f15879512208e55f93cece41b7b60b36a6d6ba5a97a5073fdd1"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/package_options.textproto",
+          "size": 1442,
+          "sha256": "0d0d4a4c52806d295bffeebf2e9c9910764e0fcce065f230372782f7c2cf97cb"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/pipeline.pb",
+          "size": 12668,
+          "sha256": "4a3e9d3b95500b737103f85d3350bd574c6a2c4b1d7e03cede0f2cc77a9f5f26"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/punctuation.pb",
+          "size": 452,
+          "sha256": "53aa4c98937b771c7a775efd4d00389298ce9735432524d832f2a08889d623ed"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/regexp_rewrite_embedded.pb",
+          "size": 6111,
+          "sha256": "2f247970dd90e3eeb7f74f15ba022410edcf9f10de72889d6a3d584527fe11a7"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/roman_numeral_android.far",
+          "size": 5112,
+          "sha256": "3cb4a6ef189d1511e67dd5bd40b80c1fea19c067de329516ddd967b96475ca20"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/roman_numeral_contexts.pb",
+          "size": 9114,
+          "sha256": "908369e55f7ec471d88e05166b77f831ed603ef23e7b64f641d1dc8778ac4d14"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/sb_model.bin",
+          "size": 48384,
+          "sha256": "85ed29352c0ed974883c3c730d64a0f1e6501929c6b5b4f3fc3ffe0690200db2"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/textnorm_params_embedded_en_gb.pb",
+          "size": 313,
+          "sha256": "6b5540a883ec2683f233da7a2899d1cdf2e8a3b6c01036dbcbe031d9e79643b8"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/variant_overrides_en_gb.pb",
+          "size": 1543,
+          "sha256": "f59e1d345ccf4021d48d5c5d0a095d7f84811c2cb5b655504cddd651a4ed005e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/variant_selection_model_en_gb_embedded.bin",
+          "size": 143208,
+          "sha256": "d48911b18a76d956a9c2927be6579314506910f4cdabb382ea4ac312e3409c7e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/verbalize_embedded_android.far",
+          "size": 2373311,
+          "sha256": "6775dae6b36fbc020b9514a20d349db8069318857e426848142dd00433d4eb34"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/xsampa_to_tts_to-en_gb.far",
+          "size": 7237,
+          "sha256": "546c5fa8edebfc8e605b871b5ad4290180fbe875db14811d0ceea2f5c538431e"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "en-gb-x-multi-locomel-r69__gba",
+          "locale": "en-GB",
+          "name": "gba — Locomel",
+          "folder": "google/en-gb/en-gb-x-multi-locomel-r69",
+          "id": "8dc01ff45249412d"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-gb-x-multi-locomel-r69__gba",
+            "engine": "google",
+            "bytes": 30345332,
+            "speaker": "gba",
+            "contentId": "8dc01ff45249412d",
+            "name": "gba — Locomel",
+            "minAppCode": 4169,
+            "locale": "en-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 30345919
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714614690,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._gbg_._Locomel.zip",
+      "size": 20782374,
+      "sha256": "0e097d7c5782fc2c70972f51fa262822fa1e63313b79a4fc97b4de81717fc71b",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 247,
+          "sha256": "99680d1cbce5abda71ce7c1da20836dee051eb53d67598593af9dd9806b52fc9"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/backend_pipeline.pb",
+          "size": 2296,
+          "sha256": "e13294515007b7742ae96538663f9e4995207bc058b26ed68b5fb7e78bf3b792"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/backend_pipeline.textproto",
+          "size": 6902,
+          "sha256": "97b8b0233bcee8d58724936b2187c2d01f4551f6ab4e6909601413c6161cb75e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/en_gb_phonology.pb",
+          "size": 2055,
+          "sha256": "7e088167e7178615f4011ad0b33b1f606ba885ca68314bb0ed8b7f7e8a7371df"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/en_gb_x_embedded_locomel.pipeline.pb",
+          "size": 12339,
+          "sha256": "f0471292aeba844333e8872dd00b76cffd1470bb1bd80cf7c7673652eff0b88f"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/en_gb_x_embedded_locomel_backend.pipeline.pb",
+          "size": 2208,
+          "sha256": "6d00f1022eb594d432ec529528aac17b3eefe82ab532d833d74d66917896d038"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/engine_config_en_gb_x_embedded_locomel.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/homographs_model_en_gb_embedded.bin",
+          "size": 353416,
+          "sha256": "82953d597a499ce81b9e2434490ed3ff22b0838481d96aec1754613fce05b845"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/lettuce_classify_embedded_gb_generated_android.far",
+          "size": 4563193,
+          "sha256": "e4f90e95db07a73f6395e288181b905daa382ed7fba4f8622d0815420490ab48"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/lettuce_node_generator_params_embedded_gb_runtime.pb",
+          "size": 2651,
+          "sha256": "51dc71190ea962d35807a9f9294976dc498dcc25803e413b3eaf715f31b87f5a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/locovoc_acoustic.tflite",
+          "size": 2081056,
+          "sha256": "f5818e216acc312d788457da4f1855e5ac36468c6280bea3940a6390e4ca1f0f"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/locovoc_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/locovoc_model_options.pb",
+          "size": 82,
+          "sha256": "8cd74edaee223e14495a4b23ca87abda1849bbe7c2329df24676a46f2a93c24f"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/locovoc_prosody.tflite",
+          "size": 2675628,
+          "sha256": "fa0a3d620378f83fc33dd0521d73c6cb0e57405e105ea982619a641050285454"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/package_options.textproto",
+          "size": 1400,
+          "sha256": "7bdcd8a62fbd6852e23a1d5cefdbf542f9bb1fdb9879cd91f1b0d4fbea628b57"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/pipeline.pb",
+          "size": 13037,
+          "sha256": "02fc9c4e7ac4f30489d52dd605d1b6e1db52aae9a85530dca355babac39f685f"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/specification_feature_set.pb",
+          "size": 4926,
+          "sha256": "190d31a2017e6587e2711df9e18b3328c6d3692ac3cbc06efee96fd55b129d61"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-locomel-r69/textnorm_params_embedded_en_gb.pb",
+          "size": 313,
+          "sha256": "6b5540a883ec2683f233da7a2899d1cdf2e8a3b6c01036dbcbe031d9e79643b8"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/affixes_en_gb_android.far",
+          "size": 39454,
+          "sha256": "ae7e266b19b9c55e622f9d4599a5da23f6badf1ee87d3824f23f991b9ad093b7"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/affixes_params_en_gb.pb",
+          "size": 402,
+          "sha256": "b19827cdd616c58a7df35fd1fe19ac5b77c35246cda424ac1e2f5cb66f8d0f7b"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/backend_pipeline.pb",
+          "size": 2448,
+          "sha256": "a3f77c051d458ab5110fa1bb6aa6d5940681780600f3dec43ec54bfb2e73e3a0"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/backend_pipeline.textproto",
+          "size": 7149,
+          "sha256": "cf82485f40f5215499a8c88ffe597a21a73fcf755b9b2b0c196ee3cb145fd140"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_model.params.pb",
+          "size": 7821,
+          "sha256": "935c753cfe087999861dc638ee050681907da9a193d286b99f01c028b6fd689a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_valerian_model.tflite",
+          "size": 1783760,
+          "sha256": "a331b8317bdd5af5183c29bac571373c0fb226f32dc37bf0b0dc8934807a673c"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "dd3deb15d15a634aa609f635529f41869f4172cbcc39b8f8409bfbc22dbc8371"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/converter_en_gb_android.far",
+          "size": 1264,
+          "sha256": "33b836faa3338e5107220d709ba3d28112a6d07ed047b896fa6529b9535cef71"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/disambiguation_rules_en_gb.pb",
+          "size": 145156,
+          "sha256": "695c8336087b220bd266395e26ff937a0b710474654245448c6c0db02b2b8a4d"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb.hlex.bin",
+          "size": 3011104,
+          "sha256": "ec2de947e484f7e6d897b54346cbc92865ffeeeb2147a61d7238f93df33fd182"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_phonology.pb",
+          "size": 2055,
+          "sha256": "7e088167e7178615f4011ad0b33b1f606ba885ca68314bb0ed8b7f7e8a7371df"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_pronounce.far",
+          "size": 5040,
+          "sha256": "c1054a1c11b2bf80d03c19808bc678e7ebe9041198f4a2ae76473316e7b30802"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 12479,
+          "sha256": "665a99a7d3a186c49dc99ae3efe9331101f5fc85da4d1ea4aae1b1c45bd5382a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2252,
+          "sha256": "ed8c4b1720de751dd7fb9ae4bd1350d740f29dcd97800f31c239e0dc37a1d50b"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_morphology",
+          "size": 2753822,
+          "sha256": "b9712a287d2d4ffa193b28296d2963922a339ad0fba2be2c5325085e3b6d95ae"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_verbalize_spec.pb",
+          "size": 3984,
+          "sha256": "fc8935090701b1bf3cd79af790bc972671483dd1c581836fd5b959c93ab459c5"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/feats_android.far",
+          "size": 950,
+          "sha256": "f73548e3c9bd6dd7c5438292601fa2a153ec7cb0d6dd412abe2eccd4cdc5dc7a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/g2p_m3_syls0_stress0_en-GB.fst",
+          "size": 546368,
+          "sha256": "6bd8ff4e4061334850beffbef34f869e2df9eb4f400e9241f644b0508a45b14c"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/gb_verbalization_capabilities.pb",
+          "size": 5134,
+          "sha256": "475c7b4733a2eae268125afb97b3fbe30edcda89a0ba5752ba4b83b64f0fe4af"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/homographs_model_en_gb_embedded.bin",
+          "size": 352984,
+          "sha256": "790f68634d707cefb3cb7a617d2b2f78a87744cc96db550aa3b021f0c49053f5"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/ipa_to_tts_to-en_gb.far",
+          "size": 94820,
+          "sha256": "f4ff19a87db439b4b56eb0468542352ec08d01d3e43476ee9f2254e4f2dfabdb"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_classify_embedded_gb_generated_android.far",
+          "size": 4610361,
+          "sha256": "d3f0b44b2833f762a665cac19b97fa6a54da77f2869d1067f1dad7d72f3bb1e3"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_model.fb",
+          "size": 1126200,
+          "sha256": "07060d849e8f76efe574a3024aa043264f39bee239698c7a1486b992014020a2"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_node_generator_params_embedded_gb_runtime.pb",
+          "size": 2651,
+          "sha256": "51dc71190ea962d35807a9f9294976dc498dcc25803e413b3eaf715f31b87f5a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lucid_collection_android.far",
+          "size": 307960,
+          "sha256": "5b881c75a92f183dfd86995a90534706c4d4183f59a5992ab539ee52f3e06fd6"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/mapping_grammar_en.far",
+          "size": 863,
+          "sha256": "1888047cabec7bf85d8f02d27da3cf0648d654b4210a7747ca17eeb1a9df4337"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/model_farm32.pb",
+          "size": 400016,
+          "sha256": "844bb54c83ad4695bdb603244c78a772a7394853ba9653d09fbc445a5aeef83e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/morphosyntactic_mapping.pb",
+          "size": 6,
+          "sha256": "72b524d73b1b9f15879512208e55f93cece41b7b60b36a6d6ba5a97a5073fdd1"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/package_options.textproto",
+          "size": 1442,
+          "sha256": "0d0d4a4c52806d295bffeebf2e9c9910764e0fcce065f230372782f7c2cf97cb"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/pipeline.pb",
+          "size": 12668,
+          "sha256": "4a3e9d3b95500b737103f85d3350bd574c6a2c4b1d7e03cede0f2cc77a9f5f26"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/punctuation.pb",
+          "size": 452,
+          "sha256": "53aa4c98937b771c7a775efd4d00389298ce9735432524d832f2a08889d623ed"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/regexp_rewrite_embedded.pb",
+          "size": 6111,
+          "sha256": "2f247970dd90e3eeb7f74f15ba022410edcf9f10de72889d6a3d584527fe11a7"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/roman_numeral_android.far",
+          "size": 5112,
+          "sha256": "3cb4a6ef189d1511e67dd5bd40b80c1fea19c067de329516ddd967b96475ca20"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/roman_numeral_contexts.pb",
+          "size": 9114,
+          "sha256": "908369e55f7ec471d88e05166b77f831ed603ef23e7b64f641d1dc8778ac4d14"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/sb_model.bin",
+          "size": 48384,
+          "sha256": "85ed29352c0ed974883c3c730d64a0f1e6501929c6b5b4f3fc3ffe0690200db2"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/textnorm_params_embedded_en_gb.pb",
+          "size": 313,
+          "sha256": "6b5540a883ec2683f233da7a2899d1cdf2e8a3b6c01036dbcbe031d9e79643b8"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/variant_overrides_en_gb.pb",
+          "size": 1543,
+          "sha256": "f59e1d345ccf4021d48d5c5d0a095d7f84811c2cb5b655504cddd651a4ed005e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/variant_selection_model_en_gb_embedded.bin",
+          "size": 143208,
+          "sha256": "d48911b18a76d956a9c2927be6579314506910f4cdabb382ea4ac312e3409c7e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/verbalize_embedded_android.far",
+          "size": 2373311,
+          "sha256": "6775dae6b36fbc020b9514a20d349db8069318857e426848142dd00433d4eb34"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/xsampa_to_tts_to-en_gb.far",
+          "size": 7237,
+          "sha256": "546c5fa8edebfc8e605b871b5ad4290180fbe875db14811d0ceea2f5c538431e"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "en-gb-x-multi-locomel-r69__gbg",
+          "locale": "en-GB",
+          "name": "gbg — Locomel",
+          "folder": "google/en-gb/en-gb-x-multi-locomel-r69",
+          "id": "af361424841f60c6"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-gb-x-multi-locomel-r69__gbg",
+            "engine": "google",
+            "bytes": 30345332,
+            "speaker": "gbg",
+            "contentId": "af361424841f60c6",
+            "name": "gbg — Locomel",
+            "minAppCode": 4169,
+            "locale": "en-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 30345919
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 714614231,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._fis_._Seanet.zip",
+      "size": 15840915,
+      "sha256": "59e7966194a59be6c6511f7f6d1da636cc5754429eff2eb4a9575fcbb537c5c3",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 244,
+          "sha256": "e4de740e27c50a0c56509bd4f1f491872e33f98fd44b3928d70f6673dbeaa08e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/backend_pipeline.pb",
+          "size": 2241,
+          "sha256": "18825ec0f62207087ede89b7966ec74f9a8647b4cc3ceccc94ca5116a1afa8c6"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/backend_pipeline.textproto",
+          "size": 6607,
+          "sha256": "9c03d7e4cdbdf39d682ea455bfce5f070e189fad18503c446bd2ec7ee0f62905"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/burdock_model.params.pb",
+          "size": 7821,
+          "sha256": "935c753cfe087999861dc638ee050681907da9a193d286b99f01c028b6fd689a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/burdock_valerian_model.tflite",
+          "size": 1783760,
+          "sha256": "a331b8317bdd5af5183c29bac571373c0fb226f32dc37bf0b0dc8934807a673c"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "dd3deb15d15a634aa609f635529f41869f4172cbcc39b8f8409bfbc22dbc8371"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/en_gb_phonology.pb",
+          "size": 2055,
+          "sha256": "7e088167e7178615f4011ad0b33b1f606ba885ca68314bb0ed8b7f7e8a7371df"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/en_gb_x_embedded_havoc.pipeline.pb",
+          "size": 12283,
+          "sha256": "0bd8ca377401f725f4fd3f9efb03492fa24b8ca1e2f8efe018ff00d5174d9e0e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/en_gb_x_embedded_havoc_backend.pipeline.pb",
+          "size": 2056,
+          "sha256": "1f85c121d0877a011df10cacf6d6a0040a1ab2b6a512e387a7df736cdbccd446"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/en_gb_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/lettuce_node_generator_params_embedded_gb_runtime.pb",
+          "size": 2651,
+          "sha256": "51dc71190ea962d35807a9f9294976dc498dcc25803e413b3eaf715f31b87f5a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/package_options.textproto",
+          "size": 1518,
+          "sha256": "53c90b0b77993203507d0c02c9abf98c2911e0e6563b31701d9bfb5e116e20f1"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/pipeline.pb",
+          "size": 13143,
+          "sha256": "940a8de2b053f1df2cc0a9cb7a12beedebf12ecc2778995c9121a0551169fe53"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/sb_model.bin",
+          "size": 48432,
+          "sha256": "5fa233e75784e4f1ac23289336bc5a15bf459176d7a6107c782a959b7531bd47"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-seanet-r69/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/affixes_en_gb_android.far",
+          "size": 39454,
+          "sha256": "ae7e266b19b9c55e622f9d4599a5da23f6badf1ee87d3824f23f991b9ad093b7"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/affixes_params_en_gb.pb",
+          "size": 402,
+          "sha256": "b19827cdd616c58a7df35fd1fe19ac5b77c35246cda424ac1e2f5cb66f8d0f7b"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/backend_pipeline.pb",
+          "size": 2448,
+          "sha256": "a3f77c051d458ab5110fa1bb6aa6d5940681780600f3dec43ec54bfb2e73e3a0"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/backend_pipeline.textproto",
+          "size": 7149,
+          "sha256": "cf82485f40f5215499a8c88ffe597a21a73fcf755b9b2b0c196ee3cb145fd140"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_model.params.pb",
+          "size": 7821,
+          "sha256": "935c753cfe087999861dc638ee050681907da9a193d286b99f01c028b6fd689a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/burdock_valerian_model.tflite",
+          "size": 1783760,
+          "sha256": "a331b8317bdd5af5183c29bac571373c0fb226f32dc37bf0b0dc8934807a673c"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/chive_model_fused.pb",
+          "size": 906,
+          "sha256": "dd3deb15d15a634aa609f635529f41869f4172cbcc39b8f8409bfbc22dbc8371"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/converter_en_gb_android.far",
+          "size": 1264,
+          "sha256": "33b836faa3338e5107220d709ba3d28112a6d07ed047b896fa6529b9535cef71"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/disambiguation_rules_en_gb.pb",
+          "size": 145156,
+          "sha256": "695c8336087b220bd266395e26ff937a0b710474654245448c6c0db02b2b8a4d"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb.hlex.bin",
+          "size": 3011104,
+          "sha256": "ec2de947e484f7e6d897b54346cbc92865ffeeeb2147a61d7238f93df33fd182"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_phonology.pb",
+          "size": 2055,
+          "sha256": "7e088167e7178615f4011ad0b33b1f606ba885ca68314bb0ed8b7f7e8a7371df"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_pronounce.far",
+          "size": 5040,
+          "sha256": "c1054a1c11b2bf80d03c19808bc678e7ebe9041198f4a2ae76473316e7b30802"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 12479,
+          "sha256": "665a99a7d3a186c49dc99ae3efe9331101f5fc85da4d1ea4aae1b1c45bd5382a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 2252,
+          "sha256": "ed8c4b1720de751dd7fb9ae4bd1350d740f29dcd97800f31c239e0dc37a1d50b"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_gb_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_morphology",
+          "size": 2753822,
+          "sha256": "b9712a287d2d4ffa193b28296d2963922a339ad0fba2be2c5325085e3b6d95ae"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/en_verbalize_spec.pb",
+          "size": 3984,
+          "sha256": "fc8935090701b1bf3cd79af790bc972671483dd1c581836fd5b959c93ab459c5"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/feats_android.far",
+          "size": 950,
+          "sha256": "f73548e3c9bd6dd7c5438292601fa2a153ec7cb0d6dd412abe2eccd4cdc5dc7a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/g2p_m3_syls0_stress0_en-GB.fst",
+          "size": 546368,
+          "sha256": "6bd8ff4e4061334850beffbef34f869e2df9eb4f400e9241f644b0508a45b14c"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/gb_verbalization_capabilities.pb",
+          "size": 5134,
+          "sha256": "475c7b4733a2eae268125afb97b3fbe30edcda89a0ba5752ba4b83b64f0fe4af"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/homographs_model_en_gb_embedded.bin",
+          "size": 352984,
+          "sha256": "790f68634d707cefb3cb7a617d2b2f78a87744cc96db550aa3b021f0c49053f5"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/ipa_to_tts_to-en_gb.far",
+          "size": 94820,
+          "sha256": "f4ff19a87db439b4b56eb0468542352ec08d01d3e43476ee9f2254e4f2dfabdb"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_classify_embedded_gb_generated_android.far",
+          "size": 4610361,
+          "sha256": "d3f0b44b2833f762a665cac19b97fa6a54da77f2869d1067f1dad7d72f3bb1e3"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_model.fb",
+          "size": 1126200,
+          "sha256": "07060d849e8f76efe574a3024aa043264f39bee239698c7a1486b992014020a2"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lettuce_node_generator_params_embedded_gb_runtime.pb",
+          "size": 2651,
+          "sha256": "51dc71190ea962d35807a9f9294976dc498dcc25803e413b3eaf715f31b87f5a"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/lucid_collection_android.far",
+          "size": 307960,
+          "sha256": "5b881c75a92f183dfd86995a90534706c4d4183f59a5992ab539ee52f3e06fd6"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/mapping_grammar_en.far",
+          "size": 863,
+          "sha256": "1888047cabec7bf85d8f02d27da3cf0648d654b4210a7747ca17eeb1a9df4337"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/model_farm32.pb",
+          "size": 400016,
+          "sha256": "844bb54c83ad4695bdb603244c78a772a7394853ba9653d09fbc445a5aeef83e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/morphosyntactic_mapping.pb",
+          "size": 6,
+          "sha256": "72b524d73b1b9f15879512208e55f93cece41b7b60b36a6d6ba5a97a5073fdd1"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/package_options.textproto",
+          "size": 1442,
+          "sha256": "0d0d4a4c52806d295bffeebf2e9c9910764e0fcce065f230372782f7c2cf97cb"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/pipeline.pb",
+          "size": 12668,
+          "sha256": "4a3e9d3b95500b737103f85d3350bd574c6a2c4b1d7e03cede0f2cc77a9f5f26"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/punctuation.pb",
+          "size": 452,
+          "sha256": "53aa4c98937b771c7a775efd4d00389298ce9735432524d832f2a08889d623ed"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/regexp_rewrite_embedded.pb",
+          "size": 6111,
+          "sha256": "2f247970dd90e3eeb7f74f15ba022410edcf9f10de72889d6a3d584527fe11a7"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/roman_numeral_android.far",
+          "size": 5112,
+          "sha256": "3cb4a6ef189d1511e67dd5bd40b80c1fea19c067de329516ddd967b96475ca20"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/roman_numeral_contexts.pb",
+          "size": 9114,
+          "sha256": "908369e55f7ec471d88e05166b77f831ed603ef23e7b64f641d1dc8778ac4d14"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/sb_model.bin",
+          "size": 48384,
+          "sha256": "85ed29352c0ed974883c3c730d64a0f1e6501929c6b5b4f3fc3ffe0690200db2"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/textnorm_params_embedded_en_gb.pb",
+          "size": 313,
+          "sha256": "6b5540a883ec2683f233da7a2899d1cdf2e8a3b6c01036dbcbe031d9e79643b8"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/variant_overrides_en_gb.pb",
+          "size": 1543,
+          "sha256": "f59e1d345ccf4021d48d5c5d0a095d7f84811c2cb5b655504cddd651a4ed005e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/variant_selection_model_en_gb_embedded.bin",
+          "size": 143208,
+          "sha256": "d48911b18a76d956a9c2927be6579314506910f4cdabb382ea4ac312e3409c7e"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/verbalize_embedded_android.far",
+          "size": 2373311,
+          "sha256": "6775dae6b36fbc020b9514a20d349db8069318857e426848142dd00433d4eb34"
+        },
+        {
+          "path": "google/en-gb/en-gb-x-multi-r69/xsampa_to_tts_to-en_gb.far",
+          "size": 7237,
+          "sha256": "546c5fa8edebfc8e605b871b5ad4290180fbe875db14811d0ceea2f5c538431e"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "en-gb-x-multi-seanet-r69__fis",
+          "locale": "en-GB",
+          "name": "fis — Seanet",
+          "folder": "google/en-gb/en-gb-x-multi-seanet-r69",
+          "id": "c7b55c231fa43459"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-gb-x-multi-seanet-r69__fis",
+            "engine": "google",
+            "bytes": 22507303,
+            "speaker": "fis",
+            "contentId": "c7b55c231fa43459",
+            "name": "fis — Seanet",
+            "minAppCode": 4169,
+            "locale": "en-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 22507884
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": []
+    },
+    {
       "assetId": 714613913,
       "releaseId": 434895762,
       "tag": "voices-001",
