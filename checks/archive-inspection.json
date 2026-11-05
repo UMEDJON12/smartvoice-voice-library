@@ -2,6 +2,136 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713189997,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Jenny-zh-CN.zip",
+      "size": 72241769,
+      "sha256": "81473e38f9f7a9f0d7052bcb812e1d41d2f9217005577246e1220b189cb83717",
+      "files": [
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/2052.BR0",
+          "size": 5236588,
+          "sha256": "750915260716157a7c3d141371350af5cbdcacf4194dd961c22c42735048ee79"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/2052.BR2",
+          "size": 3372304,
+          "sha256": "964a5daa1b44a4d81158bb31f9a305681cd2040b6d8352119dbe02617a2edfa8"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/2052.BR3",
+          "size": 1002448,
+          "sha256": "93935a57048a3cfd842de7fd8abbe2d26ebe0f5e4e6d9c176e745917590e53ff"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/2052.INI",
+          "size": 954,
+          "sha256": "88376b3752edd126b518bbd18e253de4263eb97eb84db57ac32a1d1c0cfab8a8"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "b0e0cae850b08bf7b415bb7889be8d93346dd4ff5dada919badfc6387106e514"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/am_v5_encoder.bin",
+          "size": 2270737,
+          "sha256": "8ea06fa469e3ca9a8c43d196ab0033335fecbc268faed5d3063cca0d8b203c77"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/device_vocoder_v6_streaming.bin",
+          "size": 2828003,
+          "sha256": "1ea12755874082ad37e48ba11727ccb1781d8c718d494fac2979e919e6e7294c"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/MSTTSLocEnUS.dat",
+          "size": 23285328,
+          "sha256": "09eddb767e7678c0ea6bd0c021ea710834bc6701d2b7ba558d2834550156a60a"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/MSTTSLocZhCN.dat",
+          "size": 48710544,
+          "sha256": "1486b614c64f62c19463ea114a7c2f2e359333f0236d726650a441e89621a0d9"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/MSTTSLocZhCN.ini",
+          "size": 3038,
+          "sha256": "2011e874102ca6497fb2cc78b3f3ea218910cba92e7ef2bfb25d2e8b584b7ee1"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/phones.txt",
+          "size": 1428,
+          "sha256": "54431c4dc2a6d9c59c61b8927b0a0bd74c6ee8cf83db709781f5615f2e46f2ea"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/Tokens.xml",
+          "size": 1000,
+          "sha256": "db1d4c669e20b56ca0081fe9bf9ea62f5912a5b2db98a0da27ec62ce01fc527c"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/ZhCN.address.dat",
+          "size": 57224,
+          "sha256": "a6065fff3f175defb053a570a15c8f1a66f984473b4063b91e73ff7ec8f85bf3"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/ZhCN.erhua.dat",
+          "size": 69504,
+          "sha256": "129a1c3bdcee3f0df8faa8fe9c54a9b302cd836ffaf4fb6974bf6dc95917a203"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/ZhCN.message.dat",
+          "size": 51600,
+          "sha256": "0cacd1ad46c9ddd4c26e31d6af78eec548e4a55de541f7d321ffc0e95c3053db"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/ZhCN.mixlingual.dat",
+          "size": 11848,
+          "sha256": "42f06f44d9d3f36f1594dd4df25592ad9ffe52ae533a1269bfddbde34c69f39e"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/ZhCN.name.dat",
+          "size": 35080,
+          "sha256": "ca952a56ffc11b2d4a3285578f2723b25db6b8db5ed95af546a9cb4fc438d8f2"
+        },
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/ZhCN.TextAnalyzer.dat",
+          "size": 24251856,
+          "sha256": "f7dbea69b85c1eb36a2c3faad423876238dca39b4b4892360d8bffeaed93fe97"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Jenny-zh-CNvzrhk2my.bm0/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocZhCN.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2052"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpu1p0_bpo/713189997', '/tmp/tmpu1p0_bpo/import-713189997']' returned non-zero exit status 1."
+    },
+    {
       "assetId": 713188639,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -124,7 +254,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9iw43tfx/713188639', '/tmp/tmp9iw43tfx/import-713188639']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpu1p0_bpo/713188639', '/tmp/tmpu1p0_bpo/import-713188639']' returned non-zero exit status 1."
     },
     {
       "assetId": 713187940,
@@ -365,7 +495,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9iw43tfx/713184858', '/tmp/tmp9iw43tfx/import-713184858']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpu1p0_bpo/713184858', '/tmp/tmpu1p0_bpo/import-713184858']' returned non-zero exit status 1."
     },
     {
       "assetId": 713181652,
@@ -490,7 +620,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9iw43tfx/713181652', '/tmp/tmp9iw43tfx/import-713181652']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpu1p0_bpo/713181652', '/tmp/tmpu1p0_bpo/import-713181652']' returned non-zero exit status 1."
     },
     {
       "assetId": 713179104,
@@ -615,7 +745,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9iw43tfx/713179104', '/tmp/tmp9iw43tfx/import-713179104']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpu1p0_bpo/713179104', '/tmp/tmpu1p0_bpo/import-713179104']' returned non-zero exit status 1."
     },
     {
       "assetId": 713177643,
@@ -856,7 +986,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9iw43tfx/713175580', '/tmp/tmp9iw43tfx/import-713175580']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpu1p0_bpo/713175580', '/tmp/tmpu1p0_bpo/import-713175580']' returned non-zero exit status 1."
     },
     {
       "assetId": 713173912,
@@ -981,7 +1111,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9iw43tfx/713173912', '/tmp/tmp9iw43tfx/import-713173912']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpu1p0_bpo/713173912', '/tmp/tmpu1p0_bpo/import-713173912']' returned non-zero exit status 1."
     },
     {
       "assetId": 713170799,
@@ -1106,7 +1236,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9iw43tfx/713170799', '/tmp/tmp9iw43tfx/import-713170799']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpu1p0_bpo/713170799', '/tmp/tmpu1p0_bpo/import-713170799']' returned non-zero exit status 1."
     },
     {
       "assetId": 713006098,
