@@ -2,6 +2,414 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 714419792,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Guy-en-US.zip",
+      "size": 29400597,
+      "sha256": "97b4098bf2c75e1c55b9ceda1c5302cbac6be28e5a305d6ca5ebc2b6a6db30dc",
+      "files": [
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "3dd2c7f0a0af05deb77cbc4723eecf6c56f65fb44f5f88fba0071aa25ddd9a77"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/am_v5_encoder.bin",
+          "size": 2164239,
+          "sha256": "325a590acba930da905abe8a5255de3270af3eef36bc74739028ced67a4089df"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "54d6d04a3251e64153db29286f2a566f660e8d58cdb2ea76caa4b629a4b0acb6"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/phones.txt",
+          "size": 569,
+          "sha256": "9c89d3402f2255dd51a3a7e811b01ae57753511069574b38ca2e40fddb33da8d"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/punc.txt",
+          "size": 120,
+          "sha256": "abcd1805091fc5e91631224c9075e6a929ec6bc228b967edc2ea3ea4e0d8b7f3"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/Tokens.xml",
+          "size": 1230,
+          "sha256": "7059dec1c46d911f1dbafbf12d8e7d2ad1c55e58afd959e7fe68d4f7eac9843e"
+        },
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Guy-en-US4kqibx4e.hbp/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-GuyNeural",
+            "engine": "microsoft",
+            "bytes": 47076375,
+            "speaker": "en-US-GuyNeural",
+            "contentId": "2f2c8faea1bd945f",
+            "name": "Guy",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47077472
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-GuyNeural",
+          "status": "available",
+          "file": "microsoft-62f662bff8f2bfc3aa7dc334.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 714418600,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Jane-en-US.zip",
+      "size": 29410295,
+      "sha256": "890b7a2cf892e5369e71ea99847ddd6452f0aed035e89cc99e3992a06ba394f1",
+      "files": [
+        {
+          "path": "Jane-en-USikekydvi.tys/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "010a1820c928f40cf16ee699f3972bcc38bf160a553420a3f17045ee484b6c0a"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/am_v5_encoder.bin",
+          "size": 2165262,
+          "sha256": "527aa220e6b671557d8ca0416a454a1b11089122051e3689288cd2a911e1b652"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "d91e1a022e51e14e6730e046762a64894d73865bfcf5af759c4cddd1386035f6"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/phones.txt",
+          "size": 576,
+          "sha256": "be8f15eec01a74adb50bc9ddf21630536159d3139caa04ef17af9803d098a0ba"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/punc.txt",
+          "size": 198,
+          "sha256": "e6752be653a3dcfb9aea378f15fd2b51ce8a90c6c63729618f274b37d746f92e"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/Tokens.xml",
+          "size": 1236,
+          "sha256": "baf010d99c904246ae4ca70ce6d9a6b0c831cb7bca9072a513b1d3552c7a9cc5"
+        },
+        {
+          "path": "Jane-en-USikekydvi.tys/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Jane-en-USikekydvi.tys/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-JaneNeural",
+            "engine": "microsoft",
+            "bytes": 47077489,
+            "speaker": "en-US-JaneNeural",
+            "contentId": "d70450e81c757714",
+            "name": "Jane",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47078591
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-JaneNeural",
+          "status": "available",
+          "file": "microsoft-f12c8bcdf645df9179075bae.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 714415085,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Jenny-en-US.zip",
+      "size": 29389319,
+      "sha256": "9fe38936d2058bc309e09ff1bec90d1a49c45a9302ef7d76a8de98dea8af1fa4",
+      "files": [
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "e17280a35d9e6757d7a0e504cce9b643d6affdfb9f597e08502c5fa3447f6a98"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/am_v5_encoder.bin",
+          "size": 2168335,
+          "sha256": "ac845ebf17b1775bd0aff3e4e9ad7e6a073970c9c905d39d402a6658ceedb3c8"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "39d4e5ef0b3fcdf2ffacc4be70a7328bfe14505fdb80e2905e4763b346a7257b"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/phones.txt",
+          "size": 604,
+          "sha256": "1e74c26f935eecff6e4b53550eed030b5324724dbfe3ff56f6680b2cf2427017"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/Tokens.xml",
+          "size": 1233,
+          "sha256": "e299a7d965ff7fc947e094393a54f431baf32532119ed5506518f17afc2d0bb3"
+        },
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Jenny-en-UStbfia50e.e4z/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-JennyNeural",
+            "engine": "microsoft",
+            "bytes": 47080859,
+            "speaker": "en-US-JennyNeural",
+            "contentId": "5589bf42f9be306c",
+            "name": "Jenny",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47081966
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-JennyNeural",
+          "status": "available",
+          "file": "microsoft-e352490b9ebc06cf54fd7099.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 714414011,
       "releaseId": 434895762,
       "tag": "voices-001",
