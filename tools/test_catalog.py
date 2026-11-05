@@ -18,4 +18,16 @@ class CatalogTests(unittest.TestCase):
   c,_=make(self.report,self.overrides,{"voices":[]});r=copy.deepcopy(self.report);r["archives"][0]["importer"]["models"][0]["contentId"]="e"*16
   newer,_=make(r,self.overrides,c);changed=[v for v in newer["voices"] if v["contentId"]=="e"*16][0];self.assertEqual(2,changed["packageVersion"]);self.assertEqual(1,len(changed["previousContents"]));again,_=make(r,self.overrides,newer);self.assertEqual(2,next(v for v in again["voices"] if v["id"]==changed["id"])["packageVersion"])
   bad=copy.deepcopy(self.overrides);bad[r["archives"][0]["sha256"]]={"provider":"google"};_,p=make(r,bad,c);self.assertTrue(p)
+ def test_deleted_asset_disappears(self):
+  before,_=make(self.report,self.overrides,{"voices":[]});r=copy.deepcopy(self.report);removed=r['archives'].pop();c,_=make(r,self.overrides,before)
+  self.assertEqual(5,len(c['voices']));self.assertFalse(any(v['sha256']==removed['sha256'] for v in c['voices']))
+ def test_bad_new_archive_and_failed_existing(self):
+  before,_=make(self.report,self.overrides,{"voices":[]});r=copy.deepcopy(self.report)
+  bad={'assetId':999,'name':'bad.zip','tag':'voices-test','error':'Invalid ZIP'};r['archives'].append(bad)
+  c,p=make(r,self.overrides,before);self.assertEqual(6,len(c['voices']));self.assertEqual(1,len(p))
+  old=r['archives'][0];old.pop('importer');old['importerError']='failed validation'
+  with self.assertRaises(RuntimeError):make(r,self.overrides,before)
+ def test_transient_failure_keeps_catalog(self):
+  r=copy.deepcopy(self.report);r['archives'][0]['errorType']='URLError'
+  with self.assertRaises(RuntimeError):make(r,self.overrides,{"voices":[]})
 if __name__=="__main__":unittest.main()

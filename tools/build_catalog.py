@@ -11,6 +11,8 @@ def make(report,overrides,previous):
  for archive in report["archives"]:
   if archive.get("errorType") in {"HTTPError","URLError","TimeoutError","ConnectionError"}:raise RuntimeError("Temporary GitHub failure; retaining previous catalog")
   if not archive.get("zipVerified") or "importer" not in archive:
+   if any(v.get("filename")==archive["name"] and v.get("releaseTag")==archive["tag"] for v in previous.get("voices",[])):
+    raise RuntimeError("Previously cataloged archive failed validation; retaining previous catalog")
    problems.append({"assetId":archive["assetId"],"reason":archive.get("importerError",archive.get("error","not compatible"))});continue
   override=overrides.get(archive["sha256"],{})
   for m in archive["importer"]["models"]:

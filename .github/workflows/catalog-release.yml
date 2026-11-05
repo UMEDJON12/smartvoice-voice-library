@@ -1,0 +1,16 @@
+# Existing release tags retain their original workflow. Recover their failed
+# release runs using the fixed workflow from main, without moving any tag.
+name: Refresh voice catalog after legacy release
+on:
+  workflow_run:
+    workflows: ['Update SmartVoice voice catalog']
+    types: [completed]
+permissions:
+  contents: write
+jobs:
+  refresh:
+    if: >-
+      github.event.workflow_run.event == 'release' &&
+      github.event.workflow_run.conclusion == 'failure' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    uses: ./.github/workflows/catalog.yml

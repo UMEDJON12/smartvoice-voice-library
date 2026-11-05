@@ -3,13 +3,14 @@ on:
   release:
     types: [published, edited]
   workflow_dispatch:
+  workflow_call:
   push:
     branches: [main]
-    paths: ['metadata-overrides.json', 'tools/**', '.github/workflows/catalog.yml']
+    paths: ['metadata-overrides.json', 'tools/**', '.github/workflows/catalog.yml', '.github/workflows/catalog-release.yml']
 permissions:
   contents: write
 concurrency:
-  group: voice-catalog
+  group: voice-catalog-main
   cancel-in-progress: false
 jobs:
   validate:
@@ -17,20 +18,17 @@ jobs:
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-      - name: Check catalog rules
-        run: python3 tools/test_catalog.py
-      - name: Inspect archives with the existing SmartVoice importer
+      - name: Check catalog rules and non-forced main publication
+        run: |
+          python3 tools/test_catalog.py
+          python3 tools/test_publish_catalog.py
+      - name: Validate archives and save verified catalog to main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 tools/build_catalog.py
-      - name: Save only the verified catalog and review reports
-        run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add catalog.json checks/archive-inspection.json checks/needs-review.json
-          git diff --cached --quiet || git commit -m "Update verified SmartVoice voice catalog"
-          git push
+        run: python3 tools/publish_catalog.py
