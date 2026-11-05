@@ -2,6 +2,131 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713170799,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Yunxiang-zh-CN-shandong.zip",
+      "size": 61401742,
+      "sha256": "ccde4c3e4f775699ba808567774c52f4bf734b74c7ee060fcf316b0bfb196ab9",
+      "files": [
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/2052.BR0",
+          "size": 5236588,
+          "sha256": "750915260716157a7c3d141371350af5cbdcacf4194dd961c22c42735048ee79"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/2052.BR2",
+          "size": 3372304,
+          "sha256": "964a5daa1b44a4d81158bb31f9a305681cd2040b6d8352119dbe02617a2edfa8"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/2052.BR3",
+          "size": 1002448,
+          "sha256": "93935a57048a3cfd842de7fd8abbe2d26ebe0f5e4e6d9c176e745917590e53ff"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/2052.INI",
+          "size": 954,
+          "sha256": "3c1f41e8878a1a08300ecf1fae4101926696412b46b1afca0f74c731f985d5e6"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "b02ec718ab7beb1981c690ab5c3586e8902a9112ccf6929268490f34f67c9d8d"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/am_v5_encoder.bin",
+          "size": 2271766,
+          "sha256": "ebd1b146aaab4e8d49d8484823b209b3bbcef3a62514d8d008dfb3593df7d70e"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "f768aa20a0523031172210cb05fb71feecb0635a5c3833b723159c989b83fb60"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/MSTTSLocEnUS.dat",
+          "size": 23285328,
+          "sha256": "09eddb767e7678c0ea6bd0c021ea710834bc6701d2b7ba558d2834550156a60a"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/MSTTSLocZhCN.dat",
+          "size": 48484224,
+          "sha256": "c23dd553d3f7f14b4df42bf73373222083b86d2647099f47d111338f8504bc59"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/MSTTSLocZhCN.ini",
+          "size": 2900,
+          "sha256": "6d0c9cfad6d8736bc014e992bb01a9224df227fadb69d1c8ac710e569d49c800"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/phones.txt",
+          "size": 1440,
+          "sha256": "a1e38590e987a46e6bd19814f733d7faabb8a64407d604882aef7a104c8ee593"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/punc.txt",
+          "size": 236,
+          "sha256": "2511bbd3b368c63cacd9d1b6ce88c5c26f1d9a072b0cd2d0a2c65dec7c24fcbb"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/Tokens.xml",
+          "size": 1155,
+          "sha256": "cb352cd7d54d787ec62d2d44347f5ef6a15cb0d73b82f793b04e9026d25ebdde"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/ZhCN.address.dat",
+          "size": 57224,
+          "sha256": "a6065fff3f175defb053a570a15c8f1a66f984473b4063b91e73ff7ec8f85bf3"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/ZhCN.erhua.dat",
+          "size": 69504,
+          "sha256": "129a1c3bdcee3f0df8faa8fe9c54a9b302cd836ffaf4fb6974bf6dc95917a203"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/ZhCN.message.dat",
+          "size": 51600,
+          "sha256": "0cacd1ad46c9ddd4c26e31d6af78eec548e4a55de541f7d321ffc0e95c3053db"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/ZhCN.mixlingual.dat",
+          "size": 11848,
+          "sha256": "42f06f44d9d3f36f1594dd4df25592ad9ffe52ae533a1269bfddbde34c69f39e"
+        },
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/ZhCN.name.dat",
+          "size": 35264,
+          "sha256": "81ccbfa320f40a2a2c00f6bc480632828a91039f684cfb5d3b4a29e5c9a0f83b"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Yunxiang-zh-CN-shandongijgk5qk4.1gf/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocZhCN.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2052"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp94pb27cv/713170799', '/tmp/tmp94pb27cv/import-713170799']' returned non-zero exit status 1."
+    },
+    {
       "assetId": 713006098,
       "releaseId": 434895762,
       "tag": "voices-001",

@@ -1,3 +1,8 @@
 {
-  "items": []
+  "items": [
+    {
+      "assetId": 713170799,
+      "reason": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp94pb27cv/713170799', '/tmp/tmp94pb27cv/import-713170799']' returned non-zero exit status 1."
+    }
+  ]
 }
