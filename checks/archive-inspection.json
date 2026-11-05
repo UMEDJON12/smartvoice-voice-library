@@ -124,7 +124,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713191258', '/tmp/tmpnjtm5hj7/import-713191258']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713191258', '/tmp/tmpmdrlrn4w/import-713191258']' returned non-zero exit status 1."
     },
     {
       "assetId": 713189997,
@@ -254,7 +254,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713189997', '/tmp/tmpnjtm5hj7/import-713189997']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713189997', '/tmp/tmpmdrlrn4w/import-713189997']' returned non-zero exit status 1."
     },
     {
       "assetId": 713188639,
@@ -379,7 +379,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713188639', '/tmp/tmpnjtm5hj7/import-713188639']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713188639', '/tmp/tmpmdrlrn4w/import-713188639']' returned non-zero exit status 1."
     },
     {
       "assetId": 713187940,
@@ -620,7 +620,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713184858', '/tmp/tmpnjtm5hj7/import-713184858']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713184858', '/tmp/tmpmdrlrn4w/import-713184858']' returned non-zero exit status 1."
     },
     {
       "assetId": 713181652,
@@ -745,7 +745,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713181652', '/tmp/tmpnjtm5hj7/import-713181652']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713181652', '/tmp/tmpmdrlrn4w/import-713181652']' returned non-zero exit status 1."
     },
     {
       "assetId": 713179104,
@@ -870,7 +870,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713179104', '/tmp/tmpnjtm5hj7/import-713179104']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713179104', '/tmp/tmpmdrlrn4w/import-713179104']' returned non-zero exit status 1."
     },
     {
       "assetId": 713177643,
@@ -1111,7 +1111,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713175580', '/tmp/tmpnjtm5hj7/import-713175580']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713175580', '/tmp/tmpmdrlrn4w/import-713175580']' returned non-zero exit status 1."
     },
     {
       "assetId": 713173912,
@@ -1236,7 +1236,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713173912', '/tmp/tmpnjtm5hj7/import-713173912']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713173912', '/tmp/tmpmdrlrn4w/import-713173912']' returned non-zero exit status 1."
     },
     {
       "assetId": 713170799,
@@ -1361,7 +1361,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpnjtm5hj7/713170799', '/tmp/tmpnjtm5hj7/import-713170799']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713170799', '/tmp/tmpmdrlrn4w/import-713170799']' returned non-zero exit status 1."
     },
     {
       "assetId": 713006098,
