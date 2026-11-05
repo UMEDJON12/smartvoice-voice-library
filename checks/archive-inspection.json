@@ -2,6 +2,414 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 714424186,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Christopher-en-US.zip",
+      "size": 29332945,
+      "sha256": "e814e51af86162e9adc9cd9b5f5b2fd5f3680f0b638db150e7ced6e2cfbacc35",
+      "files": [
+        {
+          "path": "Christopher-en-US5qeospni.uzv/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "0e39bcc800088bf3a748e0078eb2c975e1e0cf25381887bd11fb3e16ba8a6a53"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/am_v5_encoder.bin",
+          "size": 2167310,
+          "sha256": "e3e1529f0ecc9e5e22ed56e2b098704f6984b866fe35cce6b64b27edfedcf765"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "517f475ff8d8bf1390495af158dc9c573a4b37fd3f21698d9b6be5760b495188"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/phones.txt",
+          "size": 594,
+          "sha256": "1d55cf11d2e1c07143599e0d3f73b4e59013af95fc164a11961e0638ea91e8e5"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/Tokens.xml",
+          "size": 1209,
+          "sha256": "f5012864d7a5e56a62c4638b2acbc5b1261fc75904d6c7286477c5a89c22c81c"
+        },
+        {
+          "path": "Christopher-en-US5qeospni.uzv/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Christopher-en-US5qeospni.uzv/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-ChristopherNeural",
+            "engine": "microsoft",
+            "bytes": 47079800,
+            "speaker": "en-US-ChristopherNeural",
+            "contentId": "69c684b2cf996a77",
+            "name": "Christopher",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47080937
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-ChristopherNeural",
+          "status": "available",
+          "file": "microsoft-09ff554d842231ee13e66b96.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 714422672,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Davis-en-US.zip",
+      "size": 29369600,
+      "sha256": "b9b555c28ce5cda57e3c6cc895548f3eca7ca6f6fc5c4c9245553dff48b2742b",
+      "files": [
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "780268bf065479cdf63528fe5371c1ef798091ad29fe01311f2a922acb6540dd"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/am_v5_encoder.bin",
+          "size": 2165263,
+          "sha256": "f41980802b3962f8b55ec33a63c1f1a56c2db7cc7a1046beb0f4f05f7fdb8256"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "eeea8ff0b64386ab203359064cfab56d4fb43ca3d3e7a6820741cda078b229e9"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/phones.txt",
+          "size": 576,
+          "sha256": "be8f15eec01a74adb50bc9ddf21630536159d3139caa04ef17af9803d098a0ba"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/punc.txt",
+          "size": 198,
+          "sha256": "e6752be653a3dcfb9aea378f15fd2b51ce8a90c6c63729618f274b37d746f92e"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/Tokens.xml",
+          "size": 1185,
+          "sha256": "75ceb93e7a7bf2fca3c5cbc86f845816ab92ae54774c024a6a737b5c4ad7c873"
+        },
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Davis-en-USstcwjf5a.hyb/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-DavisNeural",
+            "engine": "microsoft",
+            "bytes": 47077439,
+            "speaker": "en-US-DavisNeural",
+            "contentId": "ab7637ee5ebe02c8",
+            "name": "Davis",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47078546
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-DavisNeural",
+          "status": "available",
+          "file": "microsoft-ae561c3d754a7baba0887e5e.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 714421052,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Eric-en-US.zip",
+      "size": 29332234,
+      "sha256": "cf25c27e234b08fbcfedf0cc1ef68579d04b3cfeedb1ec2a356ca80efe8d814d",
+      "files": [
+        {
+          "path": "Eric-en-USushckimf.5qm/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "f5573cafeade90795ec8d5dc165aa9a5280929ecc668e2e919ac4296efdd4f7e"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/am_v5_encoder.bin",
+          "size": 2167311,
+          "sha256": "68d278d33a2d8c8e842cc8cb7c4179917bc2a4e57f79b0bf2021f843e4140df4"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "c7d3ebcb416f977eefde30ad51d9f061c0fe002f88746071a84324d1d2414f91"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/phones.txt",
+          "size": 594,
+          "sha256": "1d55cf11d2e1c07143599e0d3f73b4e59013af95fc164a11961e0638ea91e8e5"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/Tokens.xml",
+          "size": 1181,
+          "sha256": "a6a59d2dd336a81f6d100fd6e88e2739e1cfa63210b7ebf325dc1bc5bfabac7f"
+        },
+        {
+          "path": "Eric-en-USushckimf.5qm/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Eric-en-USushckimf.5qm/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-EricNeural",
+            "engine": "microsoft",
+            "bytes": 47079773,
+            "speaker": "en-US-EricNeural",
+            "contentId": "8c29d836743d5348",
+            "name": "Eric",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47080875
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-EricNeural",
+          "status": "available",
+          "file": "microsoft-5af8b589b1f66a2bce1d9bff.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 714419792,
       "releaseId": 434895762,
       "tag": "voices-001",
