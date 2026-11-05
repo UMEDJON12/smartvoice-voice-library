@@ -2,6 +2,137 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713569650,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Keita-ja-JP.zip",
+      "size": 48102804,
+      "sha256": "764f34f526af2f9f2eea7722417ad88716f93bf12bcf34f690496586e2be4898",
+      "files": [
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/1041.INI",
+          "size": 864,
+          "sha256": "1061c16b31bac1d5540d9b6217d68531b821f63718bacf58344132557d133b99"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "aac758fa42d4f1821b9c98d94096d725b0ca82e6bb83a61ef2f3d04d472db5ae"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/am_v5_encoder.bin",
+          "size": 2191011,
+          "sha256": "8f2eeab28c22f5c7d4c3f3c68a667e87c5a1b8df5209534e85aa9c1f19acf5a8"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/device_vocoder_v6_streaming.bin",
+          "size": 1477214,
+          "sha256": "660ab3458197bca0736d298ee074a5af797b7a58f85daae9b3940c49120d1b8c"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/JaJP.address.dat",
+          "size": 5512,
+          "sha256": "c845ff049a48fbbb9ad4b974a71e02b9df65d6dbef69be56d8104ae10cf2e1df"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/JaJP.companyname.dat",
+          "size": 8544,
+          "sha256": "2a9a1c8564ebdc6682b3b51abdc64e60ba9bf7498206dc0317d90a1d2b12a8fe"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/JaJP.message.dat",
+          "size": 5944,
+          "sha256": "3c299ac0ccc6abcd3ae2ff8ff7594aa337fd9077853711a7e09fede9dcbd04b0"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/JaJP.name.dat",
+          "size": 87048,
+          "sha256": "4d9ef05d93bf8ae676947c99eb5220a4d9fd550999199db88ad41e7bd796d281"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/MSTTSLocEnUS.dat",
+          "size": 23277464,
+          "sha256": "fc3657590a78e826e55ec8114249c6ef6ff78c7bfc68ab5d799d19dd28014314"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/MSTTSLocJaJP.dat",
+          "size": 38638408,
+          "sha256": "49ee7ba6a332fd2e187d62d6c01f882ca5543aef32299078907d391935b0621c"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/MSTTSLocJaJP.ini",
+          "size": 4376,
+          "sha256": "4dddcec00c3a31e53db486906e0967e294523a27ca47735333951deca8e01bab"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/phones.txt",
+          "size": 1118,
+          "sha256": "53ea519bf01db24ba9630f7ace671eb68bacd46bdc6b8cdbbcb9c6782ddd610e"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/Tokens.xml",
+          "size": 1213,
+          "sha256": "5bb3af83a8c22be6405dbfff7e688b20c5855ce23163ceb99bfd338a0c05b89e"
+        },
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Keita-ja-JPt1uafdkl.5ub/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocJaJP.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1041"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ja-JP-KeitaNeural",
+            "engine": "microsoft",
+            "bytes": 66440624,
+            "speaker": "ja-JP-KeitaNeural",
+            "contentId": "4e326d17ba9cefca",
+            "name": "Keita",
+            "minAppCode": 4169,
+            "locale": "ja-JP",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 66441731
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "ja-JP-KeitaNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ]
+    },
+    {
       "assetId": 713565945,
       "releaseId": 434895762,
       "tag": "voices-001",
