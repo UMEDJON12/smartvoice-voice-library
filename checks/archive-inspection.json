@@ -2,6 +2,112 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 712520393,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": true,
+      "name": "_._._._._._.zip",
+      "size": 32463854,
+      "sha256": "301937daec5bf57f70df1a09a825dde8825f2935d83fed43111add195c0a970b",
+      "files": [
+        {
+          "path": "ve_pipeline_mnc_tingting-ml_22_embedded-high_2-0-0.hdr",
+          "size": 3591,
+          "sha256": "3b7510e7b02148a5f1c708054708ed5fb283297f65291d0eca3716d06f95fd3a"
+        },
+        {
+          "path": "mnc_tingting-ml_embedded-high_2-0-0.dat",
+          "size": 39544711,
+          "sha256": "c0d542f8e4d7504490f2a9fd0002c7fe3484adb8da725e5d788a9845855f1374"
+        }
+      ],
+      "voices": [],
+      "tokens": [],
+      "headers": [
+        {
+          "path": "ve_pipeline_mnc_tingting-ml_22_embedded-high_2-0-0.hdr",
+          "metadata": {
+            "language": "Chinese Mandarin",
+            "langcode": "MNC",
+            "voice": "Tingting-Ml",
+            "datapackagename": "mnc/tingting-ml/embedded-high/2-0-0",
+            "voiceoperatingpoint": "embedded-high"
+          }
+        }
+      ],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "mnc/tingting-ml/embedded-high",
+            "engine": "vocalizer-folder",
+            "bytes": 39548302,
+            "nativeLang": "MNC",
+            "contentId": "f0f6877ac23e9cf9f712225d13f6a16996cf49766de0036d1af4cdc889183e13",
+            "name": "Tingting-Ml",
+            "locale": "zh-CN",
+            "quality": "embedded-high"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 39548302
+      }
+    },
+    {
+      "assetId": 712516765,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": true,
+      "name": "_._._._._.zip",
+      "size": 160239457,
+      "sha256": "2beb8d05d7bfbfe5eb8e2547f47c08444b3b15558be37b901e6cdeb9c4d6561b",
+      "files": [
+        {
+          "path": "ve_pipeline_trt_yelda_22_embedded-high_2-0-2.hdr",
+          "size": 3595,
+          "sha256": "48f8c5c9a9edea7783ed4a7f4d8d181cbb83b326944b56928ff7a1287e606f77"
+        },
+        {
+          "path": "trt_yelda_embedded-high_2-0-2.dat",
+          "size": 176521880,
+          "sha256": "d6f474b586a36b16dd67a57f3afae18fcc7b01a9a31b8c97fb7726374d988fb2"
+        }
+      ],
+      "voices": [],
+      "tokens": [],
+      "headers": [
+        {
+          "path": "ve_pipeline_trt_yelda_22_embedded-high_2-0-2.hdr",
+          "metadata": {
+            "language": "Turkish",
+            "langcode": "TRT",
+            "voice": "Yelda",
+            "datapackagename": "trt/yelda/embedded-high/2-0-2",
+            "voiceoperatingpoint": "embedded-high"
+          }
+        }
+      ],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "trt/yelda/embedded-high",
+            "engine": "vocalizer-folder",
+            "bytes": 176525475,
+            "nativeLang": "TRT",
+            "contentId": "b3480ff23478ec6f90fafc25a6ab6cb35a2fddefcae2ea74626c5e7d4dcacd09",
+            "name": "Yelda",
+            "locale": "tr-TR",
+            "quality": "embedded-high"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 176525475
+      }
+    },
+    {
       "assetId": 712496720,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -262,121 +368,6 @@
       }
     },
     {
-      "assetId": 712495585,
-      "releaseId": 434895762,
-      "tag": "voices-001",
-      "draft": true,
-      "name": "Microsoft_._._._Madina.zip",
-      "size": 4754451,
-      "sha256": "c47be80536a4c592b06b4602817f2c722bb1cc783180d8c86343c35fff72c06e",
-      "files": [
-        {
-          "path": "multivoice.json",
-          "size": 1025,
-          "sha256": "8c357f6e7281dded0a9f3db48f5e9c9693d0fc2ffec0ff2bae5c26fe09041c75"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/1091.INI",
-          "size": 666,
-          "sha256": "c5dc9379ccfc8e49ddf2ec2c053cd6422ae435c41b2a6026920004709cd0ddca"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/MSTTSLocUzLatnUZ.dat",
-          "size": 624488,
-          "sha256": "b2633f26606cbcff386575d380e53f57bb8239c7cd8cbc01998b8f18280938bf"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/MSTTSLocUzLatnUZ.ini",
-          "size": 606,
-          "sha256": "640eab2ef0d76e5474f9e94cd49adb48a26f272c8ca86b13599053938bac7116"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/Tokens.xml",
-          "size": 1248,
-          "sha256": "ddb88bc075d14465bb34cda709f5e539f64f138d822dbdb7415e1292122b5f4f"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/am_v5_decoder.bin",
-          "size": 746391,
-          "sha256": "dfa868eb764c5ee819515912338fcb9880a98d3839370e81ffb03425b20536de"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/am_v5_encoder.bin",
-          "size": 2115093,
-          "sha256": "3a57d6ec7230a5493be2c62e5d69f092873bf9e88396b335816be7a9ae00c400"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/device_vocoder_v6_streaming.bin",
-          "size": 2454756,
-          "sha256": "a9cbe4dfd404549152c83b611d4d20839d022dad3359dfb133642c7d8bc2d5f8"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/phones.txt",
-          "size": 424,
-          "sha256": "c699277a401a2bede6fc562e335f83e67cd078a439e58d1cc4ae8ed85ac4e82e"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/punc.txt",
-          "size": 195,
-          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
-        },
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/version.txt",
-          "size": 11,
-          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
-        }
-      ],
-      "voices": [
-        {
-          "engine": "microsoft",
-          "code": "uz-UZ-MadinaNeural",
-          "locale": "uz-UZ",
-          "name": "Madina",
-          "folder": "microsoft/uz-UZ-MadinaNeural",
-          "id": "4df25957b86b597a",
-          "options": {
-            "speaker": "uz-UZ-MadinaNeural",
-            "gender": "female"
-          },
-          "paramVoice": "Microsoft Server Speech Text to Speech Voice (uz-UZ, MadinaNeural)"
-        }
-      ],
-      "tokens": [
-        {
-          "path": "microsoft/uz-UZ-MadinaNeural/Tokens.xml",
-          "attributes": [
-            {
-              "name": "LangDataPath",
-              "value": "[INSTALLDIR]MSTTSLocUzLatnUZ.dat"
-            },
-            {
-              "name": "VoicePath",
-              "value": "[INSTALLDIR]1091"
-            }
-          ]
-        }
-      ],
-      "headers": [],
-      "zipVerified": true,
-      "importer": {
-        "synthesisTested": false,
-        "models": [
-          {
-            "code": "uz-UZ-MadinaNeural",
-            "engine": "microsoft",
-            "bytes": 5943878,
-            "speaker": "uz-UZ-MadinaNeural",
-            "contentId": "4df25957b86b597a",
-            "name": "Madina",
-            "locale": "uz-UZ",
-            "quality": "unspecified"
-          }
-        ],
-        "validatorVersion": "5.2.53",
-        "unpackedBytes": 5946019
-      }
-    },
-    {
       "assetId": 712495901,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -492,109 +483,118 @@
       }
     },
     {
-      "assetId": 712516765,
+      "assetId": 712495585,
       "releaseId": 434895762,
       "tag": "voices-001",
       "draft": true,
-      "name": "_._._._._.zip",
-      "size": 160239457,
-      "sha256": "2beb8d05d7bfbfe5eb8e2547f47c08444b3b15558be37b901e6cdeb9c4d6561b",
+      "name": "Microsoft_._._._Madina.zip",
+      "size": 4754451,
+      "sha256": "c47be80536a4c592b06b4602817f2c722bb1cc783180d8c86343c35fff72c06e",
       "files": [
         {
-          "path": "ve_pipeline_trt_yelda_22_embedded-high_2-0-2.hdr",
-          "size": 3595,
-          "sha256": "48f8c5c9a9edea7783ed4a7f4d8d181cbb83b326944b56928ff7a1287e606f77"
+          "path": "multivoice.json",
+          "size": 1025,
+          "sha256": "8c357f6e7281dded0a9f3db48f5e9c9693d0fc2ffec0ff2bae5c26fe09041c75"
         },
         {
-          "path": "trt_yelda_embedded-high_2-0-2.dat",
-          "size": 176521880,
-          "sha256": "d6f474b586a36b16dd67a57f3afae18fcc7b01a9a31b8c97fb7726374d988fb2"
-        }
-      ],
-      "voices": [],
-      "tokens": [],
-      "headers": [
+          "path": "microsoft/uz-UZ-MadinaNeural/1091.INI",
+          "size": 666,
+          "sha256": "c5dc9379ccfc8e49ddf2ec2c053cd6422ae435c41b2a6026920004709cd0ddca"
+        },
         {
-          "path": "ve_pipeline_trt_yelda_22_embedded-high_2-0-2.hdr",
-          "metadata": {
-            "language": "Turkish",
-            "langcode": "TRT",
-            "voice": "Yelda",
-            "datapackagename": "trt/yelda/embedded-high/2-0-2",
-            "voiceoperatingpoint": "embedded-high"
-          }
+          "path": "microsoft/uz-UZ-MadinaNeural/MSTTSLocUzLatnUZ.dat",
+          "size": 624488,
+          "sha256": "b2633f26606cbcff386575d380e53f57bb8239c7cd8cbc01998b8f18280938bf"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/MSTTSLocUzLatnUZ.ini",
+          "size": 606,
+          "sha256": "640eab2ef0d76e5474f9e94cd49adb48a26f272c8ca86b13599053938bac7116"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/Tokens.xml",
+          "size": 1248,
+          "sha256": "ddb88bc075d14465bb34cda709f5e539f64f138d822dbdb7415e1292122b5f4f"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "dfa868eb764c5ee819515912338fcb9880a98d3839370e81ffb03425b20536de"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/am_v5_encoder.bin",
+          "size": 2115093,
+          "sha256": "3a57d6ec7230a5493be2c62e5d69f092873bf9e88396b335816be7a9ae00c400"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "a9cbe4dfd404549152c83b611d4d20839d022dad3359dfb133642c7d8bc2d5f8"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/phones.txt",
+          "size": 424,
+          "sha256": "c699277a401a2bede6fc562e335f83e67cd078a439e58d1cc4ae8ed85ac4e82e"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
         }
       ],
+      "voices": [
+        {
+          "engine": "microsoft",
+          "code": "uz-UZ-MadinaNeural",
+          "locale": "uz-UZ",
+          "name": "Madina",
+          "folder": "microsoft/uz-UZ-MadinaNeural",
+          "id": "4df25957b86b597a",
+          "options": {
+            "speaker": "uz-UZ-MadinaNeural",
+            "gender": "female"
+          },
+          "paramVoice": "Microsoft Server Speech Text to Speech Voice (uz-UZ, MadinaNeural)"
+        }
+      ],
+      "tokens": [
+        {
+          "path": "microsoft/uz-UZ-MadinaNeural/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocUzLatnUZ.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1091"
+            }
+          ]
+        }
+      ],
+      "headers": [],
       "zipVerified": true,
       "importer": {
         "synthesisTested": false,
         "models": [
           {
-            "code": "trt/yelda/embedded-high",
-            "engine": "vocalizer-folder",
-            "bytes": 176525475,
-            "nativeLang": "TRT",
-            "contentId": "b3480ff23478ec6f90fafc25a6ab6cb35a2fddefcae2ea74626c5e7d4dcacd09",
-            "name": "Yelda",
-            "locale": "tr-TR",
-            "quality": "embedded-high"
+            "code": "uz-UZ-MadinaNeural",
+            "engine": "microsoft",
+            "bytes": 5943878,
+            "speaker": "uz-UZ-MadinaNeural",
+            "contentId": "4df25957b86b597a",
+            "name": "Madina",
+            "locale": "uz-UZ",
+            "quality": "unspecified"
           }
         ],
         "validatorVersion": "5.2.53",
-        "unpackedBytes": 176525475
-      }
-    },
-    {
-      "assetId": 712520393,
-      "releaseId": 434895762,
-      "tag": "voices-001",
-      "draft": true,
-      "name": "_._._._._._.zip",
-      "size": 32463854,
-      "sha256": "301937daec5bf57f70df1a09a825dde8825f2935d83fed43111add195c0a970b",
-      "files": [
-        {
-          "path": "ve_pipeline_mnc_tingting-ml_22_embedded-high_2-0-0.hdr",
-          "size": 3591,
-          "sha256": "3b7510e7b02148a5f1c708054708ed5fb283297f65291d0eca3716d06f95fd3a"
-        },
-        {
-          "path": "mnc_tingting-ml_embedded-high_2-0-0.dat",
-          "size": 39544711,
-          "sha256": "c0d542f8e4d7504490f2a9fd0002c7fe3484adb8da725e5d788a9845855f1374"
-        }
-      ],
-      "voices": [],
-      "tokens": [],
-      "headers": [
-        {
-          "path": "ve_pipeline_mnc_tingting-ml_22_embedded-high_2-0-0.hdr",
-          "metadata": {
-            "language": "Chinese Mandarin",
-            "langcode": "MNC",
-            "voice": "Tingting-Ml",
-            "datapackagename": "mnc/tingting-ml/embedded-high/2-0-0",
-            "voiceoperatingpoint": "embedded-high"
-          }
-        }
-      ],
-      "zipVerified": true,
-      "importer": {
-        "synthesisTested": false,
-        "models": [
-          {
-            "code": "mnc/tingting-ml/embedded-high",
-            "engine": "vocalizer-folder",
-            "bytes": 39548302,
-            "nativeLang": "MNC",
-            "contentId": "f0f6877ac23e9cf9f712225d13f6a16996cf49766de0036d1af4cdc889183e13",
-            "name": "Tingting-Ml",
-            "locale": "zh-CN",
-            "quality": "embedded-high"
-          }
-        ],
-        "validatorVersion": "5.2.53",
-        "unpackedBytes": 39548302
+        "unpackedBytes": 5946019
       }
     }
   ]
