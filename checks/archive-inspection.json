@@ -124,7 +124,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713191258', '/tmp/tmpmdrlrn4w/import-713191258']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-liaoning-XiaobeiNeural",
+            "engine": "microsoft",
+            "bytes": 87104745,
+            "speaker": "zh-CN-liaoning-XiaobeiNeural",
+            "contentId": "c07c37b801aa5fe6",
+            "name": "Xiaobei",
+            "minAppCode": 4171,
+            "locale": "zh-CN-liaoning",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 87105907
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-liaoning-XiaobeiNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713189997,
@@ -254,7 +280,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713189997', '/tmp/tmpmdrlrn4w/import-713189997']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-JennyNeural",
+            "engine": "microsoft",
+            "bytes": 111936356,
+            "speaker": "zh-CN-JennyNeural",
+            "contentId": "89c81c6e57c3ce15",
+            "name": "Jenny",
+            "minAppCode": 4171,
+            "locale": "zh-CN",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 111937463
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-JennyNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713188639,
@@ -379,7 +431,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713188639', '/tmp/tmpmdrlrn4w/import-713188639']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-liaoning-XiaobeiNeural",
+            "engine": "microsoft",
+            "bytes": 87104745,
+            "speaker": "zh-CN-liaoning-XiaobeiNeural",
+            "contentId": "c07c37b801aa5fe6",
+            "name": "Xiaobei",
+            "minAppCode": 4171,
+            "locale": "zh-CN-liaoning",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 87105907
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-liaoning-XiaobeiNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713187940,
@@ -489,13 +567,23 @@
             "speaker": "yue-CN-XiaoMinNeural",
             "contentId": "42e8d89bc608687a",
             "name": "XiaoMin",
+            "minAppCode": 4169,
             "locale": "yue-CN",
             "quality": "unspecified"
           }
         ],
-        "validatorVersion": "5.2.53",
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
         "unpackedBytes": 41551087
-      }
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "yue-CN-XiaoMinNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713184858,
@@ -620,7 +708,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713184858', '/tmp/tmpmdrlrn4w/import-713184858']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-shaanxi-XiaoniNeural",
+            "engine": "microsoft",
+            "bytes": 87084898,
+            "speaker": "zh-CN-shaanxi-XiaoniNeural",
+            "contentId": "690ca4e6198bd4fb",
+            "name": "Xiaoni",
+            "minAppCode": 4171,
+            "locale": "zh-CN-shaanxi",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 87086050
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-shaanxi-XiaoniNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713181652,
@@ -745,7 +859,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713181652', '/tmp/tmpmdrlrn4w/import-713181652']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-XiaoxiaoNeural",
+            "engine": "microsoft",
+            "bytes": 115685174,
+            "speaker": "zh-CN-XiaoxiaoNeural",
+            "contentId": "d3627e2cbe71dd26",
+            "name": "Xiaoxiao",
+            "minAppCode": 4171,
+            "locale": "zh-CN",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 115686296
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-XiaoxiaoNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713179104,
@@ -870,7 +1010,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713179104', '/tmp/tmpmdrlrn4w/import-713179104']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-henan-YundengNeural",
+            "engine": "microsoft",
+            "bytes": 87084791,
+            "speaker": "zh-CN-henan-YundengNeural",
+            "contentId": "7c202b388e6c7473",
+            "name": "Yundeng",
+            "minAppCode": 4171,
+            "locale": "zh-CN-henan",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 87085938
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-henan-YundengNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713177643,
@@ -980,13 +1146,23 @@
             "speaker": "yue-CN-YunSongNeural",
             "contentId": "230276a12cdd72ca",
             "name": "YunSong",
+            "minAppCode": 4169,
             "locale": "yue-CN",
             "quality": "unspecified"
           }
         ],
-        "validatorVersion": "5.2.53",
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
         "unpackedBytes": 41551084
-      }
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "yue-CN-YunSongNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713175580,
@@ -1111,7 +1287,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713175580', '/tmp/tmpmdrlrn4w/import-713175580']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-YunxiNeural",
+            "engine": "microsoft",
+            "bytes": 115693341,
+            "speaker": "zh-CN-YunxiNeural",
+            "contentId": "2eb9ea5a2a851a0d",
+            "name": "Yunxi",
+            "minAppCode": 4171,
+            "locale": "zh-CN",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 115694448
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-YunxiNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713173912,
@@ -1236,7 +1438,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713173912', '/tmp/tmpmdrlrn4w/import-713173912']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-sichuan-YunxiNeural",
+            "engine": "microsoft",
+            "bytes": 87083737,
+            "speaker": "zh-CN-sichuan-YunxiNeural",
+            "contentId": "6db6f7ca42507b85",
+            "name": "Yunxi",
+            "minAppCode": 4171,
+            "locale": "zh-CN-sichuan",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 87084884
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-sichuan-YunxiNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713170799,
@@ -1361,7 +1589,33 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpmdrlrn4w/713170799', '/tmp/tmpmdrlrn4w/import-713170799']' returned non-zero exit status 1."
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "zh-CN-shandong-YunxiangNeural",
+            "engine": "microsoft",
+            "bytes": 87085941,
+            "speaker": "zh-CN-shandong-YunxiangNeural",
+            "contentId": "65e5098c1d79d6e5",
+            "name": "Yunxiang",
+            "minAppCode": 4171,
+            "locale": "zh-CN-shandong",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 87087108
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "zh-CN-shandong-YunxiangNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 713006098,
@@ -1461,13 +1715,23 @@
             "speaker": "fa-IR-DilaraNeural",
             "contentId": "5f1dbef726168159",
             "name": "Dilara",
+            "minAppCode": 4169,
             "locale": "fa-IR",
             "quality": "unspecified"
           }
         ],
-        "validatorVersion": "5.2.53",
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
         "unpackedBytes": 33760848
-      }
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "fa-IR-DilaraNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 712496720,
@@ -1551,12 +1815,7 @@
           "locale": "fa-IR",
           "name": "Farid",
           "folder": "microsoft/fa-IR-FaridNeural",
-          "id": "36cbc0a256938fdb",
-          "options": {
-            "speaker": "fa-IR-FaridNeural",
-            "gender": "female"
-          },
-          "paramVoice": "Microsoft Server Speech Text to Speech Voice (fa-IR, FaridNeural)"
+          "id": "36cbc0a256938fdb"
         }
       ],
       "tokens": [
@@ -1586,13 +1845,23 @@
             "speaker": "fa-IR-FaridNeural",
             "contentId": "36cbc0a256938fdb",
             "name": "Farid",
+            "minAppCode": 4169,
             "locale": "fa-IR",
             "quality": "unspecified"
           }
         ],
-        "validatorVersion": "5.2.53",
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
         "unpackedBytes": 33761895
-      }
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": [
+        {
+          "code": "fa-IR-FaridNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 712496037,
@@ -1686,12 +1955,7 @@
           "locale": "ar-SA",
           "name": "Hamed",
           "folder": "microsoft/ar-SA-HamedNeural",
-          "id": "82f26b39a0fee113",
-          "options": {
-            "speaker": "ar-SA-HamedNeural",
-            "gender": "female"
-          },
-          "paramVoice": "Microsoft Server Speech Text to Speech Voice (ar-SA, HamedNeural)"
+          "id": "82f26b39a0fee113"
         }
       ],
       "tokens": [
@@ -1721,13 +1985,23 @@
             "speaker": "ar-SA-HamedNeural",
             "contentId": "82f26b39a0fee113",
             "name": "Hamed",
+            "minAppCode": 4169,
             "locale": "ar-SA",
             "quality": "unspecified"
           }
         ],
-        "validatorVersion": "5.2.53",
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
         "unpackedBytes": 35072380
-      }
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": [
+        {
+          "code": "ar-SA-HamedNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 712495901,
@@ -1801,12 +2075,7 @@
           "locale": "uz-UZ",
           "name": "Sardor",
           "folder": "Sardor-uz-UZjcqbas4p.iyu",
-          "id": "5df4101236ea4317",
-          "options": {
-            "speaker": "uz-UZ-SardorNeural",
-            "gender": "female"
-          },
-          "paramVoice": "Microsoft Server Speech Text to Speech Voice (uz-UZ, SardorNeural)"
+          "id": "5df4101236ea4317"
         }
       ],
       "tokens": [
@@ -1836,13 +2105,23 @@
             "speaker": "uz-UZ-SardorNeural",
             "contentId": "5df4101236ea4317",
             "name": "Sardor",
+            "minAppCode": 4169,
             "locale": "uz-UZ",
             "quality": "unspecified"
           }
         ],
-        "validatorVersion": "5.2.53",
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
         "unpackedBytes": 5945978
-      }
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": [
+        {
+          "code": "uz-UZ-SardorNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     },
     {
       "assetId": 712495585,
@@ -1916,12 +2195,7 @@
           "locale": "uz-UZ",
           "name": "Madina",
           "folder": "microsoft/uz-UZ-MadinaNeural",
-          "id": "4df25957b86b597a",
-          "options": {
-            "speaker": "uz-UZ-MadinaNeural",
-            "gender": "female"
-          },
-          "paramVoice": "Microsoft Server Speech Text to Speech Voice (uz-UZ, MadinaNeural)"
+          "id": "4df25957b86b597a"
         }
       ],
       "tokens": [
@@ -1951,13 +2225,23 @@
             "speaker": "uz-UZ-MadinaNeural",
             "contentId": "4df25957b86b597a",
             "name": "Madina",
+            "minAppCode": 4169,
             "locale": "uz-UZ",
             "quality": "unspecified"
           }
         ],
-        "validatorVersion": "5.2.53",
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
         "unpackedBytes": 5946019
-      }
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "sampleGeneration": [
+        {
+          "code": "uz-UZ-MadinaNeural",
+          "status": "unavailable",
+          "reason": "Sample could not be saved"
+        }
+      ]
     }
   ]
 }
