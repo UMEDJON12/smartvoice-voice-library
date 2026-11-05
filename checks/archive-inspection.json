@@ -147,8 +147,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-liaoning-XiaobeiNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-9857000e087eff3e3cbfc1f1.mp3"
         }
       ]
     },
@@ -303,8 +303,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-JennyNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-4988674a78df7c8c75eeb5e4.mp3"
         }
       ]
     },
@@ -454,8 +454,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-liaoning-XiaobeiNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-9857000e087eff3e3cbfc1f1.mp3"
         }
       ]
     },
@@ -580,8 +580,8 @@
       "sampleGeneration": [
         {
           "code": "yue-CN-XiaoMinNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-a8cbab94b23b90d9e95f2dc2.mp3"
         }
       ]
     },
@@ -731,8 +731,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-shaanxi-XiaoniNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-920ab73fc3d016144b216d84.mp3"
         }
       ]
     },
@@ -882,8 +882,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-XiaoxiaoNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-624b5cbd24abce8f2b097efe.mp3"
         }
       ]
     },
@@ -1033,8 +1033,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-henan-YundengNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-7959f1ee748f748791c4d462.mp3"
         }
       ]
     },
@@ -1159,8 +1159,8 @@
       "sampleGeneration": [
         {
           "code": "yue-CN-YunSongNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-bdb3d7962fdba87cdcc4d67a.mp3"
         }
       ]
     },
@@ -1310,8 +1310,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-YunxiNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-bf8448ff909217eaa1f77766.mp3"
         }
       ]
     },
@@ -1461,8 +1461,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-sichuan-YunxiNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-5e8fec0781153260633ddefd.mp3"
         }
       ]
     },
@@ -1612,8 +1612,8 @@
       "sampleGeneration": [
         {
           "code": "zh-CN-shandong-YunxiangNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-0ecbf8bde43be4ff49d5282c.mp3"
         }
       ]
     },
@@ -1728,8 +1728,8 @@
       "sampleGeneration": [
         {
           "code": "fa-IR-DilaraNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-c88d4727e3ba2a5b45c6f4a9.mp3"
         }
       ]
     },
@@ -1858,8 +1858,8 @@
       "sampleGeneration": [
         {
           "code": "fa-IR-FaridNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-7475d6dec23f07c7110de023.mp3"
         }
       ]
     },
@@ -1998,8 +1998,8 @@
       "sampleGeneration": [
         {
           "code": "ar-SA-HamedNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-448b4383a83cfb057753d243.mp3"
         }
       ]
     },
@@ -2118,8 +2118,8 @@
       "sampleGeneration": [
         {
           "code": "uz-UZ-SardorNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-1f8d8e8b251f14feac66749b.mp3"
         }
       ]
     },
@@ -2238,8 +2238,8 @@
       "sampleGeneration": [
         {
           "code": "uz-UZ-MadinaNeural",
-          "status": "unavailable",
-          "reason": "Sample could not be saved"
+          "status": "available",
+          "file": "microsoft-2203ca22bf192fddfce050c2.mp3"
         }
       ]
     }
