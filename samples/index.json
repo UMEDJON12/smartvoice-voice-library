@@ -31,6 +31,34 @@
     },
     {
       "provider": "microsoft",
+      "code": "en-GB-JennyNeural",
+      "locale": "en-GB",
+      "quality": "unspecified",
+      "archiveSha256": "1731c0062ee5e37ea1453dba9d85f95b54764b98674a94d6cfa2afd2cc08076e",
+      "file": "microsoft-767cdb43349524ed2a285f1d.mp3",
+      "sha256": "6483d275cc00984803779f460dd9ee3c9e0f2200690802366d78834ffa378864",
+      "platform": "linux-x64",
+      "sdkVersion": "1.45.0",
+      "sampleText": "Hello. This is a sample of the selected voice.",
+      "durationSeconds": 2.775,
+      "androidTested": false
+    },
+    {
+      "provider": "microsoft",
+      "code": "en-GB-LibbyNeural",
+      "locale": "en-GB",
+      "quality": "unspecified",
+      "archiveSha256": "7b99f93d0bf7f4a3f115bea32f106ed76312c481f71a4d56c3507d4968cb68e0",
+      "file": "microsoft-2583e9486b9d982ebd0d2908.mp3",
+      "sha256": "16cca3453fbd8b483a0fce0726b5db72f0748cb0ab0daefb167bdb69dcf087b5",
+      "platform": "linux-x64",
+      "sdkVersion": "1.45.0",
+      "sampleText": "Hello. This is a sample of the selected voice.",
+      "durationSeconds": 3.34825,
+      "androidTested": false
+    },
+    {
+      "provider": "microsoft",
       "code": "en-GB-RyanNeural",
       "locale": "en-GB",
       "quality": "unspecified",
@@ -55,6 +83,20 @@
       "sdkVersion": "1.45.0",
       "sampleText": "Hello. This is a sample of the selected voice.",
       "durationSeconds": 3.20125,
+      "androidTested": false
+    },
+    {
+      "provider": "microsoft",
+      "code": "en-GB-XiaochenNeural",
+      "locale": "en-GB",
+      "quality": "unspecified",
+      "archiveSha256": "d69f31842821e3ccd75d49da656302ab937510b4cfbb8c269460a61cde88a0d4",
+      "file": "microsoft-4a02b08b832d1bb62c50a665.mp3",
+      "sha256": "db21d05f62e197ea3c5a31021398e6a117a2a164abd11022cf6e04285b4e8513",
+      "platform": "linux-x64",
+      "sdkVersion": "1.45.0",
+      "sampleText": "Hello. This is a sample of the selected voice.",
+      "durationSeconds": 2.7625,
       "androidTested": false
     },
     {

@@ -2,6 +2,676 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 714410488,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Aled-cy-GB.zip",
+      "size": 4730404,
+      "sha256": "bfb75e1149b058faf640c1656a389b6e49e4048d1c5a3fd0304561e07192c91e",
+      "files": [
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/1106.INI",
+          "size": 688,
+          "sha256": "153f2b899917080d8bdcb1f59058c069ce5981e07e87061f9892bdb65956ab0f"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "bc7bc1d094c3e60632b3736b05f11dc241350a03964eb69904d2b09eb3123514"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/am_v5_encoder.bin",
+          "size": 2155029,
+          "sha256": "9d65c85c85f7de405049b3f063b8d2ad9643ecf61d202a2a9ec3e8d01a5ec53a"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "b9248f7d36ea9f48962be8e3b14f87862d72b64782b103d9515ab41a41b5306b"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/MSTTSLocCyGB.dat",
+          "size": 369560,
+          "sha256": "30fd81144b4397dc8eb3b521bd8d39f78b63bc1a48dd28d88bef1b1b1a47b188"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/MSTTSLocCyGB.ini",
+          "size": 820,
+          "sha256": "4c66ae0292c050d3b18b121ad262cf123dc2d7f5c81bd07d379bdcf87924c8e0"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/phones.txt",
+          "size": 708,
+          "sha256": "4d6589751a89114eced8f2cecbf5287ce1297a190e39151bb960713c42905957"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/Tokens.xml",
+          "size": 1234,
+          "sha256": "9e0e3bd38716197317bfab3bbc1f73dd29074b061cf5cb1696d2430543517014"
+        },
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Aled-cy-GB1mfoaaiw.wqq/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocCyGB.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1106"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "cy-GB-AledNeural",
+            "engine": "microsoft",
+            "bytes": 5729667,
+            "speaker": "cy-GB-AledNeural",
+            "contentId": "32405a09c6995985",
+            "name": "Aled",
+            "minAppCode": 4169,
+            "locale": "cy-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 5730769
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "cy-GB-AledNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ]
+    },
+    {
+      "assetId": 714409401,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Jenny-en-GB.zip",
+      "size": 24702576,
+      "sha256": "1731c0062ee5e37ea1453dba9d85f95b54764b98674a94d6cfa2afd2cc08076e",
+      "files": [
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/2057.INI",
+          "size": 629,
+          "sha256": "69434718e17b9fc2c19791e5cad56afe8e01728e508a049b077ebbdfeee9ee27"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "f80293de5bf9c15b436b74b6272502004c1c9d5e554bad869db99e70374e8bd0"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/am_v5_encoder.bin",
+          "size": 2189839,
+          "sha256": "d8c4bf0640de4ddbffd3aa58f380a688968d68b72ea9f7876e9434f389c4c36b"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/device_vocoder_v6_streaming.bin",
+          "size": 2828003,
+          "sha256": "1ea12755874082ad37e48ba11727ccb1781d8c718d494fac2979e919e6e7294c"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.address.dat",
+          "size": 139184,
+          "sha256": "0d2e932b25f20f8e9cd4fbf23f935578d72358e64d365d0376ffa81ef70208c6"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.alphanumeric.dat",
+          "size": 488,
+          "sha256": "5773925c9cab2784d05a277a729b0c8d5862a5f53788c4949aa40ceebdd4f93f"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.alphanumeric_spell.dat",
+          "size": 424,
+          "sha256": "dce18497f5f04b28d711357b89bee569d7e669c9032e77a7ef3c94c15ecfe5b4"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.cityname.dat",
+          "size": 2248,
+          "sha256": "eb362817268d52df2ccc338268724f5f5e2fcbbdaffcf808ed9b426ac48231c9"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.companyname.dat",
+          "size": 4208,
+          "sha256": "a18b780c2e3b9ab47374da8096374afd111b9e1ad12d8c23f48163203e6d5ed7"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.computer.dat",
+          "size": 4928,
+          "sha256": "96f79f8c7f246bf2caae59be2e7156817d0108806e79dbd55d33df2851dce9bf"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.media.dat",
+          "size": 11056,
+          "sha256": "7f4ead153456f0f7ce506d60264044cd57605b6af4e861fd6a9ddcdd4300af23"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.message.dat",
+          "size": 19336,
+          "sha256": "1dcd8ed733877bfae8a42cd02b9ef2df90b48365f1cb7dbeb8ed3bc88de01da2"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/EnGB.name.dat",
+          "size": 28056,
+          "sha256": "e7f1053574147e7bec619ad48813f4a7041068223bd00c714257e55b77adccfe"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/MSTTSLocEnGB.dat",
+          "size": 35444024,
+          "sha256": "24df5b54a74f982e0141f03770f20fd4c1b583e1c6a731dc1cda5e9691a05c79"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/MSTTSLocEnGB.ini",
+          "size": 4162,
+          "sha256": "03d42a68ee44f3cedce8090fb1394531b33e29f306ef89d0ddf4985bf18bd534"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/phones.txt",
+          "size": 781,
+          "sha256": "2855aa46fde417e4d14d92c409d04809697b3350eeaf1b94376171f2b610af06"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/Tokens.xml",
+          "size": 1233,
+          "sha256": "f13f2c86237e6b27ade7e79f56b4aa727e31d7e0991019baaac024a21c484aad"
+        },
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Jenny-en-GBqjqdhben.c5c/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnGB.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2057"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-GB-JennyNeural",
+            "engine": "microsoft",
+            "bytes": 41425471,
+            "speaker": "en-GB-JennyNeural",
+            "contentId": "8035e534671f5d2b",
+            "name": "Jenny",
+            "minAppCode": 4169,
+            "locale": "en-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 41426578
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-GB-JennyNeural",
+          "status": "available",
+          "file": "microsoft-767cdb43349524ed2a285f1d.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 714407819,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Libby-en-GB.zip",
+      "size": 38776910,
+      "sha256": "7b99f93d0bf7f4a3f115bea32f106ed76312c481f71a4d56c3507d4968cb68e0",
+      "files": [
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/2057.INI",
+          "size": 786,
+          "sha256": "8a7b53698d89a40f657105da056c2cb6e7f4be7a459b1f8294399839e34776f4"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "463aa313fdb3e55eb87c71f0bb85948a0834556731b754970641aa73033aef1e"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/am_v5_encoder.bin",
+          "size": 2162453,
+          "sha256": "57a94a5300063bc12538fcfe19bdc351ee6bf4aca1a890d37df618b6e2ef4cca"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/device_vocoder_v6_streaming.bin",
+          "size": 2407036,
+          "sha256": "705f0e2e05c9258bec6a8e39e67619de0b866d56d931bcbd3a9c010f6d663062"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.address.dat",
+          "size": 139184,
+          "sha256": "0d2e932b25f20f8e9cd4fbf23f935578d72358e64d365d0376ffa81ef70208c6"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.alphanumeric.dat",
+          "size": 488,
+          "sha256": "5773925c9cab2784d05a277a729b0c8d5862a5f53788c4949aa40ceebdd4f93f"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.alphanumeric_spell.dat",
+          "size": 424,
+          "sha256": "dce18497f5f04b28d711357b89bee569d7e669c9032e77a7ef3c94c15ecfe5b4"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.cityname.dat",
+          "size": 2248,
+          "sha256": "eb362817268d52df2ccc338268724f5f5e2fcbbdaffcf808ed9b426ac48231c9"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.companyname.dat",
+          "size": 4208,
+          "sha256": "a18b780c2e3b9ab47374da8096374afd111b9e1ad12d8c23f48163203e6d5ed7"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.computer.dat",
+          "size": 4928,
+          "sha256": "96f79f8c7f246bf2caae59be2e7156817d0108806e79dbd55d33df2851dce9bf"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.media.dat",
+          "size": 11056,
+          "sha256": "7f4ead153456f0f7ce506d60264044cd57605b6af4e861fd6a9ddcdd4300af23"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.message.dat",
+          "size": 19336,
+          "sha256": "1dcd8ed733877bfae8a42cd02b9ef2df90b48365f1cb7dbeb8ed3bc88de01da2"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/EnGB.name.dat",
+          "size": 28056,
+          "sha256": "e7f1053574147e7bec619ad48813f4a7041068223bd00c714257e55b77adccfe"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/MSTTSLocEnGB.dat",
+          "size": 35444024,
+          "sha256": "24df5b54a74f982e0141f03770f20fd4c1b583e1c6a731dc1cda5e9691a05c79"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/MSTTSLocEnGB.ini",
+          "size": 4162,
+          "sha256": "03d42a68ee44f3cedce8090fb1394531b33e29f306ef89d0ddf4985bf18bd534"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/MSTTSLocEnUS.dat",
+          "size": 23285312,
+          "sha256": "f4ca3b16a041174c5b7b6cce52b8948c1dd2d29886e7efb94e5fce8d2fdca05e"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/phones.txt",
+          "size": 787,
+          "sha256": "3e4b30508743896742aededdccd1a4722190bdd8315190b3e97fd3d7f2d9eecd"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/Tokens.xml",
+          "size": 1233,
+          "sha256": "82714f2b969ebac77a1a6c5adbce14875719eb0d31fdea895d6ff1f7977bde09"
+        },
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Libby-en-GBg142z5qh.0hd/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnGB.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2057"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-GB-LibbyNeural",
+            "engine": "microsoft",
+            "bytes": 64257629,
+            "speaker": "en-GB-LibbyNeural",
+            "contentId": "3021c15236398c79",
+            "name": "Libby",
+            "minAppCode": 4169,
+            "locale": "en-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 64258736
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-GB-LibbyNeural",
+          "status": "available",
+          "file": "microsoft-2583e9486b9d982ebd0d2908.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 714407580,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Nia-cy-GB.zip",
+      "size": 4727513,
+      "sha256": "d8eb32461a35ef179879c977fb714ca57e12c95410ee091f8d697be762e1b226",
+      "files": [
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/1106.INI",
+          "size": 667,
+          "sha256": "e648b4d049e2ee26ce65fb16ffd435aa5ddedf8b74744b9708c62ce95d71e1a5"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/am_v5_decoder.bin",
+          "size": 746390,
+          "sha256": "7d4f1b5e40b6be744e8c73c1076b0e763d1b891dde75b171192e23c90e6a1aa1"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/am_v5_encoder.bin",
+          "size": 2155029,
+          "sha256": "c8458f206b0b11cf494b32e062e65072a234265c2bf4d15907940e2c12b6ecc3"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "2378a2ca2eaf83a89eec7ee025afc4e3850afa85430569f26e8bd73ce65077ff"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/MSTTSLocCyGB.dat",
+          "size": 369560,
+          "sha256": "30fd81144b4397dc8eb3b521bd8d39f78b63bc1a48dd28d88bef1b1b1a47b188"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/MSTTSLocCyGB.ini",
+          "size": 820,
+          "sha256": "4c66ae0292c050d3b18b121ad262cf123dc2d7f5c81bd07d379bdcf87924c8e0"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/phones.txt",
+          "size": 708,
+          "sha256": "4d6589751a89114eced8f2cecbf5287ce1297a190e39151bb960713c42905957"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/Tokens.xml",
+          "size": 1232,
+          "sha256": "42e8c1fda0960076a967d1d726cab7087d1db5032cfc9263ba81a93216f5e8f4"
+        },
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Nia-cy-GBqhvx2n10.t5z/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocCyGB.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1106"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "cy-GB-NiaNeural",
+            "engine": "microsoft",
+            "bytes": 5729643,
+            "speaker": "cy-GB-NiaNeural",
+            "contentId": "b1a0aedd651a0eeb",
+            "name": "Nia",
+            "minAppCode": 4169,
+            "locale": "cy-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 5730740
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "cy-GB-NiaNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ]
+    },
+    {
+      "assetId": 714406262,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Xiaochen-en-GB.zip",
+      "size": 24657430,
+      "sha256": "d69f31842821e3ccd75d49da656302ab937510b4cfbb8c269460a61cde88a0d4",
+      "files": [
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/2057.INI",
+          "size": 419,
+          "sha256": "3799f367dc9ac2a68aa48025c6ef487f44409d9cf76ec7c275b1a14b0887ddf2"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/am_v5_decoder.bin",
+          "size": 759031,
+          "sha256": "86fa0d6ff7cf64b7abf32ebd87c137732ffc1c9513a68e3cca7ebad737821e49"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/am_v5_encoder.bin",
+          "size": 2185743,
+          "sha256": "50742fbb0e9ffc430fda1adfc2e362919cf26f75d61860a0e2824e830a0f383a"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/device_vocoder_v6_streaming.bin",
+          "size": 2774813,
+          "sha256": "9d4d4781734bdc1966cd00369ab45c50abcb997de5c943d0d50e83884e711a4b"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.address.dat",
+          "size": 139184,
+          "sha256": "0d2e932b25f20f8e9cd4fbf23f935578d72358e64d365d0376ffa81ef70208c6"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.alphanumeric.dat",
+          "size": 488,
+          "sha256": "5773925c9cab2784d05a277a729b0c8d5862a5f53788c4949aa40ceebdd4f93f"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.alphanumeric_spell.dat",
+          "size": 424,
+          "sha256": "dce18497f5f04b28d711357b89bee569d7e669c9032e77a7ef3c94c15ecfe5b4"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.cityname.dat",
+          "size": 2248,
+          "sha256": "eb362817268d52df2ccc338268724f5f5e2fcbbdaffcf808ed9b426ac48231c9"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.companyname.dat",
+          "size": 4208,
+          "sha256": "a18b780c2e3b9ab47374da8096374afd111b9e1ad12d8c23f48163203e6d5ed7"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.computer.dat",
+          "size": 4928,
+          "sha256": "96f79f8c7f246bf2caae59be2e7156817d0108806e79dbd55d33df2851dce9bf"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.media.dat",
+          "size": 11056,
+          "sha256": "7f4ead153456f0f7ce506d60264044cd57605b6af4e861fd6a9ddcdd4300af23"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.message.dat",
+          "size": 19336,
+          "sha256": "1dcd8ed733877bfae8a42cd02b9ef2df90b48365f1cb7dbeb8ed3bc88de01da2"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/EnGB.name.dat",
+          "size": 28056,
+          "sha256": "e7f1053574147e7bec619ad48813f4a7041068223bd00c714257e55b77adccfe"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/MSTTSLocEnGB.dat",
+          "size": 35444024,
+          "sha256": "24df5b54a74f982e0141f03770f20fd4c1b583e1c6a731dc1cda5e9691a05c79"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/MSTTSLocEnGB.ini",
+          "size": 4162,
+          "sha256": "03d42a68ee44f3cedce8090fb1394531b33e29f306ef89d0ddf4985bf18bd534"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/phones.txt",
+          "size": 788,
+          "sha256": "5021f23b0660648355ab724bbf30c75655d024079940549207dc242ec2219927"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/Tokens.xml",
+          "size": 1245,
+          "sha256": "a10380a8fc2849b1c812927dda9ddb5274ea1683b2d1602e2af6593b061b0889"
+        },
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Xiaochen-en-GBbwbikhoc.xos/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnGB.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2057"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-GB-XiaochenNeural",
+            "engine": "microsoft",
+            "bytes": 41380634,
+            "speaker": "en-GB-XiaochenNeural",
+            "contentId": "60a71f2d9bef76b1",
+            "name": "Xiaochen",
+            "minAppCode": 4169,
+            "locale": "en-GB",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 41381756
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-GB-XiaochenNeural",
+          "status": "available",
+          "file": "microsoft-4a02b08b832d1bb62c50a665.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 713831552,
       "releaseId": 434895762,
       "tag": "voices-001",
