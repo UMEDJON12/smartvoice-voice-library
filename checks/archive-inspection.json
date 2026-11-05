@@ -2,6 +2,384 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713504435,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Dmitry-ru-RU.1.zip",
+      "size": 19215436,
+      "sha256": "cd19ef43508ada010231d0ec3d19608eadec9465f79746190c10154529f1df9e",
+      "files": [
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/1049.INI",
+          "size": 575,
+          "sha256": "c683a56966c50475a3530902e4833c62fb55f67f100f5acab889bf6d436f5e44"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "61aa68b49e7deb09bedd1e8be0da08200fbf3dd5a130457a2e81e54181296c04"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/am_v5_encoder.bin",
+          "size": 2143758,
+          "sha256": "78946aaf0f6feb91bb49ab448ea0eb47ceb8aea7ea0364ed01629a87e18a30b0"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/device_vocoder_v6_streaming.bin",
+          "size": 2454757,
+          "sha256": "24791cdeeeed86a1916553b530f05526655ca885f657d852011fdb1699f2c82b"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/MSTTSLocRuRU.dat",
+          "size": 18257544,
+          "sha256": "2595447a8ef4ed1b9653c44453c89dc078362953631fd3c7d36b835c012a9c4f"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/MSTTSLocRuRU.ini",
+          "size": 1444,
+          "sha256": "a683043715ce4e94d85738a70925890f949c6d5c43c862f79b7aeb4a5c920fd5"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/phones.txt",
+          "size": 437,
+          "sha256": "6bc3ad7e253c5125fa02b7404d44af0473efc1c62792cf8233ed5e2a946087a5"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/RuRU.address.dat",
+          "size": 5056,
+          "sha256": "576b06632a13a6767a759618e4740e4340773bd4135a9aa0af186c2e39e71be7"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/RuRU.computer.dat",
+          "size": 4984,
+          "sha256": "72ef73802315b9edd2ab46b8430221acdbfceaf87da339da9b802a5ce16247a4"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/RuRU.message.dat",
+          "size": 3392,
+          "sha256": "3cc6e95d2c3486c12a2b8f4bb2b008a2f7843b0ba921a49741e52dd157d25da1"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/RuRU.name.dat",
+          "size": 26888,
+          "sha256": "b9a1e6cb03d19f3a8989c6cde11e3c9a9d585f8e8df6817bb34c5170233e0221"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/Tokens.xml",
+          "size": 1235,
+          "sha256": "4c4e1476306fb82ec472af83828ae37e06e1784b749128f2eac6c6416d6e6aa8"
+        },
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Dmitry-ru-RUfo1e13ju.2xt/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocRuRU.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1049"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ru-RU-DmitryNeural",
+            "engine": "microsoft",
+            "bytes": 23646942,
+            "speaker": "ru-RU-DmitryNeural",
+            "contentId": "d9f9e0e2b122cedc",
+            "name": "Dmitry",
+            "minAppCode": 4169,
+            "locale": "ru-RU",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 23648054
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "ru-RU-DmitryNeural",
+          "status": "available",
+          "file": "microsoft-a79aa8d212b43553cba0517e.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 713503477,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Ryan-ru-RU.zip",
+      "size": 19233146,
+      "sha256": "e2ae0e0cc16f3665cf1a9b50f24c2306e77d446bd624843c8a1aa94fe1e90c14",
+      "files": [
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/1049.INI",
+          "size": 622,
+          "sha256": "b93b8f1fcd2939da4cb37b242822d0faa78ca17e112b6f9a67efa81c6091f1bb"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "72f8523283a07d2a0ac0d6b973c17c83c5c4428a3da982b0f6b65115eccbf271"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/am_v5_encoder.bin",
+          "size": 2158094,
+          "sha256": "0379c3c5f468accae697698a981ec36b76909587f8c0fe1bc40ad7ddc0790021"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/device_vocoder_v6_streaming.bin",
+          "size": 2430747,
+          "sha256": "b27954be3e60eca9174615867e6807f1f2eba6c872e9f441b3fd657087362dcb"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/MSTTSLocRuRU.dat",
+          "size": 18257544,
+          "sha256": "2595447a8ef4ed1b9653c44453c89dc078362953631fd3c7d36b835c012a9c4f"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/MSTTSLocRuRU.ini",
+          "size": 1444,
+          "sha256": "a683043715ce4e94d85738a70925890f949c6d5c43c862f79b7aeb4a5c920fd5"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/phones.txt",
+          "size": 529,
+          "sha256": "c9e72914e0d6e380f2951551d074b2dfa5038178d9661a47decc823b799d34aa"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/RuRU.address.dat",
+          "size": 5056,
+          "sha256": "576b06632a13a6767a759618e4740e4340773bd4135a9aa0af186c2e39e71be7"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/RuRU.computer.dat",
+          "size": 4984,
+          "sha256": "72ef73802315b9edd2ab46b8430221acdbfceaf87da339da9b802a5ce16247a4"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/RuRU.message.dat",
+          "size": 3392,
+          "sha256": "3cc6e95d2c3486c12a2b8f4bb2b008a2f7843b0ba921a49741e52dd157d25da1"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/RuRU.name.dat",
+          "size": 26888,
+          "sha256": "b9a1e6cb03d19f3a8989c6cde11e3c9a9d585f8e8df6817bb34c5170233e0221"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/Tokens.xml",
+          "size": 1227,
+          "sha256": "9cdf6df9c2e22720951fc850bc19864a59c3a9a9b733a63d235fd839108008ec"
+        },
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Ryan-ru-RUk3bzuqvk.5bd/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocRuRU.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1049"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ru-RU-RyanNeural",
+            "engine": "microsoft",
+            "bytes": 23637399,
+            "speaker": "ru-RU-RyanNeural",
+            "contentId": "4875c519d53a54b1",
+            "name": "Ryan",
+            "minAppCode": 4169,
+            "locale": "ru-RU",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 23638501
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "ru-RU-RyanNeural",
+          "status": "available",
+          "file": "microsoft-cb06ec786ad2ed9e798e32ec.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 713500612,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Svetlana-ru-RU.zip",
+      "size": 19263910,
+      "sha256": "6b517bdff9722fe7c6f6c6cbe48485132417d3bca5196d611aa5666704fbf61c",
+      "files": [
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/1049.INI",
+          "size": 621,
+          "sha256": "bdb308d7f5e0006b4a03c6c28ab4252f38532c4f8b05b3a69c1c84f5600b6e20"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "d1e5f001b5f204b9584641db734f8d2950fe130c10a3b7b8b9928d76b0f9a942"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/am_v5_encoder.bin",
+          "size": 2151951,
+          "sha256": "d17f5aa4d259a555184f0b3bdc5dcc089a60f1591343b11bdeabc5b86acd3b6a"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/device_vocoder_v6_streaming.bin",
+          "size": 2454757,
+          "sha256": "7080ca922d1fe4e9046524db1ecd2f91f3b2995ba5f516bd655bb2e5047a777d"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/MSTTSLocRuRU.dat",
+          "size": 18257544,
+          "sha256": "2595447a8ef4ed1b9653c44453c89dc078362953631fd3c7d36b835c012a9c4f"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/MSTTSLocRuRU.ini",
+          "size": 1444,
+          "sha256": "a683043715ce4e94d85738a70925890f949c6d5c43c862f79b7aeb4a5c920fd5"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/phones.txt",
+          "size": 492,
+          "sha256": "f4ab367f1a40dc65184940ca5261ee76498b21f2d79e04108f8cf58b9b791286"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/RuRU.address.dat",
+          "size": 5056,
+          "sha256": "576b06632a13a6767a759618e4740e4340773bd4135a9aa0af186c2e39e71be7"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/RuRU.computer.dat",
+          "size": 4984,
+          "sha256": "72ef73802315b9edd2ab46b8430221acdbfceaf87da339da9b802a5ce16247a4"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/RuRU.message.dat",
+          "size": 3392,
+          "sha256": "3cc6e95d2c3486c12a2b8f4bb2b008a2f7843b0ba921a49741e52dd157d25da1"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/RuRU.name.dat",
+          "size": 26888,
+          "sha256": "b9a1e6cb03d19f3a8989c6cde11e3c9a9d585f8e8df6817bb34c5170233e0221"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/Tokens.xml",
+          "size": 1245,
+          "sha256": "09f21690fbe1430bafb7ae31d448ae5a0ed9faff29a53f6c5e4c25b31f39a47a"
+        },
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Svetlana-ru-RU1xeaqh2e.haj/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocRuRU.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1049"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ru-RU-SvetlanaNeural",
+            "engine": "microsoft",
+            "bytes": 23655246,
+            "speaker": "ru-RU-SvetlanaNeural",
+            "contentId": "6a804e1fab11ae93",
+            "name": "Svetlana",
+            "minAppCode": 4169,
+            "locale": "ru-RU",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 23656368
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "ru-RU-SvetlanaNeural",
+          "status": "available",
+          "file": "microsoft-cc4c0bb9935c7f13d6eb0f21.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 713191258,
       "releaseId": 434895762,
       "tag": "voices-001",
