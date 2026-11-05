@@ -45,6 +45,20 @@
     },
     {
       "provider": "microsoft",
+      "code": "ru-RU-DariyaNeural",
+      "locale": "ru-RU",
+      "quality": "unspecified",
+      "archiveSha256": "2c36e43e4bb005befd83c4be8f6a1803b538c00bd22a391c14f543b6ea13c6ec",
+      "file": "microsoft-88718e43be0157f3598e8acd.mp3",
+      "sha256": "9f1c72f25503da0ee81ce08bdc09dacf188bf7ca8be29e1bd063b440f1fddd03",
+      "platform": "linux-x64",
+      "sdkVersion": "1.45.0",
+      "sampleText": "Здравствуйте. Это образец выбранного голоса.",
+      "durationSeconds": 2.9875,
+      "androidTested": false
+    },
+    {
+      "provider": "microsoft",
       "code": "ru-RU-DmitryNeural",
       "locale": "ru-RU",
       "quality": "unspecified",

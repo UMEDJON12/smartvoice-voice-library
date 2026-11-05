@@ -2,6 +2,132 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713505835,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Dariya-ru-RU.zip",
+      "size": 19256701,
+      "sha256": "2c36e43e4bb005befd83c4be8f6a1803b538c00bd22a391c14f543b6ea13c6ec",
+      "files": [
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/1049.INI",
+          "size": 576,
+          "sha256": "faab6ee1519bfb9632315334264a2214ee71c23f99377c03076fe14167ac5373"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/am_v5_decoder.bin",
+          "size": 746390,
+          "sha256": "e4a4841e591eca68579e6b1af921ba9d66fbcf187db889cf9dac6491549b13e1"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/am_v5_encoder.bin",
+          "size": 2141711,
+          "sha256": "04aeb03657723f22a0162ffc454052f317c3adcf66ece9904d1de32d1887b5dc"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/device_vocoder_v6_streaming.bin",
+          "size": 2430747,
+          "sha256": "9cc7421caa98662d63ee07c0458f329a1baa54eb0a677426d5a547bf82df830b"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/MSTTSLocRuRU.dat",
+          "size": 18257544,
+          "sha256": "2595447a8ef4ed1b9653c44453c89dc078362953631fd3c7d36b835c012a9c4f"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/MSTTSLocRuRU.ini",
+          "size": 1444,
+          "sha256": "a683043715ce4e94d85738a70925890f949c6d5c43c862f79b7aeb4a5c920fd5"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/phones.txt",
+          "size": 420,
+          "sha256": "ccdaba3f76443211b284f5cdc5578bbe43b7de791aed956f5c89c9b99d267d48"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/RuRU.address.dat",
+          "size": 5056,
+          "sha256": "576b06632a13a6767a759618e4740e4340773bd4135a9aa0af186c2e39e71be7"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/RuRU.computer.dat",
+          "size": 4984,
+          "sha256": "72ef73802315b9edd2ab46b8430221acdbfceaf87da339da9b802a5ce16247a4"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/RuRU.message.dat",
+          "size": 3392,
+          "sha256": "3cc6e95d2c3486c12a2b8f4bb2b008a2f7843b0ba921a49741e52dd157d25da1"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/RuRU.name.dat",
+          "size": 26888,
+          "sha256": "b9a1e6cb03d19f3a8989c6cde11e3c9a9d585f8e8df6817bb34c5170233e0221"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/Tokens.xml",
+          "size": 1237,
+          "sha256": "ba5e1e1544c7528bb851e6ef9dcf947390c7d37d97419bcb9004ee30fb6c9cab"
+        },
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Dariya-ru-RUmkjflqnr.so2/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocRuRU.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1049"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ru-RU-DariyaNeural",
+            "engine": "microsoft",
+            "bytes": 23620870,
+            "speaker": "ru-RU-DariyaNeural",
+            "contentId": "2a7c0308852ac27c",
+            "name": "Dariya",
+            "minAppCode": 4169,
+            "locale": "ru-RU",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 23621982
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "ru-RU-DariyaNeural",
+          "status": "available",
+          "file": "microsoft-88718e43be0157f3598e8acd.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 713504435,
       "releaseId": 434895762,
       "tag": "voices-001",
