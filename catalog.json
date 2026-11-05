@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T10:08:32.753048+00:00",
+  "generatedAt": "2026-11-05T10:17:20.605893+00:00",
   "voices": [
     {
       "id": "microsoft-7556932907ddb0e28daaefbf",
@@ -23,7 +23,7 @@
       "minSdk": 26,
       "verificationStatus": "verified",
       "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
-      "published": false,
+      "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": []
@@ -49,7 +49,7 @@
       "minSdk": 26,
       "verificationStatus": "verified",
       "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
-      "published": false,
+      "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": []
@@ -75,7 +75,7 @@
       "minSdk": 26,
       "verificationStatus": "verified",
       "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
-      "published": false,
+      "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": []
@@ -101,7 +101,7 @@
       "minSdk": 26,
       "verificationStatus": "verified",
       "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
-      "published": false,
+      "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": []
