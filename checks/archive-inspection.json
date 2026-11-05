@@ -107,7 +107,24 @@
         }
       ],
       "headers": [],
-      "zipVerified": true
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "fa-IR-FaridNeural",
+            "engine": "microsoft",
+            "bytes": 33759764,
+            "speaker": "fa-IR-FaridNeural",
+            "contentId": "36cbc0a256938fdb",
+            "name": "Farid",
+            "locale": "fa-IR",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 33761895
+      }
     },
     {
       "assetId": 712496037,
@@ -225,7 +242,24 @@
         }
       ],
       "headers": [],
-      "zipVerified": true
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ar-SA-HamedNeural",
+            "engine": "microsoft",
+            "bytes": 35070249,
+            "speaker": "ar-SA-HamedNeural",
+            "contentId": "82f26b39a0fee113",
+            "name": "Hamed",
+            "locale": "ar-SA",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 35072380
+      }
     },
     {
       "assetId": 712495585,
@@ -323,7 +357,24 @@
         }
       ],
       "headers": [],
-      "zipVerified": true
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "uz-UZ-MadinaNeural",
+            "engine": "microsoft",
+            "bytes": 5943878,
+            "speaker": "uz-UZ-MadinaNeural",
+            "contentId": "4df25957b86b597a",
+            "name": "Madina",
+            "locale": "uz-UZ",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 5946019
+      }
     },
     {
       "assetId": 712495901,
@@ -421,7 +472,24 @@
         }
       ],
       "headers": [],
-      "zipVerified": true
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "uz-UZ-SardorNeural",
+            "engine": "microsoft",
+            "bytes": 5943846,
+            "speaker": "uz-UZ-SardorNeural",
+            "contentId": "5df4101236ea4317",
+            "name": "Sardor",
+            "locale": "uz-UZ",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 5945978
+      }
     },
     {
       "assetId": 712516765,
@@ -457,7 +525,24 @@
           }
         }
       ],
-      "zipVerified": true
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "trt/yelda/embedded-high",
+            "engine": "vocalizer-folder",
+            "bytes": 176525475,
+            "nativeLang": "TRT",
+            "contentId": "b3480ff23478ec6f90fafc25a6ab6cb35a2fddefcae2ea74626c5e7d4dcacd09",
+            "name": "Yelda",
+            "locale": "tr-TR",
+            "quality": "embedded-high"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 176525475
+      }
     },
     {
       "assetId": 712520393,
@@ -493,7 +578,24 @@
           }
         }
       ],
-      "zipVerified": true
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "mnc/tingting-ml/embedded-high",
+            "engine": "vocalizer-folder",
+            "bytes": 39548302,
+            "nativeLang": "MNC",
+            "contentId": "f0f6877ac23e9cf9f712225d13f6a16996cf49766de0036d1af4cdc889183e13",
+            "name": "Tingting-Ml",
+            "locale": "zh-CN",
+            "quality": "embedded-high"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 39548302
+      }
     }
   ]
 }
