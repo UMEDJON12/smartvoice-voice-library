@@ -2,6 +2,131 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713181652,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Xiaoxiao-zh-CN.zip",
+      "size": 74547741,
+      "sha256": "fae03664348676d4aa6d45d344db6fb5a88d77a547c2a4c78d9a871125ed443a",
+      "files": [
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/2052.BR0",
+          "size": 6742944,
+          "sha256": "b043a7a94eb87a894addbf42d2a6a2c83f6491943939e219d04f5b295d32715d"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/2052.BR2",
+          "size": 6524632,
+          "sha256": "f49c572c334dbc31faec4ac45dc7e4d393e3108fa1304fe848a0aed2601a5e87"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/2052.BR3",
+          "size": 613260,
+          "sha256": "fccd91742e8c50132ac35fd84f3106e742881e6d7373d71b016e15a0e689eca7"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/2052.INI",
+          "size": 1316,
+          "sha256": "eb7e0651187d2abc72881e5abd33f4964ac68cf4c652d02d46eba7d6c2bd4dda"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "d93eb185ba6b67caf0d1ec2bbd24afb7f40d78c706ec08adf800af40053bc43f"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/am_v5_encoder.bin",
+          "size": 2254505,
+          "sha256": "95651b31762273fea50f284fd352bd209d3d24f1ee36a1c3f7af26a4d1f3a4fd"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/device_vocoder_v6_streaming.bin",
+          "size": 2397926,
+          "sha256": "e3cc52b0d420705d067c2a878f6bf25061ca370f58a0ca92f27091ed0c55a7c9"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/MSTTSLocEnUS.dat",
+          "size": 23285328,
+          "sha256": "09eddb767e7678c0ea6bd0c021ea710834bc6701d2b7ba558d2834550156a60a"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/MSTTSLocZhCN.dat",
+          "size": 48710544,
+          "sha256": "1486b614c64f62c19463ea114a7c2f2e359333f0236d726650a441e89621a0d9"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/MSTTSLocZhCN.ini",
+          "size": 3038,
+          "sha256": "2011e874102ca6497fb2cc78b3f3ea218910cba92e7ef2bfb25d2e8b584b7ee1"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/phones.txt",
+          "size": 1440,
+          "sha256": "f9eb5982870a9c30bea6d764571289c367fc3af83c97c14436e652ea329f3247"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/punc.txt",
+          "size": 184,
+          "sha256": "ec66f845970f3944c7954774099b457f86e55fdca02449d6d098fd0da7af41e5"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/Tokens.xml",
+          "size": 1011,
+          "sha256": "fb509bc7e0cf36f3f39a1267c9ba14f52cc445acde9698cd6231a73819a375fa"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/ZhCN.address.dat",
+          "size": 57224,
+          "sha256": "a6065fff3f175defb053a570a15c8f1a66f984473b4063b91e73ff7ec8f85bf3"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/ZhCN.message.dat",
+          "size": 51600,
+          "sha256": "0cacd1ad46c9ddd4c26e31d6af78eec548e4a55de541f7d321ffc0e95c3053db"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/ZhCN.mixlingual.dat",
+          "size": 11848,
+          "sha256": "42f06f44d9d3f36f1594dd4df25592ad9ffe52ae533a1269bfddbde34c69f39e"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/ZhCN.name.dat",
+          "size": 35080,
+          "sha256": "ca952a56ffc11b2d4a3285578f2723b25db6b8db5ed95af546a9cb4fc438d8f2"
+        },
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/ZhCN.TextAnalyzer.dat",
+          "size": 24251856,
+          "sha256": "f7dbea69b85c1eb36a2c3faad423876238dca39b4b4892360d8bffeaed93fe97"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Xiaoxiao-zh-CNlyk3cjmo.jxx/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocZhCN.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2052"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713181652', '/tmp/tmpr2vug82f/import-713181652']' returned non-zero exit status 1."
+    },
+    {
       "assetId": 713179104,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -124,7 +249,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9m2b2o4m/713179104', '/tmp/tmp9m2b2o4m/import-713179104']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713179104', '/tmp/tmpr2vug82f/import-713179104']' returned non-zero exit status 1."
     },
     {
       "assetId": 713177643,
@@ -365,7 +490,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9m2b2o4m/713175580', '/tmp/tmp9m2b2o4m/import-713175580']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713175580', '/tmp/tmpr2vug82f/import-713175580']' returned non-zero exit status 1."
     },
     {
       "assetId": 713173912,
@@ -490,7 +615,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9m2b2o4m/713173912', '/tmp/tmp9m2b2o4m/import-713173912']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713173912', '/tmp/tmpr2vug82f/import-713173912']' returned non-zero exit status 1."
     },
     {
       "assetId": 713170799,
@@ -615,7 +740,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmp9m2b2o4m/713170799', '/tmp/tmp9m2b2o4m/import-713170799']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpr2vug82f/713170799', '/tmp/tmpr2vug82f/import-713170799']' returned non-zero exit status 1."
     },
     {
       "assetId": 713006098,
