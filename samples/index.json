@@ -17,6 +17,20 @@
     },
     {
       "provider": "microsoft",
+      "code": "ar-SA-ZariyahNeural",
+      "locale": "ar-SA",
+      "quality": "unspecified",
+      "archiveSha256": "99fa89b86659f30126b5055a02a5a777814de78b028453e3bd32ac4de12468ef",
+      "file": "microsoft-ac7610760b8d00674459f016.mp3",
+      "sha256": "47672b309b72c1bc44f175fc0178f331733b0c9614a4c7048a5ada0e999d7788",
+      "platform": "linux-x64",
+      "sdkVersion": "1.45.0",
+      "sampleText": "مرحباً. هذا نموذج للصوت المحدد.",
+      "durationSeconds": 3.4625,
+      "androidTested": false
+    },
+    {
+      "provider": "microsoft",
       "code": "fa-IR-DilaraNeural",
       "locale": "fa-IR",
       "quality": "unspecified",

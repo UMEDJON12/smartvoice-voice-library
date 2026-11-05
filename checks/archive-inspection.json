@@ -2,6 +2,258 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713579062,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Zariyah-ar-SA.zip",
+      "size": 21136510,
+      "sha256": "99fa89b86659f30126b5055a02a5a777814de78b028453e3bd32ac4de12468ef",
+      "files": [
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/1025.INI",
+          "size": 836,
+          "sha256": "a19ea16b4fe6276c876ae6b3f83aeb1882d9812f96aac253ff79b5e12d69c4ef"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "e9df4bd5186c4b4ed68f9aecdce2f5d730e04aa46957424c81f91faac59da4a8"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/am_v5_encoder.bin",
+          "size": 2142741,
+          "sha256": "639c5061ee719d4549d923cce001b2e2099580a76a2eb9fec21ba2086489a836"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/ArSADiacList.Bin",
+          "size": 1189564,
+          "sha256": "7f9940d5b1cf8eb7b439dae69be00405d45cb1c2cb90575aebd2b510bc382a2d"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/ArSADiacModel.Bin",
+          "size": 12537270,
+          "sha256": "8f9000e5bbb77bbc80e3030356cb99d6c0f383d72b1f0546fdb1011ea3ec50ee"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/device_vocoder_v6_streaming.bin",
+          "size": 2454757,
+          "sha256": "5c1386ad1a2b09ce59ecda73af6c983538353d306b9848e816d20696f3dab936"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/MSTTSLocArSA.dat",
+          "size": 4572720,
+          "sha256": "c7340bf94f250926f9c49662813e2d514696f83223bd2ebbcc40444c9b6df2b4"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/MSTTSLocArSA.ini",
+          "size": 612,
+          "sha256": "950f86a20aac58632ee4cdff9c3d37124c2f46845230ad9679ca13cf43ae361c"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/phones.txt",
+          "size": 450,
+          "sha256": "5715bc49aabe9dd0e4ad3d3c187caf38554a5e5d12cb60bf2590c9361889a119"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/Tokens.xml",
+          "size": 1136,
+          "sha256": "cc5c77fddec542fd75529b7dafafddde144309eb30ec591d8d762b9b963d4bc5"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/TTSArSAAutoCorrectionList.Bin",
+          "size": 1636272,
+          "sha256": "f1f2f4f21f618b64518825a0adb5d40e978edfc0baf75ccc9cd6b06c4ecef6a8"
+        },
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Zariyah-ar-SAyry0cgmt.xcz/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocArSA.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1025"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ar-SA-ZariyahNeural",
+            "engine": "microsoft",
+            "bytes": 35070262,
+            "speaker": "ar-SA-ZariyahNeural",
+            "contentId": "2ce9060cdb7e6b05",
+            "name": "Zariyah",
+            "minAppCode": 4169,
+            "locale": "ar-SA",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 35071379
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "ar-SA-ZariyahNeural",
+          "status": "available",
+          "file": "microsoft-ac7610760b8d00674459f016.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 713573727,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Jenny-ja-JP.zip",
+      "size": 34967241,
+      "sha256": "1b3a4ad240a3701d2e39ddac3d63e0cb3677ab254bcf4425d12325381ac8e52d",
+      "files": [
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/1041.INI",
+          "size": 609,
+          "sha256": "ba1ff7cd0c9bc855c3791f8efbd7faad0804d3a2b1dd3c5f405d3ffcedcf0dc0"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "72f0a953a97448cc4c6cb45bd9fb5b6af68cd6afec02c9b5e79f513074fdfd8f"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/am_v5_encoder.bin",
+          "size": 2162191,
+          "sha256": "8662454344aa7188b9108276ad950096f85cb5ddd50967947ef8ea243d1811a2"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/device_vocoder_v6_streaming.bin",
+          "size": 2828003,
+          "sha256": "1ea12755874082ad37e48ba11727ccb1781d8c718d494fac2979e919e6e7294c"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/JaJP.address.dat",
+          "size": 5512,
+          "sha256": "c845ff049a48fbbb9ad4b974a71e02b9df65d6dbef69be56d8104ae10cf2e1df"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/JaJP.companyname.dat",
+          "size": 8544,
+          "sha256": "2a9a1c8564ebdc6682b3b51abdc64e60ba9bf7498206dc0317d90a1d2b12a8fe"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/JaJP.message.dat",
+          "size": 5944,
+          "sha256": "3c299ac0ccc6abcd3ae2ff8ff7594aa337fd9077853711a7e09fede9dcbd04b0"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/JaJP.name.dat",
+          "size": 87048,
+          "sha256": "4d9ef05d93bf8ae676947c99eb5220a4d9fd550999199db88ad41e7bd796d281"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/MSTTSLocJaJP.dat",
+          "size": 38638408,
+          "sha256": "49ee7ba6a332fd2e187d62d6c01f882ca5543aef32299078907d391935b0621c"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/MSTTSLocJaJP.ini",
+          "size": 4376,
+          "sha256": "4dddcec00c3a31e53db486906e0967e294523a27ca47735333951deca8e01bab"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/phones.txt",
+          "size": 652,
+          "sha256": "a56f66a7bd27be6cd5b60c19a6c5f1666432847fb45f4ee813cb4a576ef66361"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/Tokens.xml",
+          "size": 1215,
+          "sha256": "afd248b3af58747da73c5d5e362686e9b6dba3ef1bab4944eecef4ec15632b39"
+        },
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Jenny-ja-JP5ahbnazt.naf/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocJaJP.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1041"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ja-JP-JennyNeural",
+            "engine": "microsoft",
+            "bytes": 44489374,
+            "speaker": "ja-JP-JennyNeural",
+            "contentId": "db9b4619ff818909",
+            "name": "Jenny",
+            "minAppCode": 4169,
+            "locale": "ja-JP",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 44490481
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "ja-JP-JennyNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ]
+    },
+    {
       "assetId": 713569650,
       "releaseId": 434895762,
       "tag": "voices-001",
