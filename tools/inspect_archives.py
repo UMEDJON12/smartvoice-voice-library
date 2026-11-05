@@ -77,7 +77,7 @@ def main():
       if done.returncode==0:
        row["importer"]=json.loads(done.stdout)
        row["detectedFormat"]=row["importer"].get("format","Unknown ZIP")
-       if os.environ.get("SMARTVOICE_SAMPLES")=="1":
+       if os.environ.get("SMARTVOICE_SAMPLES")=="1" and not row["draft"]:
         from generate_samples import create
         row["sampleGeneration"]=create(row,pathlib.Path(temp)/("import-"+str(a["id"])))
       else:

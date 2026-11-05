@@ -10,6 +10,7 @@ def base_locale(locale):
  parts=locale.split('-');region=next((p for p in parts[1:] if len(p)==2 or len(p)==3 and p.isdigit()),'')
  return parts[0]+('-'+region if region else '')
 def attach_sample(entry,locale):
+ if not entry.get('published'):return # Never expose auto-generated previews from a private draft.
  if entry.get('sampleUrl'):return # Keep an explicitly supplied, already working owner sample.
  index=load('samples/index.json',{'samples':[]})
  for sample in index.get('samples',[]):
