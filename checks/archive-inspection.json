@@ -2,6 +2,324 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713822356,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Ahmet-tr-TR.zip",
+      "size": 8334763,
+      "sha256": "52af7fbce46ec5d24ca1d861151df46cb1115f0e8307f53ed4894d8eea44cd43",
+      "files": [
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/1055.INI",
+          "size": 617,
+          "sha256": "7a4990d453257d8ea20afad24145e071b8e3ead24c64e5efcce745f7d27e2aca"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "f493e9b5be28a0825ec2c8c43499abb13a07d46a37c3527da8ab893e911f77a7"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/am_v5_encoder.bin",
+          "size": 2148885,
+          "sha256": "b780658945717bdad3493bc4a53f07ea05bc1d6784aa7f54ea7a21f8a49e8386"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "e7e11c9ab25668b6e086d7f01680a4dbf95805e8cf226b039664e70b1fae090d"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/MSTTSLocTrTR.dat",
+          "size": 5785328,
+          "sha256": "6ebb2cd8372be5f9eb870ef554c0296188e2900b9514360e7814fad52e14d683"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/MSTTSLocTrTR.ini",
+          "size": 752,
+          "sha256": "aae6f42dafa1f7896b6f938ebba392da1d532cbdd79ce66449d712c6f2493ca2"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/phones.txt",
+          "size": 460,
+          "sha256": "23e12877f3c9cd57ebaf9ec013127a6edd4413f44f84875ce724588b0983ecf3"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/Tokens.xml",
+          "size": 1231,
+          "sha256": "2be2e49eca50b0c27b7d724858a1365bd66feb590c03ef73dcfa7ff0cef2df65"
+        },
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Ahmet-tr-TRhpa3ytiv.sco/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocTrTR.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1055"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "tr-TR-AhmetNeural",
+            "engine": "microsoft",
+            "bytes": 11138901,
+            "speaker": "tr-TR-AhmetNeural",
+            "contentId": "402f9f767aae725f",
+            "name": "Ahmet",
+            "minAppCode": 4169,
+            "locale": "tr-TR",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 11140008
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "tr-TR-AhmetNeural",
+          "status": "available",
+          "file": "microsoft-edbcce290a67501d382d570e.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 713820565,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Emel-tr-TR.zip",
+      "size": 8336282,
+      "sha256": "d58a22935ab20f72f1ddb3a457ffdade77cf03ecd44014194d418d37e55c9090",
+      "files": [
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/1055.INI",
+          "size": 617,
+          "sha256": "7a4990d453257d8ea20afad24145e071b8e3ead24c64e5efcce745f7d27e2aca"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "e89a74e8d1cec7b8d593b59b8f3ac9a809d724a5efbde2d65d35ebf02d4da08b"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/am_v5_encoder.bin",
+          "size": 2148885,
+          "sha256": "ad7ace1824e9df6e8e3324800b371e3a671b9ae379b1caa8f7b0a0aa6d759d05"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "344f33bfbce4a2da39106c8732a415b50604a452106fb575d51010ea19f5025f"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/MSTTSLocTrTR.dat",
+          "size": 5785328,
+          "sha256": "6ebb2cd8372be5f9eb870ef554c0296188e2900b9514360e7814fad52e14d683"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/MSTTSLocTrTR.ini",
+          "size": 752,
+          "sha256": "aae6f42dafa1f7896b6f938ebba392da1d532cbdd79ce66449d712c6f2493ca2"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/phones.txt",
+          "size": 460,
+          "sha256": "23e12877f3c9cd57ebaf9ec013127a6edd4413f44f84875ce724588b0983ecf3"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/Tokens.xml",
+          "size": 1229,
+          "sha256": "ae287d6028328c42f6a93bafdd673ed35c749f44ae8520da17d47b83221c055f"
+        },
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Emel-tr-TRo0plfcsi.0t2/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocTrTR.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1055"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "tr-TR-EmelNeural",
+            "engine": "microsoft",
+            "bytes": 11138899,
+            "speaker": "tr-TR-EmelNeural",
+            "contentId": "f3b7880605a11963",
+            "name": "Emel",
+            "minAppCode": 4169,
+            "locale": "tr-TR",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 11140001
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "tr-TR-EmelNeural",
+          "status": "available",
+          "file": "microsoft-7f77177996a7626e890f4f51.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 713818803,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Jenny-tr-TR.zip",
+      "size": 8692889,
+      "sha256": "c7ddf74f495fe214ad9b38b2ba3dbf15858f38fdb8a17f3d42750a19b334d18a",
+      "files": [
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/1055.INI",
+          "size": 632,
+          "sha256": "f37cba218130f3bd2f6a790bf09ea7deb0cec29caaf44b0440866a0ec8d430b4"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "e614c6aeb46770c8acbc761f47f96bc8ff416bc044376798f742638b78e217c7"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/am_v5_encoder.bin",
+          "size": 2150927,
+          "sha256": "0758de6bc52ad3149782452e3c5fc480200befd43280fac1ec9a63dc77147a6c"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/device_vocoder_v6_streaming.bin",
+          "size": 2828003,
+          "sha256": "1ea12755874082ad37e48ba11727ccb1781d8c718d494fac2979e919e6e7294c"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/MSTTSLocTrTR.dat",
+          "size": 5785328,
+          "sha256": "6ebb2cd8372be5f9eb870ef554c0296188e2900b9514360e7814fad52e14d683"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/MSTTSLocTrTR.ini",
+          "size": 752,
+          "sha256": "aae6f42dafa1f7896b6f938ebba392da1d532cbdd79ce66449d712c6f2493ca2"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/phones.txt",
+          "size": 469,
+          "sha256": "3b8a2b447943e6769f2276056f2e0fbb70d72c670918e38719a3b4ab9c730451"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/Tokens.xml",
+          "size": 1233,
+          "sha256": "80b73f8ff9ff3146f99f908d77b4cce1e74c3dde06f4648f9b2fd5bf9e9a266e"
+        },
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Jenny-tr-TR42v0kcli.v5z/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocTrTR.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1055"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "tr-TR-JennyNeural",
+            "engine": "microsoft",
+            "bytes": 11514216,
+            "speaker": "tr-TR-JennyNeural",
+            "contentId": "821f4597dbcdeb09",
+            "name": "Jenny",
+            "minAppCode": 4169,
+            "locale": "tr-TR",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 11515323
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "tr-TR-JennyNeural",
+          "status": "available",
+          "file": "microsoft-7a536e2288f1cc3eee7092b8.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 713579062,
       "releaseId": 434895762,
       "tag": "voices-001",
