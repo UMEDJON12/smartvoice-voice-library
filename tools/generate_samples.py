@@ -47,19 +47,25 @@ def create(archive,stage):
   identity=hashlib.sha256(('microsoft/'+model['code']+'/'+model.get('quality','unspecified')+'/'+archive['sha256']).encode()).hexdigest()[:24];target=samples/('microsoft-'+identity+'.mp3')
   with tempfile.TemporaryDirectory(prefix='sv-sample-') as tmp:
    wav=pathlib.Path(tmp)/'sample.wav'
+   phase='renderer-execution'
+   native_audio=False
    try:
     clean_env={k:v for k,v in os.environ.items() if not re.search(r'(?i)token|secret|password|credential',k)}
     done=subprocess.run(['java','-Xmx512m','-cp',os.pathsep.join(map(str,[classes,pathlib.Path('tools/import-validator.jar').resolve(),sdk])),'NativeMicrosoftSample',str(stage),model['code'],str(wav)],capture_output=True,text=True,timeout=90,env=clean_env)
+    phase='renderer-output'
     result=json.loads(done.stdout.strip().splitlines()[-1]) if done.returncode==0 else {'success':False,'errorCode':'RendererProcessError'}
     if not result.get('success'):
      statuses.append({'code':model['code'],'status':'unavailable' if result.get('unavailable') else 'failed','errorCode':result.get('errorCode','No reviewed sample text')});continue
+    native_audio=True;phase='wave-validation'
     with wave.open(str(wav)) as stream:
      assert stream.getnchannels()==1 and stream.getsampwidth()==2 and stream.getframerate()==24000
      duration=stream.getnframes()/24000;pcm=array.array('h',stream.readframes(stream.getnframes()))
      if not .2<=duration<=20 or not any(abs(x)>10 for x in pcm):raise ValueError('Empty or invalid sample')
     encoded=pathlib.Path(tmp)/'sample.mp3'
+    phase='sample-encoding'
     ff=subprocess.run(['ffmpeg','-v','error','-y','-i',str(wav),'-map_metadata','-1','-codec:a','libmp3lame','-q:a','3',str(encoded)],capture_output=True,timeout=30)
     if ff.returncode or not encoded.exists() or encoded.stat().st_size>2097152:raise ValueError('Sample encoding failed')
+    phase='sample-saving'
     pending=target.with_suffix('.part')
     try:shutil.copyfile(encoded,pending);pending.replace(target)
     finally:pending.unlink(missing_ok=True)
@@ -67,6 +73,6 @@ def create(archive,stage):
     rows=[r for r in rows if not (r.get('code')==record['code'] and r.get('archiveSha256')==record['archiveSha256'] and r.get('quality')==record['quality'])];rows.append(record)
     statuses.append({'code':model['code'],'status':'available','file':target.name})
    except subprocess.TimeoutExpired:statuses.append({'code':model['code'],'status':'failed','errorCode':'SynthesisTimeout'})
-   except Exception:statuses.append({'code':model['code'],'status':'unavailable','reason':'Sample could not be saved'})
+   except Exception as error:statuses.append({'code':model['code'],'status':'unavailable','reason':'Sample could not be saved','stage':phase,'errorClass':type(error).__name__,'nativeAudioProduced':native_audio})
  index.write_text(json.dumps({'schemaVersion':1,'samples':sorted(rows,key=lambda r:(r['code'],r['archiveSha256'],r['quality']))},ensure_ascii=False,indent=2)+'\n')
  return statuses
