@@ -36,8 +36,12 @@ def create(archive,stage):
  samples=pathlib.Path('samples');samples.mkdir(exist_ok=True);index=samples/'index.json'
  rows=json.loads(index.read_text()).get('samples',[]) if index.exists() else []
  statuses=[];sdk=None
- for model in archive['importer']['models']:
-  if model['engine']!='microsoft':continue
+ for original in archive['importer']['models']:
+  if original['engine']!='microsoft':continue
+  model=dict(original)
+  overrides=json.loads(pathlib.Path('metadata-overrides.json').read_text()) if pathlib.Path('metadata-overrides.json').exists() else {}
+  hint=dict(overrides.get(archive['sha256'],{}));hint.update(hint.get('models',{}).get(model['code'],{}))
+  if model.get('quality','unspecified')=='unspecified' and hint.get('quality'):model['quality']=hint['quality']
   saved=existing(rows,archive,model)
   if saved:statuses.append({'code':model['code'],'status':'available','file':saved['file']});continue
   try:
