@@ -2,6 +2,409 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 714413131,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Paloma-es-US.zip",
+      "size": 20751799,
+      "sha256": "880ee50ff48f9506d317a7ab8e16e60abc7586b322ce60d96d3f6805f4ae94b8",
+      "files": [
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/2058.INI",
+          "size": 1507,
+          "sha256": "e3c8f10d2de2804080f3462f14472ded6a0dff65e2e84b513dbe5f1875b87702"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "8d89e472b7a891382045a5295f5fa11c44103f2d7e88879eb326293d43f73db6"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/am_v5_encoder.bin",
+          "size": 2124565,
+          "sha256": "be49a93687f5dec44d1398f7e36ca6f281e797526b6d0fe265f09f3197502847"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/device_vocoder_v6_streaming.bin",
+          "size": 2407036,
+          "sha256": "a8ff0e46b9edbe811acaf47f9795b54914212e2ad013352962eceda336924617"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/EsMX.address.dat",
+          "size": 5192,
+          "sha256": "99567411530b67b61c73d90103595165b0646059154f08d52974ae65eafec8c9"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/EsMX.computer.dat",
+          "size": 3904,
+          "sha256": "113243389c622b2346b2a32f056975161f5f15abf08b958a1c786e5a1c2bcc7a"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/EsMX.message.dat",
+          "size": 6384,
+          "sha256": "df35a29da7471e874cd06bbc9388dd4b1562f4a2ce4669db5929dd14a6122f44"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/EsMX.name.dat",
+          "size": 5056,
+          "sha256": "4a7e95eba96f3eaf1432d7fec89c10f83a254767b17e4f5a18731290af769c66"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/MSTTSLocEsMX.dat",
+          "size": 17736680,
+          "sha256": "ae917540dcd1f13b44916b7a159404dbdbfd9fb115e48e5fdc03ff77845a4af1"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/MSTTSLocEsMX.ini",
+          "size": 2984,
+          "sha256": "c3070d06f8f6ab68887aa4821bbedd11ac5e459ddde7c4ee02bb15e000d29188"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/phones.txt",
+          "size": 510,
+          "sha256": "27da543c4cd86dfacd02daa80dd5c9277ab53b68b2d267db4813f4164afe5846"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/Tokens.xml",
+          "size": 1237,
+          "sha256": "31fe5e65674427d8ab48c7b95f0f0603fdf148c4764d791989091f197178866d"
+        },
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Paloma-es-USovvbb0zo.3jz/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEsMX.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2058"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "es-US-PalomaNeural",
+            "engine": "microsoft",
+            "bytes": 32823995,
+            "speaker": "es-US-PalomaNeural",
+            "contentId": "34b3989f36180f52",
+            "name": "Paloma",
+            "minAppCode": 4169,
+            "locale": "es-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 32825107
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "es-US-PalomaNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ]
+    },
+    {
+      "assetId": 714411953,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Sara-en-US.zip",
+      "size": 29431999,
+      "sha256": "ff8528a14673cdcae0e962aa64694afc6ec48e28d02c995ce38f6b93fc643438",
+      "files": [
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "d41c99f7b40988cc34c376b38dddf899f38a038f56d6dfe9fb0523faee97ca1c"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/am_v5_encoder.bin",
+          "size": 2168335,
+          "sha256": "5cc922de8420001b5add9937428b3e6757b39140135e7529332e3373e777873a"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/device_vocoder_v6_streaming.bin",
+          "size": 2454757,
+          "sha256": "d892bdb48bf2f286cd045cdca3262a546a499d582062c5bc73734af1240be52d"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/phones.txt",
+          "size": 605,
+          "sha256": "4f9a512ed651242b9ba4c072ec2dcc64559c32a2e594d5af4ae8fa69dbbd48e6"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/Tokens.xml",
+          "size": 1236,
+          "sha256": "3900f66c2a95b3032f5f7132cffee82f58b96bc6246585e597df20a6abdbcad3"
+        },
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Sara-en-US2qj5lr2p.5pr/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-SaraNeural",
+            "engine": "microsoft",
+            "bytes": 47080864,
+            "speaker": "en-US-SaraNeural",
+            "contentId": "35d3964a633f6bea",
+            "name": "Sara",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47081966
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-SaraNeural",
+          "status": "available",
+          "file": "microsoft-aaaa6acaf650dfc555a9d2ac.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 714410712,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Xiaochen-en-US.zip",
+      "size": 29740210,
+      "sha256": "823ab53fb463310272e4073669b5b2b87aac8749fc619fbbb8e679c5ce305bdf",
+      "files": [
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/1033.INI",
+          "size": 419,
+          "sha256": "3799f367dc9ac2a68aa48025c6ef487f44409d9cf76ec7c275b1a14b0887ddf2"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/am_v5_decoder.bin",
+          "size": 759031,
+          "sha256": "48c7b98d7b329a62d990c17507a4c91ff8e0c753813f55b389c5370e7c3d2492"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/am_v5_encoder.bin",
+          "size": 2166286,
+          "sha256": "233643d9c37c441c86640ce945c4d2b06acf923fd5c18a3c7b5fe9893034e82e"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/device_vocoder_v6_streaming.bin",
+          "size": 2774813,
+          "sha256": "988b6ed8a1490890b6bf9e667e0ca3da24c147412d2bd2b4c1e851c9592814fa"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/phones.txt",
+          "size": 902,
+          "sha256": "864d3443dd150b9b1dcea96a472c0415a0b1ddf328883b6227a8f1da70388d6b"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/Tokens.xml",
+          "size": 1245,
+          "sha256": "a7eecf03739d4e487495c36c8fd6922e789d832340a39f9f58c348a6bf23a995"
+        },
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Xiaochen-en-USjg4poxo5.2nn/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-XiaochenNeural",
+            "engine": "microsoft",
+            "bytes": 47411491,
+            "speaker": "en-US-XiaochenNeural",
+            "contentId": "8b4c15e4b39c7255",
+            "name": "Xiaochen",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47412613
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-XiaochenNeural",
+          "status": "available",
+          "file": "microsoft-4605da60452d7045013a942e.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 714410488,
       "releaseId": 434895762,
       "tag": "voices-001",
