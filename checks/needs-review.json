@@ -1,12 +1,16 @@
 {
   "items": [
     {
+      "assetId": 713175580,
+      "reason": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpjucjhlxy/713175580', '/tmp/tmpjucjhlxy/import-713175580']' returned non-zero exit status 1."
+    },
+    {
       "assetId": 713173912,
-      "reason": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpl_gxp33m/713173912', '/tmp/tmpl_gxp33m/import-713173912']' returned non-zero exit status 1."
+      "reason": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpjucjhlxy/713173912', '/tmp/tmpjucjhlxy/import-713173912']' returned non-zero exit status 1."
     },
     {
       "assetId": 713170799,
-      "reason": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpl_gxp33m/713170799', '/tmp/tmpl_gxp33m/import-713170799']' returned non-zero exit status 1."
+      "reason": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpjucjhlxy/713170799', '/tmp/tmpjucjhlxy/import-713170799']' returned non-zero exit status 1."
     }
   ]
 }

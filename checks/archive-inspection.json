@@ -2,6 +2,247 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713177643,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "YunSong-yue-CN.zip",
+      "size": 31153994,
+      "sha256": "769dca93eb7369a3faa22c74fa9cf115dff6074819cf9f322d9569a5d1649e94",
+      "files": [
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/3332.INI",
+          "size": 710,
+          "sha256": "7f072f1c4652f72eab580d5bcbd83256d9f14ff25403d08a5a2e7a5b102babfa"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/am_v5_decoder.bin",
+          "size": 746390,
+          "sha256": "670a98ece334c3663d89eabfce75632808e5c398db4ad4b59eb23b6e588a6f7e"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/am_v5_encoder.bin",
+          "size": 2229782,
+          "sha256": "85496d4a6855ffb1dd88ba12e440181cbcc319134c54243791adbb4e9bffc19d"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "2a4b6b749d5d6fe4dcfa84109e6b0e357194ada9bcd1c6e3eff23d56312f3532"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/MSTTSLocYueCN.dat",
+          "size": 26300880,
+          "sha256": "f1087de1f7cfbeeafcbbb11406da0f77b0b29ef3567c4f42eda11b98a5154463"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/MSTTSLocYueCN.ini",
+          "size": 772,
+          "sha256": "b668af75afd8d4e495ec33c0cdca1c9edfb3a94777de8a2b9b7c1c7d38968797"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/phones.txt",
+          "size": 2962,
+          "sha256": "961f33998df59a6f732b79d21851fa918b1b930b2eed3612908dd1952bd1e0f3"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/punc.txt",
+          "size": 567,
+          "sha256": "340298e6ee6ba2675ba1c12e5f0986f029d5264c55f052f8b3abcbc4821e2743"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/Tokens.xml",
+          "size": 1244,
+          "sha256": "dab3226a795ea0f3d8744afba2556b3a892707927ed6a8d8aa6dc7faff9aa1b1"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/YueCN.address.dat",
+          "size": 8640,
+          "sha256": "ba63d80669c7019ec473f86149639152ca2b1feec40b9e47f754e98a3d9aa3de"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/YueCN.message.dat",
+          "size": 7856,
+          "sha256": "925d185de9e98b139d5975b5d2b2b8e9a99acb48b5163fa401b10e6905cb5b55"
+        },
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/YueCN.name.dat",
+          "size": 8360,
+          "sha256": "af5ebdf1a3de6a015c245eaf610df60a885d52154ee596712747c27478c4fa50"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "YunSong-yue-CNw5yl25lf.0pa/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocYueCN.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]3332"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "yue-CN-YunSongNeural",
+            "engine": "microsoft",
+            "bytes": 41549962,
+            "speaker": "yue-CN-YunSongNeural",
+            "contentId": "230276a12cdd72ca",
+            "name": "YunSong",
+            "locale": "yue-CN",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 41551084
+      }
+    },
+    {
+      "assetId": 713175580,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Yunxi-zh-CN.zip",
+      "size": 74577364,
+      "sha256": "e2a6350cd6ce1dabae86b82b3a2760a866de899354c86d6a7f63509901d08468",
+      "files": [
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/2052.BR0",
+          "size": 6742944,
+          "sha256": "b043a7a94eb87a894addbf42d2a6a2c83f6491943939e219d04f5b295d32715d"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/2052.BR2",
+          "size": 6524632,
+          "sha256": "f49c572c334dbc31faec4ac45dc7e4d393e3108fa1304fe848a0aed2601a5e87"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/2052.BR3",
+          "size": 613260,
+          "sha256": "fccd91742e8c50132ac35fd84f3106e742881e6d7373d71b016e15a0e689eca7"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/2052.INI",
+          "size": 1364,
+          "sha256": "0e56b4b8d6f2f235d79552c807417b931540b080f1e0dc1062f671f41114fcba"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "6e16df79ef6e22afdcbc81e358554d92cb261cf23c1763d8397c5c58ff90c997"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/am_v5_encoder.bin",
+          "size": 2253481,
+          "sha256": "2819497485d5176c7129f3a580830ffc9c16f967eeb55452f4042c26c4382a5b"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/device_vocoder_v6_streaming.bin",
+          "size": 2407036,
+          "sha256": "0a61fc5a424142b199866b00c32133c34f97605a77db11feb0f74b1a6dc69dca"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/MSTTSLocEnUS.dat",
+          "size": 23285328,
+          "sha256": "09eddb767e7678c0ea6bd0c021ea710834bc6701d2b7ba558d2834550156a60a"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/MSTTSLocZhCN.dat",
+          "size": 48710544,
+          "sha256": "1486b614c64f62c19463ea114a7c2f2e359333f0236d726650a441e89621a0d9"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/MSTTSLocZhCN.ini",
+          "size": 3038,
+          "sha256": "2011e874102ca6497fb2cc78b3f3ea218910cba92e7ef2bfb25d2e8b584b7ee1"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/phones.txt",
+          "size": 1436,
+          "sha256": "f3d98be92c33694eea24fea89327feb4095b607b8c1108e0dd097129549450bf"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/punc.txt",
+          "size": 232,
+          "sha256": "f422de1f35ce9c9719b2f1061442db95eefad7fce4c8cc922f829cff57d18dfc"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/Tokens.xml",
+          "size": 1000,
+          "sha256": "ad6b00961b58700cb79c90c8881f87ea84ced3445e69a52f0277b2b7eacefd43"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/ZhCN.address.dat",
+          "size": 57224,
+          "sha256": "a6065fff3f175defb053a570a15c8f1a66f984473b4063b91e73ff7ec8f85bf3"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/ZhCN.message.dat",
+          "size": 51600,
+          "sha256": "0cacd1ad46c9ddd4c26e31d6af78eec548e4a55de541f7d321ffc0e95c3053db"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/ZhCN.mixlingual.dat",
+          "size": 11848,
+          "sha256": "42f06f44d9d3f36f1594dd4df25592ad9ffe52ae533a1269bfddbde34c69f39e"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/ZhCN.name.dat",
+          "size": 35080,
+          "sha256": "ca952a56ffc11b2d4a3285578f2723b25db6b8db5ed95af546a9cb4fc438d8f2"
+        },
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/ZhCN.TextAnalyzer.dat",
+          "size": 24251856,
+          "sha256": "f7dbea69b85c1eb36a2c3faad423876238dca39b4b4892360d8bffeaed93fe97"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Yunxi-zh-CNehkwja2a.mub/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocZhCN.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2052"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpjucjhlxy/713175580', '/tmp/tmpjucjhlxy/import-713175580']' returned non-zero exit status 1."
+    },
+    {
       "assetId": 713173912,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -124,7 +365,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpl_gxp33m/713173912', '/tmp/tmpl_gxp33m/import-713173912']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpjucjhlxy/713173912', '/tmp/tmpjucjhlxy/import-713173912']' returned non-zero exit status 1."
     },
     {
       "assetId": 713170799,
@@ -249,7 +490,7 @@
       ],
       "headers": [],
       "zipVerified": true,
-      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpl_gxp33m/713170799', '/tmp/tmpl_gxp33m/import-713170799']' returned non-zero exit status 1."
+      "importerError": "Command '['java', '-jar', 'tools/import-validator.jar', '/tmp/tmpjucjhlxy/713170799', '/tmp/tmpjucjhlxy/import-713170799']' returned non-zero exit status 1."
     },
     {
       "assetId": 713006098,
