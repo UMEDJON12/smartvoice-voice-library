@@ -2,6 +2,409 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 714428499,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Alonso-es-US.zip",
+      "size": 20781360,
+      "sha256": "76812837b77fc0ce0e1a3d1f57a9019b622f30dd71174701fd6e1b9956be2449",
+      "files": [
+        {
+          "path": "Alonso-es-US03h32miy.jy1/2058.INI",
+          "size": 1186,
+          "sha256": "04508da292e34e35516e0cef7dc71a08ba8a3ae3aa87f2181c6cde6e87dc9f8f"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/am_v5_decoder.bin",
+          "size": 741427,
+          "sha256": "61958d5e8b7ddbe2de634f822a56f4bc0172f65f612c34eeab35cda521d15910"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/am_v5_encoder.bin",
+          "size": 2124565,
+          "sha256": "ccd5f2f77d83e481e2beeb1bfafbe25c5d36882db8a80927329ce85ed94792d7"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/device_vocoder_v6_streaming.bin",
+          "size": 2407036,
+          "sha256": "170bf1902e4666ca7cf0346220848a7a71733d3decb9b1c9f10a157797b5dd5e"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/EsMX.address.dat",
+          "size": 5192,
+          "sha256": "99567411530b67b61c73d90103595165b0646059154f08d52974ae65eafec8c9"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/EsMX.computer.dat",
+          "size": 3904,
+          "sha256": "113243389c622b2346b2a32f056975161f5f15abf08b958a1c786e5a1c2bcc7a"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/EsMX.message.dat",
+          "size": 6384,
+          "sha256": "df35a29da7471e874cd06bbc9388dd4b1562f4a2ce4669db5929dd14a6122f44"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/EsMX.name.dat",
+          "size": 5056,
+          "sha256": "4a7e95eba96f3eaf1432d7fec89c10f83a254767b17e4f5a18731290af769c66"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/MSTTSLocEsMX.dat",
+          "size": 17736680,
+          "sha256": "ae917540dcd1f13b44916b7a159404dbdbfd9fb115e48e5fdc03ff77845a4af1"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/MSTTSLocEsMX.ini",
+          "size": 2984,
+          "sha256": "c3070d06f8f6ab68887aa4821bbedd11ac5e459ddde7c4ee02bb15e000d29188"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/phones.txt",
+          "size": 510,
+          "sha256": "96b22e310667b3fd9682007761d48b0a550cb0960254e7ad99aa4bf83975f63e"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/Tokens.xml",
+          "size": 1235,
+          "sha256": "bd2be54e49e39e47f66051f7f82e293323bf96054cae8b1f90075d942ef25f09"
+        },
+        {
+          "path": "Alonso-es-US03h32miy.jy1/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Alonso-es-US03h32miy.jy1/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEsMX.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]2058"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "es-US-AlonsoNeural",
+            "engine": "microsoft",
+            "bytes": 32823672,
+            "speaker": "es-US-AlonsoNeural",
+            "contentId": "6d64171e1eaa4a39",
+            "name": "Alonso",
+            "minAppCode": 4169,
+            "locale": "es-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 32824784
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "es-US-AlonsoNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ]
+    },
+    {
+      "assetId": 714427056,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Amber-en-US.zip",
+      "size": 29391905,
+      "sha256": "4c3d08cbc2ae80790c297e8cb840f4d55bd2c71b8392578f05083974492c4082",
+      "files": [
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "fe75b1229d55139d6236ebcae08ca8960088577eac467195ff66a62da1a85afb"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/am_v5_encoder.bin",
+          "size": 2167311,
+          "sha256": "196280f850085cefb44c9859285de4652d003426ff0ae39df9a9dbb400a586ea"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "326e64f210207b2c2356ec9a42e495ff92eb8650419c49723076a951ff0a44e8"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/phones.txt",
+          "size": 594,
+          "sha256": "1d55cf11d2e1c07143599e0d3f73b4e59013af95fc164a11961e0638ea91e8e5"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/Tokens.xml",
+          "size": 1240,
+          "sha256": "f95686ebad3cf2d1c70ffdd27179f424fbe5716a751e636f5e0302160fcc3d87"
+        },
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Amber-en-USq0wj1zzx.exh/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-AmberNeural",
+            "engine": "microsoft",
+            "bytes": 47079832,
+            "speaker": "en-US-AmberNeural",
+            "contentId": "5dfef96362e48a92",
+            "name": "Amber",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47080939
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-AmberNeural",
+          "status": "available",
+          "file": "microsoft-19f8e6ca40c01375cc3bf4a3.mp3"
+        }
+      ]
+    },
+    {
+      "assetId": 714425340,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Aria-en-US.zip",
+      "size": 29408522,
+      "sha256": "ef68c530ce6f538958a2efc34d82c72c08eeacbbf752e628d1e5e542528ad28f",
+      "files": [
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/1033.INI",
+          "size": 745,
+          "sha256": "48790438233cfe07dddcb569765505a27a22c38b005e02c2707aee8663b6626e"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "1790a922457ca640cb615ef7680c4d1c552239072feb652d2f4792b2708c9c35"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/am_v5_encoder.bin",
+          "size": 2165263,
+          "sha256": "e8f8d9ea855bc6e6b8cb8eb8f13040ea8d70d57fdd5a6868b0ea6522222c469e"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "1548f7b026ad572f92eefeb3a83c6fa4f3b6a11987290dc2bba32cb9ce78d9bb"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/EnUS.address.dat",
+          "size": 3082384,
+          "sha256": "1e7f1328216fc7f403a99a4c51a061b1a25c37a9320499cab95d47bc8fdee68a"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/EnUS.companyname.dat",
+          "size": 6624,
+          "sha256": "bd74fc06585c9a6581641a4592d86dc94202e2e93621bb308db82c5cf0f65eed"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/EnUS.computer.dat",
+          "size": 41944,
+          "sha256": "956fa2419818eab3f47a0b7031f88932e48fdd23f27e45ddecbac102ae42f0ba"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/EnUS.media.dat",
+          "size": 204832,
+          "sha256": "2e7371f282de03066f308343334be3fd7cc16742a784e4e93d90ff3c0bbd9c6d"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/EnUS.message.dat",
+          "size": 70248,
+          "sha256": "e2a212b6908cbd902dd5c710f7cac0abb7a29d0fe2dd03bee60ebc1bde26c34e"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/EnUS.name.dat",
+          "size": 2316912,
+          "sha256": "0a29e360fa7613be4961ba6dfa9e1d0a7cbc31085e92b88fc4c9bac91f23f71b"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/MSTTSLocEnUS.dat",
+          "size": 35979976,
+          "sha256": "bb77ba4039d2e3483a0d0526af86465e2de2933230490b5de8a8f89517b79832"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/MSTTSLocEnUS.ini",
+          "size": 5394,
+          "sha256": "dd5555405387a5f6bcde3dbafcbae9094264ae57474d6bf84a5354422a6fdcfd"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/phones.txt",
+          "size": 576,
+          "sha256": "be8f15eec01a74adb50bc9ddf21630536159d3139caa04ef17af9803d098a0ba"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/punc.txt",
+          "size": 140,
+          "sha256": "245875bd27e1718a4f9e69c796ac7c0c15ae14faa6a73db6ad6844c18ec4b221"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/Tokens.xml",
+          "size": 1237,
+          "sha256": "fab1297099b8b9180d3abf1ce39daf41ca74112bb230be9f535f9d0a29bce4c9"
+        },
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Aria-en-USquqrsuv2.xwu/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEnUS.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1033"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "en-US-AriaNeural",
+            "engine": "microsoft",
+            "bytes": 47077433,
+            "speaker": "en-US-AriaNeural",
+            "contentId": "a82df0c370c2c0d1",
+            "name": "Aria",
+            "minAppCode": 4169,
+            "locale": "en-US",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 47078535
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "sampleGeneration": [
+        {
+          "code": "en-US-AriaNeural",
+          "status": "available",
+          "file": "microsoft-7d6b6d7bd84551c1cf6d3655.mp3"
+        }
+      ]
+    },
+    {
       "assetId": 714424186,
       "releaseId": 434895762,
       "tag": "voices-001",
