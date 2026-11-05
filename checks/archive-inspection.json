@@ -2,6 +2,112 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 713006098,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Dilara-fa-IR.zip",
+      "size": 22367458,
+      "sha256": "eed16e7c516e4d4bbff51ab9fd8981cf4ed26ce0b462b3ca4bed98f566a7ded0",
+      "files": [
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/1065.INI",
+          "size": 706,
+          "sha256": "5980efe1abd28fb2bfe4cb1b73adcdeeff1a977c0fd8d22d0afc64368f0f96ef"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "0526f16552634f990c78fe744db261b438e485fb25f3bc01965ab524fffa4e3b"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/am_v5_encoder.bin",
+          "size": 2172437,
+          "sha256": "5872ef3ad5c00874d15430d7df0b404507a56d94f717ac26a45786a73ba1886c"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "27546475c19d656eb3e8fe625c22d205fc8d41e2fc9be196854dae6d09a2461a"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/FaIRDiacModel.Bin",
+          "size": 4905342,
+          "sha256": "c475fc120cc858e69ae92acc750917f847584ec28f48d6827fe042c8f23ddc96"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/MSTTSLocEnUS.dat",
+          "size": 23277464,
+          "sha256": "fc3657590a78e826e55ec8114249c6ef6ff78c7bfc68ab5d799d19dd28014314"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/MSTTSLocFaIR.dat",
+          "size": 198336,
+          "sha256": "a0494529dbae103de9b760921d9cb6423580b7bcfe1b3ecc8f17b364bc26d084"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/MSTTSLocFaIR.ini",
+          "size": 1626,
+          "sha256": "27dcd221b671d1f2372e3c64c969e9a97414f47a046ebe0b490c0cbca41133ce"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/phones.txt",
+          "size": 1203,
+          "sha256": "6467138696087b5b7d91f82d34906f7e1f19726eff1985ba88f3bcc33acc8197"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/punc.txt",
+          "size": 220,
+          "sha256": "57c667fe20aa8d7381f31fd4576b0f9088b705f0ec8bbba5e582b4c404e6ac45"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/Tokens.xml",
+          "size": 1244,
+          "sha256": "ea6a244f96a3e8f836d8a1dee32df61c1c59be43f8db6343f73f3a159092025c"
+        },
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Dilara-fa-IRm0oawts5.0r5/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocFaIR.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1065"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "fa-IR-DilaraNeural",
+            "engine": "microsoft",
+            "bytes": 33759736,
+            "speaker": "fa-IR-DilaraNeural",
+            "contentId": "5f1dbef726168159",
+            "name": "Dilara",
+            "locale": "fa-IR",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.53",
+        "unpackedBytes": 33760848
+      }
+    },
+    {
       "assetId": 712496720,
       "releaseId": 434895762,
       "tag": "voices-001",
