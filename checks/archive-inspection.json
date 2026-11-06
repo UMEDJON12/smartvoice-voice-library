@@ -8,6 +8,7 @@
       "draft": false,
       "name": "11VocalizerEx1.zip",
       "size": 430872813,
+      "assetUpdatedAt": "2026-11-06T12:12:20Z",
       "sha256": "ea1ce9ef6da9e60b2749cffebaf1cdfc026ab5fa9f7835f4a277f5ac5d4c20a7",
       "files": [
         {
@@ -89,14 +90,16 @@
         "synthesisTested": false,
         "models": [
           {
-            "code": "rur/milena/",
+            "code": "rur/milena/full/vssq5f22",
             "engine": "vocalizer-folder",
             "bytes": 477352728,
             "nativeLang": "RUR",
             "contentId": "3b7f40d0baa4d9ec3d55388e8e2adf3866371e20f705da666f16c658f2a16fca",
             "name": "Milena",
+            "variant": "VocalizerEx1",
+            "minAppCode": 4172,
             "locale": "ru-RU",
-            "quality": ""
+            "quality": "full-vssq5f22"
           }
         ],
         "validatorVersion": "5.2.55",
@@ -104,7 +107,24 @@
         "unpackedBytes": 495514040
       },
       "detectedFormat": "Vocalizer HDR/DAT",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "rur/milena/full/vssq5f22",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 717035888,
@@ -113,6 +133,7 @@
       "draft": false,
       "name": "1VocalizerEx1.zip",
       "size": 144089039,
+      "assetUpdatedAt": "2026-11-06T12:06:23Z",
       "sha256": "06c4e0e793de9c68c7084efe5a574770845c2a88297614b955a8b6fa75a891d8",
       "files": [
         {
@@ -194,14 +215,16 @@
         "synthesisTested": false,
         "models": [
           {
-            "code": "rur/yuri/",
+            "code": "rur/yuri/full/vssq5f22",
             "engine": "vocalizer-folder",
             "bytes": 159237710,
             "nativeLang": "RUR",
             "contentId": "8675bbf126af6cc23f94bc4d158a07423df04803242bc95a1a4383ae7471958b",
             "name": "Yuri",
+            "variant": "VocalizerEx1",
+            "minAppCode": 4172,
             "locale": "ru-RU",
-            "quality": ""
+            "quality": "full-vssq5f22"
           }
         ],
         "validatorVersion": "5.2.55",
@@ -209,7 +232,24 @@
         "unpackedBytes": 177399123
       },
       "detectedFormat": "Vocalizer HDR/DAT",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "rur/yuri/full/vssq5f22",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 717016051,
@@ -218,6 +258,7 @@
       "draft": false,
       "name": "2VocalizerEx2.zip",
       "size": 501576086,
+      "assetUpdatedAt": "2026-11-06T12:04:41Z",
       "sha256": "2d5634715750c1b3771a4e4a61dd545a79e7c0ec5ae482aca7a90054e584c695",
       "files": [
         {
@@ -311,6 +352,7 @@
             "langcode": "RUR",
             "voice": "Milena",
             "datapackagename": "rur/milena/premium-high/1-0-1",
+            "voicemodel": "full_vssq5f22",
             "voiceoperatingpoint": "premium-high"
           }
         }
@@ -326,6 +368,8 @@
             "nativeLang": "RUR",
             "contentId": "fb5a6e511c65e63a1ee1acba3e0fc7543c70cf028ce2601cdea96ba5f860c5ae",
             "name": "Milena",
+            "variant": "VocalizerEx2",
+            "minAppCode": 4169,
             "locale": "ru-RU",
             "quality": "premium-high"
           }
@@ -335,7 +379,24 @@
         "unpackedBytes": 588730932
       },
       "detectedFormat": "Vocalizer HDR/DAT",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "rur/milena/premium-high",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 716963319,
@@ -344,6 +405,7 @@
       "draft": false,
       "name": "VocalizerEx2.zip",
       "size": 160179949,
+      "assetUpdatedAt": "2026-11-06T11:42:47Z",
       "sha256": "b1861d003e714be4a2fd73c778c252d6c8bdc4b425bc4a0b75729b4e9ea46e67",
       "files": [
         {
@@ -437,6 +499,7 @@
             "langcode": "RUR",
             "voice": "Yuri",
             "datapackagename": "rur/yuri/premium-high/1-0-1",
+            "voicemodel": "full_vssq5f22",
             "voiceoperatingpoint": "premium-high"
           }
         }
@@ -452,6 +515,8 @@
             "nativeLang": "RUR",
             "contentId": "8f9bde30dfd18b38a1ec20ca534c8b10c7a4603405dd22cecdfda8b3f7c12245",
             "name": "Yuri",
+            "variant": "VocalizerEx2",
+            "minAppCode": 4169,
             "locale": "ru-RU",
             "quality": "premium-high"
           }
@@ -461,7 +526,24 @@
         "unpackedBytes": 195562431
       },
       "detectedFormat": "Vocalizer HDR/DAT",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "rur/yuri/premium-high",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714618159,
@@ -470,6 +552,7 @@
       "draft": false,
       "name": "Google_._._._arb_._Seanet.zip",
       "size": 20884022,
+      "assetUpdatedAt": "2026-11-05T19:54:39Z",
       "sha256": "2740d516306e2823b88361e5d8822b4507f521677081e721b0883b6fe1202679",
       "files": [
         {
@@ -836,7 +919,24 @@
         "unpackedBytes": 28078647
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ar-xa-x-multi-seanet-r47__arb",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714617673,
@@ -845,6 +945,7 @@
       "draft": false,
       "name": "Google_._._._ard_._Seanet.zip",
       "size": 20884021,
+      "assetUpdatedAt": "2026-11-05T19:54:27Z",
       "sha256": "8270c2747a614fa720e712b73d5d5c69b7fec171abd6650bc8f416f5499e01be",
       "files": [
         {
@@ -1211,7 +1312,24 @@
         "unpackedBytes": 28078647
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ar-xa-x-multi-seanet-r47__ard",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714617051,
@@ -1220,6 +1338,7 @@
       "draft": false,
       "name": "Google_._._._are_._Seanet.zip",
       "size": 20884019,
+      "assetUpdatedAt": "2026-11-05T19:54:16Z",
       "sha256": "3a8d5c4e2c3b5aa35e81f1511f1ce8b9399156806fcd3c7f38267a0646fbb8f9",
       "files": [
         {
@@ -1586,7 +1705,24 @@
         "unpackedBytes": 28078647
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ar-xa-x-multi-seanet-r47__are",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714616602,
@@ -1595,6 +1731,7 @@
       "draft": false,
       "name": "Google_._._._arz_._Seanet.zip",
       "size": 20884024,
+      "assetUpdatedAt": "2026-11-05T19:54:04Z",
       "sha256": "a64c9959fc21a3a78cca4bc2ba07a1151fe2d68a7b9270c0b25934af1e20aa97",
       "files": [
         {
@@ -1961,7 +2098,24 @@
         "unpackedBytes": 28078651
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ar-xa-x-multi-seanet-r47__arz",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714615807,
@@ -1970,6 +2124,7 @@
       "draft": false,
       "name": "Google_._._._gba_._Locomel.zip",
       "size": 20782374,
+      "assetUpdatedAt": "2026-11-05T19:53:51Z",
       "sha256": "de5ddfd2e7267d334e1026c6db869b1deb9500c860d6b3610aa9e204fcc08cf0",
       "files": [
         {
@@ -2321,7 +2476,24 @@
         "unpackedBytes": 30345919
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "en-gb-x-multi-locomel-r69__gba",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714614690,
@@ -2330,6 +2502,7 @@
       "draft": false,
       "name": "Google_._._._gbg_._Locomel.zip",
       "size": 20782374,
+      "assetUpdatedAt": "2026-11-05T19:53:31Z",
       "sha256": "0e097d7c5782fc2c70972f51fa262822fa1e63313b79a4fc97b4de81717fc71b",
       "files": [
         {
@@ -2681,7 +2854,24 @@
         "unpackedBytes": 30345919
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "en-gb-x-multi-locomel-r69__gbg",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714614231,
@@ -2690,6 +2880,7 @@
       "draft": false,
       "name": "Google_._._._fis_._Seanet.zip",
       "size": 15840915,
+      "assetUpdatedAt": "2026-11-05T19:53:01Z",
       "sha256": "59e7966194a59be6c6511f7f6d1da636cc5754429eff2eb4a9575fcbb537c5c3",
       "files": [
         {
@@ -3026,7 +3217,24 @@
         "unpackedBytes": 22507884
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "en-gb-x-multi-seanet-r69__fis",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714613913,
@@ -3035,6 +3243,7 @@
       "draft": false,
       "name": "Google_._._._mfm_._.zip",
       "size": 6695675,
+      "assetUpdatedAt": "2026-11-05T19:52:49Z",
       "sha256": "fca99f432dcffdaace5f6e7bb0c2d1aec938259cd0394a6b86907bc35439ae47",
       "files": [
         {
@@ -3266,7 +3475,24 @@
         "unpackedBytes": 11243424
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "tr-tr-x-multi-r57__mfm",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714613642,
@@ -3275,6 +3501,7 @@
       "draft": false,
       "name": "Google_._._._ama_._Seanet.zip",
       "size": 10418171,
+      "assetUpdatedAt": "2026-11-05T19:52:44Z",
       "sha256": "475796b5eb29544f38686664ab0b29398e01d5090b78fea32782ce6c8f9abdcb",
       "files": [
         {
@@ -3581,7 +3808,24 @@
         "unpackedBytes": 15747226
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "tr-tr-x-multi-seanet-r57__ama",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714613343,
@@ -3590,6 +3834,7 @@
       "draft": false,
       "name": "Google_._._._amd_._Seanet.zip",
       "size": 10418169,
+      "assetUpdatedAt": "2026-11-05T19:52:37Z",
       "sha256": "c08a45d33f0eb111af238e6de62e85b76f74c92f4ec4e3fa570742fa7317ebfa",
       "files": [
         {
@@ -3896,7 +4141,24 @@
         "unpackedBytes": 15747226
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "tr-tr-x-multi-seanet-r57__amd",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714612978,
@@ -3905,6 +4167,7 @@
       "draft": false,
       "name": "Google_._._._tmc_._Seanet.zip",
       "size": 10418171,
+      "assetUpdatedAt": "2026-11-05T19:52:30Z",
       "sha256": "7d6e7bd23dea0c973afcc72c5c57f7fe1a3af08644021b436bf646f953f9c077",
       "files": [
         {
@@ -4211,7 +4474,24 @@
         "unpackedBytes": 15747226
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "tr-tr-x-multi-seanet-r57__tmc",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714611627,
@@ -4220,6 +4500,7 @@
       "draft": false,
       "name": "Google_._._._rua_._.zip",
       "size": 23600650,
+      "assetUpdatedAt": "2026-11-05T19:52:21Z",
       "sha256": "807b73871970848696867762bb33591a0149551b907748937477d14ee4aa3393",
       "files": [
         {
@@ -4451,7 +4732,24 @@
         "unpackedBytes": 38233315
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-r57__rua",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714610079,
@@ -4460,6 +4758,7 @@
       "draft": false,
       "name": "Google_._._._rub_._.zip",
       "size": 23600650,
+      "assetUpdatedAt": "2026-11-05T19:51:51Z",
       "sha256": "3e266c41e96ad99128ea3c4fd5c6ed9c4246a6c51db956b3cdf4fe085098e443",
       "files": [
         {
@@ -4691,7 +4990,24 @@
         "unpackedBytes": 38233311
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-r57__rub",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714608496,
@@ -4700,6 +5016,7 @@
       "draft": false,
       "name": "Google_._._._ruc_._.zip",
       "size": 23600651,
+      "assetUpdatedAt": "2026-11-05T19:51:12Z",
       "sha256": "b7599eb5e8103d7771c32969033d34dde3f74782bcf98bea0bec0f48279fd4c3",
       "files": [
         {
@@ -4931,7 +5248,24 @@
         "unpackedBytes": 38233315
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-r57__ruc",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714607315,
@@ -4940,6 +5274,7 @@
       "draft": false,
       "name": "Google_._._._rud_._.zip",
       "size": 23600649,
+      "assetUpdatedAt": "2026-11-05T19:50:34Z",
       "sha256": "3c5e7d3800a4f88c794cba768014984178c6c427179f1f62290301654b40bed7",
       "files": [
         {
@@ -5171,7 +5506,24 @@
         "unpackedBytes": 38233311
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-r57__rud",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714606580,
@@ -5180,6 +5532,7 @@
       "draft": false,
       "name": "Google_._._._rue_._.zip",
       "size": 23600650,
+      "assetUpdatedAt": "2026-11-05T19:50:12Z",
       "sha256": "c81cd3e5d94a964adbe914b9db7eb8188e0ec0d4a28872281a1f070f9d18936b",
       "files": [
         {
@@ -5411,7 +5764,24 @@
         "unpackedBytes": 38233315
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-r57__rue",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714605895,
@@ -5420,6 +5790,7 @@
       "draft": false,
       "name": "Google_._._._ruf_._.zip",
       "size": 23600649,
+      "assetUpdatedAt": "2026-11-05T19:49:53Z",
       "sha256": "9c2afa875c43a4f7893c8ab69d8ba028b5bbc2f50e8fe5a40e92be5b44088b24",
       "files": [
         {
@@ -5651,7 +6022,24 @@
         "unpackedBytes": 38233311
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-r57__ruf",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714604976,
@@ -5660,6 +6048,7 @@
       "draft": false,
       "name": "Google_._._._dfc_._Seanet.zip",
       "size": 27347926,
+      "assetUpdatedAt": "2026-11-05T19:49:37Z",
       "sha256": "71627c793a515c4c9facb6fd1f4503fc36aa63e0771aa4347072ad9a0d05b2f2",
       "files": [
         {
@@ -5971,7 +6360,24 @@
         "unpackedBytes": 42778879
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-seanet-r57__dfc",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714603987,
@@ -5980,6 +6386,7 @@
       "draft": false,
       "name": "Google_._._._rua_._Seanet.zip",
       "size": 27347923,
+      "assetUpdatedAt": "2026-11-05T19:49:15Z",
       "sha256": "d15657c9cf225cbc4fdff2efd84fb9da9a9c78150f93a757824ad8642f48dba7",
       "files": [
         {
@@ -6291,7 +6698,24 @@
         "unpackedBytes": 42778879
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-seanet-r57__rua",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714603093,
@@ -6300,6 +6724,7 @@
       "draft": false,
       "name": "Google_._._._rub_._Seanet.zip",
       "size": 27347925,
+      "assetUpdatedAt": "2026-11-05T19:48:54Z",
       "sha256": "b54de3199cb50a55aba9ca4d1d450e162ffd511719d9e6c2a18d96e1862f2b50",
       "files": [
         {
@@ -6611,7 +7036,24 @@
         "unpackedBytes": 42778875
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-seanet-r57__rub",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714601828,
@@ -6620,6 +7062,7 @@
       "draft": false,
       "name": "Google_._._._ruc_._Seanet.zip",
       "size": 27347925,
+      "assetUpdatedAt": "2026-11-05T19:48:31Z",
       "sha256": "ecac6f75ec6a6a9f297cc9bd0038f782d624f17b4ef1b13f0c6f39cc39d10769",
       "files": [
         {
@@ -6931,7 +7374,24 @@
         "unpackedBytes": 42778879
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-seanet-r57__ruc",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714599969,
@@ -6940,6 +7400,7 @@
       "draft": false,
       "name": "Google_._._._rud_._Seanet.zip",
       "size": 27347924,
+      "assetUpdatedAt": "2026-11-05T19:48:03Z",
       "sha256": "564b855fb6433a052c6a0532ca19faa1030d2fe74fa09dc363b31c72c499ce66",
       "files": [
         {
@@ -7251,7 +7712,24 @@
         "unpackedBytes": 42778875
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-seanet-r57__rud",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714598138,
@@ -7260,6 +7738,7 @@
       "draft": false,
       "name": "Google_._._._rue_._Seanet.zip",
       "size": 27347924,
+      "assetUpdatedAt": "2026-11-05T19:47:24Z",
       "sha256": "62d0fd47c8c16e522206628816e7b8d7ce847a15d34a4f0bbf1ca0e1e344a524",
       "files": [
         {
@@ -7571,7 +8050,24 @@
         "unpackedBytes": 42778879
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-seanet-r57__rue",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714596023,
@@ -7580,6 +8076,7 @@
       "draft": false,
       "name": "Google_._._._ruf_._Seanet.zip",
       "size": 27347925,
+      "assetUpdatedAt": "2026-11-05T19:46:42Z",
       "sha256": "5c7abab1ce729f0ed1ddf3367dfd19ce570171909bca94ca122132d1ed60aa2e",
       "files": [
         {
@@ -7891,7 +8388,24 @@
         "unpackedBytes": 42778875
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-seanet-r57__ruf",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714594585,
@@ -7900,6 +8414,7 @@
       "draft": false,
       "name": "Google_._._._rub_._Seanet.1.zip",
       "size": 27347925,
+      "assetUpdatedAt": "2026-11-05T19:45:56Z",
       "sha256": "24f801111e83913b74875c347a5f0e9e795401cf933eb6e6e08d0e64e50d24df",
       "files": [
         {
@@ -8211,7 +8726,24 @@
         "unpackedBytes": 42778875
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
-      "sampleGeneration": []
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ru-ru-x-multi-seanet-r57__rub",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714427056,
@@ -8220,6 +8752,7 @@
       "draft": false,
       "name": "Amber-en-US.zip",
       "size": 29391905,
+      "assetUpdatedAt": "2026-11-05T18:46:23Z",
       "sha256": "4c3d08cbc2ae80790c297e8cb840f4d55bd2c71b8392578f05083974492c4082",
       "files": [
         {
@@ -8341,13 +8874,22 @@
         "unpackedBytes": 47080939
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-AmberNeural",
           "status": "available",
           "file": "microsoft-19f8e6ca40c01375cc3bf4a3.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714425340,
@@ -8356,6 +8898,7 @@
       "draft": false,
       "name": "Aria-en-US.zip",
       "size": 29408522,
+      "assetUpdatedAt": "2026-11-05T18:45:48Z",
       "sha256": "ef68c530ce6f538958a2efc34d82c72c08eeacbbf752e628d1e5e542528ad28f",
       "files": [
         {
@@ -8477,13 +9020,22 @@
         "unpackedBytes": 47078535
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-AriaNeural",
           "status": "available",
           "file": "microsoft-7d6b6d7bd84551c1cf6d3655.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714424186,
@@ -8492,6 +9044,7 @@
       "draft": false,
       "name": "Christopher-en-US.zip",
       "size": 29332945,
+      "assetUpdatedAt": "2026-11-05T18:45:07Z",
       "sha256": "e814e51af86162e9adc9cd9b5f5b2fd5f3680f0b638db150e7ced6e2cfbacc35",
       "files": [
         {
@@ -8613,13 +9166,22 @@
         "unpackedBytes": 47080937
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-ChristopherNeural",
           "status": "available",
           "file": "microsoft-09ff554d842231ee13e66b96.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714422672,
@@ -8628,6 +9190,7 @@
       "draft": false,
       "name": "Davis-en-US.zip",
       "size": 29369600,
+      "assetUpdatedAt": "2026-11-05T18:44:38Z",
       "sha256": "b9b555c28ce5cda57e3c6cc895548f3eca7ca6f6fc5c4c9245553dff48b2742b",
       "files": [
         {
@@ -8749,13 +9312,22 @@
         "unpackedBytes": 47078546
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-DavisNeural",
           "status": "available",
           "file": "microsoft-ae561c3d754a7baba0887e5e.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714421052,
@@ -8764,6 +9336,7 @@
       "draft": false,
       "name": "Eric-en-US.zip",
       "size": 29332234,
+      "assetUpdatedAt": "2026-11-05T18:44:03Z",
       "sha256": "cf25c27e234b08fbcfedf0cc1ef68579d04b3cfeedb1ec2a356ca80efe8d814d",
       "files": [
         {
@@ -8885,13 +9458,22 @@
         "unpackedBytes": 47080875
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-EricNeural",
           "status": "available",
           "file": "microsoft-5af8b589b1f66a2bce1d9bff.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714419792,
@@ -8900,6 +9482,7 @@
       "draft": false,
       "name": "Guy-en-US.zip",
       "size": 29400597,
+      "assetUpdatedAt": "2026-11-05T18:43:24Z",
       "sha256": "97b4098bf2c75e1c55b9ceda1c5302cbac6be28e5a305d6ca5ebc2b6a6db30dc",
       "files": [
         {
@@ -9021,13 +9604,22 @@
         "unpackedBytes": 47077472
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-GuyNeural",
           "status": "available",
           "file": "microsoft-62f662bff8f2bfc3aa7dc334.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714418600,
@@ -9036,6 +9628,7 @@
       "draft": false,
       "name": "Jane-en-US.zip",
       "size": 29410295,
+      "assetUpdatedAt": "2026-11-05T18:42:52Z",
       "sha256": "890b7a2cf892e5369e71ea99847ddd6452f0aed035e89cc99e3992a06ba394f1",
       "files": [
         {
@@ -9157,13 +9750,22 @@
         "unpackedBytes": 47078591
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-JaneNeural",
           "status": "available",
           "file": "microsoft-f12c8bcdf645df9179075bae.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714415085,
@@ -9172,6 +9774,7 @@
       "draft": false,
       "name": "Jenny-en-US.zip",
       "size": 29389319,
+      "assetUpdatedAt": "2026-11-05T18:42:23Z",
       "sha256": "9fe38936d2058bc309e09ff1bec90d1a49c45a9302ef7d76a8de98dea8af1fa4",
       "files": [
         {
@@ -9293,13 +9896,22 @@
         "unpackedBytes": 47081966
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-JennyNeural",
           "status": "available",
           "file": "microsoft-e352490b9ebc06cf54fd7099.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714414011,
@@ -9308,6 +9920,7 @@
       "draft": false,
       "name": "Michelle-en-US.zip",
       "size": 29393865,
+      "assetUpdatedAt": "2026-11-05T18:40:56Z",
       "sha256": "cdcaa0b8aaa381d86d46ae69b6a1d5dce31f429669144386d2ed3f495efd3ad0",
       "files": [
         {
@@ -9429,13 +10042,22 @@
         "unpackedBytes": 47080966
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-MichelleNeural",
           "status": "available",
           "file": "microsoft-acdfce438d92f1d2cae283b8.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714411953,
@@ -9444,6 +10066,7 @@
       "draft": false,
       "name": "Sara-en-US.zip",
       "size": 29431999,
+      "assetUpdatedAt": "2026-11-05T18:40:10Z",
       "sha256": "ff8528a14673cdcae0e962aa64694afc6ec48e28d02c995ce38f6b93fc643438",
       "files": [
         {
@@ -9565,13 +10188,22 @@
         "unpackedBytes": 47081966
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-SaraNeural",
           "status": "available",
           "file": "microsoft-aaaa6acaf650dfc555a9d2ac.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714410712,
@@ -9580,6 +10212,7 @@
       "draft": false,
       "name": "Xiaochen-en-US.zip",
       "size": 29740210,
+      "assetUpdatedAt": "2026-11-05T18:39:43Z",
       "sha256": "823ab53fb463310272e4073669b5b2b87aac8749fc619fbbb8e679c5ce305bdf",
       "files": [
         {
@@ -9701,13 +10334,22 @@
         "unpackedBytes": 47412613
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-US-XiaochenNeural",
           "status": "available",
           "file": "microsoft-4605da60452d7045013a942e.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714409401,
@@ -9716,6 +10358,7 @@
       "draft": false,
       "name": "Jenny-en-GB.zip",
       "size": 24702576,
+      "assetUpdatedAt": "2026-11-05T18:39:09Z",
       "sha256": "1731c0062ee5e37ea1453dba9d85f95b54764b98674a94d6cfa2afd2cc08076e",
       "files": [
         {
@@ -9852,13 +10495,22 @@
         "unpackedBytes": 41426578
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-GB-JennyNeural",
           "status": "available",
           "file": "microsoft-767cdb43349524ed2a285f1d.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714407819,
@@ -9867,6 +10519,7 @@
       "draft": false,
       "name": "Libby-en-GB.zip",
       "size": 38776910,
+      "assetUpdatedAt": "2026-11-05T18:38:44Z",
       "sha256": "7b99f93d0bf7f4a3f115bea32f106ed76312c481f71a4d56c3507d4968cb68e0",
       "files": [
         {
@@ -10008,13 +10661,22 @@
         "unpackedBytes": 64258736
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-GB-LibbyNeural",
           "status": "available",
           "file": "microsoft-2583e9486b9d982ebd0d2908.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 714406262,
@@ -10023,6 +10685,7 @@
       "draft": false,
       "name": "Xiaochen-en-GB.zip",
       "size": 24657430,
+      "assetUpdatedAt": "2026-11-05T18:38:02Z",
       "sha256": "d69f31842821e3ccd75d49da656302ab937510b4cfbb8c269460a61cde88a0d4",
       "files": [
         {
@@ -10159,13 +10822,22 @@
         "unpackedBytes": 41381756
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-GB-XiaochenNeural",
           "status": "available",
           "file": "microsoft-4a02b08b832d1bb62c50a665.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713831552,
@@ -10174,6 +10846,7 @@
       "draft": false,
       "name": "Sonia-en-GB.zip",
       "size": 38798296,
+      "assetUpdatedAt": "2026-11-05T15:21:51Z",
       "sha256": "c587d70b3146d110faf8507321ccfb31e5d081d6abd3e0aee3edd4567fd27b86",
       "files": [
         {
@@ -10315,13 +10988,22 @@
         "unpackedBytes": 64258239
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-GB-SoniaNeural",
           "status": "available",
           "file": "microsoft-60abb08ea91fbf9318883ed0.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713823539,
@@ -10330,6 +11012,7 @@
       "draft": false,
       "name": "Ryan-en-GB.zip",
       "size": 38773125,
+      "assetUpdatedAt": "2026-11-05T15:18:03Z",
       "sha256": "d698c909002c7117d06a7503edfe04d4f3d6899732f8c7371ca79f08826b3539",
       "files": [
         {
@@ -10471,13 +11154,22 @@
         "unpackedBytes": 64258771
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "en-GB-RyanNeural",
           "status": "available",
           "file": "microsoft-889b2cb7ca06871ab0648311.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713822356,
@@ -10486,6 +11178,7 @@
       "draft": false,
       "name": "Ahmet-tr-TR.zip",
       "size": 8334763,
+      "assetUpdatedAt": "2026-11-05T15:15:14Z",
       "sha256": "52af7fbce46ec5d24ca1d861151df46cb1115f0e8307f53ed4894d8eea44cd43",
       "files": [
         {
@@ -10577,13 +11270,22 @@
         "unpackedBytes": 11140008
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "tr-TR-AhmetNeural",
           "status": "available",
           "file": "microsoft-edbcce290a67501d382d570e.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713820565,
@@ -10592,6 +11294,7 @@
       "draft": false,
       "name": "Emel-tr-TR.zip",
       "size": 8336282,
+      "assetUpdatedAt": "2026-11-05T15:14:55Z",
       "sha256": "d58a22935ab20f72f1ddb3a457ffdade77cf03ecd44014194d418d37e55c9090",
       "files": [
         {
@@ -10683,13 +11386,22 @@
         "unpackedBytes": 11140001
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "tr-TR-EmelNeural",
           "status": "available",
           "file": "microsoft-7f77177996a7626e890f4f51.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713818803,
@@ -10698,6 +11410,7 @@
       "draft": false,
       "name": "Jenny-tr-TR.zip",
       "size": 8692889,
+      "assetUpdatedAt": "2026-11-05T15:14:18Z",
       "sha256": "c7ddf74f495fe214ad9b38b2ba3dbf15858f38fdb8a17f3d42750a19b334d18a",
       "files": [
         {
@@ -10789,13 +11502,22 @@
         "unpackedBytes": 11515323
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "tr-TR-JennyNeural",
           "status": "available",
           "file": "microsoft-7a536e2288f1cc3eee7092b8.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713579062,
@@ -10804,6 +11526,7 @@
       "draft": false,
       "name": "Zariyah-ar-SA.zip",
       "size": 21136510,
+      "assetUpdatedAt": "2026-11-05T13:52:12Z",
       "sha256": "99fa89b86659f30126b5055a02a5a777814de78b028453e3bd32ac4de12468ef",
       "files": [
         {
@@ -10915,13 +11638,22 @@
         "unpackedBytes": 35071379
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ar-SA-ZariyahNeural",
           "status": "available",
           "file": "microsoft-ac7610760b8d00674459f016.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713573727,
@@ -10930,6 +11662,7 @@
       "draft": false,
       "name": "Jenny-ja-JP.zip",
       "size": 34967241,
+      "assetUpdatedAt": "2026-11-05T13:51:40Z",
       "sha256": "1b3a4ad240a3701d2e39ddac3d63e0cb3677ab254bcf4425d12325381ac8e52d",
       "files": [
         {
@@ -11041,13 +11774,22 @@
         "unpackedBytes": 44490481
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ja-JP-JennyNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-861e19ac08af089d9d44e746.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713569650,
@@ -11056,6 +11798,7 @@
       "draft": false,
       "name": "Keita-ja-JP.zip",
       "size": 48102804,
+      "assetUpdatedAt": "2026-11-05T13:49:42Z",
       "sha256": "764f34f526af2f9f2eea7722417ad88716f93bf12bcf34f690496586e2be4898",
       "files": [
         {
@@ -11172,13 +11915,22 @@
         "unpackedBytes": 66441731
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ja-JP-KeitaNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-0df73e00d6bf22ac1ad9ccd8.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713565945,
@@ -11187,6 +11939,7 @@
       "draft": false,
       "name": "Nanami-ja-JP.zip",
       "size": 49098557,
+      "assetUpdatedAt": "2026-11-05T13:48:11Z",
       "sha256": "f348c1d2acfdfa7a787fc3e26a12761e50c3060cad481e07ed4b83c6387ab867",
       "files": [
         {
@@ -11303,13 +12056,22 @@
         "unpackedBytes": 67383165
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ja-JP-NanamiNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-a4555cc48b76ded46796d002.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713505835,
@@ -11318,6 +12080,7 @@
       "draft": false,
       "name": "Dariya-ru-RU.zip",
       "size": 19256701,
+      "assetUpdatedAt": "2026-11-05T13:27:18Z",
       "sha256": "2c36e43e4bb005befd83c4be8f6a1803b538c00bd22a391c14f543b6ea13c6ec",
       "files": [
         {
@@ -11429,13 +12192,22 @@
         "unpackedBytes": 23621982
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ru-RU-DariyaNeural",
           "status": "available",
           "file": "microsoft-88718e43be0157f3598e8acd.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713504435,
@@ -11444,6 +12216,7 @@
       "draft": false,
       "name": "Dmitry-ru-RU.1.zip",
       "size": 19215436,
+      "assetUpdatedAt": "2026-11-05T13:26:31Z",
       "sha256": "cd19ef43508ada010231d0ec3d19608eadec9465f79746190c10154529f1df9e",
       "files": [
         {
@@ -11555,13 +12328,22 @@
         "unpackedBytes": 23648054
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ru-RU-DmitryNeural",
           "status": "available",
           "file": "microsoft-a79aa8d212b43553cba0517e.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713503477,
@@ -11570,6 +12352,7 @@
       "draft": false,
       "name": "Ryan-ru-RU.zip",
       "size": 19233146,
+      "assetUpdatedAt": "2026-11-05T13:25:59Z",
       "sha256": "e2ae0e0cc16f3665cf1a9b50f24c2306e77d446bd624843c8a1aa94fe1e90c14",
       "files": [
         {
@@ -11681,13 +12464,22 @@
         "unpackedBytes": 23638501
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ru-RU-RyanNeural",
           "status": "available",
           "file": "microsoft-cb06ec786ad2ed9e798e32ec.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713500612,
@@ -11696,6 +12488,7 @@
       "draft": false,
       "name": "Svetlana-ru-RU.zip",
       "size": 19263910,
+      "assetUpdatedAt": "2026-11-05T13:25:34Z",
       "sha256": "6b517bdff9722fe7c6f6c6cbe48485132417d3bca5196d611aa5666704fbf61c",
       "files": [
         {
@@ -11807,13 +12600,22 @@
         "unpackedBytes": 23656368
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ru-RU-SvetlanaNeural",
           "status": "available",
           "file": "microsoft-cc4c0bb9935c7f13d6eb0f21.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713191258,
@@ -11822,6 +12624,7 @@
       "draft": false,
       "name": "Xiaobei-zh-CN-liaoning.zip",
       "size": 61483602,
+      "assetUpdatedAt": "2026-11-05T11:35:53Z",
       "sha256": "49aa7aafb22d107d2a996656e7869c7c504d1fa94ec971b77f3d2bfccbea0b21",
       "files": [
         {
@@ -11958,13 +12761,22 @@
         "unpackedBytes": 87105907
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-liaoning-XiaobeiNeural",
           "status": "available",
           "file": "microsoft-9857000e087eff3e3cbfc1f1.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713189997,
@@ -11973,6 +12785,7 @@
       "draft": false,
       "name": "Jenny-zh-CN.zip",
       "size": 72241769,
+      "assetUpdatedAt": "2026-11-05T11:35:26Z",
       "sha256": "81473e38f9f7a9f0d7052bcb812e1d41d2f9217005577246e1220b189cb83717",
       "files": [
         {
@@ -12114,13 +12927,22 @@
         "unpackedBytes": 111937463
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-JennyNeural",
           "status": "available",
           "file": "microsoft-4988674a78df7c8c75eeb5e4.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713188639,
@@ -12129,6 +12951,7 @@
       "draft": false,
       "name": "Xiaobei-zh-CN-liaoning.1.zip",
       "size": 61483602,
+      "assetUpdatedAt": "2026-11-05T11:34:51Z",
       "sha256": "49aa7aafb22d107d2a996656e7869c7c504d1fa94ec971b77f3d2bfccbea0b21",
       "files": [
         {
@@ -12265,13 +13088,22 @@
         "unpackedBytes": 87105907
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-liaoning-XiaobeiNeural",
           "status": "available",
           "file": "microsoft-9857000e087eff3e3cbfc1f1.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713187940,
@@ -12280,6 +13112,7 @@
       "draft": false,
       "name": "XiaoMin-yue-CN.zip",
       "size": 31187426,
+      "assetUpdatedAt": "2026-11-05T11:34:14Z",
       "sha256": "9bb173f1d8bdf68ffb80164b7cba542e6f5f4e0f7f3e6fef1fd0212d4af574ca",
       "files": [
         {
@@ -12391,13 +13224,22 @@
         "unpackedBytes": 41551087
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "yue-CN-XiaoMinNeural",
           "status": "available",
           "file": "microsoft-a8cbab94b23b90d9e95f2dc2.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713184858,
@@ -12406,6 +13248,7 @@
       "draft": false,
       "name": "Xiaoni-zh-CN-shaanxi.zip",
       "size": 61393488,
+      "assetUpdatedAt": "2026-11-05T11:33:56Z",
       "sha256": "2cd798a76192ac2071a71d669efe85e25cbadac1125482addb3b294de10b971b",
       "files": [
         {
@@ -12542,13 +13385,22 @@
         "unpackedBytes": 87086050
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-shaanxi-XiaoniNeural",
           "status": "available",
           "file": "microsoft-920ab73fc3d016144b216d84.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713181652,
@@ -12557,6 +13409,7 @@
       "draft": false,
       "name": "Xiaoxiao-zh-CN.zip",
       "size": 74547741,
+      "assetUpdatedAt": "2026-11-05T11:32:46Z",
       "sha256": "fae03664348676d4aa6d45d344db6fb5a88d77a547c2a4c78d9a871125ed443a",
       "files": [
         {
@@ -12693,13 +13546,22 @@
         "unpackedBytes": 115686296
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-XiaoxiaoNeural",
           "status": "available",
           "file": "microsoft-624b5cbd24abce8f2b097efe.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713179104,
@@ -12708,6 +13570,7 @@
       "draft": false,
       "name": "Yundeng-zh-CN-henan.zip",
       "size": 61379740,
+      "assetUpdatedAt": "2026-11-05T11:31:38Z",
       "sha256": "e4f8961ff117bdace7f43f39fb97d98352110dc6465b8c39db74db67a66ad4d7",
       "files": [
         {
@@ -12844,13 +13707,22 @@
         "unpackedBytes": 87085938
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-henan-YundengNeural",
           "status": "available",
           "file": "microsoft-7959f1ee748f748791c4d462.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713177643,
@@ -12859,6 +13731,7 @@
       "draft": false,
       "name": "YunSong-yue-CN.zip",
       "size": 31153994,
+      "assetUpdatedAt": "2026-11-05T11:30:48Z",
       "sha256": "769dca93eb7369a3faa22c74fa9cf115dff6074819cf9f322d9569a5d1649e94",
       "files": [
         {
@@ -12970,13 +13843,22 @@
         "unpackedBytes": 41551084
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "yue-CN-YunSongNeural",
           "status": "available",
           "file": "microsoft-bdb3d7962fdba87cdcc4d67a.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713175580,
@@ -12985,6 +13867,7 @@
       "draft": false,
       "name": "Yunxi-zh-CN.zip",
       "size": 74577364,
+      "assetUpdatedAt": "2026-11-05T11:30:15Z",
       "sha256": "e2a6350cd6ce1dabae86b82b3a2760a866de899354c86d6a7f63509901d08468",
       "files": [
         {
@@ -13121,13 +14004,22 @@
         "unpackedBytes": 115694448
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-YunxiNeural",
           "status": "available",
           "file": "microsoft-bf8448ff909217eaa1f77766.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713173912,
@@ -13136,6 +14028,7 @@
       "draft": false,
       "name": "Yunxi-zh-CN-sichuan.zip",
       "size": 61414552,
+      "assetUpdatedAt": "2026-11-05T11:29:26Z",
       "sha256": "bed53c07f4862cba7ace2ee1ae29970c434b90cb8a9b9e775795a555c6bfdb7a",
       "files": [
         {
@@ -13272,13 +14165,22 @@
         "unpackedBytes": 87084884
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-sichuan-YunxiNeural",
           "status": "available",
           "file": "microsoft-5e8fec0781153260633ddefd.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713170799,
@@ -13287,6 +14189,7 @@
       "draft": false,
       "name": "Yunxiang-zh-CN-shandong.zip",
       "size": 61401742,
+      "assetUpdatedAt": "2026-11-05T11:28:49Z",
       "sha256": "ccde4c3e4f775699ba808567774c52f4bf734b74c7ee060fcf316b0bfb196ab9",
       "files": [
         {
@@ -13423,13 +14326,22 @@
         "unpackedBytes": 87087108
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "zh-CN-shandong-YunxiangNeural",
           "status": "available",
           "file": "microsoft-0ecbf8bde43be4ff49d5282c.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 713006098,
@@ -13438,6 +14350,7 @@
       "draft": false,
       "name": "Dilara-fa-IR.zip",
       "size": 22367458,
+      "assetUpdatedAt": "2026-11-05T10:31:02Z",
       "sha256": "eed16e7c516e4d4bbff51ab9fd8981cf4ed26ce0b462b3ca4bed98f566a7ded0",
       "files": [
         {
@@ -13539,13 +14452,22 @@
         "unpackedBytes": 33760848
       },
       "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "fa-IR-DilaraNeural",
           "status": "available",
           "file": "microsoft-c88d4727e3ba2a5b45c6f4a9.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 712496720,
@@ -13554,6 +14476,7 @@
       "draft": false,
       "name": "Microsoft_._._._Farid.2.zip",
       "size": 22776295,
+      "assetUpdatedAt": "2026-11-05T07:31:58Z",
       "sha256": "8041a76d3269fd68fb9bc1a52dbe00698a1902e2df6e02023e3d52f278663853",
       "files": [
         {
@@ -13669,13 +14592,22 @@
         "unpackedBytes": 33761895
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "fa-IR-FaridNeural",
           "status": "available",
           "file": "microsoft-7475d6dec23f07c7110de023.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 712496037,
@@ -13684,6 +14616,7 @@
       "draft": false,
       "name": "Microsoft_._._._Hamed.zip",
       "size": 21606481,
+      "assetUpdatedAt": "2026-11-05T07:31:41Z",
       "sha256": "c67a037e6d53c8f4508cd83f02c2bb5a5874c4904ddbb389d5dbf6d852ff7123",
       "files": [
         {
@@ -13809,13 +14742,22 @@
         "unpackedBytes": 35072380
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "ar-SA-HamedNeural",
           "status": "available",
           "file": "microsoft-448b4383a83cfb057753d243.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 712495901,
@@ -13824,6 +14766,7 @@
       "draft": false,
       "name": "Microsoft_._._._Sardor.zip",
       "size": 4759219,
+      "assetUpdatedAt": "2026-11-05T07:31:24Z",
       "sha256": "33f14d6dca57062e21197125b28729862ea5a2c11d206aa57bd82a0c8a07ddf0",
       "files": [
         {
@@ -13929,13 +14872,22 @@
         "unpackedBytes": 5945978
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "uz-UZ-SardorNeural",
           "status": "available",
           "file": "microsoft-1f8d8e8b251f14feac66749b.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     },
     {
       "assetId": 712495585,
@@ -13944,6 +14896,7 @@
       "draft": false,
       "name": "Microsoft_._._._Madina.zip",
       "size": 4754451,
+      "assetUpdatedAt": "2026-11-05T07:31:19Z",
       "sha256": "c47be80536a4c592b06b4602817f2c722bb1cc783180d8c86343c35fff72c06e",
       "files": [
         {
@@ -14049,13 +15002,22 @@
         "unpackedBytes": 5946019
       },
       "detectedFormat": "SmartVoice/MultiVoice model package",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleGeneration": [
         {
           "code": "uz-UZ-MadinaNeural",
           "status": "available",
           "file": "microsoft-2203ca22bf192fddfce050c2.mp3"
         }
-      ]
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
     }
   ]
 }

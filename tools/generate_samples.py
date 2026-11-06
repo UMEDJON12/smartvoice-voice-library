@@ -25,7 +25,7 @@ def ensure_sdk():
 
 def existing(rows,archive,model):
  for sample in rows:
-  if (sample.get('provider'),sample.get('code'),sample.get('quality'),sample.get('archiveSha256'))!=('microsoft',model['code'],model.get('quality','unspecified'),archive['sha256']):continue
+  if (sample.get('provider'),sample.get('code'),sample.get('quality'),sample.get('archiveSha256'))!=(model['engine'],model['code'],model.get('quality','unspecified'),archive['sha256']):continue
   name=sample.get('file','')
   if not re.fullmatch(r'[a-z0-9_.-]+\.mp3',name):continue
   p=pathlib.Path('samples')/name
@@ -37,13 +37,14 @@ def create(archive,stage):
  rows=json.loads(index.read_text()).get('samples',[]) if index.exists() else []
  statuses=[];sdk=None
  for original in archive['importer']['models']:
-  if original['engine']!='microsoft':continue
   model=dict(original)
   overrides=json.loads(pathlib.Path('metadata-overrides.json').read_text()) if pathlib.Path('metadata-overrides.json').exists() else {}
   hint=dict(overrides.get(archive['sha256'],{}));hint.update(hint.get('models',{}).get(model['code'],{}))
   if model.get('quality','unspecified')=='unspecified' and hint.get('quality'):model['quality']=hint['quality']
   saved=existing(rows,archive,model)
   if saved:statuses.append({'code':model['code'],'status':'available','file':saved['file']});continue
+  if model['engine']!='microsoft':
+   statuses.append({'code':model['code'],'status':'unavailable','stage':'renderer-availability','errorCode':'AndroidNativeRuntimeRequired','reason':'This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice.'});continue
   try:
    if sdk is None:sdk,classes=ensure_sdk()
   except Exception:
@@ -73,10 +74,10 @@ def create(archive,stage):
     pending=target.with_suffix('.part')
     try:shutil.copyfile(encoded,pending);pending.replace(target)
     finally:pending.unlink(missing_ok=True)
-    record={'provider':'microsoft','code':model['code'],'locale':result['locale'],'quality':model.get('quality','unspecified'),'archiveSha256':archive['sha256'],'file':target.name,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'platform':'linux-x64','sdkVersion':SDK_VERSION,'sampleText':result['sampleText'],'durationSeconds':duration,'androidTested':False}
+    record={'provider':'microsoft','code':model['code'],'locale':result['locale'],'quality':model.get('quality','unspecified'),'archiveSha256':archive['sha256'],'file':target.name,'sha256':hashlib.sha256(target.read_bytes()).hexdigest(),'platform':'linux-x64','sdkVersion':SDK_VERSION,'sampleText':result['sampleText'],'durationSeconds':duration,'androidTested':False,'format':'mp3','nativeSynthesisVerified':True,'audioVerified':True}
     rows=[r for r in rows if not (r.get('code')==record['code'] and r.get('archiveSha256')==record['archiveSha256'] and r.get('quality')==record['quality'])];rows.append(record)
     statuses.append({'code':model['code'],'status':'available','file':target.name})
-   except subprocess.TimeoutExpired:statuses.append({'code':model['code'],'status':'failed','errorCode':'SynthesisTimeout'})
+   except subprocess.TimeoutExpired:statuses.append({'code':model['code'],'status':'unavailable' if native_audio else 'failed','stage':phase,'nativeAudioProduced':native_audio,'errorCode':'EncodingTimeout' if native_audio else 'SynthesisTimeout'})
    except Exception as error:statuses.append({'code':model['code'],'status':'unavailable','reason':'Sample could not be saved','stage':phase,'errorClass':type(error).__name__,'nativeAudioProduced':native_audio})
  index.write_text(json.dumps({'schemaVersion':1,'samples':sorted(rows,key=lambda r:(r['code'],r['archiveSha256'],r['quality']))},ensure_ascii=False,indent=2)+'\n')
  return statuses

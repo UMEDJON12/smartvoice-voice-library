@@ -3,19 +3,28 @@ on:
   release:
     types: [published, edited]
   workflow_dispatch:
+    inputs:
+      full_recheck:
+        description: 'Recheck every ZIP and retry unavailable samples'
+        type: boolean
+        default: false
   workflow_call:
+    inputs:
+      full_recheck:
+        type: boolean
+        default: false
   push:
     branches: [main]
-    paths: ['metadata-overrides.json', 'tools/**', 'samples/**', '.github/workflows/catalog.yml', '.github/workflows/catalog-release.yml']
+    paths: ['metadata-overrides.json', 'tools/**', '.github/workflows/catalog.yml', '.github/workflows/catalog-release.yml']
 permissions:
   contents: write
-concurrency:
-  group: voice-catalog-main
-  cancel-in-progress: false
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 35
+    concurrency:
+      group: voice-catalog-main
+      cancel-in-progress: false
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,20 +33,25 @@ jobs:
         with:
           distribution: temurin
           java-version: '17'
-      - name: Prepare the audio sample encoder
-        run: |
-          if ! command -v ffmpeg >/dev/null; then
-            sudo apt-get update -qq
-            sudo apt-get install -y --no-install-recommends ffmpeg
-          fi
-          ffmpeg -version | head -n 1
+      - uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/smartvoice
+            /tmp/smartvoice-host-speech-1.45
+          key: smartvoice-host-sdk145-encoder060-v1
+      - name: Prepare bounded cached audio sample encoder
+        timeout-minutes: 2
+        continue-on-error: true
+        run: python3 tools/prepare_encoder.py
       - name: Check catalog rules and non-forced main publication
         run: |
           python3 tools/test_catalog.py
           python3 tools/test_publish_catalog.py
           python3 tools/test_validator_diagnostics.py
-      - name: Validate archives and save verified catalog to main
+          python3 tools/test_catalog56.py
+      - name: Validate changed archives and save verified catalog to main
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SMARTVOICE_SAMPLES: '1'
+          SMARTVOICE_FULL_RECHECK: ${{ inputs.full_recheck && '1' || '0' }}
         run: python3 tools/publish_catalog.py

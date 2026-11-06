@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T12:21:01.162200+00:00",
+  "generatedAt": "2026-11-06T13:45:14.161713+00:00",
   "voices": [
     {
       "id": "google-47f4b0ee23f3d82e07432ca1",
@@ -23,11 +23,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-1e2d81ab5733e01129f4b199",
@@ -50,11 +59,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-d64d53b2fadfd1d5d392d3a3",
@@ -77,11 +95,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-eaba615695e41958bc36a6de",
@@ -104,11 +131,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-497f82441e5430f4f9eb5233",
@@ -131,11 +167,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-fa7abfe8d382579ceff42f65",
@@ -158,11 +203,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-8b82bdb9b12eab526fcdea1c",
@@ -185,11 +239,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-6a3a4053ac9972cb135510b7",
@@ -212,11 +275,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-0762112d318a5ed56e5b7690",
@@ -239,11 +311,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-ed38590e74299b3ed5ea567a",
@@ -266,11 +347,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-1333615368e3c9dfcb71290c",
@@ -293,11 +383,30 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "alternateArchives": [
+        {
+          "assetId": 714594585,
+          "filename": "Google_._._._rub_._Seanet.1.zip",
+          "sha256": "24f801111e83913b74875c347a5f0e9e795401cf933eb6e6e08d0e64e50d24df",
+          "contentId": "477732641b07ff1b",
+          "byteIdentical": false,
+          "modelContentIdentical": true
+        }
+      ]
     },
     {
       "id": "google-a04ea438234bc1cb87d9707f",
@@ -320,11 +429,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-d65d7b2720f941cc5f7a473a",
@@ -347,11 +465,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-e65f0ade13537ea4471eebf3",
@@ -374,11 +501,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-a614b1d0f818028613817dee",
@@ -401,11 +537,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-10ae9fd6023ff4a4f43b6a5b",
@@ -428,11 +573,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-7bea4123d0ab00624e435bc5",
@@ -455,11 +609,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-eb72d4186927a6c75be68b53",
@@ -482,11 +645,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-df14258b717371d66870c328",
@@ -509,11 +681,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-3a5c04aec01405d1795de8d0",
@@ -536,11 +717,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-574bafb476b29ac3ed630b10",
@@ -563,11 +753,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-623620bfcfbe87d75dc465dd",
@@ -590,11 +789,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-4773d61f0d5dfd2111990820",
@@ -617,11 +825,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "google-dd31febc5da8f84269cf6d80",
@@ -644,11 +861,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "microsoft-7556932907ddb0e28daaefbf",
@@ -671,11 +897,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-448b4383a83cfb057753d243.mp3",
       "sampleSha256": "4d8406588626cbaafa3f78f299c18d38a786c992bdbe32121b2a030c526e93df",
       "sampleSource": {
@@ -705,11 +940,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-ac7610760b8d00674459f016.mp3",
       "sampleSha256": "47672b309b72c1bc44f175fc0178f331733b0c9614a4c7048a5ada0e999d7788",
       "sampleSource": {
@@ -739,11 +983,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-767cdb43349524ed2a285f1d.mp3",
       "sampleSha256": "6483d275cc00984803779f460dd9ee3c9e0f2200690802366d78834ffa378864",
       "sampleSource": {
@@ -773,11 +1026,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-2583e9486b9d982ebd0d2908.mp3",
       "sampleSha256": "16cca3453fbd8b483a0fce0726b5db72f0748cb0ab0daefb167bdb69dcf087b5",
       "sampleSource": {
@@ -807,11 +1069,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-889b2cb7ca06871ab0648311.mp3",
       "sampleSha256": "87d0759859b40213ff6e9fab555bbd5894c68bc721b5df7f970e37a7402ca398",
       "sampleSource": {
@@ -841,11 +1112,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-60abb08ea91fbf9318883ed0.mp3",
       "sampleSha256": "1db391394f702a1f98ac91ba2049c3ea3855602a0a180e0f5ed11ee30c8162ee",
       "sampleSource": {
@@ -875,11 +1155,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-4a02b08b832d1bb62c50a665.mp3",
       "sampleSha256": "db21d05f62e197ea3c5a31021398e6a117a2a164abd11022cf6e04285b4e8513",
       "sampleSource": {
@@ -909,11 +1198,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-19f8e6ca40c01375cc3bf4a3.mp3",
       "sampleSha256": "e0c9c3ca3a86adedfe8d544d626eae4f8b39546a2569e8d890df322b4a683df6",
       "sampleSource": {
@@ -943,11 +1241,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-7d6b6d7bd84551c1cf6d3655.mp3",
       "sampleSha256": "8baa23ec98ed227146c1ef06d0006221736f568b21525c3d6298b912144b2b10",
       "sampleSource": {
@@ -977,11 +1284,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-09ff554d842231ee13e66b96.mp3",
       "sampleSha256": "e945a30df66b0f71d3e93a2c8a3b97192a98bf8ef1e9343e9073df393fa75344",
       "sampleSource": {
@@ -1011,11 +1327,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-ae561c3d754a7baba0887e5e.mp3",
       "sampleSha256": "d4c978da7176ce932709acbb63a0703c9a8360e2a7468510fb0b74402d6da3d2",
       "sampleSource": {
@@ -1045,11 +1370,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-5af8b589b1f66a2bce1d9bff.mp3",
       "sampleSha256": "102143c9c33a172db070e6b83276b53915304dbd6cd1ab209787fa7f1fa2aa96",
       "sampleSource": {
@@ -1079,11 +1413,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-62f662bff8f2bfc3aa7dc334.mp3",
       "sampleSha256": "d358874752afe37761c383324866c7fc77c3c5923ceeb436a25b7c9a56eeac52",
       "sampleSource": {
@@ -1113,11 +1456,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-f12c8bcdf645df9179075bae.mp3",
       "sampleSha256": "045d445204529a333f08c9f310c2113d74400b224b61d51e66f0586ddbc979ee",
       "sampleSource": {
@@ -1147,11 +1499,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-e352490b9ebc06cf54fd7099.mp3",
       "sampleSha256": "ce3d8444bb31f54b7c201019fd8bf530c2cb9df892e9cae9c45f246499cc9bdf",
       "sampleSource": {
@@ -1181,11 +1542,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-acdfce438d92f1d2cae283b8.mp3",
       "sampleSha256": "c79631e8b18d8f6a4585218ebb63057bdd848636776e1b59d0bbabd4ce3bc886",
       "sampleSource": {
@@ -1215,11 +1585,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-aaaa6acaf650dfc555a9d2ac.mp3",
       "sampleSha256": "669ee969e4cf6ef2a993994736d4a65232918b180c591b1dfc6a833323b594ee",
       "sampleSource": {
@@ -1249,11 +1628,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-4605da60452d7045013a942e.mp3",
       "sampleSha256": "e8315b2e8df7576cdd98f4e9de8874d66935dd13ea67b35c065ca78603c1aeb2",
       "sampleSource": {
@@ -1283,11 +1671,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-c88d4727e3ba2a5b45c6f4a9.mp3",
       "sampleSha256": "30906a2b326055687513a2baa9eea428678434dd7104d31febbf410d8901bf07",
       "sampleSource": {
@@ -1317,11 +1714,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-7475d6dec23f07c7110de023.mp3",
       "sampleSha256": "da92d0e29c8373fa30262745aa458db54fd0bd7ea9bbf61ec8f7e0b23f0da361",
       "sampleSource": {
@@ -1351,11 +1757,27 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-861e19ac08af089d9d44e746.mp3",
+      "sampleSha256": "22177df7dc80e32750f8aea88742865b1f3656086a7e43ad3b550cebbbe8d086",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
+      }
     },
     {
       "id": "microsoft-4ef3c98c5d3b5a768b5079bc",
@@ -1378,11 +1800,27 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-0df73e00d6bf22ac1ad9ccd8.mp3",
+      "sampleSha256": "e37d5e04c259f9a42a537c55bfc72a30a4e23e7824a172d16c22c13513e6ce89",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
+      }
     },
     {
       "id": "microsoft-91448e30237d4c5fd65f82c7",
@@ -1405,11 +1843,27 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-a4555cc48b76ded46796d002.mp3",
+      "sampleSha256": "0ff4933f6bc737518500f756706fbee065d76144f8e983fee437fcfd22fc7e0e",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
+      }
     },
     {
       "id": "microsoft-ced4d042d1eafe2fdf72ea68",
@@ -1432,11 +1886,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-88718e43be0157f3598e8acd.mp3",
       "sampleSha256": "9f1c72f25503da0ee81ce08bdc09dacf188bf7ca8be29e1bd063b440f1fddd03",
       "sampleSource": {
@@ -1466,11 +1929,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-a79aa8d212b43553cba0517e.mp3",
       "sampleSha256": "834bb1c2c16fa668518007dea39b5addafbb88c50a36b3171064736d8cfc74bd",
       "sampleSource": {
@@ -1500,11 +1972,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-cb06ec786ad2ed9e798e32ec.mp3",
       "sampleSha256": "87e9c6a3e07eceb954f60b11a7cafedfcfe86c3897edb856927d1865bb60e1af",
       "sampleSource": {
@@ -1534,11 +2015,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-cc4c0bb9935c7f13d6eb0f21.mp3",
       "sampleSha256": "669453a56e46b2b982063786847b4493aab41704f1bede2c32025396e1d85b6b",
       "sampleSource": {
@@ -1568,11 +2058,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-edbcce290a67501d382d570e.mp3",
       "sampleSha256": "99611d01e0bf4cd6850ff8f3a033f5d02aa7f5b5b97f4a68a05b9c8e191117fc",
       "sampleSource": {
@@ -1602,11 +2101,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-7f77177996a7626e890f4f51.mp3",
       "sampleSha256": "0759dce1ef33017dd933b9439518b10fc021d47195230a04b4cf43eb2e86cbe5",
       "sampleSource": {
@@ -1636,11 +2144,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-7a536e2288f1cc3eee7092b8.mp3",
       "sampleSha256": "4d74dc298337b93abc856ea68309cd125fa6b4c7955365cfdf75b5f9a1453b73",
       "sampleSource": {
@@ -1670,11 +2187,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-2203ca22bf192fddfce050c2.mp3",
       "sampleSha256": "a78d315e73c6531a56320f75cfaba5aad622b8b8d12c0b4d7618ed903191b5f3",
       "sampleSource": {
@@ -1704,11 +2230,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-1f8d8e8b251f14feac66749b.mp3",
       "sampleSha256": "3bc7a04a4b916839e5366f881b261ab2a76a1660a93868dd0610aa4cbf5d10d6",
       "sampleSource": {
@@ -1738,11 +2273,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-a8cbab94b23b90d9e95f2dc2.mp3",
       "sampleSha256": "ef8c7bf0e280e003c26bec78d039221aa03adb25aa79caa9e4fd98522e20d041",
       "sampleSource": {
@@ -1772,11 +2316,20 @@
       "minAppCode": 4169,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-bdb3d7962fdba87cdcc4d67a.mp3",
       "sampleSha256": "4ec08e574fd73e54f5b924223d51623004ded78086e1f1bcd034aa39e563af51",
       "sampleSource": {
@@ -1806,11 +2359,20 @@
       "minAppCode": 4171,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-4988674a78df7c8c75eeb5e4.mp3",
       "sampleSha256": "8a316d9473e670637cad9f65aecf23f51e180d7fcef093cfdf3f8703e6f903e8",
       "sampleSource": {
@@ -1840,18 +2402,37 @@
       "minAppCode": 4171,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-9857000e087eff3e3cbfc1f1.mp3",
       "sampleSha256": "86caf15d15c1fa5eddae1f1fbf8ed7adc8ed85b859ad016f04d83c19cd3c64c2",
       "sampleSource": {
         "platform": "linux-x64",
         "sdkVersion": "1.45.0",
         "androidTested": false
-      }
+      },
+      "alternateArchives": [
+        {
+          "assetId": 713188639,
+          "filename": "Xiaobei-zh-CN-liaoning.1.zip",
+          "sha256": "49aa7aafb22d107d2a996656e7869c7c504d1fa94ec971b77f3d2bfccbea0b21",
+          "contentId": "c07c37b801aa5fe6",
+          "byteIdentical": true,
+          "modelContentIdentical": true
+        }
+      ]
     },
     {
       "id": "microsoft-2eebf06196f538507444bdda",
@@ -1874,11 +2455,20 @@
       "minAppCode": 4171,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-920ab73fc3d016144b216d84.mp3",
       "sampleSha256": "b04dc3bd579691423a04d8dc65b62924d98eefd77e349efa9ea4f33bcc22dc9f",
       "sampleSource": {
@@ -1908,11 +2498,20 @@
       "minAppCode": 4171,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-624b5cbd24abce8f2b097efe.mp3",
       "sampleSha256": "085188c77bdd6d7b812954e0ad9d6eaa4ff8742d2ed01edea0a63905e2d6c6f9",
       "sampleSource": {
@@ -1942,11 +2541,20 @@
       "minAppCode": 4171,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-7959f1ee748f748791c4d462.mp3",
       "sampleSha256": "51d37c3edc9b7857afaf0af1f23f9ef5fb0660050d25074e02ccbdd810071098",
       "sampleSource": {
@@ -1976,11 +2584,20 @@
       "minAppCode": 4171,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-bf8448ff909217eaa1f77766.mp3",
       "sampleSha256": "e0da4d5f70fc19b49efa0f8877310ee07a8d3ec9f8687fd19ec683659cf8a356",
       "sampleSource": {
@@ -2010,11 +2627,20 @@
       "minAppCode": 4171,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-5e8fec0781153260633ddefd.mp3",
       "sampleSha256": "5327ce56aeb19c5e7f9c555ed9a33d83d3c920681f7f973b12ce3bf3f1086edb",
       "sampleSource": {
@@ -2044,17 +2670,62 @@
       "minAppCode": 4171,
       "minSdk": 26,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
       "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": true,
+        "audioSample": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
       "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-0ecbf8bde43be4ff49d5282c.mp3",
       "sampleSha256": "b33a6db3109ae313b5a3bb7c671795dbec67cda048f32d1fc4329871d6d3f71c",
       "sampleSource": {
         "platform": "linux-x64",
         "sdkVersion": "1.45.0",
         "androidTested": false
+      }
+    },
+    {
+      "id": "vocalizer-folder-5f93755fb5cf6b161b371efb",
+      "modelId": "vocalizer-folder:rur/milena/full-vssq5f22",
+      "provider": "vocalizer-folder",
+      "code": "rur/milena/full/vssq5f22",
+      "contentId": "3b7f40d0baa4d9ec3d55388e8e2adf3866371e20f705da666f16c658f2a16fca",
+      "name": "Milena",
+      "locale": "ru-RU",
+      "synthesisLocale": "ru-RU",
+      "gender": "",
+      "quality": "full-vssq5f22",
+      "variant": "VocalizerEx1",
+      "sizeBytes": 430872813,
+      "unpackedBytes": 495514040,
+      "filename": "11VocalizerEx1.zip",
+      "sha256": "ea1ce9ef6da9e60b2749cffebaf1cdfc026ab5fa9f7835f4a277f5ac5d4c20a7",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/11VocalizerEx1.zip",
+      "packageVersion": 1,
+      "minAppCode": 4172,
+      "minSdk": 21,
+      "verificationStatus": "verified",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
       }
     },
     {
@@ -2068,7 +2739,7 @@
       "synthesisLocale": "ru-RU",
       "gender": "",
       "quality": "premium-high",
-      "variant": "premium-high",
+      "variant": "VocalizerEx2",
       "sizeBytes": 501576086,
       "unpackedBytes": 593007196,
       "filename": "2VocalizerEx2.zip",
@@ -2078,11 +2749,56 @@
       "minAppCode": 4169,
       "minSdk": 21,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
+    },
+    {
+      "id": "vocalizer-folder-ff841e080e61b1666fd1f711",
+      "modelId": "vocalizer-folder:rur/yuri/full-vssq5f22",
+      "provider": "vocalizer-folder",
+      "code": "rur/yuri/full/vssq5f22",
+      "contentId": "8675bbf126af6cc23f94bc4d158a07423df04803242bc95a1a4383ae7471958b",
+      "name": "Yuri",
+      "locale": "ru-RU",
+      "synthesisLocale": "ru-RU",
+      "gender": "",
+      "quality": "full-vssq5f22",
+      "variant": "VocalizerEx1",
+      "sizeBytes": 144089039,
+      "unpackedBytes": 177399123,
+      "filename": "1VocalizerEx1.zip",
+      "sha256": "06c4e0e793de9c68c7084efe5a574770845c2a88297614b955a8b6fa75a891d8",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/1VocalizerEx1.zip",
+      "packageVersion": 1,
+      "minAppCode": 4172,
+      "minSdk": 21,
+      "verificationStatus": "verified",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     },
     {
       "id": "vocalizer-folder-5f8a1e5223e08a8c258b28e0",
@@ -2095,7 +2811,7 @@
       "synthesisLocale": "ru-RU",
       "gender": "",
       "quality": "premium-high",
-      "variant": "premium-high",
+      "variant": "VocalizerEx2",
       "sizeBytes": 160179949,
       "unpackedBytes": 199838695,
       "filename": "VocalizerEx2.zip",
@@ -2105,11 +2821,20 @@
       "minAppCode": 4169,
       "minSdk": 21,
       "verificationStatus": "verified",
-      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
       "published": true,
       "releaseTag": "voices-001",
       "sampleUrl": "",
-      "previousContents": []
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
     }
   ]
 }
