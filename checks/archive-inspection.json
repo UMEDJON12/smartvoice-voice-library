@@ -2,6 +2,468 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 717040462,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "11VocalizerEx1.zip",
+      "size": 430872813,
+      "sha256": "ea1ce9ef6da9e60b2749cffebaf1cdfc026ab5fa9f7835f4a277f5ac5d4c20a7",
+      "files": [
+        {
+          "path": "clc_rur_cfg3.dat",
+          "size": 2727112,
+          "sha256": "b871434ab6ebd9148ee17b38b1f5c8538fd86d575302c10d51789fc59be921d3"
+        },
+        {
+          "path": "clc_rur_milena_cfg3.dat",
+          "size": 63819,
+          "sha256": "19def96d410b8bb245e72013dc79b4eefe72ac38ffbf13119d7f0e58ab70c81f"
+        },
+        {
+          "path": "e_userdct_rur.dat",
+          "size": 13330901,
+          "sha256": "0de3fcd26cb72e32f52a3186eae554673ba7d154cab362d204034d3c8bbdbd65"
+        },
+        {
+          "path": "milena_userdct_rur.dat",
+          "size": 3280,
+          "sha256": "b7efdbbb7226d506a64025dc8828f4e42b60954fb4f874280590d28590e20284"
+        },
+        {
+          "path": "rex_rur.dat",
+          "size": 97131,
+          "sha256": "a3c0f3fac40a4be48940a1a6d080e7fb108cfd7fb60dce269b529b84e31a0ee1"
+        },
+        {
+          "path": "synth_milena_full_vssq5_f22_pmk.dat",
+          "size": 13160584,
+          "sha256": "624b0ecba852d5b65a5b5654334f6d85b4cb6db09c683f63485794c30753a644"
+        },
+        {
+          "path": "synth_milena_full_vssq5_f22.dat",
+          "size": 446681420,
+          "sha256": "644a5407f22ddd6242366e190dc52793ee7448202c7be0f36c1fa4cc5c25ddee"
+        },
+        {
+          "path": "u_userdct_rur.dat",
+          "size": 12607,
+          "sha256": "86d792cfe4e1a0fa875179cdf5d97e14b1bcf6546e32cb444a166dddc000a1b7"
+        },
+        {
+          "path": "uselect_milena_full.dat",
+          "size": 17507204,
+          "sha256": "850685236739e4cf4c70e2f74d090cd0e77427b0a1510f085db6fcafe01b8136"
+        },
+        {
+          "path": "userdct_rur.dat",
+          "size": 13501,
+          "sha256": "b14e741df42a36fc18cd5e9d179a383523d8ca93c7922e02382a93b32c703001"
+        },
+        {
+          "path": "userdct_rur1.dat",
+          "size": 557736,
+          "sha256": "63b2c8a4801e809857851a29a01d52271998f73db8b2b2c89ecc7f1a2e2900fc"
+        },
+        {
+          "path": "userdct_rur2.dat",
+          "size": 1355225,
+          "sha256": "1bb9f1f5c40ef5bd653d1ce678013c534a539d20ce2d5d00bb4d56ce015383aa"
+        },
+        {
+          "path": "ve_pipeline_rur_milena_22_full_vssq5f22.hdr",
+          "size": 3520,
+          "sha256": "9973093839be46e48260863f2b3ece9d1780678e6b41d9b55081266a33210bd0"
+        }
+      ],
+      "voices": [],
+      "tokens": [],
+      "headers": [
+        {
+          "path": "ve_pipeline_rur_milena_22_full_vssq5f22.hdr",
+          "xml": false
+        }
+      ],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "rur/milena/",
+            "engine": "vocalizer-folder",
+            "bytes": 477352728,
+            "nativeLang": "RUR",
+            "contentId": "3b7f40d0baa4d9ec3d55388e8e2adf3866371e20f705da666f16c658f2a16fca",
+            "name": "Milena",
+            "locale": "ru-RU",
+            "quality": ""
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Vocalizer HDR/DAT",
+        "unpackedBytes": 495514040
+      },
+      "detectedFormat": "Vocalizer HDR/DAT",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 717035888,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "1VocalizerEx1.zip",
+      "size": 144089039,
+      "sha256": "06c4e0e793de9c68c7084efe5a574770845c2a88297614b955a8b6fa75a891d8",
+      "files": [
+        {
+          "path": "clc_rur_cfg3.dat",
+          "size": 2727112,
+          "sha256": "b871434ab6ebd9148ee17b38b1f5c8538fd86d575302c10d51789fc59be921d3"
+        },
+        {
+          "path": "clc_rur_yuri_cfg3.dat",
+          "size": 63920,
+          "sha256": "f554112893b0a355394350c63a824bf686bad6c40d57ad0d898c0c02f1c0cf31"
+        },
+        {
+          "path": "e_userdct_rur.dat",
+          "size": 13330901,
+          "sha256": "0de3fcd26cb72e32f52a3186eae554673ba7d154cab362d204034d3c8bbdbd65"
+        },
+        {
+          "path": "rex_rur.dat",
+          "size": 97131,
+          "sha256": "a3c0f3fac40a4be48940a1a6d080e7fb108cfd7fb60dce269b529b84e31a0ee1"
+        },
+        {
+          "path": "synth_yuri_full_vssq5_f22_pmk.dat",
+          "size": 3096512,
+          "sha256": "18f8deb11f0d695a3993ec30d1ff5f0c9367589b26cdbfd2284334216ac2359f"
+        },
+        {
+          "path": "synth_yuri_full_vssq5_f22.dat",
+          "size": 150808724,
+          "sha256": "8285bcee204688b121534b3d3af22fc9112b323c438e3e466ff12cc60e33faa9"
+        },
+        {
+          "path": "u_userdct_rur.dat",
+          "size": 12607,
+          "sha256": "86d792cfe4e1a0fa875179cdf5d97e14b1bcf6546e32cb444a166dddc000a1b7"
+        },
+        {
+          "path": "uselect_yuri_full.dat",
+          "size": 5328964,
+          "sha256": "ec2042cb51ca1b9bf5eac800732b69dfb4e6affc382e379e023c5f755ee66947"
+        },
+        {
+          "path": "userdct_rur.dat",
+          "size": 13501,
+          "sha256": "b14e741df42a36fc18cd5e9d179a383523d8ca93c7922e02382a93b32c703001"
+        },
+        {
+          "path": "userdct_rur1.dat",
+          "size": 557736,
+          "sha256": "63b2c8a4801e809857851a29a01d52271998f73db8b2b2c89ecc7f1a2e2900fc"
+        },
+        {
+          "path": "userdct_rur2.dat",
+          "size": 1355225,
+          "sha256": "1bb9f1f5c40ef5bd653d1ce678013c534a539d20ce2d5d00bb4d56ce015383aa"
+        },
+        {
+          "path": "ve_pipeline_rur_yuri_22_full_vssq5f22.hdr",
+          "size": 3510,
+          "sha256": "9cdea6ba28ed8caf4db1d7fc880160fa515a31efbfbc3a2cf68211eb6a0cc1e3"
+        },
+        {
+          "path": "yuri_userdct_rur.dat",
+          "size": 3280,
+          "sha256": "b7efdbbb7226d506a64025dc8828f4e42b60954fb4f874280590d28590e20284"
+        }
+      ],
+      "voices": [],
+      "tokens": [],
+      "headers": [
+        {
+          "path": "ve_pipeline_rur_yuri_22_full_vssq5f22.hdr",
+          "xml": false
+        }
+      ],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "rur/yuri/",
+            "engine": "vocalizer-folder",
+            "bytes": 159237710,
+            "nativeLang": "RUR",
+            "contentId": "8675bbf126af6cc23f94bc4d158a07423df04803242bc95a1a4383ae7471958b",
+            "name": "Yuri",
+            "locale": "ru-RU",
+            "quality": ""
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Vocalizer HDR/DAT",
+        "unpackedBytes": 177399123
+      },
+      "detectedFormat": "Vocalizer HDR/DAT",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 717016051,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "2VocalizerEx2.zip",
+      "size": 501576086,
+      "sha256": "2d5634715750c1b3771a4e4a61dd545a79e7c0ec5ae482aca7a90054e584c695",
+      "files": [
+        {
+          "path": "clc_eng_cfg3.dat",
+          "size": 5737385,
+          "sha256": "9ac3523b25356cd4ab4803c60c84751196ab6c70e8bd5e28cfd489c40a880efc"
+        },
+        {
+          "path": "clc_rur_cfg3.dat",
+          "size": 2738236,
+          "sha256": "4d95374a6cf7c0fdef5e707d911d0aac0f90ec3a0f8c07fd03f8d7dcb7d3c0eb"
+        },
+        {
+          "path": "clm_dat",
+          "size": 3174184,
+          "sha256": "49b83b6f8b1152568e845c2c6e9badb9dc29fc7e035003aac2616eed2426a0e9"
+        },
+        {
+          "path": "clm.dat",
+          "size": 3174184,
+          "sha256": "49b83b6f8b1152568e845c2c6e9badb9dc29fc7e035003aac2616eed2426a0e9"
+        },
+        {
+          "path": "e_userdct_rur.dat",
+          "size": 13330901,
+          "sha256": "0de3fcd26cb72e32f52a3186eae554673ba7d154cab362d204034d3c8bbdbd65"
+        },
+        {
+          "path": "lid_dat",
+          "size": 1102080,
+          "sha256": "6d7c3580ed88d1dc9616a1f956e70e36fc522ce86a34e2d4d501c1dd4ead96e0"
+        },
+        {
+          "path": "lid.dat",
+          "size": 1102080,
+          "sha256": "6d7c3580ed88d1dc9616a1f956e70e36fc522ce86a34e2d4d501c1dd4ead96e0"
+        },
+        {
+          "path": "rex_rur.dat",
+          "size": 97131,
+          "sha256": "a3c0f3fac40a4be48940a1a6d080e7fb108cfd7fb60dce269b529b84e31a0ee1"
+        },
+        {
+          "path": "rlst_yosemite_set_rur.dat",
+          "size": 1408,
+          "sha256": "3e3ecc84f6bf2086b9d0af3cb5eda1c1798a4608a6ccbcc4ae9405e11e096ce6"
+        },
+        {
+          "path": "rur_milena_premium-high_1-0-1.dat",
+          "size": 562287991,
+          "sha256": "39df70ad11efa97268c731f03509f4091e31787b6fc1cd537801ff34bd37df1a"
+        },
+        {
+          "path": "synth_med_fxd_bet3f22.dat",
+          "size": 21412,
+          "sha256": "f5417a45bf67f1d62fd07960337e9c64e0917c28bf0731eba9d048cf7afcc835"
+        },
+        {
+          "path": "sysdct.dat",
+          "size": 113128,
+          "sha256": "6191cfabacdc3d30de86b699781d58ec311ab56bf470d6cde56fcd93f7408a46"
+        },
+        {
+          "path": "udct_yosemite_set_rur.dat",
+          "size": 108521,
+          "sha256": "8ba51008b7b2fca837050bb986c821610e89d84866294571c4e7196fb3fb48f5"
+        },
+        {
+          "path": "user_rules.dat",
+          "size": 1184,
+          "sha256": "f6bfdc90c525ce29ebb8742b7b06fe0b9da5029add5c9232eb7726683008d436"
+        },
+        {
+          "path": "userdct_rur.dat",
+          "size": 13501,
+          "sha256": "b14e741df42a36fc18cd5e9d179a383523d8ca93c7922e02382a93b32c703001"
+        },
+        {
+          "path": "ve_pipeline_rur_milena_22_premium-high_1-0-1.hdr",
+          "size": 3870,
+          "sha256": "be821c8567178ff133dc8aede3a32c9b71e74d7819675433e3dfe8e1b705646a"
+        }
+      ],
+      "voices": [],
+      "tokens": [],
+      "headers": [
+        {
+          "path": "ve_pipeline_rur_milena_22_premium-high_1-0-1.hdr",
+          "metadata": {
+            "language": "Russian",
+            "langcode": "RUR",
+            "voice": "Milena",
+            "datapackagename": "rur/milena/premium-high/1-0-1",
+            "voiceoperatingpoint": "premium-high"
+          }
+        }
+      ],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "rur/milena/premium-high",
+            "engine": "vocalizer-folder",
+            "bytes": 562291861,
+            "nativeLang": "RUR",
+            "contentId": "fb5a6e511c65e63a1ee1acba3e0fc7543c70cf028ce2601cdea96ba5f860c5ae",
+            "name": "Milena",
+            "locale": "ru-RU",
+            "quality": "premium-high"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Vocalizer HDR/DAT",
+        "unpackedBytes": 588730932
+      },
+      "detectedFormat": "Vocalizer HDR/DAT",
+      "sampleGeneration": []
+    },
+    {
+      "assetId": 716963319,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "VocalizerEx2.zip",
+      "size": 160179949,
+      "sha256": "b1861d003e714be4a2fd73c778c252d6c8bdc4b425bc4a0b75729b4e9ea46e67",
+      "files": [
+        {
+          "path": "clc_eng_cfg3.dat",
+          "size": 5737385,
+          "sha256": "9ac3523b25356cd4ab4803c60c84751196ab6c70e8bd5e28cfd489c40a880efc"
+        },
+        {
+          "path": "clc_rur_cfg3.dat",
+          "size": 2738236,
+          "sha256": "4d95374a6cf7c0fdef5e707d911d0aac0f90ec3a0f8c07fd03f8d7dcb7d3c0eb"
+        },
+        {
+          "path": "clm_dat",
+          "size": 3174184,
+          "sha256": "49b83b6f8b1152568e845c2c6e9badb9dc29fc7e035003aac2616eed2426a0e9"
+        },
+        {
+          "path": "clm.dat",
+          "size": 3174184,
+          "sha256": "49b83b6f8b1152568e845c2c6e9badb9dc29fc7e035003aac2616eed2426a0e9"
+        },
+        {
+          "path": "e_userdct_rur.dat",
+          "size": 13330901,
+          "sha256": "0de3fcd26cb72e32f52a3186eae554673ba7d154cab362d204034d3c8bbdbd65"
+        },
+        {
+          "path": "lid_dat",
+          "size": 1102080,
+          "sha256": "6d7c3580ed88d1dc9616a1f956e70e36fc522ce86a34e2d4d501c1dd4ead96e0"
+        },
+        {
+          "path": "lid.dat",
+          "size": 1102080,
+          "sha256": "6d7c3580ed88d1dc9616a1f956e70e36fc522ce86a34e2d4d501c1dd4ead96e0"
+        },
+        {
+          "path": "rex_rur.dat",
+          "size": 97131,
+          "sha256": "a3c0f3fac40a4be48940a1a6d080e7fb108cfd7fb60dce269b529b84e31a0ee1"
+        },
+        {
+          "path": "rlst_yosemite_set_rur.dat",
+          "size": 1408,
+          "sha256": "3e3ecc84f6bf2086b9d0af3cb5eda1c1798a4608a6ccbcc4ae9405e11e096ce6"
+        },
+        {
+          "path": "rur_yuri_premium-high_1-0-1.dat",
+          "size": 169119502,
+          "sha256": "6c1db8f0a474eac87e0a95eb26f52ab49bfef48fd69d3886a2b43175e8cc0ae9"
+        },
+        {
+          "path": "synth_med_fxd_bet3f22.dat",
+          "size": 21412,
+          "sha256": "f5417a45bf67f1d62fd07960337e9c64e0917c28bf0731eba9d048cf7afcc835"
+        },
+        {
+          "path": "sysdct.dat",
+          "size": 113128,
+          "sha256": "6191cfabacdc3d30de86b699781d58ec311ab56bf470d6cde56fcd93f7408a46"
+        },
+        {
+          "path": "udct_yosemite_set_rur.dat",
+          "size": 108521,
+          "sha256": "8ba51008b7b2fca837050bb986c821610e89d84866294571c4e7196fb3fb48f5"
+        },
+        {
+          "path": "user_rules.dat",
+          "size": 1184,
+          "sha256": "f6bfdc90c525ce29ebb8742b7b06fe0b9da5029add5c9232eb7726683008d436"
+        },
+        {
+          "path": "userdct_rur.dat",
+          "size": 13501,
+          "sha256": "b14e741df42a36fc18cd5e9d179a383523d8ca93c7922e02382a93b32c703001"
+        },
+        {
+          "path": "ve_pipeline_rur_yuri_22_premium-high_1-0-1.hdr",
+          "size": 3858,
+          "sha256": "db6bfac87bb90a0a9fc5672c30d767d58a4eb217cf0fabe63af18d0919aa668a"
+        }
+      ],
+      "voices": [],
+      "tokens": [],
+      "headers": [
+        {
+          "path": "ve_pipeline_rur_yuri_22_premium-high_1-0-1.hdr",
+          "metadata": {
+            "language": "Russian",
+            "langcode": "RUR",
+            "voice": "Yuri",
+            "datapackagename": "rur/yuri/premium-high/1-0-1",
+            "voiceoperatingpoint": "premium-high"
+          }
+        }
+      ],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "rur/yuri/premium-high",
+            "engine": "vocalizer-folder",
+            "bytes": 169123360,
+            "nativeLang": "RUR",
+            "contentId": "8f9bde30dfd18b38a1ec20ca534c8b10c7a4603405dd22cecdfda8b3f7c12245",
+            "name": "Yuri",
+            "locale": "ru-RU",
+            "quality": "premium-high"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Vocalizer HDR/DAT",
+        "unpackedBytes": 195562431
+      },
+      "detectedFormat": "Vocalizer HDR/DAT",
+      "sampleGeneration": []
+    },
+    {
       "assetId": 714618159,
       "releaseId": 434895762,
       "tag": "voices-001",

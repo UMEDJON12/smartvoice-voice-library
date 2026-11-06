@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T20:10:33.042993+00:00",
+  "generatedAt": "2026-11-06T12:16:37.050391+00:00",
   "voices": [
     {
       "id": "google-47f4b0ee23f3d82e07432ca1",
@@ -2056,6 +2056,60 @@
         "sdkVersion": "1.45.0",
         "androidTested": false
       }
+    },
+    {
+      "id": "vocalizer-folder-471c3c7cac5274607edeef59",
+      "modelId": "vocalizer-folder:rur/milena",
+      "provider": "vocalizer-folder",
+      "code": "rur/milena/premium-high",
+      "contentId": "fb5a6e511c65e63a1ee1acba3e0fc7543c70cf028ce2601cdea96ba5f860c5ae",
+      "name": "Milena",
+      "locale": "ru-RU",
+      "synthesisLocale": "ru-RU",
+      "gender": "",
+      "quality": "premium-high",
+      "variant": "premium-high",
+      "sizeBytes": 501576086,
+      "unpackedBytes": 593007196,
+      "filename": "2VocalizerEx2.zip",
+      "sha256": "2d5634715750c1b3771a4e4a61dd545a79e7c0ec5ae482aca7a90054e584c695",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/2VocalizerEx2.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 21,
+      "verificationStatus": "verified",
+      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": []
+    },
+    {
+      "id": "vocalizer-folder-5f8a1e5223e08a8c258b28e0",
+      "modelId": "vocalizer-folder:rur/yuri",
+      "provider": "vocalizer-folder",
+      "code": "rur/yuri/premium-high",
+      "contentId": "8f9bde30dfd18b38a1ec20ca534c8b10c7a4603405dd22cecdfda8b3f7c12245",
+      "name": "Yuri",
+      "locale": "ru-RU",
+      "synthesisLocale": "ru-RU",
+      "gender": "",
+      "quality": "premium-high",
+      "variant": "premium-high",
+      "sizeBytes": 160179949,
+      "unpackedBytes": 199838695,
+      "filename": "VocalizerEx2.zip",
+      "sha256": "b1861d003e714be4a2fd73c778c252d6c8bdc4b425bc4a0b75729b4e9ea46e67",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/VocalizerEx2.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 21,
+      "verificationStatus": "verified",
+      "verificationScope": "SmartVoice ZIP import and resource structure; native synthesis not tested",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": []
     }
   ]
 }

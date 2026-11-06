@@ -1,3 +1,12 @@
 {
-  "items": []
+  "items": [
+    {
+      "assetId": 717040462,
+      "reason": "owner metadata required"
+    },
+    {
+      "assetId": 717035888,
+      "reason": "owner metadata required"
+    }
+  ]
 }
