@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T13:45:14.161713+00:00",
+  "generatedAt": "2026-11-09T03:52:15.636518+00:00",
   "voices": [
     {
       "id": "google-47f4b0ee23f3d82e07432ca1",
@@ -32,10 +32,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-2ae318631f13dd98f48f4709.mp3",
+      "sampleSha256": "8692f9289c3c056fe20871fdfedbd661b2ba43978f8598fd6f0cbb82e9c7ad27",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -68,10 +75,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-bb0f62b9e1187a40d09386f6.mp3",
+      "sampleSha256": "4e2130032f7f7e5dbf7bad981cee9b8a9c0ba560b16293c58b9a143c37cb66d4",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -104,10 +118,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-ea9f4fde01e5bb645d426259.mp3",
+      "sampleSha256": "64d4b71b4961da42dd6ec793494421ed423a6af32274e55e7a405c0dad57ba26",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -140,10 +161,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-76e39b28334aa5c5ce1ed5f6.mp3",
+      "sampleSha256": "1e7bf1000e4bfde45d57b35771892497be1479f441fa173a65b76aea036ffc69",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -176,10 +204,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-534e9162936c42fcba7294eb.mp3",
+      "sampleSha256": "7e7716f7cae0b8b29ce7467b51a7f27d5f021cc4f1f62912952493cbf07f7e13",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -212,10 +247,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-619b2876bdbad3993c234554.mp3",
+      "sampleSha256": "b62958cd54311d85f2e8c362c86f5a8c0f7a306acc93f69f5473c8f9918a02af",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -248,10 +290,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-893095b009b011b680709d1c.mp3",
+      "sampleSha256": "f09dc4cf79f675b9bee104fd208fc7770be256a4fa6dcfcd77e61e3eb661cb53",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -284,10 +333,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-848827e735b07076a46068e1.mp3",
+      "sampleSha256": "16fb68efc9e8d9c9c45171083aed3745972571766a9d3eff9bd4a84cd35a49ce",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -320,10 +376,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-9c230068c6fe23bb2372aede.mp3",
+      "sampleSha256": "22478800000505b983310ef386ad8f5ddd7b0bc1a8cf1241d3decd655a96e6ee",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -356,10 +419,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-b968007c51dacd3d08a7ff9d.mp3",
+      "sampleSha256": "440729b98a9dc6714186054e949581784f12d0adf61bc0714b4d88760bdf750b",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -392,10 +462,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-995812f1dbcb7776c873c581.mp3",
+      "sampleSha256": "911a0552eed88a0ffeb5d092f1ba51e6472ff8b40cf68884756f6ccdcf0e2c02",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       },
       "alternateArchives": [
         {
@@ -438,10 +515,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-fd43007e738db5e7ba786efb.mp3",
+      "sampleSha256": "d1f2bc18f914e1c7f5f47450fce7779fc8e552506b2a3fecf1672e47dd52c2d6",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -474,10 +558,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-0b2afdc8e1b8ddf9b96e4f0b.mp3",
+      "sampleSha256": "ccb81a303a746e4e72d82248ce59dff6cc11c06be0a9477a80ff0877c3585516",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -510,10 +601,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-bc804f930306800d8bd0abfc.mp3",
+      "sampleSha256": "e2bd41a98cb04650beb1360e5076580961aa9cf51772ca23c90d16a3bcba1d4d",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -546,10 +644,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-ea2ed740b1498c40aa8a0fe7.mp3",
+      "sampleSha256": "5705f4da2a46470e28af92f3a5d883b739b7dc8fda9576f179d6bb9356dbe806",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -582,10 +687,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-88b5560efa78b8fe7a4895c8.mp3",
+      "sampleSha256": "085c0eaa1e4c05152c024dd4a639392ee39b18da99fae1de002f0046b505465b",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -618,10 +730,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-9ef2ffe1e9bab50b57f0cfa8.mp3",
+      "sampleSha256": "cb0f15b2381fb05153d43aea9cbed366dd6034b2ec464b337e34382e2e614167",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -654,10 +773,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-5369f6a756a5a3043253fd3e.mp3",
+      "sampleSha256": "7905f843f010265545a69aac3707cd9746f4d48dd24a483eaf169537a22e301f",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -690,10 +816,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-ae84b445dd87afeb2271a821.mp3",
+      "sampleSha256": "79276498608a2e77711d1fb740d8ca6185016fd4a9fa7ccf46c7ccdf85609660",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -726,10 +859,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-75338fe4ae5bcde27cb2f2f1.mp3",
+      "sampleSha256": "a7995457620a3f72d195ee71b19f99b234cb87fca42009edefb81a6d9c50321c",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -762,10 +902,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-f1644f0f8ef027a6447c145f.mp3",
+      "sampleSha256": "6b8a62e659dfb239aece91f1586eb1a5538d481d0e87f5cd17ab98329ae2dcb8",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -798,10 +945,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-7dae90678a10a87d4182cae9.mp3",
+      "sampleSha256": "96e4f59d9827c259d0f2236f921743d0fa026cda63a3f4dfa8635b72e0805ec4",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -834,10 +988,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-0fd8ffba4e0b5f77b6346f23.mp3",
+      "sampleSha256": "32fdb7a30d3901d649ed6a890ff0f59e9eba6b289f87be51ee126dc8312aac82",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -870,10 +1031,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-71eac507f53fc980d6178fad.mp3",
+      "sampleSha256": "d98ad119cfd703505221b2b97dcbd37831d4e72af0bd4abd1dec843f27323e14",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -2722,10 +2890,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-75fbdf208d200a81c8595fc1.mp3",
+      "sampleSha256": "34ca5ce033fdd2b90eccc1221bacdfbbf681344f985b95f385d810f9c3f38512",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -2758,10 +2933,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-65147c2a2b137bed6daffc67.mp3",
+      "sampleSha256": "697fc32c1c5ab72385b36374358f89a96935585f855445cbe1c2c659f5444b75",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -2794,10 +2976,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-ca14de21bb62c71568716dfe.mp3",
+      "sampleSha256": "4292a70b83115697085e2c51944996c97833de9d764bf5d6c87544921678fa80",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     },
     {
@@ -2830,10 +3019,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/android-8fab303f09b1acb9e3de94a5.mp3",
+      "sampleSha256": "137c50e15ae1847930a647175e95d95f16e7943da0d23f5d0fe64c117ec47264",
+      "sampleSource": {
+        "platform": "android-arm",
+        "sdkVersion": "",
+        "androidTested": true
       }
     }
   ]
