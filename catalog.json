@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T11:44:39.594521+00:00",
+  "generatedAt": "2026-11-15T11:44:56.794723+00:00",
   "voices": [
     {
       "id": "google-47f4b0ee23f3d82e07432ca1",
@@ -1888,6 +1888,42 @@
         "platform": "linux-x64",
         "sdkVersion": "1.45.0",
         "androidTested": false
+      }
+    },
+    {
+      "id": "microsoft-065ef54ef5d71d8e561d956e",
+      "modelId": "microsoft:es-ES-AbrilNeural",
+      "provider": "microsoft",
+      "code": "es-ES-AbrilNeural",
+      "contentId": "7b54d1a20af2232e",
+      "name": "Abril",
+      "locale": "es-ES",
+      "synthesisLocale": "es-ES",
+      "gender": "",
+      "quality": "unspecified",
+      "variant": "unspecified",
+      "sizeBytes": 20703446,
+      "unpackedBytes": 32826352,
+      "filename": "Abril-es-ES.zip",
+      "sha256": "ca64661dc9c183677587fce5e3ab4cefe25add66dbdadc74caed9d8590b69584",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/Abril-es-ES.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 26,
+      "verificationStatus": "verified",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
       }
     },
     {

@@ -2,6 +2,147 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 750815076,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Abril-es-ES.zip",
+      "size": 20703446,
+      "assetUpdatedAt": "2026-11-15T11:44:42Z",
+      "sha256": "ca64661dc9c183677587fce5e3ab4cefe25add66dbdadc74caed9d8590b69584",
+      "files": [
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/3082.INI",
+          "size": 470,
+          "sha256": "4b130dc14c8b4dc975684589d241ba7a725f77fd8d1cb211e2bfd3a721828b72"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "73135ec30c1ac4f485189cad990d5b5854c8b28173b3ba2a36e881a96af61651"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/am_v5_encoder.bin",
+          "size": 2141711,
+          "sha256": "b9e89d9e71a16bab3c079963a008ebf1afefa80ca24600f423931e05f89d678f"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/device_vocoder_v6_streaming.bin",
+          "size": 2430747,
+          "sha256": "34fd96690e2ae29d6df2171a6165c98afc6b74efebb43b01f7f1af1126e94325"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/EsES.address.dat",
+          "size": 4968,
+          "sha256": "a5e6746259ee6427a864583ab238070cb463208ec94bff79197058b5a5193a29"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/EsES.computer.dat",
+          "size": 3792,
+          "sha256": "0802125fe80fec7a2d84eb345037b49d38f7767c69c4e9033bdb3194909a403e"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/EsES.message.dat",
+          "size": 6360,
+          "sha256": "f8e276eaad3af970303281f2217c279a8da7d5f7404ace50d412aed60b3b9989"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/EsES.name.dat",
+          "size": 4928,
+          "sha256": "6c09f85a13fd3f66bcbfae9072d7abe8c3cda752bcb49b94734b9aede9e934dc"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/MSTTSLocEsES.dat",
+          "size": 17693904,
+          "sha256": "b00a0e5b7496aa89de22c5c8ca76cbbf4cd1881c1218c390e99ce14bb3894304"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/MSTTSLocEsES.ini",
+          "size": 2956,
+          "sha256": "75d78e50329ec7dee3e7cd091dfeff8fb00fe542725df541eae793199479c4fe"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/phones.txt",
+          "size": 444,
+          "sha256": "e8d9a1d7502714d7f20acadb610cc5576a62bfd4ca9bfa0c3a404c8482f838c2"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/punc.txt",
+          "size": 298,
+          "sha256": "370071005796c27c7cfc68e16fd782e9968df72c3c6db5778b89fcc1b21b2918"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/Tokens.xml",
+          "size": 1233,
+          "sha256": "453726590f1a1da2dbc2ef47f01b80f89140d31e1ad73284d1fca0e00dd1f2a5"
+        },
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Abril-es-ESfs3j3m1s.42m/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEsES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]3082"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "es-ES-AbrilNeural",
+            "engine": "microsoft",
+            "bytes": 32825245,
+            "speaker": "es-ES-AbrilNeural",
+            "contentId": "7b54d1a20af2232e",
+            "name": "Abril",
+            "minAppCode": 4169,
+            "locale": "es-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 32826352
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "es-ES-AbrilNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 750814918,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -115,7 +256,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750814340,
@@ -251,7 +393,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750814123,
