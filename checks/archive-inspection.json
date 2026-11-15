@@ -2,6 +2,354 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 750812056,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Joana-ca-ES.zip",
+      "size": 8017137,
+      "assetUpdatedAt": "2026-11-15T11:43:20Z",
+      "sha256": "9e0d41edf16240d4240f840019fcfa2cd5a44594db6949322532cec9015b364b",
+      "files": [
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/1027.INI",
+          "size": 708,
+          "sha256": "f563f1f0f39a2596e53aee7c02818dbb13e92e84fcb02309fd511077cc443828"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "bfc649da19b46959be84a0704092f5b62c4662ac6e9d2c74f3243c2bda432c1a"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/am_v5_encoder.bin",
+          "size": 2144788,
+          "sha256": "4e7c2e31f1e30c439f335d721a9798e20bdc81e9d4f4fe992cfd5fbc749d2959"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "7c77325bd46fd9f51c3f3d92f526ee3568fb4e9df6d245d948c379bd794b5a00"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/MSTTSLocCaES.dat",
+          "size": 5567664,
+          "sha256": "890bbe6774ce28ea68bc173d4286b14963bb3ffd61db4133d793f5d4ecc5b7ff"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/MSTTSLocCaES.ini",
+          "size": 27,
+          "sha256": "e314957e3d48778d4f5f6c299f632a805e669b1be9cff1f744d2a5da3f891d60"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/phones.txt",
+          "size": 450,
+          "sha256": "7c90c8ff89d296385504059059b07b73f5f05acf2ae3ec70b69a0c1713c2820f"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/punc.txt",
+          "size": 298,
+          "sha256": "370071005796c27c7cfc68e16fd782e9968df72c3c6db5778b89fcc1b21b2918"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/Tokens.xml",
+          "size": 1233,
+          "sha256": "cece949e18111e88dc58a0c3d972b9ba5a1990a92c28987c12f5d9ad59765f9d"
+        },
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Joana-ca-ESbnmrn5rk.lk5/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocCaES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1027"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ca-ES-JoanaNeural",
+            "engine": "microsoft",
+            "bytes": 10916326,
+            "speaker": "ca-ES-JoanaNeural",
+            "contentId": "267d3a6f398958b2",
+            "name": "Joana",
+            "minAppCode": 4169,
+            "locale": "ca-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 10917433
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ca-ES-JoanaNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
+      "assetId": 750811937,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Roi-gl-ES.zip",
+      "size": 4598728,
+      "assetUpdatedAt": "2026-11-15T11:43:14Z",
+      "sha256": "b6f4cc6885ef45bb9f5be96cca545d655c078bedf9eb2725bf3f6ef424227832",
+      "files": [
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/1110.INI",
+          "size": 686,
+          "sha256": "40745ae344bbecc6d3e2366be47ceaea746d7e5aea9dc0efc9e6060132d0cafc"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "1bc3080e85973edc22ce695296fe3a15a4835667cb7f0c1f7816de603cbb65a7"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/am_v5_encoder.bin",
+          "size": 2121237,
+          "sha256": "a35794767eab7c74f8cf9a49c98286bd1ffaa2ea433c40a7d66e4d001bb3482c"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "bc76bb202c2efa0b63e687cb83805d5bd0d0e9dcfeda703adf53c695ac2ec37e"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/MSTTSLocGlES.dat",
+          "size": 75328,
+          "sha256": "1268a33f57ab307838a86c2b0a3f519c0647371015cab81b50a4182487018246"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/MSTTSLocGlES.ini",
+          "size": 746,
+          "sha256": "8cc6c02be1eab13b783e9932d62c80a82e04624bfbbc6db907365b4d7fc535f9"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/phones.txt",
+          "size": 499,
+          "sha256": "5e907d57c12948249fbd2935ffdc5d249746c70e613cffd0a115687f821596f9"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/Tokens.xml",
+          "size": 1230,
+          "sha256": "183bc30d0c1e3179f72232ece45ce7dc982897133293fb86243fccf55f9b95de"
+        },
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Roi-gl-ESghslge4s.3dy/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocGlES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1110"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "gl-ES-RoiNeural",
+            "engine": "microsoft",
+            "bytes": 5401079,
+            "speaker": "gl-ES-RoiNeural",
+            "contentId": "979dd7a477a7a34d",
+            "name": "Roi",
+            "minAppCode": 4169,
+            "locale": "gl-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 5402176
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "gl-ES-RoiNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
+      "assetId": 750811752,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Sabela-gl-ES.zip",
+      "size": 4597857,
+      "assetUpdatedAt": "2026-11-15T11:43:11Z",
+      "sha256": "2f4456740fef7360a865daeb8d61729b5db58916f825c9ad78ff70672a5b7bfd",
+      "files": [
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/1110.INI",
+          "size": 686,
+          "sha256": "40745ae344bbecc6d3e2366be47ceaea746d7e5aea9dc0efc9e6060132d0cafc"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "e562c6f5fc4dd6972bbbdf1ae35d9543ef1291aff63b8a7c01b1ed6a2241f1f4"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/am_v5_encoder.bin",
+          "size": 2121237,
+          "sha256": "a335b77d0d29f6c0be867d57252681f3222e5bdad80fb4361be5b1a1f24443db"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "2cdcc11de32412777609dce4a22d2527893b2cc492cdf0f717d04512bb846ab5"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/MSTTSLocGlES.dat",
+          "size": 75328,
+          "sha256": "1268a33f57ab307838a86c2b0a3f519c0647371015cab81b50a4182487018246"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/MSTTSLocGlES.ini",
+          "size": 746,
+          "sha256": "8cc6c02be1eab13b783e9932d62c80a82e04624bfbbc6db907365b4d7fc535f9"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/phones.txt",
+          "size": 499,
+          "sha256": "5e907d57c12948249fbd2935ffdc5d249746c70e613cffd0a115687f821596f9"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/Tokens.xml",
+          "size": 1244,
+          "sha256": "09f65342f27c68ac314fe436c54c5030c2f80b6ca3fe340c41c2c6cf1b0d4185"
+        },
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Sabela-gl-ES4u04nssd.wx1/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocGlES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1110"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "gl-ES-SabelaNeural",
+            "engine": "microsoft",
+            "bytes": 5401093,
+            "speaker": "gl-ES-SabelaNeural",
+            "contentId": "dc7939c6cb8bd429",
+            "name": "Sabela",
+            "minAppCode": 4169,
+            "locale": "gl-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 5402205
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "gl-ES-SabelaNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 717040462,
       "releaseId": 434895762,
       "tag": "voices-001",
