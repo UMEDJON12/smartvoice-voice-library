@@ -2,6 +2,263 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 750814123,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Ander-eu-ES.zip",
+      "size": 4639400,
+      "assetUpdatedAt": "2026-11-15T11:44:07Z",
+      "sha256": "f253c68d93829d779025433a5f6721bdc9a3cba1bc9ce14f6b64253541b22687",
+      "files": [
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/1069.INI",
+          "size": 686,
+          "sha256": "40745ae344bbecc6d3e2366be47ceaea746d7e5aea9dc0efc9e6060132d0cafc"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "5fb0384081c123b4f581237098c40a2e20360ccbebd86849b8bb6255f096ada1"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/am_v5_encoder.bin",
+          "size": 2116117,
+          "sha256": "d65c6eefa1f868675e2828a8470208da7370868ca994268e913420ff8af2a2ec"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "98aef699783b3fef69333185324d4fbf05a5f1ad4f78bcc36aa8083e6e7ca63e"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/MSTTSLocEuES.dat",
+          "size": 660176,
+          "sha256": "28b8ee7517788fa2a7ffd97beaa90489d3f464424e6f7fd7886cb60b6a80853e"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/MSTTSLocEuES.ini",
+          "size": 636,
+          "sha256": "6a3afb8c6c5be49ef27870cc9d6c412c85c6dd98a2d7a1e404df93394a2a260f"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/phones.txt",
+          "size": 458,
+          "sha256": "34c1413709e2587bb27fcf394c63ee6b84bfd88a0feab29a852a48b7d619379f"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/Tokens.xml",
+          "size": 1238,
+          "sha256": "b42321a2a24fac16d307b7f97109ac60d8a58edc0c9d8b67d9c316d65f69679f"
+        },
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Ander-eu-ESjaewprae.hf5/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEuES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1069"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "eu-ES-AnderNeural",
+            "engine": "microsoft",
+            "bytes": 5980664,
+            "speaker": "eu-ES-AnderNeural",
+            "contentId": "618edf865804b7c7",
+            "name": "Ander",
+            "minAppCode": 4169,
+            "locale": "eu-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 5981771
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "eu-ES-AnderNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
+      "assetId": 750813541,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Arnau-es-ES.zip",
+      "size": 20687976,
+      "assetUpdatedAt": "2026-11-15T11:44:03Z",
+      "sha256": "d20180820618cb16594c429942fdda6e507d045af7de7426ed0170b27884c6e1",
+      "files": [
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/3082.INI",
+          "size": 470,
+          "sha256": "4b130dc14c8b4dc975684589d241ba7a725f77fd8d1cb211e2bfd3a721828b72"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "1cd7da645f3f89d0bfd0b01faa1ab171d792673418ca8049a8b53cff8d0fcc5c"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/am_v5_encoder.bin",
+          "size": 2140687,
+          "sha256": "7d45105d0ce7924736743c8aaf969b2918efb34eb48fb28e176ffa89639248e9"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/device_vocoder_v6_streaming.bin",
+          "size": 2430747,
+          "sha256": "e4a17a556706512859abb22d4fedc609c86f3d0ea18cc6c15533c12973f0c3ec"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/EsES.address.dat",
+          "size": 4968,
+          "sha256": "a5e6746259ee6427a864583ab238070cb463208ec94bff79197058b5a5193a29"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/EsES.computer.dat",
+          "size": 3792,
+          "sha256": "0802125fe80fec7a2d84eb345037b49d38f7767c69c4e9033bdb3194909a403e"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/EsES.message.dat",
+          "size": 6360,
+          "sha256": "f8e276eaad3af970303281f2217c279a8da7d5f7404ace50d412aed60b3b9989"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/EsES.name.dat",
+          "size": 4928,
+          "sha256": "6c09f85a13fd3f66bcbfae9072d7abe8c3cda752bcb49b94734b9aede9e934dc"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/MSTTSLocEsES.dat",
+          "size": 17693904,
+          "sha256": "b00a0e5b7496aa89de22c5c8ca76cbbf4cd1881c1218c390e99ce14bb3894304"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/MSTTSLocEsES.ini",
+          "size": 2956,
+          "sha256": "75d78e50329ec7dee3e7cd091dfeff8fb00fe542725df541eae793199479c4fe"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/phones.txt",
+          "size": 434,
+          "sha256": "9a3d8fc45564f84ea13eceffe025771f89e90a2fdc0fe5ed5534f5097ab585f7"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/punc.txt",
+          "size": 298,
+          "sha256": "370071005796c27c7cfc68e16fd782e9968df72c3c6db5778b89fcc1b21b2918"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/Tokens.xml",
+          "size": 1231,
+          "sha256": "fbdcfae3dd7a43806da1458b2ed0536b3ea44afcddfdff8221961bdd63a5539f"
+        },
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Arnau-es-ESo4coza55.tgp/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEsES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]3082"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "es-ES-ArnauNeural",
+            "engine": "microsoft",
+            "bytes": 32824209,
+            "speaker": "es-ES-ArnauNeural",
+            "contentId": "7e7724b2f938141d",
+            "name": "Arnau",
+            "minAppCode": 4169,
+            "locale": "es-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 32825316
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "es-ES-ArnauNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 750813029,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -140,7 +397,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750812773,
@@ -256,7 +514,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750812308,
@@ -397,7 +656,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750812056,
