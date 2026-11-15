@@ -2,6 +2,238 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 751322207,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "GulNawaz-ps-AF.zip",
+      "size": 4781802,
+      "assetUpdatedAt": "2026-11-15T14:51:27Z",
+      "sha256": "44590f0b18708a5f7936ef4f50f50710db82837fc1047c2ebe734baf406806f6",
+      "files": [
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/1123.INI",
+          "size": 782,
+          "sha256": "9a7d6fa4963b512ace1309ef342e6e8361e2acd741aac31745e786698665e728"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "08ee18831f22f0de18df846c42eb5da1032f21caa44c0a2a211eb4955b4aad14"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/am_v5_encoder.bin",
+          "size": 2156053,
+          "sha256": "d4bb24a492c7afad3a7ff35072ba1405b1bd5aedae55ae2f64c094923ebce89f"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "c779f1e0481052b88098620b25fa926a4097e35032ab86a063431f5e0c6b9cd4"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/MSTTSLocPsAF.dat",
+          "size": 643472,
+          "sha256": "621a90f0485a964f1ff5529057aef0f78374f420ac53147dc5b25cad05ce9b41"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/MSTTSLocPsAF.ini",
+          "size": 1446,
+          "sha256": "cb2570464aa0f7091af115389323461eb4153624825367779886baa87e83f3b7"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/phones.txt",
+          "size": 970,
+          "sha256": "8e88a213468c3204fb2e7c5077989a378ab3efed9fac2bc7f7036f1d07957f3a"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/punc.txt",
+          "size": 219,
+          "sha256": "395052c6c72eded9ed89ef3b8ca52cb42923becd28c7f672ddd33626907375c6"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/Tokens.xml",
+          "size": 1250,
+          "sha256": "f00e2581050a63ef8d18bf4c240f2df5ca4cbbe80a4b5f5c7c0756195fdbdd72"
+        },
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "GulNawaz-ps-AFtugx4eth.dod/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocPsAF.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1123"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ps-AF-GulNawazNeural",
+            "engine": "microsoft",
+            "bytes": 6005350,
+            "speaker": "ps-AF-GulNawazNeural",
+            "contentId": "df45fad383286790",
+            "name": "GulNawaz",
+            "minAppCode": 4169,
+            "locale": "ps-AF",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 6006472
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ps-AF-GulNawazNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
+      "assetId": 751321847,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Latifa-ps-AF.zip",
+      "size": 4776897,
+      "assetUpdatedAt": "2026-11-15T14:51:19Z",
+      "sha256": "fa7df3b6ff39b5920a65933af4d4fbd4d31d728c4f6eb2687be52fdf7654acc0",
+      "files": [
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/1123.INI",
+          "size": 783,
+          "sha256": "58c1315ad9b654ece86e0408b323f43b4ffbf8bdce9afe8bdd28fd3fe68ce543"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "2c4e725a1832f0bf1f3ec5573ceb343abdd09011597af29fea6f708b22a3235f"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/am_v5_encoder.bin",
+          "size": 2156053,
+          "sha256": "335baa479d8eeeaf911e41066e361e4639aa66a0f1b87cea97adeaf2d55480b7"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "ee50bff9252987536a53ccba32a99a8e719094f60c345ad34009820fa7566d49"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/MSTTSLocPsAF.dat",
+          "size": 643472,
+          "sha256": "621a90f0485a964f1ff5529057aef0f78374f420ac53147dc5b25cad05ce9b41"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/MSTTSLocPsAF.ini",
+          "size": 1446,
+          "sha256": "cb2570464aa0f7091af115389323461eb4153624825367779886baa87e83f3b7"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/phones.txt",
+          "size": 970,
+          "sha256": "8e88a213468c3204fb2e7c5077989a378ab3efed9fac2bc7f7036f1d07957f3a"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/punc.txt",
+          "size": 219,
+          "sha256": "395052c6c72eded9ed89ef3b8ca52cb42923becd28c7f672ddd33626907375c6"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/Tokens.xml",
+          "size": 1244,
+          "sha256": "db0a5109c077661f9e7989646205534b13c35c64cccb55c2328fc73c70c6f07f"
+        },
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Latifa-ps-AFvbziyf5p.bu3/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocPsAF.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1123"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ps-AF-LatifaNeural",
+            "engine": "microsoft",
+            "bytes": 6005345,
+            "speaker": "ps-AF-LatifaNeural",
+            "contentId": "c3afb9461ebb3787",
+            "name": "Latifa",
+            "minAppCode": 4169,
+            "locale": "ps-AF",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 6006457
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ps-AF-LatifaNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 750815076,
       "releaseId": 434895762,
       "tag": "voices-001",
