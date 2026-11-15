@@ -2,6 +2,404 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 750813029,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Elvira-es-ES.zip",
+      "size": 20775842,
+      "assetUpdatedAt": "2026-11-15T11:43:47Z",
+      "sha256": "7055fa4a833fd010bb63d0e13e49a6574f086f95d03dc9f666e9aa9fe170cf55",
+      "files": [
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/3082.INI",
+          "size": 424,
+          "sha256": "3c8af3f6fe043ea2d3aee574a1f87e9bd42f4389a9c9d01bd094ceb1ad376852"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "9b5d81c2792ca7702b284b71a681bf784e44be92975700c7557d28f6e2085824"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/am_v5_encoder.bin",
+          "size": 2135567,
+          "sha256": "72ad26a017181302147f628628185a1919f100ec86fafed9a4fa8272de49bdf4"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/device_vocoder_v6_streaming.bin",
+          "size": 2454757,
+          "sha256": "3c395f055d81cce3281f4831978c60e8fb726be263a8a9936407f58cb4da54d3"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/EsES.address.dat",
+          "size": 4968,
+          "sha256": "a5e6746259ee6427a864583ab238070cb463208ec94bff79197058b5a5193a29"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/EsES.computer.dat",
+          "size": 3792,
+          "sha256": "0802125fe80fec7a2d84eb345037b49d38f7767c69c4e9033bdb3194909a403e"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/EsES.message.dat",
+          "size": 6360,
+          "sha256": "f8e276eaad3af970303281f2217c279a8da7d5f7404ace50d412aed60b3b9989"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/EsES.name.dat",
+          "size": 4928,
+          "sha256": "6c09f85a13fd3f66bcbfae9072d7abe8c3cda752bcb49b94734b9aede9e934dc"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/MSTTSLocEsES.dat",
+          "size": 17693904,
+          "sha256": "b00a0e5b7496aa89de22c5c8ca76cbbf4cd1881c1218c390e99ce14bb3894304"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/MSTTSLocEsES.ini",
+          "size": 2956,
+          "sha256": "75d78e50329ec7dee3e7cd091dfeff8fb00fe542725df541eae793199479c4fe"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/phones.txt",
+          "size": 405,
+          "sha256": "e122bfa9bcc58d5b97bcc40d3830d5ec4e7790b12064a1bb89100aa3a96e7b86"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/Tokens.xml",
+          "size": 1237,
+          "sha256": "1457f5eb6fcb9a33ec22ea9dde0e7e9ea955f2c3de864b6da2fc6883adccc5ed"
+        },
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Elvira-es-ESsx5bmx3o.fix/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEsES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]3082"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "es-ES-ElviraNeural",
+            "engine": "microsoft",
+            "bytes": 32843202,
+            "speaker": "es-ES-ElviraNeural",
+            "contentId": "01916a065652f369",
+            "name": "Elvira",
+            "minAppCode": 4169,
+            "locale": "es-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 32844314
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "es-ES-ElviraNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
+      "assetId": 750812773,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Enric-ca-ES.zip",
+      "size": 7980233,
+      "assetUpdatedAt": "2026-11-15T11:43:36Z",
+      "sha256": "fd90ef5b8b0e0e775126c4b07fd76fa6b4d996d51def31358ab5574526bd6c98",
+      "files": [
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/1027.INI",
+          "size": 660,
+          "sha256": "9a73a373c5127d697acf2d8b0b863b936c4b16296954b582801be3a2bbed536d"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/am_v5_decoder.bin",
+          "size": 746390,
+          "sha256": "b7a6578db2a8c681fa1332fa091c5d0ceb628c95aa9efddaba3212073f407a36"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/am_v5_encoder.bin",
+          "size": 2141717,
+          "sha256": "36f49b12899f93873457c1590dd2a8bddc43a24f02283734c0f5c20c405c18aa"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "c198176cabf65aeda8c67138ce7e42d53ada10ba97e8d372dfb474c9b9755aec"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/MSTTSLocCaES.dat",
+          "size": 5567664,
+          "sha256": "890bbe6774ce28ea68bc173d4286b14963bb3ffd61db4133d793f5d4ecc5b7ff"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/MSTTSLocCaES.ini",
+          "size": 27,
+          "sha256": "e314957e3d48778d4f5f6c299f632a805e669b1be9cff1f744d2a5da3f891d60"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/phones.txt",
+          "size": 432,
+          "sha256": "b3e40da4378cda83edd60eaf3f450cffabfa71c1db9c336d3f90ec516fd66065"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/Tokens.xml",
+          "size": 1231,
+          "sha256": "9284a8b5fbfd59ad2d6c9328c3bc042961430100bc6f320edf956adbe808529b"
+        },
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Enric-ca-ESwpqagtn1.zfp/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocCaES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1027"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "ca-ES-EnricNeural",
+            "engine": "microsoft",
+            "bytes": 10913358,
+            "speaker": "ca-ES-EnricNeural",
+            "contentId": "3029a87a253f6c53",
+            "name": "Enric",
+            "minAppCode": 4169,
+            "locale": "ca-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 10914465
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "ca-ES-EnricNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
+      "assetId": 750812308,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Jenny-es-ES.zip",
+      "size": 21074667,
+      "assetUpdatedAt": "2026-11-15T11:43:31Z",
+      "sha256": "842b72b5e2158f789c967ddefbe2db2b2ee7d1a242be39dbaafb0ebd6120af08",
+      "files": [
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/3082.INI",
+          "size": 819,
+          "sha256": "0f6fd59383c5bac94d2c5ce1f9fa595e6e7b7d32c1a4e8e58fc7c90925dc0918"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "ac7708e88ad41b4d01015adfd64b1477a217c2bb4aab69e86833366b45d99938"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/am_v5_encoder.bin",
+          "size": 2144783,
+          "sha256": "fead95890a99315b02ba415ec9cb6ca01e297bb8e68af7e5fa735c79a91eaf9d"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/device_vocoder_v6_streaming.bin",
+          "size": 2828003,
+          "sha256": "1ea12755874082ad37e48ba11727ccb1781d8c718d494fac2979e919e6e7294c"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/EsES.address.dat",
+          "size": 4968,
+          "sha256": "a5e6746259ee6427a864583ab238070cb463208ec94bff79197058b5a5193a29"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/EsES.computer.dat",
+          "size": 3792,
+          "sha256": "0802125fe80fec7a2d84eb345037b49d38f7767c69c4e9033bdb3194909a403e"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/EsES.message.dat",
+          "size": 6360,
+          "sha256": "f8e276eaad3af970303281f2217c279a8da7d5f7404ace50d412aed60b3b9989"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/EsES.name.dat",
+          "size": 4928,
+          "sha256": "6c09f85a13fd3f66bcbfae9072d7abe8c3cda752bcb49b94734b9aede9e934dc"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/MSTTSLocEsES.dat",
+          "size": 17693904,
+          "sha256": "b00a0e5b7496aa89de22c5c8ca76cbbf4cd1881c1218c390e99ce14bb3894304"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/MSTTSLocEsES.ini",
+          "size": 2956,
+          "sha256": "75d78e50329ec7dee3e7cd091dfeff8fb00fe542725df541eae793199479c4fe"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/phones.txt",
+          "size": 477,
+          "sha256": "8235124f0bee987d80dddc54bf6b9d05954bb1fd820e41e78101f0144a87fee1"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/punc.txt",
+          "size": 470,
+          "sha256": "853737a472856ba28d08e5a7fff9f802651450afc4e4bddb687fe0597912a1b5"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/Tokens.xml",
+          "size": 1233,
+          "sha256": "7890b0632d88f036046d89d4a8aa1e61fa6854ae89a4f6c27705689876b7f73c"
+        },
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Jenny-es-ES5xkk5rre.c0t/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEsES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]3082"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "es-ES-JennyNeural",
+            "engine": "microsoft",
+            "bytes": 33226127,
+            "speaker": "es-ES-JennyNeural",
+            "contentId": "09d699a6e678b5dc",
+            "name": "Jenny",
+            "minAppCode": 4169,
+            "locale": "es-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 33227234
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "es-ES-JennyNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 750812056,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -115,7 +513,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750811937,
@@ -231,7 +630,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750811752,
@@ -347,7 +747,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 717040462,
