@@ -2,6 +2,258 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 750814918,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Ainhoa-eu-ES.zip",
+      "size": 4670576,
+      "assetUpdatedAt": "2026-11-15T11:44:28Z",
+      "sha256": "74c35d39a39d625a4089f0e31bd719d173546bdf6cb34de32809f94d546eb75c",
+      "files": [
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/1069.INI",
+          "size": 686,
+          "sha256": "40745ae344bbecc6d3e2366be47ceaea746d7e5aea9dc0efc9e6060132d0cafc"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "5ffc9f0a464750c102c6ea49afd012aa89810fede34af3dfe03f7e4cec47825e"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/am_v5_encoder.bin",
+          "size": 2116117,
+          "sha256": "74855ae773d3806660555545af33e41968249069137a4c77a094c24b8a0ea7f0"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "aa7966e3c7c8bce67323fee141b1d6fa0e43f7f39af10a29ec3036f42c0b32ff"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/MSTTSLocEuES.dat",
+          "size": 660176,
+          "sha256": "28b8ee7517788fa2a7ffd97beaa90489d3f464424e6f7fd7886cb60b6a80853e"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/MSTTSLocEuES.ini",
+          "size": 636,
+          "sha256": "6a3afb8c6c5be49ef27870cc9d6c412c85c6dd98a2d7a1e404df93394a2a260f"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/phones.txt",
+          "size": 458,
+          "sha256": "34c1413709e2587bb27fcf394c63ee6b84bfd88a0feab29a852a48b7d619379f"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/Tokens.xml",
+          "size": 1244,
+          "sha256": "ca2dbca40b171ccbd364237db7f57b48f69d42d45a00d2c4786b3e2a2e07bea9"
+        },
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Ainhoa-eu-ESpdgt3lkg.0lf/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEuES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1069"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "eu-ES-AinhoaNeural",
+            "engine": "microsoft",
+            "bytes": 5980670,
+            "speaker": "eu-ES-AinhoaNeural",
+            "contentId": "a5a7483e9806bf89",
+            "name": "Ainhoa",
+            "minAppCode": 4169,
+            "locale": "eu-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 5981782
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "eu-ES-AinhoaNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
+      "assetId": 750814340,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Alvaro-es-ES.zip",
+      "size": 20709719,
+      "assetUpdatedAt": "2026-11-15T11:44:24Z",
+      "sha256": "4ff88b8eefa89d31f7381c22c135ae24ae1e8a0fd6ead0a31d75e4245c6b421f",
+      "files": [
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/3082.INI",
+          "size": 470,
+          "sha256": "9eb565f1da0892b6436d366dfe2bbedb27957948c384d0e88c061b6894301ec4"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "128fbdaefd44a8a32b633aaf743bbe4104a877dfeb841b4b69c8ec90f673f570"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/am_v5_encoder.bin",
+          "size": 2143759,
+          "sha256": "1cc6f173f7c9d5ceb9e03a573712777c6967920aadd8141fca9fd08ab6050ff1"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/device_vocoder_v6_streaming.bin",
+          "size": 2454757,
+          "sha256": "aafd63ef07bd116feb7dccff508cae7cc612401967397b2f5acd7d47e2ea8e33"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/EsES.address.dat",
+          "size": 4968,
+          "sha256": "a5e6746259ee6427a864583ab238070cb463208ec94bff79197058b5a5193a29"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/EsES.computer.dat",
+          "size": 3792,
+          "sha256": "0802125fe80fec7a2d84eb345037b49d38f7767c69c4e9033bdb3194909a403e"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/EsES.message.dat",
+          "size": 6360,
+          "sha256": "f8e276eaad3af970303281f2217c279a8da7d5f7404ace50d412aed60b3b9989"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/EsES.name.dat",
+          "size": 4928,
+          "sha256": "6c09f85a13fd3f66bcbfae9072d7abe8c3cda752bcb49b94734b9aede9e934dc"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/MSTTSLocEsES.dat",
+          "size": 17693904,
+          "sha256": "b00a0e5b7496aa89de22c5c8ca76cbbf4cd1881c1218c390e99ce14bb3894304"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/MSTTSLocEsES.ini",
+          "size": 2956,
+          "sha256": "75d78e50329ec7dee3e7cd091dfeff8fb00fe542725df541eae793199479c4fe"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/phones.txt",
+          "size": 471,
+          "sha256": "1fed5b64dd4305b06ac1eefd718a6bc542c41d5bc3d42fa21ecccc5b2a0787cd"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/Tokens.xml",
+          "size": 1235,
+          "sha256": "3c1914449c70d1525d7da22c993a62f397a7253e0708d6bea7c8487e396f1cbc"
+        },
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Alvaro-es-ESyrqo30uq.fud/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocEsES.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]3082"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "es-ES-AlvaroNeural",
+            "engine": "microsoft",
+            "bytes": 32851034,
+            "speaker": "es-ES-AlvaroNeural",
+            "contentId": "975434a0bea5c0ba",
+            "name": "Alvaro",
+            "minAppCode": 4169,
+            "locale": "es-ES",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 32852146
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "es-ES-AlvaroNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 750814123,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -115,7 +367,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750813541,
@@ -256,7 +509,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 750813029,
