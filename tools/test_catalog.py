@@ -18,6 +18,19 @@ class CatalogTests(unittest.TestCase):
   c,_=make(self.report,self.overrides,{"voices":[]});r=copy.deepcopy(self.report);r["archives"][0]["importer"]["models"][0]["contentId"]="e"*16
   newer,_=make(r,self.overrides,c);changed=[v for v in newer["voices"] if v["contentId"]=="e"*16][0];self.assertEqual(2,changed["packageVersion"]);self.assertEqual(1,len(changed["previousContents"]));again,_=make(r,self.overrides,newer);self.assertEqual(2,next(v for v in again["voices"] if v["id"]==changed["id"])["packageVersion"])
   bad=copy.deepcopy(self.overrides);bad[r["archives"][0]["sha256"]]={"provider":"google"};_,p=make(r,bad,c);self.assertTrue(p)
+ def test_regional_spanish_languages_are_excluded(self):
+  r=copy.deepcopy(self.report);a=copy.deepcopy(r["archives"][0]);a["sha256"]="e"*64;a["name"]="multiple-spanish-regional-models.zip"
+  codes=["eu-ES-AinhoaNeural","eu-ES-AnderNeural","ca-ES-EnricNeural","ca-ES-JoanaNeural","gl-ES-RoiNeural","gl-ES-SabelaNeural","es-ES-AbrilNeural","es-ES-AlvaroNeural","es-ES-ArnauNeural","es-ES-ElviraNeural","es-ES-JennyNeural"]
+  template=a["importer"]["models"][0];a["importer"]["models"]=[]
+  for index,code in enumerate(codes):
+   model=copy.deepcopy(template);model.update(engine="microsoft",code=code,locale=code[:5],name=code.split("-")[2].replace("Neural",""),contentId=f"{index:016x}");a["importer"]["models"].append(model)
+  r["archives"].append(a)
+  previous={"voices":[{"id":"microsoft-"+__import__("hashlib").sha256(("microsoft:"+code+"/unspecified").encode()).hexdigest()[:24],"code":code,"packageVersion":1,"contentId":"old"} for code in codes[:6]]}
+  catalog,problems=make(r,{},previous)
+  self.assertFalse(problems)
+  self.assertTrue(all(not any(v["code"]==code for v in catalog["voices"]) for code in codes[:6]))
+  self.assertTrue(all(any(v["code"]==code for v in catalog["voices"]) for code in codes[6:]))
+  self.assertEqual(11,len(catalog["voices"]))
  def test_deleted_asset_disappears(self):
   before,_=make(self.report,self.overrides,{"voices":[]});r=copy.deepcopy(self.report);removed=r['archives'].pop();c,_=make(r,self.overrides,before)
   self.assertEqual(5,len(c['voices']));self.assertFalse(any(v['sha256']==removed['sha256'] for v in c['voices']))

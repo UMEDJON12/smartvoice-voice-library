@@ -3,6 +3,12 @@ import re,hashlib,json,pathlib,urllib.parse,datetime
 import inspect_archives
 ROOT=pathlib.Path(".")
 PROVIDERS={"microsoft","google","vocalizer-folder"}
+# Keep regional-language ZIP assets downloadable, but omit them from the Spanish-only catalog.
+EXCLUDED_MICROSOFT_CODES={
+ "eu-ES-AinhoaNeural","eu-ES-AnderNeural",
+ "ca-ES-EnricNeural","ca-ES-JoanaNeural",
+ "gl-ES-RoiNeural","gl-ES-SabelaNeural",
+}
 def load(p,default):
  try:return json.loads(pathlib.Path(p).read_text())
  except FileNotFoundError:return default
@@ -36,6 +42,7 @@ def make(report,overrides,previous):
    problem={"assetId":archive["assetId"],"name":archive["name"],"reason":archive.get("importerError",archive.get("error","not compatible"))};problem.update(archive.get("importerDiagnostic",{}));problems.append(problem);continue
   override=overrides.get(archive["sha256"],{})
   for m in archive["importer"]["models"]:
+   if m["engine"]=="microsoft" and m["code"] in EXCLUDED_MICROSOFT_CODES:continue
    hint=dict(override);hint.update(override.get("models",{}).get(m["code"],{}));provider=m["engine"]
    if provider not in PROVIDERS:problems.append({"assetId":archive["assetId"],"reason":"unknown provider"});continue
    if hint.get("provider",provider)!=provider:problems.append({"assetId":archive["assetId"],"reason":"provider contradicts validated package"});continue
