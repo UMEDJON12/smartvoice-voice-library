@@ -2,6 +2,409 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 758610630,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Google_._._._hfd_._Seanet.zip",
+      "size": 19354676,
+      "assetUpdatedAt": "2026-11-17T10:30:30Z",
+      "sha256": "783055e5c07116423b48af9762a6bb152c97fa3e61da70a40399d2344c81d213",
+      "files": [
+        {
+          "path": "multivoice.json",
+          "size": 244,
+          "sha256": "48ac202051e58c32ee09757198368b46be64611d4e3e9678283ff0ab77bba5fb"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/backend_pipeline.pb",
+          "size": 1911,
+          "sha256": "7b55b2baa90a61444118b6847ee49c446e0bcbd95778c546cc4a44e02f230571"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/backend_pipeline.textproto",
+          "size": 5257,
+          "sha256": "b9509b1cf696c0a09ae68052d477dc4689015e8493b62a0bc21c7e56420c2035"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/burdock_model.params.pb",
+          "size": 4797,
+          "sha256": "05f5940c3704671e6b920a5e1df9de9c47863c9f9f495dc2040d18feee982756"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/burdock_valerian_model.tflite",
+          "size": 1648176,
+          "sha256": "fbb545f87b13d9015ae5e825e4ae4f767f98f1b835af7b8ef54226c13445626e"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "59d87576eab829c101f5f68fe4c31d8101bde7ea9ef0de4e7903d2e4407773b4"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/lettuce_node_generator_params_embedded_ua_runtime.pb",
+          "size": 1173,
+          "sha256": "7bf50720206a84c65dab06e7c941b164f10eb6a3fed58360fe404a70ef153d3f"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/package_options.textproto",
+          "size": 1517,
+          "sha256": "a98fca09a285598bd78a67d5e368a49dd6fe87ef11b1338cfb052e327f84d280"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/pipeline.pb",
+          "size": 15263,
+          "sha256": "1bc382c26b1c064a436d4cd48a0f9ec4825532c134a12021d70889e6a9ecb1ba"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/seanet_model.tflite",
+          "size": 2786320,
+          "sha256": "c9abd0504d2348f5a47cb097b7db0f086dcae9729effd9e626d80344302f7ee0"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/seanet_model_options.pb",
+          "size": 32,
+          "sha256": "9706457e2f7aa25209524cceb1439231b1d4fdf2ce4136b780f6377e788ac04a"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/uk_ua_phonology.pb",
+          "size": 4168,
+          "sha256": "09a08823e7084b54a1c009917acaaad52b55a7da62da2c8597573b3d9347e363"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/uk_ua_x_embedded_havoc.pipeline.pb",
+          "size": 14196,
+          "sha256": "9042a2a662cf509e98186b45f76a420f7c71e6480f0b64201b8f5950f2e7eef2"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/uk_ua_x_embedded_havoc_backend.pipeline.pb",
+          "size": 1728,
+          "sha256": "a4249c893c46b449b6c64482e98079c26658bb60ea0581a9612c263822097ca3"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-seanet-r57/uk_ua_x_embedded_havoc_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/affixes_en_gb_android.far",
+          "size": 39454,
+          "sha256": "ae7e266b19b9c55e622f9d4599a5da23f6badf1ee87d3824f23f991b9ad093b7"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/affixes_params_en_gb.pb",
+          "size": 402,
+          "sha256": "b19827cdd616c58a7df35fd1fe19ac5b77c35246cda424ac1e2f5cb66f8d0f7b"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/backend_pipeline.pb",
+          "size": 2041,
+          "sha256": "2799e555afc45c9ce82cfa43f4f1162719ab8e65187e829bf3ac13943d790273"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/backend_pipeline.textproto",
+          "size": 5704,
+          "sha256": "975932273fdef019552b9e86c714da6d2bf7bd73d5404d4d7def49ff678b769d"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/burdock_frame_config.pb",
+          "size": 68,
+          "sha256": "88c370a0992c51dd41d84c2cd0b95001a383ffd79227c92ea78884094bcd58ce"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/burdock_model.params.pb",
+          "size": 4797,
+          "sha256": "05f5940c3704671e6b920a5e1df9de9c47863c9f9f495dc2040d18feee982756"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/burdock_valerian_model.tflite",
+          "size": 1648176,
+          "sha256": "fbb545f87b13d9015ae5e825e4ae4f767f98f1b835af7b8ef54226c13445626e"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/chive_model_fused.pb",
+          "size": 1280,
+          "sha256": "59d87576eab829c101f5f68fe4c31d8101bde7ea9ef0de4e7903d2e4407773b4"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/converter_uk_ua_android.far",
+          "size": 1151,
+          "sha256": "65cd7bcadb81ef8d52f90109a80e70e1a1678cef852c5da3b6d6e2c3e28fbfd9"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/disambiguation_rules_en_gb.pb",
+          "size": 145156,
+          "sha256": "695c8336087b220bd266395e26ff937a0b710474654245448c6c0db02b2b8a4d"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/disambiguation_rules_uk_ua.pb",
+          "size": 88584,
+          "sha256": "4ddaf6897409aab6d04e90e05fc8080bc295e78d54354feced912fa9c2704b13"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/en_gb.hlex.bin",
+          "size": 3011104,
+          "sha256": "ec2de947e484f7e6d897b54346cbc92865ffeeeb2147a61d7238f93df33fd182"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/en_gb_phonology.pb",
+          "size": 2055,
+          "sha256": "7e088167e7178615f4011ad0b33b1f606ba885ca68314bb0ed8b7f7e8a7371df"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/en_gb_pronounce.far",
+          "size": 5040,
+          "sha256": "c1054a1c11b2bf80d03c19808bc678e7ebe9041198f4a2ae76473316e7b30802"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/g2p_m3_syls0_stress0_en-GB.fst",
+          "size": 546368,
+          "sha256": "6bd8ff4e4061334850beffbef34f869e2df9eb4f400e9241f644b0508a45b14c"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/g2p_m3_syls0_stress0_uk-UA.fst",
+          "size": 142912,
+          "sha256": "ae57cbe0315a1eadcf35f9e64123c1f63580a88bb6cdb969ecb37c0759c57399"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/graphones_en_gb.pb",
+          "size": 5650,
+          "sha256": "00db6c16628c932316d217fbc0c3db645bfe71752784f1aee50382c048f09213"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/graphones_pl_pl.pb",
+          "size": 3919,
+          "sha256": "39e1915f26147cf073e0790c20955dbbe3225cf38d7a8d69caf9a278399a7ea4"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/homographs_model_en_gb_embedded.bin",
+          "size": 352984,
+          "sha256": "790f68634d707cefb3cb7a617d2b2f78a87744cc96db550aa3b021f0c49053f5"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/homographs_model_uk_ua_embedded.bin",
+          "size": 640528,
+          "sha256": "53bdf81398df88cf677f57b84aa0877676d798603d5bd11bd0763aa7d322e251"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/ipa_to_tts_to-uk_ua.far",
+          "size": 77566,
+          "sha256": "6386a848530e5c20beae964eab3c27481b5be5f0a35c17b0c3daa5ea3b46dec0"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/lettuce_classify_embedded_ua_generated_android.far",
+          "size": 2960313,
+          "sha256": "42135c166372af35a89d47f7df901092c5cf5d6b84850f232f29dbc0d7019833"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/lettuce_model.fb",
+          "size": 606824,
+          "sha256": "6acc353df18cbcc65a0c81058b5ea0acabc0d25c409c8e641bd90f2548a7eaee"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/lettuce_node_generator_params_embedded_ua_runtime.pb",
+          "size": 1173,
+          "sha256": "7bf50720206a84c65dab06e7c941b164f10eb6a3fed58360fe404a70ef153d3f"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/lucid_collection_android.far",
+          "size": 8927,
+          "sha256": "db48570c8a8873a8d232512da7029011a1fa55b8f7bafc39fdb21d400f2b31bb"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/mapping_grammar_en.far",
+          "size": 863,
+          "sha256": "1888047cabec7bf85d8f02d27da3cf0648d654b4210a7747ca17eeb1a9df4337"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/mapping_grammar_uk.far",
+          "size": 1615,
+          "sha256": "d95261b8c7215b5120c4e37d3673b7273dc58420d7e52d413318fd8c7a8f4385"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/markup_triggers.pb",
+          "size": 930,
+          "sha256": "2360db3f5185b8f7b1533b15f6a72188c93f713aa73ba0aa54ddcb7d50f67609"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/morphosyntactic_mapping.pb",
+          "size": 713,
+          "sha256": "293102b5c15aeed6538499d9638c23b8490613ece5874760c294c92c6376b741"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/package_options.textproto",
+          "size": 1441,
+          "sha256": "5c357e8ab31342ba3b9282f42a9dd008751277e1cbaf68db249a7d08b5fbe0e4"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/pipeline.pb",
+          "size": 14502,
+          "sha256": "08733cdc6da6f25a1f48da5334c6e21d0299128bdfefc9bc0c4a4a28a43dcdbd"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/punctuation.pb",
+          "size": 452,
+          "sha256": "53aa4c98937b771c7a775efd4d00389298ce9735432524d832f2a08889d623ed"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/regexp_rewrite.pb",
+          "size": 46629,
+          "sha256": "b2136a51b76d9fc55af0a113657c525eb007a557e6c3bc9c0a3ddd53b5183f72"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/sb_model.bin",
+          "size": 323408,
+          "sha256": "f35147e62f0dbf9fdecf672c35eddf80708300992f3ccbb031cfd88ffe69f991"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/textnorm_params_embedded_en_gb.pb",
+          "size": 313,
+          "sha256": "6b5540a883ec2683f233da7a2899d1cdf2e8a3b6c01036dbcbe031d9e79643b8"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/textnorm_params_embedded_uk_ua.pb",
+          "size": 137,
+          "sha256": "339e8a63134c9d262ff817a965b5efda841f10b7d420bc693c57c93ab0e37f1d"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/transliterate_android.far",
+          "size": 3255320,
+          "sha256": "5a9652eb151d08900933eebe726f2cad19b6d96b01391f862a163302718b03be"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/tts_en_gb-to-uk_ua.far",
+          "size": 8920,
+          "sha256": "de9203aabe10ca31fe65ad0911d212cea771aa14f77244c450cd5e649c72c255"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/tts_pl_pl-to-uk_ua.far",
+          "size": 2360,
+          "sha256": "543b5bef5f844f605e0a77beb84506b4927111c44c4fc9b10c4d84167c187a16"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/ua_verbalization_capabilities.pb",
+          "size": 222,
+          "sha256": "a5ea6e21ea2cadfe95151045a0913afc017fe9e4937c1b2e9c27aa792fabc0f4"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/uk_morphology",
+          "size": 1745994,
+          "sha256": "c6f3dc8304c5313099b25e57b1148ea849bef50d7385822b24b507415c112d1b"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/uk_ua.hlex.bin",
+          "size": 1495416,
+          "sha256": "6d9efeeefd8571afee27f1d876c34c296fcbe17897a9cdfcffc702ec31f5bfd9"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/uk_ua_phonology.pb",
+          "size": 4168,
+          "sha256": "09a08823e7084b54a1c009917acaaad52b55a7da62da2c8597573b3d9347e363"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/uk_ua_x_embedded_valerian_vocoded.pipeline.pb",
+          "size": 14315,
+          "sha256": "f6717108cf954a532c36faa31d25e8715aa84747dd8f2a0c22b0141983f6f073"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/uk_ua_x_embedded_valerian_vocoded_backend.pipeline.pb",
+          "size": 1847,
+          "sha256": "f4b78e384ab85d7c61430177e9c51e44f1500193d3383f835e23cfcc408320c7"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/uk_ua_x_embedded_valerian_vocoded_backend_engine_config.pb",
+          "size": 54,
+          "sha256": "eaed1a9e19f58b0fd28d7386dc42016c4cf99278a69c6a9ed5ed53c9efadf172"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/uk_verbalize_spec.pb",
+          "size": 5868,
+          "sha256": "5b8663f034b376904331fc634dc419d164f48bcc28845930e225d25a698f62b9"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/variant_overrides_en_gb.pb",
+          "size": 1543,
+          "sha256": "f59e1d345ccf4021d48d5c5d0a095d7f84811c2cb5b655504cddd651a4ed005e"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/variant_overrides_ua.pb",
+          "size": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/variant_selection_model_en_gb_embedded.bin",
+          "size": 143208,
+          "sha256": "d48911b18a76d956a9c2927be6579314506910f4cdabb382ea4ac312e3409c7e"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/verbalize_android.far",
+          "size": 7409960,
+          "sha256": "e54311012ff148d2d1753cd0e7a5d4d78f8f5571886b1312c8dd198c8049183e"
+        },
+        {
+          "path": "google/uk-ua/uk-ua-x-multi-r57/xsampa_to_tts_to-uk_ua.far",
+          "size": 6292,
+          "sha256": "8c406564646ac2a796777ee9e6db908b3945e6ac02ed6e1bc2a4391ab8c9a930"
+        }
+      ],
+      "voices": [
+        {
+          "engine": "google",
+          "code": "uk-ua-x-multi-seanet-r57__hfd",
+          "locale": "uk-UA",
+          "name": "hfd — Seanet",
+          "folder": "google/uk-ua/uk-ua-x-multi-seanet-r57",
+          "id": "27317b99b7264448"
+        }
+      ],
+      "tokens": [],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "uk-ua-x-multi-seanet-r57__hfd",
+            "engine": "google",
+            "bytes": 29274606,
+            "speaker": "hfd",
+            "contentId": "27317b99b7264448",
+            "name": "hfd — Seanet",
+            "minAppCode": 4169,
+            "locale": "uk-UA",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "SmartVoice/MultiVoice model package",
+        "unpackedBytes": 29275187
+      },
+      "detectedFormat": "SmartVoice/MultiVoice model package",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "uk-ua-x-multi-seanet-r57__hfd",
+          "status": "unavailable",
+          "stage": "renderer-availability",
+          "errorCode": "AndroidNativeRuntimeRequired",
+          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 758357538,
       "releaseId": 434895762,
       "tag": "voices-001",

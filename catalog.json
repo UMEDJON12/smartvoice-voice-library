@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T09:07:33.563229+00:00",
+  "generatedAt": "2026-11-17T10:30:52.409723+00:00",
   "voices": [
     {
       "id": "google-47f4b0ee23f3d82e07432ca1",
@@ -1042,6 +1042,42 @@
         "platform": "android-arm",
         "sdkVersion": "",
         "androidTested": true
+      }
+    },
+    {
+      "id": "google-10a8bda6ffe48bc5afe8c580",
+      "modelId": "google:uk-ua-x-multi-seanet-r57__hfd",
+      "provider": "google",
+      "code": "uk-ua-x-multi-seanet-r57__hfd",
+      "contentId": "27317b99b7264448",
+      "name": "hfd — Seanet",
+      "locale": "uk-UA",
+      "synthesisLocale": "uk-UA",
+      "gender": "",
+      "quality": "unspecified",
+      "variant": "unspecified",
+      "sizeBytes": 19354676,
+      "unpackedBytes": 29275187,
+      "filename": "Google_._._._hfd_._Seanet.zip",
+      "sha256": "783055e5c07116423b48af9762a6bb152c97fa3e61da70a40399d2344c81d213",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/Google_._._._hfd_._Seanet.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 26,
+      "verificationStatus": "verified",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
       }
     },
     {
