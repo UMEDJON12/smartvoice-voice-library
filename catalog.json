@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T14:51:43.291905+00:00",
+  "generatedAt": "2026-11-17T09:06:22.529328+00:00",
   "voices": [
     {
       "id": "google-47f4b0ee23f3d82e07432ca1",
@@ -2584,6 +2584,42 @@
         "platform": "linux-x64",
         "sdkVersion": "1.45.0",
         "androidTested": false
+      }
+    },
+    {
+      "id": "microsoft-fb7fa24fba3cd582d4188896",
+      "modelId": "microsoft:uk-UA-PolinaNeural",
+      "provider": "microsoft",
+      "code": "uk-UA-PolinaNeural",
+      "contentId": "546c53ef6dbb553e",
+      "name": "Polina",
+      "locale": "uk-UA",
+      "synthesisLocale": "uk-UA",
+      "gender": "",
+      "quality": "unspecified",
+      "variant": "unspecified",
+      "sizeBytes": 11069362,
+      "unpackedBytes": 17270369,
+      "filename": "Polina-uk-UA.zip",
+      "sha256": "9183bda15a199a387989403cd611d2c506533345c85d5b3111f689a2552d1ef8",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/Polina-uk-UA.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 26,
+      "verificationStatus": "verified",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
       }
     },
     {

@@ -2,6 +2,127 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 758353119,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Polina-uk-UA.zip",
+      "size": 11069362,
+      "assetUpdatedAt": "2026-11-17T09:05:55Z",
+      "sha256": "9183bda15a199a387989403cd611d2c506533345c85d5b3111f689a2552d1ef8",
+      "files": [
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/1058.INI",
+          "size": 719,
+          "sha256": "c74fb7ec74667cf1acd12f8c58c1ca388a295b3327ba934e412bd640b77e4751"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "d40735b8bb3debcf3cd4d6359fd867a5ca121672a6a82c0d06c46a6953e74ec7"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/am_v5_encoder.bin",
+          "size": 2156052,
+          "sha256": "0f6db9b9b16216dd3cb4febfc75d8bb183cffa6aabf4fe3d7eaff0997702b29b"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "090def4982e09c764b62b8f44168b0f3b5926f6815ab9d1c9e429ca9741a7d02"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/MSTTSLocUkUA.dat",
+          "size": 2121088,
+          "sha256": "e3f7d7bc0a714a3d78577f83366cc5fae69d235b34ba500140e21638f1ebe0c7"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/MSTTSLocUkUA.ini",
+          "size": 1352,
+          "sha256": "0ad278bce186ce708558ad4618ba5eec96e3df11316f7c131e5fcee392dde22f"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/phones.txt",
+          "size": 504,
+          "sha256": "9f8c5e7ad37d29051ce483e12f5a60445a405d30b659efcc8df3f886ac00977b"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/punc.txt",
+          "size": 219,
+          "sha256": "76ac35b742505dcd1b41d9fc97d50d6263c3b7269d383c46471827f110d93354"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/Tokens.xml",
+          "size": 1133,
+          "sha256": "80eebef2d8a5725ac3b48962373f12aced2f10aa3b636fe4ad00e80642449aa1"
+        },
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Polina-uk-UAxr22xnek.35m/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocUkUA.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1058"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "uk-UA-PolinaNeural",
+            "engine": "microsoft",
+            "bytes": 17269257,
+            "speaker": "uk-UA-PolinaNeural",
+            "contentId": "546c53ef6dbb553e",
+            "name": "Polina",
+            "minAppCode": 4169,
+            "locale": "uk-UA",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 17270369
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "uk-UA-PolinaNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 751322207,
       "releaseId": 434895762,
       "tag": "voices-001",
