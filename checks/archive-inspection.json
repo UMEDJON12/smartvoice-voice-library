@@ -2,6 +2,122 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 758357538,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Aigul-kk-KZ.zip",
+      "size": 4766048,
+      "assetUpdatedAt": "2026-11-17T09:07:06Z",
+      "sha256": "3463b6ce4dc8b168ea57ce7b3d12448641abab0c8e39a5c2e6c63951f30ed5b6",
+      "files": [
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/1087.INI",
+          "size": 669,
+          "sha256": "9b69764aec8bdb6beafc749f0095681506f55cda6d2fecbcfe98d2915b7ba24d"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "3211e2685f6b5a4fe6c0100b509350a986407e671c4590500e09c7c664da17f5"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/am_v5_encoder.bin",
+          "size": 2136597,
+          "sha256": "1922cf497e9294e3df98b865a966b7647452d83c748a2b7d8225e3133d4f64dd"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "f985e1bc1601471843269e1d11f0d58cf136268753ce7e93d9b611e005ce6f3b"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/MSTTSLocKkKZ.dat",
+          "size": 651032,
+          "sha256": "16d22b391d546d0f64ccc81c21a3f95f68a498dd0cda2d5b9f48cfdcbfd760ff"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/MSTTSLocKkKZ.ini",
+          "size": 1446,
+          "sha256": "88be4d71199c7cc0f9ffb797fb01949941377290458521714e6fa1834cd2ce7f"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/phones.txt",
+          "size": 717,
+          "sha256": "bd2891db1c145a5a2b1c655998757eeb2363fd965bbb965b3bc9ca008f9022c2"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/Tokens.xml",
+          "size": 1240,
+          "sha256": "a851ae5e5029fbb87e9f5742680f08578ae707c6895c5af0a598a1fe6116ca89"
+        },
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Aigul-kk-KZtguloalr.cs3/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocKkKZ.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1087"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "kk-KZ-AigulNeural",
+            "engine": "microsoft",
+            "bytes": 5993054,
+            "speaker": "kk-KZ-AigulNeural",
+            "contentId": "b5016a32beeced8c",
+            "name": "Aigul",
+            "minAppCode": 4169,
+            "locale": "kk-KZ",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 5994161
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "kk-KZ-AigulNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 758356720,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -115,7 +231,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 758354470,
@@ -236,7 +353,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 758353119,
