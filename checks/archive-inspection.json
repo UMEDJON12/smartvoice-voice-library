@@ -2,6 +2,243 @@
   "schemaVersion": 1,
   "archives": [
     {
+      "assetId": 758356720,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Daulet-kk-KZ.zip",
+      "size": 4737201,
+      "assetUpdatedAt": "2026-11-17T09:06:50Z",
+      "sha256": "e22bd886ee19656779ae56752b1f2f4e357e3dc2c0a2f4e8f36a994204fa5570",
+      "files": [
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/1087.INI",
+          "size": 669,
+          "sha256": "9b69764aec8bdb6beafc749f0095681506f55cda6d2fecbcfe98d2915b7ba24d"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "d655d4d82af0235641cd22058a58dcc786ed7f34c0675a29a0bc4fb1c8955d9f"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/am_v5_encoder.bin",
+          "size": 2136596,
+          "sha256": "4fe84591f1366179a15a3e72ce6f750eb8ae44363a7fcc1ae9d761cc69fada11"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "8bd1a89e635c086f37e8d9343e2c3817e5901d9d7b7e17cb2a11364a1524e436"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/MSTTSLocKkKZ.dat",
+          "size": 651032,
+          "sha256": "16d22b391d546d0f64ccc81c21a3f95f68a498dd0cda2d5b9f48cfdcbfd760ff"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/MSTTSLocKkKZ.ini",
+          "size": 1446,
+          "sha256": "88be4d71199c7cc0f9ffb797fb01949941377290458521714e6fa1834cd2ce7f"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/phones.txt",
+          "size": 717,
+          "sha256": "bd2891db1c145a5a2b1c655998757eeb2363fd965bbb965b3bc9ca008f9022c2"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/punc.txt",
+          "size": 195,
+          "sha256": "791b84cff78da08ad2892b85d61b9a1c5ce2d8e895abfc7d0c3dc1815b10b903"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/Tokens.xml",
+          "size": 1242,
+          "sha256": "8259750cbbe6596a8ec4e55ae5c25628667d9636cb063727162b7becb81be2a0"
+        },
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Daulet-kk-KZc2uzqzmk.0yd/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocKkKZ.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1087"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "kk-KZ-DauletNeural",
+            "engine": "microsoft",
+            "bytes": 5993055,
+            "speaker": "kk-KZ-DauletNeural",
+            "contentId": "9258fb2c223f8f88",
+            "name": "Daulet",
+            "minAppCode": 4169,
+            "locale": "kk-KZ",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 5994167
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "kk-KZ-DauletNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
+      "assetId": 758354470,
+      "releaseId": 434895762,
+      "tag": "voices-001",
+      "draft": false,
+      "name": "Ostap-uk-UA.zip",
+      "size": 11021412,
+      "assetUpdatedAt": "2026-11-17T09:06:34Z",
+      "sha256": "6a2b8f086442bb22c999a372d3ccfbd1f278f33acc4190ff4acff6434faa0978",
+      "files": [
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/1058.INI",
+          "size": 719,
+          "sha256": "c74fb7ec74667cf1acd12f8c58c1ca388a295b3327ba934e412bd640b77e4751"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/am_v5_decoder.bin",
+          "size": 746391,
+          "sha256": "f995ace163fccfa05b2cf137cbeb46c673b694b90221098e0407563be42132dd"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/am_v5_encoder.bin",
+          "size": 2156052,
+          "sha256": "91b14314a5c09d271c148f47d68ed89187f91df1d9888203a226a09ca94b834d"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/device_vocoder_v6_streaming.bin",
+          "size": 2454756,
+          "sha256": "3f59ae55aef8d6cc0ef9d83865b35c842545bec3a9db79d41431a64bb3eef990"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/MSTTSLocEnUS.dat",
+          "size": 9787032,
+          "sha256": "2b63d21406f3254ce2ccec3a54ae2310545cd1d4dd71c2eafe476aea03f09e61"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/MSTTSLocUkUA.dat",
+          "size": 2121088,
+          "sha256": "e3f7d7bc0a714a3d78577f83366cc5fae69d235b34ba500140e21638f1ebe0c7"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/MSTTSLocUkUA.ini",
+          "size": 1352,
+          "sha256": "0ad278bce186ce708558ad4618ba5eec96e3df11316f7c131e5fcee392dde22f"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/phones.txt",
+          "size": 504,
+          "sha256": "9f8c5e7ad37d29051ce483e12f5a60445a405d30b659efcc8df3f886ac00977b"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/punc.txt",
+          "size": 219,
+          "sha256": "76ac35b742505dcd1b41d9fc97d50d6263c3b7269d383c46471827f110d93354"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/Tokens.xml",
+          "size": 1128,
+          "sha256": "e4cd28406d5e608ab8447793798cc06732b771b71777518ed7b18e2ca53e9c0f"
+        },
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/version.txt",
+          "size": 11,
+          "sha256": "d3cdaab3283e7ac52ce4449a733686660c33f32661030afc86515b454bbc5829"
+        }
+      ],
+      "voices": [],
+      "tokens": [
+        {
+          "path": "Ostap-uk-UAt4nxwur4.smu/Tokens.xml",
+          "attributes": [
+            {
+              "name": "LangDataPath",
+              "value": "[INSTALLDIR]MSTTSLocUkUA.dat"
+            },
+            {
+              "name": "VoicePath",
+              "value": "[INSTALLDIR]1058"
+            }
+          ]
+        }
+      ],
+      "headers": [],
+      "zipVerified": true,
+      "importer": {
+        "synthesisTested": false,
+        "models": [
+          {
+            "code": "uk-UA-OstapNeural",
+            "engine": "microsoft",
+            "bytes": 17269252,
+            "speaker": "uk-UA-OstapNeural",
+            "contentId": "ca01b73ee2bd641f",
+            "name": "Ostap",
+            "minAppCode": 4169,
+            "locale": "uk-UA",
+            "quality": "unspecified"
+          }
+        ],
+        "validatorVersion": "5.2.55",
+        "format": "Microsoft Tokens.xml folder",
+        "unpackedBytes": 17270359
+      },
+      "detectedFormat": "Microsoft Tokens.xml folder",
+      "validationFingerprint": "955524404715ae826e2a4260a745f6c7ac65b50a88cd7d774ab1029cc31e981c",
+      "validation": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "androidPlayback": false,
+        "screenReader": false
+      },
+      "sampleGeneration": [
+        {
+          "code": "uk-UA-OstapNeural",
+          "status": "unavailable",
+          "errorCode": "No reviewed sample text"
+        }
+      ],
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+    },
+    {
       "assetId": 758353119,
       "releaseId": 434895762,
       "tag": "voices-001",
@@ -120,7 +357,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 751322207,

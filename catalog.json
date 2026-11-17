@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T09:06:22.529328+00:00",
+  "generatedAt": "2026-11-17T09:06:59.772501+00:00",
   "voices": [
     {
       "id": "google-47f4b0ee23f3d82e07432ca1",
@@ -2214,6 +2214,42 @@
       }
     },
     {
+      "id": "microsoft-65df4ef2b96b51314c26a929",
+      "modelId": "microsoft:kk-KZ-DauletNeural",
+      "provider": "microsoft",
+      "code": "kk-KZ-DauletNeural",
+      "contentId": "9258fb2c223f8f88",
+      "name": "Daulet",
+      "locale": "kk-KZ",
+      "synthesisLocale": "kk-KZ",
+      "gender": "",
+      "quality": "unspecified",
+      "variant": "unspecified",
+      "sizeBytes": 4737201,
+      "unpackedBytes": 5994167,
+      "filename": "Daulet-kk-KZ.zip",
+      "sha256": "e22bd886ee19656779ae56752b1f2f4e357e3dc2c0a2f4e8f36a994204fa5570",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/Daulet-kk-KZ.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 26,
+      "verificationStatus": "verified",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
+      }
+    },
+    {
       "id": "microsoft-8935550b2d37b55454bf2cb9",
       "modelId": "microsoft:ps-AF-GulNawazNeural",
       "provider": "microsoft",
@@ -2584,6 +2620,42 @@
         "platform": "linux-x64",
         "sdkVersion": "1.45.0",
         "androidTested": false
+      }
+    },
+    {
+      "id": "microsoft-979efc76e12207d5ed38c92e",
+      "modelId": "microsoft:uk-UA-OstapNeural",
+      "provider": "microsoft",
+      "code": "uk-UA-OstapNeural",
+      "contentId": "ca01b73ee2bd641f",
+      "name": "Ostap",
+      "locale": "uk-UA",
+      "synthesisLocale": "uk-UA",
+      "gender": "",
+      "quality": "unspecified",
+      "variant": "unspecified",
+      "sizeBytes": 11021412,
+      "unpackedBytes": 17270359,
+      "filename": "Ostap-uk-UA.zip",
+      "sha256": "6a2b8f086442bb22c999a372d3ccfbd1f278f33acc4190ff4acff6434faa0978",
+      "downloadUrl": "https://github.com/UMEDJON12/smartvoice-voice-library/releases/download/voices-001/Ostap-uk-UA.zip",
+      "packageVersion": 1,
+      "minAppCode": 4169,
+      "minSdk": 26,
+      "verificationStatus": "verified",
+      "verificationScope": "ZIP, required resources and SmartVoice import checked; native/audio/Android results are recorded separately in verification",
+      "published": true,
+      "releaseTag": "voices-001",
+      "sampleUrl": "",
+      "previousContents": [],
+      "verification": {
+        "zip": true,
+        "resources": true,
+        "import": true,
+        "nativeSynthesis": false,
+        "audioSample": false,
+        "androidPlayback": false,
+        "screenReader": false
       }
     },
     {
