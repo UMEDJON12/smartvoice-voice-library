@@ -115,7 +115,8 @@
           "errorCode": "No reviewed sample text"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0"
+      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "inspectionCacheHit": true
     },
     {
       "assetId": 758356720,
