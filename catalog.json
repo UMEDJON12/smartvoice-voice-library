@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T10:30:52.409723+00:00",
+  "generatedAt": "2026-11-17T12:34:17.269560+00:00",
   "voices": [
     {
       "id": "google-47f4b0ee23f3d82e07432ca1",
@@ -1884,10 +1884,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-fed9bdf1d5f3a56b51940c2c.mp3",
+      "sampleSha256": "c592b6d559335b426ece819d7dfee8211096ab497edf8bdff4a8772ed983b411",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -1920,10 +1927,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-ab13deaa5a8f8b413a573a38.mp3",
+      "sampleSha256": "d1a2ca06cdf23e3f1fb0f7a9b91659f478cab78a7e8a767a2b2decca89f6b6a2",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -1956,10 +1970,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-a87ad5997e1a5941b045cedb.mp3",
+      "sampleSha256": "260546a353ba66ae2f50f86c79229a801f6db1e495195ae79aeb7461d1aff56b",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -1992,10 +2013,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-303579484f9245cd6c77fa71.mp3",
+      "sampleSha256": "1f61eca55079d974c51fb4ea223c3941d39983aad7f770559aecc6bda4b725fd",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -2028,10 +2056,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-8736c6c91a7be77bda9c4d86.mp3",
+      "sampleSha256": "6d4cf1df2c011b3d041bff7c8d60ac88dca060908cb90f34fa60e6f78bfc13da",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -2279,10 +2314,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-6b4c8a06180fdb2ac8780610.mp3",
+      "sampleSha256": "739ab1a4ca4dc37a5510db9aa1656912ad7f1462442c78a5e641bfef862d834c",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -2315,10 +2357,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-d334cf1dfcaa0e0780f1e255.mp3",
+      "sampleSha256": "009e34fdd4047031f155538f05065648910256a8f8a7e330187d87a38c778a33",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -2351,10 +2400,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-a5d6c7f8c0553956ab7725ad.mp3",
+      "sampleSha256": "8bffb502b09d156f2d6c0607b64e044473fdfecd06bc1b5660aa0732819aefb8",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -2387,10 +2443,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-73ade8c635ea8b07ed944110.mp3",
+      "sampleSha256": "ce7d5f0a8a05f4b952babafd0e865c514af757c6350c353139fc9816619b6160",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -2724,10 +2787,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-cf7c9c153d3d280895e55ede.mp3",
+      "sampleSha256": "9379c15cc9065d7292d100abe3e7fc36975853306bcf12de7b4bec6181e6f1aa",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {
@@ -2760,10 +2830,17 @@
         "zip": true,
         "resources": true,
         "import": true,
-        "nativeSynthesis": false,
-        "audioSample": false,
+        "nativeSynthesis": true,
+        "audioSample": true,
         "androidPlayback": false,
         "screenReader": false
+      },
+      "sampleUrlV2": "https://raw.githubusercontent.com/UMEDJON12/smartvoice-voice-library/main/samples/microsoft-f36ddd84e6d1a5b3b7d1152c.mp3",
+      "sampleSha256": "bf99ef7b88249983bfdc04e338d546f1fd4731e724a2adff74c56730d29df054",
+      "sampleSource": {
+        "platform": "linux-x64",
+        "sdkVersion": "1.45.0",
+        "androidTested": false
       }
     },
     {

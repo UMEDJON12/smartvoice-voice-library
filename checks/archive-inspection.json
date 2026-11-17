@@ -402,7 +402,7 @@
           "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -515,11 +515,11 @@
       "sampleGeneration": [
         {
           "code": "kk-KZ-AigulNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-6b4c8a06180fdb2ac8780610.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -632,11 +632,11 @@
       "sampleGeneration": [
         {
           "code": "kk-KZ-DauletNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-d334cf1dfcaa0e0780f1e255.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -754,11 +754,11 @@
       "sampleGeneration": [
         {
           "code": "uk-UA-OstapNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-cf7c9c153d3d280895e55ede.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -876,11 +876,11 @@
       "sampleGeneration": [
         {
           "code": "uk-UA-PolinaNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-f36ddd84e6d1a5b3b7d1152c.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -993,11 +993,11 @@
       "sampleGeneration": [
         {
           "code": "ps-AF-GulNawazNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-a5d6c7f8c0553956ab7725ad.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -1110,11 +1110,11 @@
       "sampleGeneration": [
         {
           "code": "ps-AF-LatifaNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-73ade8c635ea8b07ed944110.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -1252,11 +1252,11 @@
       "sampleGeneration": [
         {
           "code": "es-ES-AbrilNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-fed9bdf1d5f3a56b51940c2c.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -1369,11 +1369,11 @@
       "sampleGeneration": [
         {
           "code": "eu-ES-AinhoaNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-0d45fd5a3e164622a382f577.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -1506,11 +1506,11 @@
       "sampleGeneration": [
         {
           "code": "es-ES-AlvaroNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-ab13deaa5a8f8b413a573a38.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -1623,11 +1623,11 @@
       "sampleGeneration": [
         {
           "code": "eu-ES-AnderNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-a2b9bfbb91dde3fec7eeba46.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -1765,11 +1765,11 @@
       "sampleGeneration": [
         {
           "code": "es-ES-ArnauNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-a87ad5997e1a5941b045cedb.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -1907,11 +1907,11 @@
       "sampleGeneration": [
         {
           "code": "es-ES-ElviraNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-303579484f9245cd6c77fa71.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -2024,11 +2024,11 @@
       "sampleGeneration": [
         {
           "code": "ca-ES-EnricNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-960a69f8f4e95431f30d6384.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -2166,11 +2166,11 @@
       "sampleGeneration": [
         {
           "code": "es-ES-JennyNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-8736c6c91a7be77bda9c4d86.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -2283,11 +2283,11 @@
       "sampleGeneration": [
         {
           "code": "ca-ES-JoanaNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-a1f5ff1151fdfc230e53198f.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -2400,11 +2400,11 @@
       "sampleGeneration": [
         {
           "code": "gl-ES-RoiNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-00746825a84d09f08392dd0f.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -2517,11 +2517,11 @@
       "sampleGeneration": [
         {
           "code": "gl-ES-SabelaNeural",
-          "status": "unavailable",
-          "errorCode": "No reviewed sample text"
+          "status": "available",
+          "file": "microsoft-ba164ae7a0af6cc3e518f2d7.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -2641,13 +2641,11 @@
       "sampleGeneration": [
         {
           "code": "rur/milena/full/vssq5f22",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-75fbdf208d200a81c8595fc1.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -2767,13 +2765,11 @@
       "sampleGeneration": [
         {
           "code": "rur/yuri/full/vssq5f22",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-ca14de21bb62c71568716dfe.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -2915,13 +2911,11 @@
       "sampleGeneration": [
         {
           "code": "rur/milena/premium-high",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-65147c2a2b137bed6daffc67.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -3063,13 +3057,11 @@
       "sampleGeneration": [
         {
           "code": "rur/yuri/premium-high",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-8fab303f09b1acb9e3de94a5.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -3457,13 +3449,11 @@
       "sampleGeneration": [
         {
           "code": "ar-xa-x-multi-seanet-r47__arb",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-2ae318631f13dd98f48f4709.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -3851,13 +3841,11 @@
       "sampleGeneration": [
         {
           "code": "ar-xa-x-multi-seanet-r47__ard",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-bb0f62b9e1187a40d09386f6.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -4245,13 +4233,11 @@
       "sampleGeneration": [
         {
           "code": "ar-xa-x-multi-seanet-r47__are",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-ea9f4fde01e5bb645d426259.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -4639,13 +4625,11 @@
       "sampleGeneration": [
         {
           "code": "ar-xa-x-multi-seanet-r47__arz",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-76e39b28334aa5c5ce1ed5f6.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -5018,13 +5002,11 @@
       "sampleGeneration": [
         {
           "code": "en-gb-x-multi-locomel-r69__gba",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-619b2876bdbad3993c234554.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -5397,13 +5379,11 @@
       "sampleGeneration": [
         {
           "code": "en-gb-x-multi-locomel-r69__gbg",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-893095b009b011b680709d1c.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -5761,13 +5741,11 @@
       "sampleGeneration": [
         {
           "code": "en-gb-x-multi-seanet-r69__fis",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-534e9162936c42fcba7294eb.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -6020,13 +5998,11 @@
       "sampleGeneration": [
         {
           "code": "tr-tr-x-multi-r57__mfm",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-0fd8ffba4e0b5f77b6346f23.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -6354,13 +6330,11 @@
       "sampleGeneration": [
         {
           "code": "tr-tr-x-multi-seanet-r57__ama",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-f1644f0f8ef027a6447c145f.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -6688,13 +6662,11 @@
       "sampleGeneration": [
         {
           "code": "tr-tr-x-multi-seanet-r57__amd",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-7dae90678a10a87d4182cae9.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -7022,13 +6994,11 @@
       "sampleGeneration": [
         {
           "code": "tr-tr-x-multi-seanet-r57__tmc",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-71eac507f53fc980d6178fad.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -7281,13 +7251,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-r57__rua",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-b968007c51dacd3d08a7ff9d.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -7540,13 +7508,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-r57__rub",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-fd43007e738db5e7ba786efb.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -7799,13 +7765,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-r57__ruc",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-bc804f930306800d8bd0abfc.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -8058,13 +8022,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-r57__rud",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-88b5560efa78b8fe7a4895c8.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -8317,13 +8279,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-r57__rue",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-5369f6a756a5a3043253fd3e.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -8576,13 +8536,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-r57__ruf",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-75338fe4ae5bcde27cb2f2f1.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -8915,13 +8873,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-seanet-r57__dfc",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-848827e735b07076a46068e1.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -9254,13 +9210,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-seanet-r57__rua",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-9c230068c6fe23bb2372aede.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -9593,13 +9547,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-seanet-r57__rub",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-995812f1dbcb7776c873c581.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -9932,13 +9884,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-seanet-r57__ruc",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-0b2afdc8e1b8ddf9b96e4f0b.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -10271,13 +10221,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-seanet-r57__rud",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-ea2ed740b1498c40aa8a0fe7.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -10610,13 +10558,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-seanet-r57__rue",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-9ef2ffe1e9bab50b57f0cfa8.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -10949,13 +10895,11 @@
       "sampleGeneration": [
         {
           "code": "ru-ru-x-multi-seanet-r57__ruf",
-          "status": "unavailable",
-          "stage": "renderer-availability",
-          "errorCode": "AndroidNativeRuntimeRequired",
-          "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
+          "status": "available",
+          "file": "android-ae84b445dd87afeb2271a821.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -11294,7 +11238,7 @@
           "reason": "This exact local model requires the bundled Android ARM native runtime; no compatible host renderer is available. Capture through SmartVoice on Android; never substitute a cloud or different voice."
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -11441,7 +11385,7 @@
           "file": "microsoft-19f8e6ca40c01375cc3bf4a3.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -11588,7 +11532,7 @@
           "file": "microsoft-7d6b6d7bd84551c1cf6d3655.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -11735,7 +11679,7 @@
           "file": "microsoft-09ff554d842231ee13e66b96.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -11882,7 +11826,7 @@
           "file": "microsoft-ae561c3d754a7baba0887e5e.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -12029,7 +11973,7 @@
           "file": "microsoft-5af8b589b1f66a2bce1d9bff.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -12176,7 +12120,7 @@
           "file": "microsoft-62f662bff8f2bfc3aa7dc334.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -12323,7 +12267,7 @@
           "file": "microsoft-f12c8bcdf645df9179075bae.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -12470,7 +12414,7 @@
           "file": "microsoft-e352490b9ebc06cf54fd7099.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -12617,7 +12561,7 @@
           "file": "microsoft-acdfce438d92f1d2cae283b8.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -12764,7 +12708,7 @@
           "file": "microsoft-aaaa6acaf650dfc555a9d2ac.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -12911,7 +12855,7 @@
           "file": "microsoft-4605da60452d7045013a942e.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -13073,7 +13017,7 @@
           "file": "microsoft-767cdb43349524ed2a285f1d.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -13240,7 +13184,7 @@
           "file": "microsoft-2583e9486b9d982ebd0d2908.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -13402,7 +13346,7 @@
           "file": "microsoft-4a02b08b832d1bb62c50a665.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -13569,7 +13513,7 @@
           "file": "microsoft-60abb08ea91fbf9318883ed0.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -13736,7 +13680,7 @@
           "file": "microsoft-889b2cb7ca06871ab0648311.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -13853,7 +13797,7 @@
           "file": "microsoft-edbcce290a67501d382d570e.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -13970,7 +13914,7 @@
           "file": "microsoft-7f77177996a7626e890f4f51.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -14087,7 +14031,7 @@
           "file": "microsoft-7a536e2288f1cc3eee7092b8.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -14224,7 +14168,7 @@
           "file": "microsoft-ac7610760b8d00674459f016.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -14361,7 +14305,7 @@
           "file": "microsoft-861e19ac08af089d9d44e746.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -14503,7 +14447,7 @@
           "file": "microsoft-0df73e00d6bf22ac1ad9ccd8.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -14645,7 +14589,7 @@
           "file": "microsoft-a4555cc48b76ded46796d002.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -14782,7 +14726,7 @@
           "file": "microsoft-88718e43be0157f3598e8acd.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -14919,7 +14863,7 @@
           "file": "microsoft-a79aa8d212b43553cba0517e.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -15056,7 +15000,7 @@
           "file": "microsoft-cb06ec786ad2ed9e798e32ec.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -15193,7 +15137,7 @@
           "file": "microsoft-cc4c0bb9935c7f13d6eb0f21.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -15355,7 +15299,7 @@
           "file": "microsoft-9857000e087eff3e3cbfc1f1.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -15522,7 +15466,7 @@
           "file": "microsoft-4988674a78df7c8c75eeb5e4.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -15684,7 +15628,7 @@
           "file": "microsoft-9857000e087eff3e3cbfc1f1.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -15821,7 +15765,7 @@
           "file": "microsoft-a8cbab94b23b90d9e95f2dc2.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -15983,7 +15927,7 @@
           "file": "microsoft-920ab73fc3d016144b216d84.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -16145,7 +16089,7 @@
           "file": "microsoft-624b5cbd24abce8f2b097efe.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -16307,7 +16251,7 @@
           "file": "microsoft-7959f1ee748f748791c4d462.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -16444,7 +16388,7 @@
           "file": "microsoft-bdb3d7962fdba87cdcc4d67a.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -16606,7 +16550,7 @@
           "file": "microsoft-bf8448ff909217eaa1f77766.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -16768,7 +16712,7 @@
           "file": "microsoft-5e8fec0781153260633ddefd.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -16930,7 +16874,7 @@
           "file": "microsoft-0ecbf8bde43be4ff49d5282c.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -17057,7 +17001,7 @@
           "file": "microsoft-c88d4727e3ba2a5b45c6f4a9.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -17198,7 +17142,7 @@
           "file": "microsoft-7475d6dec23f07c7110de023.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -17349,7 +17293,7 @@
           "file": "microsoft-448b4383a83cfb057753d243.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -17480,7 +17424,7 @@
           "file": "microsoft-1f8d8e8b251f14feac66749b.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     },
     {
@@ -17611,7 +17555,7 @@
           "file": "microsoft-2203ca22bf192fddfce050c2.mp3"
         }
       ],
-      "sampleGeneratorFingerprint": "35d8b5ea46de5a52a941312fe4c3108b1bb097a20af794864b41c6997f1f19e0",
+      "sampleGeneratorFingerprint": "d49b1215ca7ed55fbdcd1663d985709f460fdcd3636c1d2a0180492e0349202d",
       "inspectionCacheHit": true
     }
   ]
